@@ -1,0 +1,577 @@
+{
+  "version": "v1",
+  "retrieved": "2026-09-10",
+  "scope": "All 18 Learning to Learn nodes and all 25 immediate incoming prerequisite records; 22 internal edges rendered, 3 cross-subject prerequisites shown in details.",
+  "topics": [
+    {
+      "id": "mt_mvXufozy2s",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Asking for Help",
+      "description": "Ask for help when you've had a go yourself and are still stuck — knowing when to ask is a skill in itself",
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "centrality": 0.3119015047879617,
+      "evidence": [
+        "Hattie visible learning",
+        "self-regulated learning research"
+      ],
+      "assessmentPrompt": "If {{name}} has tried something and is still stuck, do they come and ask for help rather than sitting frustrated or giving up?",
+      "standards": [],
+      "sourceLine": 8337
+    },
+    {
+      "id": "mt_8dstvf-KKb",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Checking Your Own Work",
+      "description": "After finishing a task, look back at what you did and ask yourself: does this seem right?",
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "centrality": 0.146374829001368,
+      "evidence": [
+        "After finishing a piece of work, re-read or review it without being asked to",
+        "Spot and correct at least one error in their own work by checking back through it",
+        "Describe what they checked for — e.g. 'I re-read each line to make sure my answers matched the question'"
+      ],
+      "assessmentPrompt": "After {{name}} finishes a piece of work or activity, do they look it over themselves to check it seems right before saying they're done?",
+      "standards": [],
+      "sourceLine": 8354
+    },
+    {
+      "id": "mt_S4G6GLKr1-",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Persisting When It's Hard",
+      "description": "Keep trying when something feels hard — making mistakes and trying again is how learning happens",
+      "ageRangeStart": 5,
+      "ageRangeEnd": 6,
+      "centrality": 0.2503419972640219,
+      "evidence": [
+        "Keep working on a difficult task for a sustained period without giving up or asking someone else to do it",
+        "After making a mistake, try again with a different approach rather than saying 'I can't do it'",
+        "Talk about difficulty positively — e.g. 'This is hard but I'm getting better' rather than 'I'm no good at this'"
+      ],
+      "assessmentPrompt": "If {{name}} finds a puzzle or activity really tricky, do they keep trying different ways rather than giving up straight away?",
+      "standards": [],
+      "sourceLine": 8372
+    },
+    {
+      "id": "mt_klyw-tdlhP",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Feeling of not understanding",
+      "description": "Notice the feeling of not understanding — recognise when something is confusing rather than reading or listening past it",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "centrality": 0.3119015047879617,
+      "evidence": [
+        "comprehension monitoring research",
+        "Flavell metacognitive monitoring"
+      ],
+      "assessmentPrompt": "If {{name}} is reading or listening and something doesn't make sense, do they notice and say so — rather than carrying on as if they understood?",
+      "standards": [],
+      "sourceLine": 8390
+    },
+    {
+      "id": "mt_QR3vxbN1o4",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Planning a Task",
+      "description": "Make a simple plan before starting a task: what do I need to do, and what should I do first?",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "centrality": 0.1094391244870041,
+      "evidence": [
+        "Before starting a task, describe what they need to do and what order to do it in",
+        "Break a larger task into smaller steps without being prompted — e.g. 'First I'll read the question, then I'll draw a diagram'",
+        "Gather the materials or information they need before beginning, rather than starting and then stopping to find things"
+      ],
+      "assessmentPrompt": "Before {{name}} starts a bigger task — like writing a story or making something — do they take a moment to think about what they'll do first?",
+      "standards": [],
+      "sourceLine": 8407
+    },
+    {
+      "id": "mt_LE7nFEwS12",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Thinking Before Starting",
+      "description": "Before starting something new, stop and think: what do I already know about this topic?",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "centrality": 0.2024623803009576,
+      "evidence": [
+        "prior knowledge activation research",
+        "Ausubel meaningful learning"
+      ],
+      "assessmentPrompt": "When {{name}} is about to learn something new — say a new topic in science or a new type of word problem — do they first think about what they already know?",
+      "standards": [],
+      "sourceLine": 8425
+    },
+    {
+      "id": "mt_32B7xjUPwF",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Connecting New & Old Ideas",
+      "description": "Look for connections between new ideas and things you already know — how does this fit with what I've learned before?",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "centrality": 0.1299589603283174,
+      "evidence": [
+        "elaborative encoding",
+        "schema theory (Bartlett, Rumelhart)"
+      ],
+      "assessmentPrompt": "When {{name}} learns something new, do they ever say things like 'oh, that's like...' and connect it to something they already knew?",
+      "standards": [],
+      "sourceLine": 8442
+    },
+    {
+      "id": "mt_wvcFlwOrDl",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Spotting Patterns",
+      "description": "Spot patterns and recurring structures — in numbers, words, nature, sounds, or events — and use them to make sense of new information",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "centrality": 0.08755129958960328,
+      "evidence": [
+        "Spot a pattern in a set of numbers, shapes, or facts without being told to look for one",
+        "Use a pattern they noticed to make a prediction — e.g. 'The next one should be 16 because it's doubling each time'",
+        "Explain the pattern they found and why they think it works"
+      ],
+      "assessmentPrompt": "When {{name}} notices a pattern — like a number pattern, a word ending, or something that keeps recurring — do they use it to figure out what comes next or predict something new?",
+      "standards": [],
+      "sourceLine": 8459
+    },
+    {
+      "id": "mt_6eTZUwKQZr",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Teaching It Back",
+      "description": "After learning something new, explain it in your own words — to yourself, a family member, or even a toy",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "centrality": 0.1614227086183311,
+      "evidence": [
+        "Explain a concept they've learned to someone else in their own words, not just repeating what the teacher said",
+        "After teaching something to a friend or sibling, identify a gap in their own understanding that they only noticed through explaining",
+        "Summarise a lesson by pretending to teach it back, using examples they made up themselves"
+      ],
+      "assessmentPrompt": "After {{name}} learns something at school, can they explain it back to you in their own words — not just repeat what they were told?",
+      "standards": [],
+      "sourceLine": 8477
+    },
+    {
+      "id": "mt_95zxYqpP7m",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Trying a New Approach",
+      "description": "When your first approach isn't working, try a different one — being flexible about strategies is part of being a good learner",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "centrality": 0.09986320109439124,
+      "evidence": [
+        "When stuck on a problem, try a completely different approach rather than repeating the same method — e.g. drawing a picture instead of writing equations",
+        "Describe a time they changed strategy mid-task and explain why the new approach worked better",
+        "Accept that their first idea might not work and show willingness to start over with a fresh plan"
+      ],
+      "assessmentPrompt": "If {{name}} tries one way to solve a problem and it isn't working, do they try a different approach rather than just repeating the same thing?",
+      "standards": [],
+      "sourceLine": 8495
+    },
+    {
+      "id": "mt_hbe_kdE_7C",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Describing Rules & Patterns",
+      "description": "When you notice a pattern repeating, describe it as a rule that works every time — then test whether the rule holds in new cases",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "centrality": 0.02872777017783858,
+      "evidence": [
+        "Describe a pattern or rule they've noticed in their own words — e.g. 'Every time you add 0 to a number, it stays the same'",
+        "Test whether a rule they've described holds for new examples they haven't seen before",
+        "Explain the difference between noticing a pattern and proving it always works"
+      ],
+      "assessmentPrompt": "If {{name}} spots a pattern — like a grammar rule or a number pattern — can they describe it as a general rule and then check whether it works in new examples?",
+      "standards": [],
+      "sourceLine": 8513
+    },
+    {
+      "id": "mt_TDUpy57QVM",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Learning from Mistakes",
+      "description": "When you get something wrong, investigate why — what did you misunderstand or overlook? Analysing errors is one of the most powerful ways to learn",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "centrality": 0.09849521203830369,
+      "evidence": [
+        "error analysis research",
+        "Hattie feedback effect size"
+      ],
+      "assessmentPrompt": "When {{name}} gets something wrong on a test or activity, do they look at the mistake to understand what went wrong — rather than just moving on?",
+      "standards": [],
+      "sourceLine": 8531
+    },
+    {
+      "id": "mt_99G6Msdzw-",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Transferring Skills",
+      "description": "Recognise when a skill or strategy learned in one subject or situation can be applied in a completely different one",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "centrality": 0.009575923392612859,
+      "evidence": [
+        "transfer of learning research",
+        "Perkins & Salomon transfer taxonomy"
+      ],
+      "assessmentPrompt": "Has {{name}} ever spotted that something they learned in one subject — like a way of organising information — could help them in a completely different one?",
+      "standards": [],
+      "sourceLine": 8548
+    },
+    {
+      "id": "mt_Y6P9y1Rz-u",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Understanding Why",
+      "description": "Go beyond knowing *that* something is true — ask *why* it is true and *how* it works",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "centrality": 0.1244870041039672,
+      "evidence": [
+        "Ask 'why?' or 'how does that work?' about something they've been told, rather than just accepting it",
+        "Explain the reason behind a rule or method — e.g. 'We carry the ten because 13 ones is the same as 1 ten and 3 ones'",
+        "Show deeper understanding by connecting a new idea to something they already know — e.g. 'Oh, that's like when we...'"
+      ],
+      "assessmentPrompt": "Does {{name}} often ask 'but why?' when they learn a fact — wanting to understand the reason behind it rather than just accepting it?",
+      "standards": [],
+      "sourceLine": 8565
+    },
+    {
+      "id": "mt_q7zxOloj_L",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Choosing a Strategy",
+      "description": "Before starting a study task, choose a deliberate strategy; after finishing, evaluate honestly whether that strategy actually helped",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "centrality": 0.1039671682626539,
+      "evidence": [
+        "Before starting a task, name the strategy they plan to use and explain why — e.g. 'I'll make a mind map first because there's a lot to organise'",
+        "After finishing, honestly evaluate whether their chosen strategy helped or whether a different one would have been better",
+        "Describe at least three different learning strategies and explain when each works best"
+      ],
+      "assessmentPrompt": "Does {{name}} ever talk about *how* they're going to study or practise something — and afterwards think about whether that approach worked?",
+      "standards": [],
+      "sourceLine": 8583
+    },
+    {
+      "id": "mt_v5yDTWEiyQ",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Reflecting After Learning",
+      "description": "After completing a piece of learning, reflect on the process: what helped most, what was confusing, and what would you do differently next time?",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "centrality": 0.06429548563611491,
+      "evidence": [
+        "Kolb reflective learning cycle",
+        "Hattie & Timperley feedback model"
+      ],
+      "assessmentPrompt": "After {{name}} finishes a project or topic at school, do they reflect on how the learning went — not just whether the result was good, but what worked and what didn't?",
+      "standards": [],
+      "sourceLine": 8601
+    },
+    {
+      "id": "mt_2uHYdoxD0H",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Finding Knowledge Gaps",
+      "description": "Survey your own understanding of a whole topic — identify where your knowledge is solid, where it is shaky, and what still needs work",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "centrality": 0.08481532147742818,
+      "evidence": [
+        "metacognitive monitoring research",
+        "Flavell metacognition framework"
+      ],
+      "assessmentPrompt": "If you ask {{name}} how well they understand a whole topic, can they tell you honestly which parts they feel confident on and which parts need more work?",
+      "standards": [],
+      "sourceLine": 8618
+    },
+    {
+      "id": "mt_jIszRCO2ij",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Setting Learning Goals",
+      "description": "Set a specific learning goal, work towards it with a deliberate plan, then honestly assess whether you achieved it and what you would change",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "centrality": 0.08344733242134063,
+      "evidence": [
+        "Set a specific, achievable learning goal for themselves — e.g. 'By Friday I want to know all my 7-times tables' rather than just 'get better at maths'",
+        "Make a simple plan for how to reach their goal and follow through on it over several days",
+        "After the deadline, honestly assess whether they achieved the goal and describe what they would do differently next time"
+      ],
+      "assessmentPrompt": "Does {{name}} ever set themselves a specific learning goal — like 'I want to get better at times tables by the end of the week' — and then honestly judge whether they met it?",
+      "standards": [],
+      "sourceLine": 8635
+    }
+  ],
+  "dependencies": [
+    {
+      "topicId": "mt_QR3vxbN1o4",
+      "prerequisiteId": "mt_8dstvf-KKb",
+      "strength": "hard",
+      "reason": "Planning before a task grows from the habit of checking back after finishing — both are self-regulatory bookends",
+      "sourceLine": 13668
+    },
+    {
+      "topicId": "mt_TDUpy57QVM",
+      "prerequisiteId": "mt_8dstvf-KKb",
+      "strength": "soft",
+      "reason": "Investigating why something was wrong grows from the earlier habit of checking whether an answer seems right",
+      "sourceLine": 15138
+    },
+    {
+      "topicId": "mt_TDUpy57QVM",
+      "prerequisiteId": "mt_95zxYqpP7m",
+      "strength": "hard",
+      "reason": "Error analysis requires the habit of trying different approaches — you need to have tried something before you can analyse what went wrong",
+      "sourceLine": 15144
+    },
+    {
+      "topicId": "mt_95zxYqpP7m",
+      "prerequisiteId": "mt_klyw-tdlhP",
+      "strength": "hard",
+      "reason": "Strategy switching is triggered by noticing the current approach isn't working — requires comprehension monitoring",
+      "sourceLine": 2772
+    },
+    {
+      "topicId": "mt_95zxYqpP7m",
+      "prerequisiteId": "mt_QR3vxbN1o4",
+      "strength": "hard",
+      "reason": "Switching strategy requires first having made a plan — you can only switch away from something you chose deliberately",
+      "sourceLine": 2778
+    },
+    {
+      "topicId": "mt_klyw-tdlhP",
+      "prerequisiteId": "mt_mvXufozy2s",
+      "strength": "hard",
+      "reason": "Noticing confusion and acting on it requires already knowing that asking for help is a valid response to being stuck",
+      "sourceLine": 9948
+    },
+    {
+      "topicId": "mt_LE7nFEwS12",
+      "prerequisiteId": "mt_S4G6GLKr1-",
+      "strength": "hard",
+      "reason": "Activating prior knowledge requires the foundational habit of persistent engagement with new material",
+      "sourceLine": 10218
+    },
+    {
+      "topicId": "mt_32B7xjUPwF",
+      "prerequisiteId": "mt_LE7nFEwS12",
+      "strength": "hard",
+      "reason": "Making connections between new and old ideas requires the habit of activating prior knowledge first",
+      "sourceLine": 1038
+    },
+    {
+      "topicId": "mt_wvcFlwOrDl",
+      "prerequisiteId": "mt_32B7xjUPwF",
+      "strength": "soft",
+      "reason": "Spotting patterns across domains is an extension of the habit of connecting new ideas to existing ones",
+      "sourceLine": 17202
+    },
+    {
+      "topicId": "mt_6eTZUwKQZr",
+      "prerequisiteId": "mt_kJ5wYzO8qC",
+      "strength": "soft",
+      "reason": "The universal self-explanation habit (LtL 7-8) builds on the maths-specific practice of explaining reasoning when prompted (MT 6-7)",
+      "sourceLine": 1974
+    },
+    {
+      "topicId": "mt_6eTZUwKQZr",
+      "prerequisiteId": "mt_LE7nFEwS12",
+      "strength": "hard",
+      "reason": "Explaining in your own words requires connecting new learning to existing knowledge already held in mind",
+      "sourceLine": 1980
+    },
+    {
+      "topicId": "mt_hbe_kdE_7C",
+      "prerequisiteId": "mt_wvcFlwOrDl",
+      "strength": "hard",
+      "reason": "Generalising a rule requires first being able to spot the recurring pattern that the rule captures",
+      "sourceLine": 7788
+    },
+    {
+      "topicId": "mt_99G6Msdzw-",
+      "prerequisiteId": "mt_32B7xjUPwF",
+      "strength": "hard",
+      "reason": "Recognising transfer opportunities requires the habit of connecting ideas — transfer is connection across subject boundaries",
+      "sourceLine": 2796
+    },
+    {
+      "topicId": "mt_99G6Msdzw-",
+      "prerequisiteId": "mt_wvcFlwOrDl",
+      "strength": "soft",
+      "reason": "Transfer often follows recognising a structural pattern that recurs in a new context",
+      "sourceLine": 2802
+    },
+    {
+      "topicId": "mt_Y6P9y1Rz-u",
+      "prerequisiteId": "mt_6eTZUwKQZr",
+      "strength": "hard",
+      "reason": "Asking 'why does this work?' requires first being able to explain what you know — interrogation builds on explanation",
+      "sourceLine": 18048
+    },
+    {
+      "topicId": "mt_q7zxOloj_L",
+      "prerequisiteId": "mt_95zxYqpP7m",
+      "strength": "hard",
+      "reason": "Evaluating a strategy requires having deliberately chosen and tried different strategies — you need the switching habit first",
+      "sourceLine": 13362
+    },
+    {
+      "topicId": "mt_q7zxOloj_L",
+      "prerequisiteId": "mt_O_UOTiMvT_",
+      "strength": "soft",
+      "reason": "The LtL strategy evaluation skill (9-10) builds on the early scaffolded habit of checking reasonableness in maths introduced at 6-7",
+      "sourceLine": 13368
+    },
+    {
+      "topicId": "mt_q7zxOloj_L",
+      "prerequisiteId": "mt_RKeheOL9uo",
+      "strength": "soft",
+      "reason": "The LtL strategy evaluation skill (9-10) builds on the maths-specific checking habit developed with teacher support at 7-8",
+      "sourceLine": 13374
+    },
+    {
+      "topicId": "mt_q7zxOloj_L",
+      "prerequisiteId": "mt_TDUpy57QVM",
+      "strength": "hard",
+      "reason": "Evaluating whether a strategy helped requires being able to analyse what went wrong when it didn't",
+      "sourceLine": 13380
+    },
+    {
+      "topicId": "mt_v5yDTWEiyQ",
+      "prerequisiteId": "mt_6eTZUwKQZr",
+      "strength": "soft",
+      "reason": "Articulating what helped in the learning process requires the self-explanation habit",
+      "sourceLine": 16158
+    },
+    {
+      "topicId": "mt_v5yDTWEiyQ",
+      "prerequisiteId": "mt_TDUpy57QVM",
+      "strength": "hard",
+      "reason": "Reflecting on the learning process requires the ability to analyse errors — reflection without error analysis stays superficial",
+      "sourceLine": 16164
+    },
+    {
+      "topicId": "mt_2uHYdoxD0H",
+      "prerequisiteId": "mt_q7zxOloj_L",
+      "strength": "hard",
+      "reason": "Surveying understanding across a whole topic requires the strategy-evaluation habit applied at a wider scale",
+      "sourceLine": 930
+    },
+    {
+      "topicId": "mt_2uHYdoxD0H",
+      "prerequisiteId": "mt_v5yDTWEiyQ",
+      "strength": "hard",
+      "reason": "Metacognitive monitoring of a topic requires the reflective habits built in individual learning episodes",
+      "sourceLine": 936
+    },
+    {
+      "topicId": "mt_jIszRCO2ij",
+      "prerequisiteId": "mt_2uHYdoxD0H",
+      "strength": "hard",
+      "reason": "The plan-do-review cycle requires metacognitive monitoring — you cannot honestly review without being able to survey your own understanding",
+      "sourceLine": 9366
+    },
+    {
+      "topicId": "mt_jIszRCO2ij",
+      "prerequisiteId": "mt_QR3vxbN1o4",
+      "strength": "hard",
+      "reason": "The plan-do-review cycle is the mature form of the basic planning habit established at age 6-7",
+      "sourceLine": 9372
+    }
+  ],
+  "externalTopics": [
+    {
+      "id": "mt_kJ5wYzO8qC",
+      "type": "META",
+      "subject": "Mathematics",
+      "domain": "Mathematical Thinking",
+      "name": "Explaining Mathematical Reasoning",
+      "description": "With teacher prompting, explain and justify mathematical reasoning using drawings, number sentences, or words",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "centrality": 0.1586867305061559,
+      "evidence": [
+        "Explain a solution strategy using a drawing or number sentence (e.g. 'I made ten first, then added the rest')",
+        "Justify why an answer is correct by showing an alternative method that gives the same result",
+        "Identify and explain an error in a worked example or a peer's solution"
+      ],
+      "assessmentPrompt": "If you ask {{name}} \"how did you work that out?\", can they show you with a drawing or explain their steps in simple words?",
+      "standards": [],
+      "sourceLine": 14324
+    },
+    {
+      "id": "mt_O_UOTiMvT_",
+      "type": "META",
+      "subject": "Mathematics",
+      "domain": "Mathematical Thinking",
+      "name": "Guided Multi-Step Problem Solving",
+      "description": "With teacher guidance, make sense of multi-step and more complex problems by planning a pathway to the solution, identifying relevant information, and choosing appropriate operations",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "centrality": 0.07934336525307797,
+      "evidence": [
+        "When given a word problem within 20 or 100, identify the known information and what needs to be found",
+        "Try a strategy (drawing, number line, known fact) and switch approach if the first attempt stalls",
+        "Check the reasonableness of an answer using estimation or a different method"
+      ],
+      "assessmentPrompt": "If {{name}} works out that 3 children each get 12 sweets and ends up with 5, does {{name}} pause and say \"that doesn't seem right\" rather than just writing it down?",
+      "standards": [],
+      "sourceLine": 14360
+    },
+    {
+      "id": "mt_RKeheOL9uo",
+      "type": "META",
+      "subject": "Mathematics",
+      "domain": "Mathematical Thinking",
+      "name": "Multi-Step Problem Solving",
+      "description": "With teacher support, make sense of multi-step problems involving larger numbers or mixed operations by breaking them into parts, choosing strategies, and checking answers for reasonableness — children at this stage are developing the habit with guidance; independent strategy evaluation comes later",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "centrality": 0.1039671682626539,
+      "evidence": [
+        "Break a two-step word problem within 1000 into sub-problems and solve each part",
+        "Estimate an answer before calculating to set a reasonableness benchmark",
+        "Check an answer using a different method or inverse operation and revise if needed"
+      ],
+      "assessmentPrompt": "If {{name}} gets an answer that seems way too big or too small for a maths problem, do they notice and go back to check, even without you pointing it out?",
+      "standards": [],
+      "sourceLine": 14486
+    }
+  ]
+}
