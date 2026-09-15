@@ -1,52 +1,132 @@
-# Second Path · 第二路径
+# Mathematics and English maps
 
-A bilingual family learning notebook based on Marble Skill Taxonomy. The default language is English; the language selector switches cases, forms, reports and the skill map to Chinese. The interface uses a dark background and green accents. Designed by Lianghuan Bi(Hedy Bi).
+Independent preview page for Second Path. The two subject tabs show all 503
+Mathematics topics and 286 English topics from Marble Skill Taxonomy v1.
+The 1,639 included relationships touch at least one of those topics; 67
+additional topic records supply names and descriptions for connections to
+other subjects. Only Mathematics and English are rendered as maps.
 
-## Open the notebook
+Source retrieved on 2026-09-13:
+https://github.com/withmarbleapp/os-taxonomy
 
-Open `deliverables/一起长大.html`, `dist/studio.html`, or `dist/index.html` directly in a browser. All three are identical standalone files with embedded styles, data and JavaScript, and need no server or installation. Refresh an already-open tab after rebuilding. The editable HTML template is `templates/studio.html`; do not edit a generated entry point.
+Original topic records and dependency directions are preserved. `zh.json`
+provides Chinese titles and concise reading guides for every topic (789 map
+topics plus 67 connected topics), keyed by stable topic IDs. These are condensed
+adaptations, not verbatim translations; some generic source titles are clarified
+using the actual descriptions. Full original descriptions, evidence, assessment
+prompts and dependency reasons remain available in clearly labelled, collapsed
+English reference sections in Chinese mode. English mode preserves the originals.
+Both languages can be searched in either mode. The language preference alone is
+remembered in local browser storage; a first visit defaults to English.
+Reference ages are not
+assessment thresholds. The map includes no learner records or forms and makes
+no network requests to load its data. Search and filters only affect the view.
 
-## Cases and one observation template
+The graph groups topics by domain and reference starting age. Only the selected
+topic's direct edges are drawn; its complete incoming and outgoing lists are
+available in the details, including connections outside the visible filter.
 
-Browse all 22 cases directly, with no category dropdown. Each includes materials, three concrete steps, a question and observable behaviors. Eighteen cases map to Learning to Learn and four offer additional family practice.
+Build: `python3 build-subject-maps.py`
 
-A separate blank template lets children name their own activity and describe materials, their own plan and what happened. These sessions retain their custom titles in reports and backups; they are not assigned to Marble skills. The behavior checklist is optional for a custom activity with a recorded attempt. Every supplied case also opens the shared observation form. Fill it during practice, generate a report, and download HTML or print to PDF. Earlier reports, backup controls and the cumulative learner summary are under “Reports & saved records” below the template.
+Check: `node check-subject-maps.mjs`
 
-The reports use transparent deterministic summaries of entered observations, not AI analysis, diagnoses, standardized scores or fixed learning-style labels. “Not observed” is missing evidence, not inability. Repeated independent observations require at least three distinct sessions across two dates before the summary describes repetition. Activities and checklists are authored adaptations, not validated assessments.
+Open `deliverables/subject-maps.html` locally. To publish this single page later,
+upload `subject-maps.html` to the root of the existing GitHub Pages repository.
+The existing homepage does not need replacing.
 
-## Records
+Edit `zh.json` to maintain Chinese copy; do not change the original records in
+`source.json`. The builder checks translation coverage and source title matches.
 
-This version is local and has no account or cloud sync. Form drafts are cached locally. Enable “Keep records on this device” to retain generated sessions after closing the page; otherwise export a backup before leaving. Browser data can be cleared, so keep backups. Imported backups are validated, merge by session ID and never replace existing records with an older copy. Earlier `family-lab-v1` notes are preserved separately and are not counted as structured evidence. Browser storage for file URLs may differ between files and browsers: keep using the same entry point or transfer a JSON backup.
+Database: ODbL 1.0. Marble-authored content and Chinese adaptations:
+CC BY-SA 4.0. Copyright Generative Spark, Inc. (Marble). Original interface code
+uses the repository's MIT license. No third-party curriculum standard text is
+reproduced verbatim; the comparison includes concise summaries with links.
+Original standard identifiers are retained in the source data.
+Designed by Lianghuan Bi(Hedy Bi).
 
-## Data and attribution
+## Shanghai comparison tabs — incomplete evidence draft
 
-The map preserves 18 Learning to Learn nodes, 22 internal prerequisite relationships and 3 mathematics prerequisites from Marble Skill Taxonomy v1. The original excerpt is `dist/data/learning-map-source.json`; translated/adapted text is in `dist/data/learning-map-zh.json`. Outbound cross-subject edges are outside this view's scope. Original reference ages are not deadlines. Source names, IDs and ages were checked against the upstream GitHub data on 2026-09-10.
+Added on 2026-09-14, following the user's scope correction: **ages 0–12,
+Shanghai's new-textbook pathway for the 2024 entry cohort**, not just Grade 3.
+The original two Marble maps, their data, `app.js` and `style.css` are unchanged.
+The page now has four tabs. The extra tabs are implemented by `shanghai.js`
+and scoped `shanghai.css`; `shanghai.json` is generated by `shanghai-data.py`.
 
-Source: https://github.com/withmarbleapp/os-taxonomy · © Generative Spark, Inc. (Marble). Database: ODbL 1.0; Marble-authored and adapted text: CC BY-SA 4.0. Third-party curriculum standards retain upstream terms and their text is not reproduced. The site footer and Sources & adaptations dialog contain attribution links.
+**This is not a completed textbook comparison.** There are 15 selected evidence
+records: preschool guidance, local teaching reports, and explicitly labelled
+third-party textbook/lesson-plan index leads. Grade 1 and Grade 3 maths leads
+have not been verified against the original books. The Grade 1 English family
+unit has local school/district teaching evidence, not a complete textbook audit.
+Other school-stage book sequences remain unverified and are visible as gaps.
+No national curriculum sequence or old textbook is substituted for the new
+Shanghai books. No curriculum coverage percentages are calculated.
 
-## Build and checks
+Original-book content is still needed for both subjects across Grades 1–7 to
+complete the requested age range (Shanghai Grade 6 is secondary school).
+The 2026 selection catalogue cannot establish the future editions a 2024 entrant
+will receive. Ages in the filters are approximate navigation labels.
+The imported Marble subjects start at age 4; no requirements are extrapolated
+to ages 0–3. Preschool general-language guidance is not an English syllabus.
 
-```sh
-python3 build-learning-map.py
-python3 make-offline.py
-node check-learning-map.mjs
-node check-reports.mjs
-```
+Sources, source types, verification status and bilingual editorial interpretations
+are stored per record. Derived Marble guides retain the existing CC BY-SA
+attribution. Only concise source summaries and links are included, not textbooks.
+Third-party source materials retain their own rights.
 
-Checks cover source fidelity, graph integrity and traversal, all 22 bilingual cases, evidence validation, repeat-observation thresholds, backup merge behavior, escaping, self-contained entry points and bundled JavaScript syntax. These checks pass. Browser security policy blocked local-file preview, so click-through behavior, printed output and visual layout have not been verified in a browser. Optional WebMCP tools expose activity listing/navigation only; their runtime integration is unverified.
+To edit evidence: update `shanghai-data.py`, run
+`python3 subject-maps/shanghai-data.py`, then the normal build and check commands.
+Automated checks cover four-tab keyboard navigation, stage filters, languages,
+source/skill IDs, and restoration of the original map. Browser visual verification
+was unavailable; no website deployment was performed.
 
-This package contains no account credentials, service registration or learner records. It has not yet been published.
+The reconstructed upstream topics.json and dependencies.json match the SHA-256 checksums in upstream-manifest.json exactly. Every included topic and edge was checked against those original records. Source/data and syntax checks are automated. Browser rendering and interaction
+have not been verified in this environment.
 
-## Publish manually on GitHub Pages
+The Shanghai comparison tabs now use a four-column table: learning topic,
+Shanghai content, Marble skills and interpretation. All comparison content is
+visible without opening a disclosure. Sources and coverage notes remain
+expandable. Headers and topic cells stay fixed within the scrollable table;
+small screens can scroll sideways. Original map code, styles and source data
+remain unchanged. This presentation update does not resolve evidence gaps.
 
-1. Create a public repository named `second-path-for-kids` under `hedybi`.
-2. Upload the **contents** of this folder to the repository root, including `index.html`, `dist/`, `templates/`, the Python and JavaScript scripts, LICENSE and NOTICE.md. Do not upload the ZIP or the enclosing folder itself.
-3. Commit the files to `main`.
-4. In Settings → Pages, choose **Deploy from a branch**, then **main** and **/(root)**. Click Save.
-5. Wait for the deployment to finish and open the URL shown by GitHub Pages. If there is no existing account-level custom domain, the expected address is https://hedybi.github.io/second-path-for-kids/ .
+## Bidirectional audit revision
 
-This manual-upload edition publishes directly from the branch, so it does not need a custom Actions workflow or any hidden files. A custom domain is optional. Browser-local learner records do not sync to GitHub.
+The two comparison tabs now contain four views: analysed differences, a complete
+Marble inventory, policy/learning goals, and the previous textbook evidence.
+`audit-data.py` generates `audit.json` (19 deeper comparisons and 6 policy
+comparisons); `audit.js` and `audit.css` render these independently of the maps.
+Run `python3 subject-maps/audit-data.py` before building after data edits.
 
-After modifying the source, run the build and checks listed above. The build refreshes the repository-root `index.html` as well as the other standalone copies. Upload the changed files again to update the live site.
+All 503 maths and 286 English points are retained and searchable. Of these,
+95 maths and 71 English points have one or more selected content-evidence
+associations; 408 maths and 215 English points remain unassociated. These are
+editorial association counts, **not reviewed textbook coverage**. Domain
+membership and policy neighbours do not create matches. Multiple links to one
+point count once. The inventory is complete; the curricular crosswalk is not.
 
-The bilingual footer links to https://github.com/hedybi/second-path-for-kids/issues/new for public suggestions and problem reports. No learner notes are attached to that link.
+The age filter uses Marble's reference starting age: 494 maths points start at
+12 or below, and 9 at 13; all 286 English points start at 12 or below. This does
+not mean mastery by that age, nor map ages to Shanghai grades. Regional findings
+include explicit £/p and imperial content and the absence of a specifically named
+renminbi task in the imported maths inventory, with a Shanghai school source on
+renminbi projects. General money competence is not marked absent. Abacus links
+are provisional: the April national maths PDF must be checked against the May 9
+correction and actual Shanghai books. English cultural comparison is present in
+Marble; only the China-specific expression pathway is identified as not explicit.
+
+Policy sources are separated from books and classroom implementation, including
+national 2022 reform, the 2024–2035 education plan, Shanghai projects, Shanghai AI
+courses, national AI+education and the 2026 science initiative. Sources do not
+prove actual practice in any individual child's class.
+
+Automated checks reconcile every original inventory ID in both languages,
+association/unknown and age partitions, links, filters and the unchanged maps.
+These checks do not validate browser layout or complete the textbook research.
+
+## Publication separation (2026-09-15)
+
+This site is named Second Path · Maths & English / 第二路径 · 数学与英语.
+The maths-game entry has been removed. Only subject-maps.html is needed to
+publish this standalone map site. Do not include math-play.html or the parent
+guide tied to its five activities in this release. The four map/comparison tabs
+remain intact. The document title is the only change in the original map script.

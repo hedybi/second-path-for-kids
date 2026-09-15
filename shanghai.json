@@ -1,0 +1,533 @@
+{
+  "checked": "2026-09-14",
+  "cohort": 2024,
+  "sources": {
+    "catalog": {
+      "title": {
+        "en": "Shanghai autumn 2026 textbook catalogue",
+        "zh": "上海市教委：2026年秋季教学用书目录"
+      },
+      "url": "https://edu.sh.gov.cn/xxgk2_zdgz_jcjy_04/20260810/339e915d906842caaf98736d562df96a.html",
+      "kind": {
+        "en": "Official selection reference; not a chapter list",
+        "zh": "官方选书依据；不是课本知识点目录"
+      }
+    },
+    "digital": {
+      "title": {
+        "en": "Shanghai digital textbook access",
+        "zh": "上海市教委：数字教材平台说明"
+      },
+      "url": "https://edu.sh.gov.cn/xxgk2_zhzw_jyta_02/20231024/4fc69936201a44c88bd29352687a5d53.html",
+      "kind": {
+        "en": "Official access route",
+        "zh": "官方教材获取入口"
+      }
+    },
+    "transition": {
+      "title": {
+        "en": "Shanghai kindergarten–primary transition guidance",
+        "zh": "上海市教委：幼小科学衔接实施意见"
+      },
+      "url": "https://edu.sh.gov.cn/shgy_ywjy_gz_1/20230106/b4d28b1934524e2c9b8d74d460e2ffc7.html",
+      "kind": {
+        "en": "Shanghai policy",
+        "zh": "上海实施依据"
+      }
+    },
+    "early": {
+      "title": {
+        "en": "Early learning guidelines: quantity",
+        "zh": "《3–6岁儿童学习与发展指南》：数与量"
+      },
+      "url": "https://www.edu.cn/xue_qian_779/20121016/t20121016_856526_28.shtml",
+      "kind": {
+        "en": "Ministry text reproduced by CERNET",
+        "zh": "教育部正式稿，中国教育网转载"
+      }
+    },
+    "shapes": {
+      "title": {
+        "en": "Early learning guidelines: shapes and space",
+        "zh": "《3–6岁儿童学习与发展指南》：形状与空间"
+      },
+      "url": "https://www.edu.cn/xue_qian_779/20121016/t20121016_856526_29.shtml",
+      "kind": {
+        "en": "Ministry text reproduced by CERNET",
+        "zh": "教育部正式稿，中国教育网转载"
+      }
+    },
+    "m1": {
+      "title": {
+        "en": "Grade 1, volume 1, Shanghai 2024 edition: index",
+        "zh": "沪教版五四制数学一年级上册（2024版）目录线索"
+      },
+      "url": "https://www.haoduoyun.cc/book/hjb/shuxue/eu1s.shtml",
+      "kind": {
+        "en": "Third-party index; original book still to verify",
+        "zh": "第三方目录；待与原书复核"
+      }
+    },
+    "m3": {
+      "title": {
+        "en": "Grade 3, volume 1: new-book lesson-plan index",
+        "zh": "沪教版新教材三年级上册教学设计目录线索"
+      },
+      "url": "https://max.book118.com/html/2026/0810/7035106115011141.shtm",
+      "kind": {
+        "en": "Third-party lesson plan; not the textbook",
+        "zh": "第三方教案；不是课本原文"
+      }
+    },
+    "e1": {
+      "title": {
+        "en": "Xuhui: Grade 1 new-book My family teaching",
+        "zh": "徐汇区东二小学：一年级新教材 My family 教研"
+      },
+      "url": "https://d2xx.xhedu.sh.cn/cms/app/info/doc/index.php/32397",
+      "kind": {
+        "en": "School report, March 2025; one unit only",
+        "zh": "学校教研记录，2025年3月；仅证明该单元"
+      }
+    },
+    "e1b": {
+      "title": {
+        "en": "Qingpu: new-book My Family task design",
+        "zh": "青浦区教育学院：新教材 My Family 任务设计"
+      },
+      "url": "https://jxxy.qpedu.cn/xxdt/xxdt/505143.htm",
+      "kind": {
+        "en": "District teaching report; one unit only",
+        "zh": "区级教研记录；仅证明该单元"
+      }
+    },
+    "project": {
+      "title": {
+        "en": "Shanghai project learning guidance",
+        "zh": "上海市教委：项目化学习指导意见"
+      },
+      "url": "https://edu.sh.gov.cn/xxgk2_zdgz_jcjy_01/20230901/d22c1043024d4d0e9d32b85fd3392186.html",
+      "kind": {
+        "en": "Shanghai policy; not a textbook chapter",
+        "zh": "上海政策；不是教材章节"
+      }
+    },
+    "m67": {
+      "title": {
+        "en": "Pudong: new Grade 6–7 maths teaching",
+        "zh": "浦东教发院：六、七年级数学新教材培训"
+      },
+      "url": "https://jfy.pudong-edu.sh.cn/Web/PDJFY/4560004-4560000016455.htm?Page=963",
+      "kind": {
+        "en": "District teaching report, September 2024",
+        "zh": "区级教研记录，2024年9月"
+      }
+    },
+    "enstandard": {
+      "title": {
+        "en": "National English standard 2022 (background)",
+        "zh": "国家英语课标2022（背景资料）"
+      },
+      "url": "https://www.esph.com.cn/docs/2025-10/705da262a6e74b088ac658bfe2d757ba.pdf#page=20",
+      "kind": {
+        "en": "Background only; not substituted for Shanghai books",
+        "zh": "只作背景；不代替上海教材"
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "m-play",
+      "subject": "Mathematics",
+      "stage": "early",
+      "status": "guidance",
+      "title": {
+        "en": "Quantities in play",
+        "zh": "游戏中的数量"
+      },
+      "shanghai": {
+        "en": "Compare amounts and count objects in everyday play.",
+        "zh": "在生活与游戏中比较多少、点数实物。"
+      },
+      "topics": [
+        "mt__h7hvT4tEb",
+        "mt_dmNvjroCPT",
+        "mt_sYpKWbq5ra"
+      ],
+      "difference": {
+        "en": "The concepts overlap. Marble splits them into skills; the early-years guide uses play and developmental expectations, not school lessons.",
+        "zh": "概念有交集。Marble 拆成技能节点，学前指南以游戏与发展表现组织，不是小学课程。"
+      },
+      "sources": [
+        "early",
+        "transition"
+      ]
+    },
+    {
+      "id": "m-parts",
+      "subject": "Mathematics",
+      "stage": "early",
+      "status": "guidance",
+      "title": {
+        "en": "Putting together and taking away",
+        "zh": "合起来与拿走"
+      },
+      "shanghai": {
+        "en": "Explore adding and removing with objects at the older preschool stage.",
+        "zh": "大班阶段通过实物操作体验合并、拿走与数量变化。"
+      },
+      "topics": [
+        "mt_OvyoRo47K-",
+        "mt_7XcCG43ZZW",
+        "mt_zuKAX6lcYR"
+      ],
+      "difference": {
+        "en": "Concrete experience is the connection; this does not prescribe written arithmetic drills or an age deadline.",
+        "zh": "对应的是实物经验，不等于提前练笔算，也不把参考年龄当达标期限。"
+      },
+      "sources": [
+        "early",
+        "transition"
+      ]
+    },
+    {
+      "id": "m-shapes",
+      "subject": "Mathematics",
+      "stage": "early",
+      "status": "guidance",
+      "title": {
+        "en": "Shapes and space",
+        "zh": "形状与空间"
+      },
+      "shanghai": {
+        "en": "Explore shapes, position and spatial relationships.",
+        "zh": "感知形状、位置和空间关系。"
+      },
+      "topics": [
+        "mt_KJeEeTutJI",
+        "mt_Qcp2d_kuta",
+        "mt_lMz9nAs7VO"
+      ],
+      "difference": {
+        "en": "Marble names individual shape skills. The preschool reference centres on exploration with real objects.",
+        "zh": "Marble 列出具体图形技能；学前依据强调在实物探索中感知。"
+      },
+      "sources": [
+        "shapes",
+        "transition"
+      ]
+    },
+    {
+      "id": "m-g1-shape",
+      "subject": "Mathematics",
+      "stage": "lower",
+      "status": "lead",
+      "title": {
+        "en": "Recognising shapes",
+        "zh": "认识图形"
+      },
+      "shanghai": {
+        "en": "The 2024 Grade 1 first-volume index lists solid and plane shapes.",
+        "zh": "2024版一年级上册目录列出立体图形与平面图形。"
+      },
+      "topics": [
+        "mt_KJeEeTutJI",
+        "mt_Qcp2d_kuta"
+      ],
+      "difference": {
+        "en": "Shared concepts; a chapter title cannot establish every shape taught or the required depth. Original-book verification is pending.",
+        "zh": "概念对应；仅凭目录不能确定具体图形范围和要求深度，仍待原书复核。"
+      },
+      "sources": [
+        "m1"
+      ]
+    },
+    {
+      "id": "m-g1-number",
+      "subject": "Mathematics",
+      "stage": "lower",
+      "status": "lead",
+      "title": {
+        "en": "Numbers to twenty",
+        "zh": "20以内的数"
+      },
+      "shanghai": {
+        "en": "The index includes numbers to 10 and then to 20.",
+        "zh": "目录包含10以内的数、20以内的数。"
+      },
+      "topics": [
+        "mt_fR0UtsSREU",
+        "mt_xmmgAzxe5j",
+        "mt_r0VXbfAmsH"
+      ],
+      "difference": {
+        "en": "Marble separates writing numerals, teen-number structure and tens. These are candidate links, not an official equivalence.",
+        "zh": "Marble 分列数字书写、十几的组成与十进位概念。这是候选关联，不是官方等同。"
+      },
+      "sources": [
+        "m1"
+      ]
+    },
+    {
+      "id": "m-g1-parts",
+      "subject": "Mathematics",
+      "stage": "lower",
+      "status": "lead",
+      "title": {
+        "en": "Parts and wholes",
+        "zh": "分与合"
+      },
+      "shanghai": {
+        "en": "Parts-and-wholes activities appear in the numbers-to-10 unit.",
+        "zh": "10以内的数单元中安排分与合。"
+      },
+      "topics": [
+        "mt_e8CZ7E5qW7",
+        "mt_7XcCG43ZZW"
+      ],
+      "difference": {
+        "en": "Several Marble nodes describe related number decompositions. The source title “Number bonds to 9” has a description about making ten; the Chinese guide follows that description.",
+        "zh": "多个 Marble 节点对应数的分解。其中一个英文标题写“到9”，正文实际描述凑十；中文导读依据正文。"
+      },
+      "sources": [
+        "m1"
+      ]
+    },
+    {
+      "id": "m-g1-arithmetic",
+      "subject": "Mathematics",
+      "stage": "lower",
+      "status": "lead",
+      "title": {
+        "en": "Early addition and subtraction",
+        "zh": "初步加减法"
+      },
+      "shanghai": {
+        "en": "The index progresses from arithmetic within 10 to addition within 20.",
+        "zh": "目录由10以内加减法推进到20以内加法。"
+      },
+      "topics": [
+        "mt_PgsHGYJMH-",
+        "mt_8RmpkDxT9L",
+        "mt_m1W6nTQJ2b"
+      ],
+      "difference": {
+        "en": "Marble distinguishes representations, symbols and strategies. A node covering subtraction within 20 is broader than this first-volume entry.",
+        "zh": "Marble 将表征、符号和策略分开；包含20以内减法的节点，范围比此上册目录条目更宽。"
+      },
+      "sources": [
+        "m1"
+      ]
+    },
+    {
+      "id": "m-g3-problem",
+      "subject": "Mathematics",
+      "stage": "middle",
+      "status": "lead",
+      "title": {
+        "en": "Two-step calculations and problems",
+        "zh": "两步计算与应用题"
+      },
+      "shanghai": {
+        "en": "A third-party new-book plan lists two-step arithmetic and word problems.",
+        "zh": "第三方新教材教案目录列出两步四则运算与应用题。"
+      },
+      "topics": [
+        "mt_CDa5AVakLE",
+        "mt_O_UOTiMvT_"
+      ],
+      "difference": {
+        "en": "The selected addition/subtraction node covers only part of four-operation problems. Do not infer full coverage from a matching label.",
+        "zh": "所选加减两步题节点只覆盖四则问题的一部分，名称相近不等于完全覆盖。"
+      },
+      "sources": [
+        "m3"
+      ]
+    },
+    {
+      "id": "m-g3-multiply",
+      "subject": "Mathematics",
+      "stage": "middle",
+      "status": "lead",
+      "title": {
+        "en": "Multiplying by one digit",
+        "zh": "用一位数乘"
+      },
+      "shanghai": {
+        "en": "The plan lists one-digit multiplication of two- and three-digit numbers, with estimation.",
+        "zh": "教案目录列出一位数乘两、三位数及估算。"
+      },
+      "topics": [
+        "mt_18fK9sQdIz",
+        "mt_QaYfeVL-0C"
+      ],
+      "difference": {
+        "en": "The written-multiplication node describes the same number sizes. This is a promising match pending textbook verification.",
+        "zh": "笔算乘法节点的数位范围相符；这是待课本核实的候选对应。"
+      },
+      "sources": [
+        "m3"
+      ]
+    },
+    {
+      "id": "m-g3-geometry",
+      "subject": "Mathematics",
+      "stage": "middle",
+      "status": "lead",
+      "title": {
+        "en": "Angles and polygons",
+        "zh": "角、三角形与四边形"
+      },
+      "shanghai": {
+        "en": "The plan introduces angles, triangles and quadrilaterals.",
+        "zh": "教案目录包含角、三角形和四边形的初步认识。"
+      },
+      "topics": [
+        "mt_KJeEeTutJI",
+        "mt_8OAGVdeTJ_"
+      ],
+      "difference": {
+        "en": "Marble has a broad shape-recognition node and a separate angle-concept node; later geometry should not be assumed part of this unit.",
+        "zh": "Marble 有一般图形识别与独立的角概念节点；不能把后续几何要求一并算进本单元。"
+      },
+      "sources": [
+        "m3"
+      ]
+    },
+    {
+      "id": "m-g3-divide",
+      "subject": "Mathematics",
+      "stage": "middle",
+      "status": "lead",
+      "title": {
+        "en": "Dividing by one digit",
+        "zh": "用一位数除"
+      },
+      "shanghai": {
+        "en": "The visible plan includes one-digit divisors and two-digit dividends.",
+        "zh": "可见教案目录包含一位数除两位数。"
+      },
+      "topics": [
+        "mt_MCu_SNg_OW"
+      ],
+      "difference": {
+        "en": "This Marble node reaches four-digit dividends and remainders, so its scope is wider. The full Shanghai unit remains unverified.",
+        "zh": "这个 Marble 节点还涉及四位数与余数，范围更宽；上海完整单元尚未核实。"
+      },
+      "sources": [
+        "m3"
+      ]
+    },
+    {
+      "id": "m-reason",
+      "subject": "Mathematics",
+      "stage": "bridge",
+      "status": "teaching",
+      "title": {
+        "en": "Explaining and questioning methods",
+        "zh": "解释方法与提出问题"
+      },
+      "shanghai": {
+        "en": "Pudong new-book training stresses asking questions, reasoning and real-world problem solving.",
+        "zh": "浦东新教材教研强调提问、思考过程和真实问题解决。"
+      },
+      "topics": [
+        "mt_kJ5wYzO8qC",
+        "mt_a3dov8CZkq",
+        "mt_d-WZC2OyMB"
+      ],
+      "difference": {
+        "en": "Both value reasoning. Marble makes it individually browsable; the local source is teaching guidance, not a claim that a particular class always practises it.",
+        "zh": "两者都重视推理。Marble 把它拆成可浏览技能；本地来源是教学导向，不能据此判断每个课堂的落实情况。"
+      },
+      "sources": [
+        "m67",
+        "project"
+      ]
+    },
+    {
+      "id": "e-family",
+      "subject": "English",
+      "stage": "lower",
+      "status": "teaching",
+      "title": {
+        "en": "Talking about family",
+        "zh": "介绍家人"
+      },
+      "shanghai": {
+        "en": "Shanghai Grade 1 first-volume Unit 6 My family is documented in local new-book teaching reports.",
+        "zh": "本地新教材教研明确记录一年级上册第6单元 My family。"
+      },
+      "topics": [
+        "mt_4A7FYmvVhA",
+        "mt_NP101Zl-4g"
+      ],
+      "difference": {
+        "en": "The Shanghai unit organises language around a theme; Marble groups describing and vocabulary use as reusable skills. Its “with detail” demand may be deeper than the entry task.",
+        "zh": "上海单元按家庭主题组织；Marble 将描述、使用词汇列为通用能力。节点中的详细表达要求可能高于入门任务。"
+      },
+      "sources": [
+        "e1",
+        "e1b"
+      ]
+    },
+    {
+      "id": "e-interact",
+      "subject": "English",
+      "stage": "lower",
+      "status": "teaching",
+      "title": {
+        "en": "Listening, speaking and performing",
+        "zh": "听、说与表演"
+      },
+      "shanghai": {
+        "en": "The same teaching report describes listening, speaking, reading and performing activities.",
+        "zh": "同一教研记录描述听、说、读、演活动。"
+      },
+      "topics": [
+        "mt_mB7DVai-Uf",
+        "mt_f8n4txtLej"
+      ],
+      "difference": {
+        "en": "There is overlap in interaction. A local unit does not by itself verify every discussion rule or independent question-asking requirement in Marble.",
+        "zh": "互动能力有交集，但一个单元不能证明 Marble 的讨论规则、自主提问要求均已覆盖。"
+      },
+      "sources": [
+        "e1"
+      ]
+    },
+    {
+      "id": "e-project",
+      "subject": "English",
+      "stage": "all",
+      "status": "guidance",
+      "title": {
+        "en": "Learning through a project",
+        "zh": "在项目中学习"
+      },
+      "shanghai": {
+        "en": "Shanghai guidance includes subject and cross-subject projects.",
+        "zh": "上海指导意见包含学科项目与跨学科项目。"
+      },
+      "topics": [
+        "mt_4A4RpX-Go9",
+        "mt_FW9_8F52bw"
+      ],
+      "difference": {
+        "en": "Marble lists research-related writing skills. This is a method-level connection; the policy does not establish English proficiency or a textbook-specific writing requirement.",
+        "zh": "Marble 列有研究相关写作技能。这是方法层面的关联，不代表政策规定了英语水平或某册写作要求。"
+      },
+      "sources": [
+        "project"
+      ]
+    }
+  ],
+  "scope": {
+    "en": "Ages 0–12 · Shanghai new-textbook pathway · evidence-building draft",
+    "zh": "0–12岁 · 上海新教材路径 · 资料核对中"
+  },
+  "limits": {
+    "en": "This is not a complete textbook crosswalk yet. Official catalogues confirm book selection, not chapter content. Grey stages are unverified; third-party leads are labelled. National standards are background only.",
+    "zh": "尚未完成全套教材逐项对照。官方用书目录只能确认选书依据，不能证明章节内容；灰色学段待核对，第三方线索单独标注。国家课标仅作背景。"
+  }
+}

@@ -1,0 +1,53 @@
+/* Comparison-only layout. Original Marble map styles are preserved. */
+[hidden]{display:none!important}
+.subject-tabs{flex-wrap:wrap}
+.comparison{--c-green:#b2e889;--c-line:#304338;padding-top:24px}
+.comparison h2{font-size:1.5rem;line-height:1.4;letter-spacing:-.02em;margin:0;font-weight:600}
+.comparison h3{font-size:1.05rem;margin:0 0 10px}
+.comparison p{line-height:1.7;margin:8px 0;color:#bbcabf;font-size:1rem}
+.comparison .c-top{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}
+.comparison .c-status{color:#e0ce9f;background:#292619;padding:5px 12px;border-radius:6px;font-size:.875rem}
+.comparison .c-subtitle{font-size:.875rem;margin:8px 0 18px;color:#a9bdaf}
+.comparison .c-stages{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.comparison .c-stages button{border:1px solid var(--c-line);border-radius:6px;padding:8px 12px;background:#101813;color:#b9c8bd;font:inherit;font-size:.875rem}
+.comparison .c-stages button[aria-pressed=true]{background:#b2e889;color:#13200e;border-color:#b2e889}
+.comparison .c-table-meta{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:10px 0}
+.comparison .c-table-meta p{font-size:.875rem;color:#95ad9d;margin:0}
+.comparison .c-table-scroll{overflow:auto;max-height:72vh;border:1px solid #3b5142;border-radius:8px;scrollbar-color:#4e6d55 #101812;isolation:isolate}
+.comparison .c-table{width:100%;min-width:1040px;table-layout:fixed;border-collapse:separate;border-spacing:0;text-align:left;font-size:1rem}
+.comparison .c-col-topic{width:16%}.comparison .c-col-sh{width:23%}.comparison .c-col-marble{width:31%}.comparison .c-col-diff{width:30%}
+.comparison .c-table th,.comparison .c-table td{padding:18px 20px;vertical-align:top;border-bottom:1px solid #304338;border-right:1px solid #26392d;overflow-wrap:anywhere}
+.comparison .c-table th:last-child,.comparison .c-table td:last-child{border-right:0}
+.comparison .c-table thead th{position:sticky;top:0;z-index:3;background:#203627;color:#e4f1de;padding:16px 20px;font-size:1rem;font-weight:600}
+.comparison .c-table thead th:first-child{left:0;z-index:4}
+.comparison .c-table thead small{display:block;font-size:.875rem;font-weight:400;color:#acbfae;margin-top:5px}
+.comparison .c-stage-row th{background:#18271d;color:#b7dfa5;padding:10px 20px;font-size:.875rem;letter-spacing:.015em}
+.comparison .c-stage-row span{margin-left:16px;color:#91a68f;font-weight:400}
+.comparison .c-row th{position:sticky;left:0;z-index:1;background:#101a14;font-weight:500}
+.comparison .c-row td{background:#0f1812}
+.comparison .c-row .c-difference{background:#152219}
+.comparison .c-row:hover td,.comparison .c-row:hover th{background:#1b2b20}
+.comparison .c-row strong{display:block;line-height:1.6;font-size:1rem}
+.comparison .c-row p{margin:0;line-height:1.75}
+.comparison .c-badge{display:block;width:fit-content;margin-top:14px;padding:4px 8px;font-size:.875rem;line-height:1.5;font-weight:400;color:#b5d6c2;background:#1d3427;border-radius:4px}
+.comparison .c-badge.lead{background:#322d1d;color:#e2cb90}
+.comparison .c-skills{list-style:none;padding:0;margin:0}
+.comparison .c-skills li+li{border-top:1px solid #293e2f;margin-top:14px;padding-top:14px}
+.comparison .c-skills a{font-size:1rem;font-weight:550;color:#c1e6aa;text-decoration-thickness:1px;text-underline-offset:4px}
+.comparison .c-skills p{margin-top:7px;color:#b2c5b8}
+.comparison .c-conclusion{color:#c2e8ab;margin-bottom:10px;font-weight:600}
+.comparison .c-row-sources{margin-top:16px;font-size:.875rem}
+.comparison summary{cursor:pointer;color:#b7cbbd;font-size:.875rem;line-height:1.7}
+.comparison .c-source{font-size:.875rem;margin:14px 0}
+.comparison .c-source small{display:block;font-size:.875rem;color:#91a797;margin-top:5px;line-height:1.6}
+.comparison a{color:#b2e889;text-underline-offset:3px}
+.comparison .c-empty{padding:28px;border:1px dashed #425649;border-radius:8px;background:#111b15}
+.comparison .c-scope-notes,.comparison .c-sources{border-bottom:1px solid var(--c-line);padding:18px 0}
+.comparison .c-pending{padding:16px 0;border-bottom:1px solid #23372a}
+.comparison .c-pending p{font-size:.875rem;color:#a9bcae;max-width:1100px}
+.comparison .c-pending strong{font-size:.875rem;font-weight:550;color:#bed6c3}
+.comparison .c-footer{font-size:.875rem;padding:12px 0;color:#91a797}
+.comparison .c-sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.comparison summary:focus-visible,.comparison button:focus-visible{outline:2px solid #b2e889;outline-offset:4px}
+@media(min-width:1200px){.comparison .c-scroll-hint{display:none}}
+@media(max-width:650px){.comparison h2{font-size:1.3rem}.comparison .c-table-meta{display:block}.comparison .c-table-meta p+p{margin-top:6px}.comparison .c-table{min-width:980px}.comparison .c-table th,.comparison .c-table td{padding:14px}.comparison .c-table-scroll{max-height:75vh}.comparison .c-stages{gap:6px}}

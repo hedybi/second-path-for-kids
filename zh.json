@@ -1,0 +1,4285 @@
+{
+  "note": "Chinese reading guide adapted and condensed from Marble topic descriptions; not verbatim translations. Some headings clarify generic source names. Original English evidence, assessment prompts and edge reasons remain available for reference.",
+  "topics": {
+    "mt_scBgiMKhG_": {
+      "sourceName": "Reading for Meaning",
+      "name": "为理解而阅读",
+      "summary": "阅读不只是念对词语，还要理解文本的意思。"
+    },
+    "mt_GugVunb2lI": {
+      "sourceName": "Monitoring Comprehension",
+      "name": "留意自己是否读懂",
+      "summary": "发现念得出却没理解的地方，并采取行动。"
+    },
+    "mt_QB4qIGJIIj": {
+      "sourceName": "Author's word choices",
+      "name": "作者的用词选择",
+      "summary": "理解作者如何用词语、结构、语气和视角影响读者。"
+    },
+    "mt_lp3qyEujIv": {
+      "sourceName": "Inference vs Explicit Meaning",
+      "name": "明说的意思与推断",
+      "summary": "分清文本明确写出的内容和自己的推测或假设。"
+    },
+    "mt_LH714Riydn": {
+      "sourceName": "Knowing What You Don't Know",
+      "name": "知道哪些词还不懂",
+      "summary": "发现不熟悉或似懂非懂的词，并设法弄清含义。"
+    },
+    "mt_U_8iVFZuHH": {
+      "sourceName": "Reviewing Own Writing",
+      "name": "检查自己的写作效果",
+      "summary": "除了检查对错，还要判断文章能否达到预期效果。"
+    },
+    "mt_haNr13NIuN": {
+      "sourceName": "Reflecting on Your Language Use",
+      "name": "反思自己的语言运用",
+      "summary": "反思面对不同读者、目的和情境时如何读、写、说。"
+    },
+    "mt_N8CpN1EJrP": {
+      "sourceName": "Building sentences",
+      "name": "组成完整句子",
+      "summary": "把词语组成表达完整意思的句子，并扩充内容。"
+    },
+    "mt_of2GggtxFl": {
+      "sourceName": "Spaces Between Words",
+      "name": "单词之间留空格",
+      "summary": "书写时用空格区分单词的边界。"
+    },
+    "mt_yBJyCfhtem": {
+      "sourceName": "Basic Nouns & Verbs",
+      "name": "基础名词与动词",
+      "summary": "用常见名词表示人、地点、事物，用动词表示动作。"
+    },
+    "mt_uM6q_KBWKy": {
+      "sourceName": "Capitals for Names, Days and I",
+      "name": "姓名、星期与 I 的大写",
+      "summary": "正确大写专有名词、星期名称和代词 I。"
+    },
+    "mt_TfOiog-ALs": {
+      "sourceName": "Grammar words: letter, word, sentence",
+      "name": "语法术语：字母、单词与句子",
+      "summary": "认识字母、单复数、句子及基本标点的名称。"
+    },
+    "mt_YXVQaufkKO": {
+      "sourceName": "Joining Words with 'And'",
+      "name": "用 and 连接词语和分句",
+      "summary": "用 and 把词语或分句连成更长的句子。"
+    },
+    "mt_VY3rBq8RyP": {
+      "sourceName": "Prepositions",
+      "name": "介词",
+      "summary": "用常见介词表达位置、方向等关系。"
+    },
+    "mt_6lHBTwQPrS": {
+      "sourceName": "Question Words",
+      "name": "疑问词",
+      "summary": "用 who、what、where、when、why、how 提问和回答。"
+    },
+    "mt_18qkgxr_-T": {
+      "sourceName": "Regular Plural Nouns",
+      "name": "规则名词复数",
+      "summary": "理解复数表示不止一个，并用 -s 或 -es 构成复数。"
+    },
+    "mt_QEr24lqzvH": {
+      "sourceName": "Starting and Ending Sentences",
+      "name": "句子开头与结尾",
+      "summary": "句首大写，句末按意思使用句号、问号或感叹号。"
+    },
+    "mt_mKAZTqItRG": {
+      "sourceName": "Apostrophes: Contraction and Possession",
+      "name": "撇号：缩写与所属关系",
+      "summary": "分清撇号表示省略字母和单数名词所属关系的用法。"
+    },
+    "mt_ntqNLHsj5n": {
+      "sourceName": "Commas in lists",
+      "name": "列举时使用逗号",
+      "summary": "在句子中列举多个项目时，用逗号隔开。"
+    },
+    "mt_RioBUxHz1X": {
+      "sourceName": "Determiners and articles",
+      "name": "限定词与冠词",
+      "summary": "正确使用 a、an、the 及 this、that 等名词前的限定词。"
+    },
+    "mt_cU3LcEVkBQ": {
+      "sourceName": "Expanded noun phrases",
+      "name": "扩展名词短语",
+      "summary": "加入形容词等修饰语，让名词描述更具体。"
+    },
+    "mt_u1-UfD0rTH": {
+      "sourceName": "Four Types of Sentences",
+      "name": "四种句子功能",
+      "summary": "区分并使用陈述、疑问、感叹和祈使句。"
+    },
+    "mt_qzwQAOfurw": {
+      "sourceName": "Grammar Terms: Nouns, Verbs and Tense",
+      "name": "语法术语：名词、动词与时态",
+      "summary": "用名词、形容词、动词、时态等术语讨论语言。"
+    },
+    "mt_enj1sMcfOT": {
+      "sourceName": "Past, Present and Progressive Tense",
+      "name": "过去、现在与进行时",
+      "summary": "一致地表达过去或现在，并用进行时描述持续动作。"
+    },
+    "mt_sZXPK1FnRB": {
+      "sourceName": "Pronouns",
+      "name": "代词",
+      "summary": "正确使用人称、物主和不定代词，避免名词重复。"
+    },
+    "mt_u7Jxjjatkh": {
+      "sourceName": "Subject-verb agreement",
+      "name": "主谓一致",
+      "summary": "根据主语的单复数选择相应的动词形式。"
+    },
+    "mt_wq-1OJ_8s5": {
+      "sourceName": "Subordinate clauses",
+      "name": "从句与句子连接",
+      "summary": "用 because、when、and、but 等表达分句之间的关系。"
+    },
+    "mt_j351evNNnB": {
+      "sourceName": "Adjectives vs adverbs",
+      "name": "形容词与副词的区别",
+      "summary": "根据修饰对象选择形容词或副词。"
+    },
+    "mt_2l06snztdP": {
+      "sourceName": "Choosing A or An",
+      "name": "选择 a 还是 an",
+      "summary": "按下一个词开头的发音，而不是字母，选择冠词。"
+    },
+    "mt_uorNrPTh6U": {
+      "sourceName": "Expressing Time, Place and Cause",
+      "name": "表达时间、地点与原因",
+      "summary": "用连词、副词和介词表达时间、空间及因果关系。"
+    },
+    "mt_B8JOz79O6t": {
+      "sourceName": "Grammar Terms: Clauses and Conjunctions",
+      "name": "语法术语：从句与连词",
+      "summary": "认识介词、连词、词族、前缀、从句和直接引语等术语。"
+    },
+    "mt_KIG5FQI5fC": {
+      "sourceName": "Irregular past tense verbs",
+      "name": "不规则动词过去式",
+      "summary": "掌握 went、sat 等不按加 -ed 规则变化的过去式。"
+    },
+    "mt_nFBLNoChD0": {
+      "sourceName": "Irregular Plural Nouns",
+      "name": "不规则名词复数",
+      "summary": "认识 children、teeth 等不按常规加词尾的复数。"
+    },
+    "mt_9yFAtUkoYr": {
+      "sourceName": "Pronouns for clarity",
+      "name": "用代词表达清楚",
+      "summary": "避免代词指代不明，并正确使用反身代词。"
+    },
+    "mt_-mw3JeIjhU": {
+      "sourceName": "Punctuating Direct Speech",
+      "name": "直接引语的标点",
+      "summary": "用引号标出人物说出的原话。"
+    },
+    "mt_7D-vlii8F-": {
+      "sourceName": "The Present Perfect Tense",
+      "name": "现在完成时",
+      "summary": "区分现在完成时与一般过去时表达的时间和关联。"
+    },
+    "mt_8bIXVKTdtK": {
+      "sourceName": "Abstract nouns",
+      "name": "抽象名词",
+      "summary": "用名词表示想法、品质和状态等非具体事物。"
+    },
+    "mt_2NfIKEYdbm": {
+      "sourceName": "Agreement in sentences",
+      "name": "句子中的一致关系",
+      "summary": "保持主谓一致，以及代词与所指对象的一致。"
+    },
+    "mt_X1L9DoUwjF": {
+      "sourceName": "Comparatives & Superlatives",
+      "name": "比较级与最高级",
+      "summary": "正确构成和使用形容词、副词的比较级与最高级。"
+    },
+    "mt_EbiGRVK8uR": {
+      "sourceName": "Expanded noun phrases (age 8+)",
+      "name": "扩展名词短语（8岁起）",
+      "summary": "用形容词、名词和介词短语补充名词细节。"
+    },
+    "mt_0QJoKWABdC": {
+      "sourceName": "Fronted Adverbials and Commas",
+      "name": "句首状语与逗号",
+      "summary": "用句首状语变化句子开头，并用逗号分隔。"
+    },
+    "mt_J5cx6S_eT9": {
+      "sourceName": "Grammar Terms: Pronouns and Determiners",
+      "name": "语法术语：代词与限定词",
+      "summary": "认识限定词、代词、物主代词和状语。"
+    },
+    "mt_bn5ggh84qD": {
+      "sourceName": "Plural vs Possessive in Nouns",
+      "name": "名词复数与所有格",
+      "summary": "分清表示复数的 -s 和表示所属关系的 -'s。"
+    },
+    "mt_Of-WsrRQ8B": {
+      "sourceName": "Simple Past, Present and Future",
+      "name": "一般过去、现在与将来时",
+      "summary": "在写作中正确、一致地使用三种基本时态。"
+    },
+    "mt_ay0qkGj0jg": {
+      "sourceName": "Standard English Verbs",
+      "name": "标准英语动词形式",
+      "summary": "在需要标准英语的情境中使用规范的动词变化。"
+    },
+    "mt_VVx0hPPSKi": {
+      "sourceName": "Adjective Order in Sentences",
+      "name": "多个形容词的排列顺序",
+      "summary": "按英语惯用顺序安排形容词，使描述自然。"
+    },
+    "mt_m3-eXac3aP": {
+      "sourceName": "Brackets and dashes for parenthesis",
+      "name": "用括号和破折号插入说明",
+      "summary": "标明可移除而不影响句子核心意思的补充信息。"
+    },
+    "mt_4-vfMgmCVB": {
+      "sourceName": "Cohesion within paragraphs",
+      "name": "段落内部的衔接",
+      "summary": "用代词、副词和近义词连接句子，让意思连贯。"
+    },
+    "mt_j2idD_jq73": {
+      "sourceName": "Commas Before Joining Words",
+      "name": "连接独立分句前的逗号",
+      "summary": "用并列连词连接两个独立分句时，恰当使用逗号。"
+    },
+    "mt_VMS3kDQ8sA": {
+      "sourceName": "Commas to avoid ambiguity",
+      "name": "用逗号消除歧义",
+      "summary": "通过逗号明确句意，避免读者误解。"
+    },
+    "mt_p3tZiUaWAa": {
+      "sourceName": "Converting Words into Verbs",
+      "name": "把词变成动词",
+      "summary": "用 -ate、-ise、-ify 等后缀把名词或形容词变成动词。"
+    },
+    "mt_7SfQuXgNtd": {
+      "sourceName": "Expanded noun phrases (age 9+)",
+      "name": "扩展名词短语（9岁起）",
+      "summary": "用介词短语补充时间、地点和方向等细节。"
+    },
+    "mt_7oZ2YenzhX": {
+      "sourceName": "Fixing Fragments & Run-Ons",
+      "name": "修正残句与连写句",
+      "summary": "补全不完整句子，分开缺少正确连接的独立分句。"
+    },
+    "mt_-tcJeAhK5k": {
+      "sourceName": "Grammar Terms: Modal Verbs and Clauses",
+      "name": "语法术语：情态动词与从句",
+      "summary": "认识情态动词、关系从句、插入语、衔接和歧义等术语。"
+    },
+    "mt_uvILgZq9HN": {
+      "sourceName": "Linking paragraphs with adverbials",
+      "name": "用状语连接段落",
+      "summary": "用时间、地点和顺序状语引导读者理解段落关系。"
+    },
+    "mt_N9zffZxuu5": {
+      "sourceName": "Modal Verbs and Possibility",
+      "name": "情态动词与可能性",
+      "summary": "用情态动词和副词表达可能、必要或允许的程度。"
+    },
+    "mt_mkDqmejLMw": {
+      "sourceName": "Progressive and Continuous Tenses",
+      "name": "进行时态",
+      "summary": "用过去、现在和将来进行时表达不同时刻持续的动作。"
+    },
+    "mt_YQ64pzcLDl": {
+      "sourceName": "Relative Clauses",
+      "name": "关系从句",
+      "summary": "用 who、which、that 等引导从句，补充名词信息。"
+    },
+    "mt_qw6mhOl-Qy": {
+      "sourceName": "Verb Prefixes and Meaning",
+      "name": "动词前缀与词义",
+      "summary": "理解 dis-、mis-、re- 等前缀如何改变动作的含义。"
+    },
+    "mt_gbTyzvnWzr": {
+      "sourceName": "Active and passive voice",
+      "name": "主动语态与被动语态",
+      "summary": "根据表达重点，选择强调行动者、动作或承受者。"
+    },
+    "mt_wUyAZJikAA": {
+      "sourceName": "Bullet Point Punctuation",
+      "name": "项目符号列表的标点",
+      "summary": "统一列表中的大小写、句末标点和句式结构。"
+    },
+    "mt_mpktt3wj1M": {
+      "sourceName": "Choosing Tenses for Precise Meaning",
+      "name": "选择时态表达准确含义",
+      "summary": "按事件时间、顺序和状态，有意识地选择时态。"
+    },
+    "mt_uycuqPaiJ1": {
+      "sourceName": "Colons and Semicolons in Lists",
+      "name": "列表中的冒号与分号",
+      "summary": "用冒号引出列表，用分号区分内部结构复杂的项目。"
+    },
+    "mt_0wUwxyBs5y": {
+      "sourceName": "Commas After Introductory Elements",
+      "name": "开头引导成分后的逗号",
+      "summary": "用逗号隔开句首引导词、短语或从句。"
+    },
+    "mt_AfIzLRvMgW": {
+      "sourceName": "Commas with yes, no, and names",
+      "name": "yes、no 与称呼中的逗号",
+      "summary": "用逗号分隔答语、附加问句和直接称呼。"
+    },
+    "mt_LN_g2b3d34": {
+      "sourceName": "Conjunctions, Prepositions and Interjections",
+      "name": "连词、介词与感叹词",
+      "summary": "解释这些词类在具体句子中如何表达关系或情感。"
+    },
+    "mt_npRaYRhU2V": {
+      "sourceName": "Consistent verb tense",
+      "name": "保持时态一致",
+      "summary": "纠正无必要的时态跳转，只在含义需要时改变时态。"
+    },
+    "mt_S7CnyZCnxg": {
+      "sourceName": "Correlative Conjunctions",
+      "name": "关联连词",
+      "summary": "正确搭配 either/or、both/and 等成对连词。"
+    },
+    "mt_hzkNpp2PdV": {
+      "sourceName": "Grammar Terms: Voice and Punctuation",
+      "name": "语法术语：语态与标点",
+      "summary": "认识主宾语、主被动语态及省略号、分号等术语。"
+    },
+    "mt_QpmVikVaqY": {
+      "sourceName": "Hyphens in Prefixed Words",
+      "name": "前缀词与复合修饰语的连字符",
+      "summary": "恰当使用连字符，避免词语组合产生歧义。"
+    },
+    "mt_hjtbA3g-Nn": {
+      "sourceName": "Paragraph Cohesion",
+      "name": "段落之间的连贯",
+      "summary": "用重复关键词、状语和省略等手段连接段落。"
+    },
+    "mt_xYjD_kA70s": {
+      "sourceName": "Punctuating Clauses",
+      "name": "分句之间的标点",
+      "summary": "根据分句关系，选择分号、冒号或破折号。"
+    },
+    "mt_Q2Eud_PPz6": {
+      "sourceName": "Punctuating Titles of Works",
+      "name": "作品标题的标示",
+      "summary": "按作品类型，用下划线、引号或斜体标示标题。"
+    },
+    "mt_k7VtbWdfDO": {
+      "sourceName": "The subjunctive mood",
+      "name": "虚拟语气",
+      "summary": "用虚拟语气表达愿望、要求、建议或假设。"
+    },
+    "mt_ZO2iP89cld": {
+      "sourceName": "Varying Sentence Structure",
+      "name": "变化句子结构",
+      "summary": "通过扩展、合并或缩短句子，改善表达和节奏。"
+    },
+    "mt_lsO9O-_eZH": {
+      "sourceName": "Advanced Punctuation for Clarity",
+      "name": "用标点提升清晰度与效果",
+      "summary": "准确选择标点，表达解释、补充、悬念等关系。"
+    },
+    "mt_N5tiL3uIeq": {
+      "sourceName": "Grammar for Effect",
+      "name": "语法如何产生表达效果",
+      "summary": "分析句长、语态和状语等选择怎样影响读者。"
+    },
+    "mt_HCweOHWSiu": {
+      "sourceName": "Literary and Language Terminology",
+      "name": "文学与语言术语",
+      "summary": "准确使用词类、句式、修辞和篇章术语讨论作品。"
+    },
+    "mt_IdFxLz-UW9": {
+      "sourceName": "Phrases & Clauses",
+      "name": "短语与从句",
+      "summary": "分析各类短语和从句的作用，纠正修饰语位置问题。"
+    },
+    "mt_S2fP8rUwrl": {
+      "sourceName": "Standard English",
+      "name": "标准英语",
+      "summary": "理解口语、书面语及英语变体的差别，并恰当使用标准英语。"
+    },
+    "mt_T9IXrlxfx2": {
+      "sourceName": "Types of Sentences",
+      "name": "不同结构的句子",
+      "summary": "选择简单句、并列句、复合句等表达不同的思想关系。"
+    },
+    "mt_N5tciHU8cE": {
+      "sourceName": "Verb Voice and Mood",
+      "name": "动词语态与语气",
+      "summary": "根据目的和读者选择语态，以及陈述、祈使等语气。"
+    },
+    "mt_WBfj79OqXz": {
+      "sourceName": "Sitting and holding a pencil",
+      "name": "坐姿与握笔",
+      "summary": "舒适、正确地坐好握笔，并按正确方向书写小写字母。"
+    },
+    "mt_H7DquwQi_F": {
+      "sourceName": "Forming Capital Letters",
+      "name": "书写大写字母",
+      "summary": "正确形成大写字母，清楚书写大小写字母。"
+    },
+    "mt_DMvKfP4uGC": {
+      "sourceName": "Letter Formation Families",
+      "name": "字母书写家族",
+      "summary": "按相似的笔画和形状分组练习字母。"
+    },
+    "mt_oAK9GXSfqV": {
+      "sourceName": "Writing digits 0-9",
+      "name": "书写数字 0–9",
+      "summary": "正确、清晰地写出十个数字。"
+    },
+    "mt_02DH7sGXCi": {
+      "sourceName": "Joining Letters",
+      "name": "字母连写",
+      "summary": "练习斜向和横向连接笔画，辨认不宜连写的字母组合。"
+    },
+    "mt__KHQttMde3": {
+      "sourceName": "Blending Sounds to Read Words",
+      "name": "合并语音读出单词",
+      "summary": "运用字母组合与语音的对应关系，拼读陌生单词。"
+    },
+    "mt_9-OHslmt1g": {
+      "sourceName": "Consonant Digraphs",
+      "name": "辅音二合字母",
+      "summary": "认读和拼写 ch、sh、th 等辅音字母组合。"
+    },
+    "mt_frDIaXzWbx": {
+      "sourceName": "Knowing all letters",
+      "name": "认识全部字母",
+      "summary": "认出并说出所有大小写字母，掌握字母顺序。"
+    },
+    "mt_PvU3eoikev": {
+      "sourceName": "Onsets & Rimes",
+      "name": "音节首音与韵尾",
+      "summary": "拆分、合并单音节词的首音和韵尾，并替换音素组词。"
+    },
+    "mt_4GiE83rJF_": {
+      "sourceName": "Rhyming words",
+      "name": "押韵词",
+      "summary": "辨认和说出押韵词，参与儿歌和诗歌朗读。"
+    },
+    "mt_F978c32kDr": {
+      "sourceName": "Single Letter Sounds",
+      "name": "单个字母的发音",
+      "summary": "掌握常见辅音，以及主要元音的长短音。"
+    },
+    "mt_1KCwbGvm1F": {
+      "sourceName": "Understanding print",
+      "name": "认识书面文字",
+      "summary": "理解文字传递意义，以及从左到右、从上到下的阅读顺序。"
+    },
+    "mt_BtMbZibZUj": {
+      "sourceName": "Vowel Digraphs",
+      "name": "元音二合字母",
+      "summary": "认读和拼写 ai、ee、oa 等元音组合及其不同读音。"
+    },
+    "mt_70Ys4i1AB1": {
+      "sourceName": "Compound Words",
+      "name": "复合词",
+      "summary": "找出组成复合词的两个词，帮助理解和拼写。"
+    },
+    "mt_fMd7v87IiI": {
+      "sourceName": "Diphthongs and complex vowels",
+      "name": "双元音与复杂元音组合",
+      "summary": "学习 ow、ou、aw 等组合及词尾 y 的元音读法。"
+    },
+    "mt_a6m7PqTuJN": {
+      "sourceName": "R-Controlled Vowel Sounds",
+      "name": "受 r 影响的元音",
+      "summary": "认读和拼写 ar、er、ir 等元音与 r 的组合。"
+    },
+    "mt_t1JXeNgKcu": {
+      "sourceName": "Reading Contractions",
+      "name": "认读缩写形式",
+      "summary": "理解缩写中的撇号代表被省略的字母。"
+    },
+    "mt_ZhvwM6LMBL": {
+      "sourceName": "Reading fluently",
+      "name": "流利阅读",
+      "summary": "准确朗读适合自己拼读水平的书，通过重读提升流利度。"
+    },
+    "mt_YKkCM63fSC": {
+      "sourceName": "Reading High-Frequency Words by Sight",
+      "name": "快速认读高频词",
+      "summary": "熟练识别常见词，包括拼写不规则的词。"
+    },
+    "mt__CMXZiPfTV": {
+      "sourceName": "Reading Inflectional Endings",
+      "name": "认读词形变化词尾",
+      "summary": "认读带常见词尾、un- 前缀及已学多音节结构的词。"
+    },
+    "mt_C7abt7pRr6": {
+      "sourceName": "Split Digraphs and Magic E",
+      "name": "分离式二合字母与 magic e",
+      "summary": "理解 a-e 等组合中词尾 e 对前面元音读音的影响。"
+    },
+    "mt_UvNrOXny1i": {
+      "sourceName": "Syllables",
+      "name": "音节",
+      "summary": "数出、合并和拆分音节，辅助阅读与拼写。"
+    },
+    "mt_roAgL1rQRF": {
+      "sourceName": "Trigraphs",
+      "name": "三合字母",
+      "summary": "认读 igh、air 等三个字母共同表示一个音的组合。"
+    },
+    "mt_OgJPbGkrYk": {
+      "sourceName": "Alternative Spellings for Known Sounds",
+      "name": "同一个音的不同拼法",
+      "summary": "认识熟悉语音的其他字母写法，读出较少见的拼写。"
+    },
+    "mt_V-ldQp56bF": {
+      "sourceName": "Reading with Expression and Accuracy",
+      "name": "准确而有感情地朗读",
+      "summary": "调整速度、语调和停顿，并结合上下文自我纠正。"
+    },
+    "mt_kVzAFMuFc4": {
+      "sourceName": "Syllables (age 6+)",
+      "name": "音节（6岁起）",
+      "summary": "把多音节词拆开拼读，再合并；认识每个音节都有元音。"
+    },
+    "mt_14OR-MhGJ9": {
+      "sourceName": "Decoding unfamiliar words",
+      "name": "拼读陌生单词",
+      "summary": "结合词形和词源知识，认读拼写与发音不规则的词。"
+    },
+    "mt_HrgDjxcWvf": {
+      "sourceName": "Prefixes and suffixes",
+      "name": "前缀与后缀",
+      "summary": "利用词根和词缀知识，读懂、读出新的单词。"
+    },
+    "mt_8-POYyg7GJ": {
+      "sourceName": "Predicting what happens next",
+      "name": "预测接下来的情节",
+      "summary": "根据已读内容推测后续事件，并讨论标题与情节的意义。"
+    },
+    "mt_XeMZdf2Y9W": {
+      "sourceName": "Book Features and Author's Reasons",
+      "name": "书籍结构与作者的理由",
+      "summary": "认识封面和扉页，并找出说明类文本中支持观点的理由。"
+    },
+    "mt_sSQlLOnAow": {
+      "sourceName": "Characters, settings, and events",
+      "name": "人物、背景与事件",
+      "summary": "辨认故事要素，按顺序复述重要细节。"
+    },
+    "mt_GLY3R3YSlf": {
+      "sourceName": "Comparing Characters Across Stories",
+      "name": "比较不同故事的人物",
+      "summary": "比较人物经历，以及同主题文本的相同与不同。"
+    },
+    "mt_5n-O41lUgn": {
+      "sourceName": "Connecting reading to experience",
+      "name": "把阅读与经历联系起来",
+      "summary": "用自己的经历、背景知识和词汇帮助理解文本。"
+    },
+    "mt_gZIo5oiBMt": {
+      "sourceName": "Different Types of Texts",
+      "name": "不同类型的文本",
+      "summary": "区分故事、诗歌和非虚构文本，认识作者与插画家的作用。"
+    },
+    "mt_thsY1ZesaU": {
+      "sourceName": "Discussing Texts as a Group",
+      "name": "一起讨论文本",
+      "summary": "轮流发言、认真倾听，清楚说明自己的理解。"
+    },
+    "mt_mLPEMpYb_R": {
+      "sourceName": "Listening to Texts Read Aloud",
+      "name": "听别人朗读",
+      "summary": "听读超出独立阅读水平的作品，通过问答确认理解。"
+    },
+    "mt_aFvsj35QzC": {
+      "sourceName": "Main Topic of Informational Texts",
+      "name": "说明类文本的主要话题",
+      "summary": "找出话题和关键细节，说明信息之间的联系。"
+    },
+    "mt_OlhMP7ShFT": {
+      "sourceName": "Pictures and Text Working Together",
+      "name": "图画与文字如何配合",
+      "summary": "解释插图与文字的关系，用图画帮助理解。"
+    },
+    "mt_E5KC4AnRLW": {
+      "sourceName": "Reading between the lines",
+      "name": "读懂字里行间",
+      "summary": "关注关键细节，根据人物的言行作简单推断。"
+    },
+    "mt_rQ2YJJi4uh": {
+      "sourceName": "Self-Correcting While Reading",
+      "name": "阅读时自我纠正",
+      "summary": "发现读得不通的地方，通过重读和上下文修正。"
+    },
+    "mt_xjl6AEhnjk": {
+      "sourceName": "Characters' Viewpoints and Responses",
+      "name": "人物的视角与反应",
+      "summary": "辨认叙述者，比较人物看法及面对挑战的反应。"
+    },
+    "mt_fL1Xz8ostr": {
+      "sourceName": "Expressive and Sensory Language",
+      "name": "表达情感与感官体验的语言",
+      "summary": "发现有表现力的词句，讨论它们唤起的感受。"
+    },
+    "mt_QCWWmDMYZR": {
+      "sourceName": "Main Topic & Key Details",
+      "name": "主要话题与关键细节",
+      "summary": "找出多段文本的主题，解释各段细节如何支持它。"
+    },
+    "mt_ZhUuT__i2H": {
+      "sourceName": "Non-Fiction Text Features",
+      "name": "非虚构文本的结构标记",
+      "summary": "利用标题、目录、术语表和索引理解信息组织。"
+    },
+    "mt_zlSoIKPyId": {
+      "sourceName": "Retelling Stories with Structure",
+      "name": "按结构复述故事",
+      "summary": "依据文本细节，复述开头、发展与结尾。"
+    },
+    "mt_VEwM7ClYYE": {
+      "sourceName": "Story Sequence and Central Message",
+      "name": "故事顺序与核心信息",
+      "summary": "理清事件顺序，理解故事传达的道理或信息。"
+    },
+    "mt_gR5_n99Ntt": {
+      "sourceName": "Forms of Poetry and Performance",
+      "name": "诗歌形式与表演",
+      "summary": "认识不同诗体，通过语调、音量和动作表达理解。"
+    },
+    "mt_ukLvUD8DFA": {
+      "sourceName": "Inferring Characters' Feelings and Motives",
+      "name": "推断人物的感受与动机",
+      "summary": "从人物行动推断内心，并用文本证据解释。"
+    },
+    "mt_sMAcZW6vWM": {
+      "sourceName": "Main Ideas & Note-Taking",
+      "name": "主旨与阅读笔记",
+      "summary": "概括多段内容的主旨，用笔记或表格记录信息。"
+    },
+    "mt_v33BwiyRnd": {
+      "sourceName": "Story Lessons and Morals",
+      "name": "故事的启示与寓意",
+      "summary": "说明故事教给读者什么，并提供关键细节支持。"
+    },
+    "mt_aVZJhPbc_1": {
+      "sourceName": "Text Features & Presentation",
+      "name": "文本结构与呈现方式",
+      "summary": "分析语言、结构、插图和排版怎样传达意义。"
+    },
+    "mt_yHQacItlhf": {
+      "sourceName": "Themes and messages",
+      "name": "主题与信息",
+      "summary": "在不同故事中辨认反复出现的主题和叙事惯例。"
+    },
+    "mt_KmPZ5diLEP": {
+      "sourceName": "Character Traits and Motivation",
+      "name": "人物特点与动机",
+      "summary": "用证据分析人物，区分自己与人物或叙述者的观点。"
+    },
+    "mt_w4wKFP3jud": {
+      "sourceName": "Connecting Ideas in Texts",
+      "name": "连接文本中的想法",
+      "summary": "用顺序、因果和比较关系解释信息之间的联系。"
+    },
+    "mt_H0ajATAlus": {
+      "sourceName": "Morals in Fables, Folktales and Myths",
+      "name": "寓言、民间故事与神话的寓意",
+      "summary": "说明不同故事如何通过细节传递核心道理。"
+    },
+    "mt_ujwtRoYJ34": {
+      "sourceName": "Structural terminology",
+      "name": "文本结构术语",
+      "summary": "用章、场、诗节等术语说明各部分怎样承接。"
+    },
+    "mt_OltpfaX7l6": {
+      "sourceName": "Why the author wrote it",
+      "name": "作者为什么写这篇文章",
+      "summary": "辨认写作目的，并区分作者与自己的观点。"
+    },
+    "mt_8FwtdJzeDh": {
+      "sourceName": "Combining information from texts",
+      "name": "整合两篇文本的信息",
+      "summary": "比较同主题的两篇材料，综合它们提供的信息。"
+    },
+    "mt_ZanQuV90qi": {
+      "sourceName": "Cultural Allusions and Word Meaning",
+      "name": "文化典故与词义",
+      "summary": "结合神话和文化典故，理解词句在文中的含义。"
+    },
+    "mt_nKS_vCYrg3": {
+      "sourceName": "Explaining Events & Ideas",
+      "name": "解释事件与概念",
+      "summary": "引用文本证据，说明发生了什么、原因及过程。"
+    },
+    "mt_A0htaNaK7b": {
+      "sourceName": "Finding Theme and Summarising",
+      "name": "寻找主题并概括",
+      "summary": "从细节推知主题，客观概括故事而不混入个人意见。"
+    },
+    "mt_j32D5DZX7x": {
+      "sourceName": "Firsthand and Secondhand Accounts",
+      "name": "亲历记录与转述材料",
+      "summary": "比较同一事件的第一手与第二手叙述及关注重点。"
+    },
+    "mt_k-V37x3zsF": {
+      "sourceName": "How authors support their points",
+      "name": "作者怎样支持观点",
+      "summary": "判断理由是否合理，证据是否相关且充分。"
+    },
+    "mt_Eehl12cSnN": {
+      "sourceName": "In-Depth Character and Setting Analysis",
+      "name": "深入分析人物与背景",
+      "summary": "根据思想、言行和互动等细节，深入描述故事要素。"
+    },
+    "mt_KbCCmLmxYN": {
+      "sourceName": "Interpreting visual information in texts",
+      "name": "理解文本中的图表信息",
+      "summary": "解读图表、时间线等，说明其如何帮助理解文字。"
+    },
+    "mt_E_OryWIYkn": {
+      "sourceName": "Narrator's Point of View",
+      "name": "叙述者的视角",
+      "summary": "区分第一与第三人称，解释叙述视角如何影响理解。"
+    },
+    "mt_4IxR66uGLc": {
+      "sourceName": "Poems, Drama & Prose",
+      "name": "诗歌、戏剧与散文",
+      "summary": "比较诗行、角色对白、舞台指示和篇章结构等特点。"
+    },
+    "mt_0MfpLj0Uhb": {
+      "sourceName": "Recommending Books",
+      "name": "推荐书籍",
+      "summary": "结合体裁、作者和主题知识，说明推荐理由。"
+    },
+    "mt_oVwNnjYPUY": {
+      "sourceName": "Structure of information texts",
+      "name": "说明类文本的组织方式",
+      "summary": "理解时间、比较、因果和问题解决等结构的作用。"
+    },
+    "mt_t06dHX2ZYw": {
+      "sourceName": "Text & Media Connections",
+      "name": "文字与改编呈现的联系",
+      "summary": "比较原文与视听呈现，找出改编对应的细节。"
+    },
+    "mt_tX0R4-4WXy": {
+      "sourceName": "Themes Across Cultures and Traditions",
+      "name": "不同文化中的共同主题",
+      "summary": "比较不同文化故事如何处理相似主题和情节模式。"
+    },
+    "mt_sUVOS2jH3J": {
+      "sourceName": "Comparing Books",
+      "name": "比较书籍",
+      "summary": "比较不同作品中的主题、人物、背景和写作选择。"
+    },
+    "mt_WRlJ0-hAOG": {
+      "sourceName": "Comparing Characters, Settings and Events",
+      "name": "比较人物、背景与事件",
+      "summary": "用具体细节说明故事要素之间的异同与联系。"
+    },
+    "mt_-1okUh0Jdv": {
+      "sourceName": "Comparing Structure in Information Texts",
+      "name": "比较说明类文本的结构",
+      "summary": "比较多篇文本组织事件、概念和信息的方式。"
+    },
+    "mt_LCJNRaRXtW": {
+      "sourceName": "Different viewpoints in texts",
+      "name": "文本中的不同视角",
+      "summary": "理解有限与全知视角如何改变事件的描述。"
+    },
+    "mt_iv-BJS9W60": {
+      "sourceName": "Explaining Relationships in Texts",
+      "name": "解释文本中的关系",
+      "summary": "根据具体信息，解释人物、事件和概念之间的互动。"
+    },
+    "mt_V6456X6pJE": {
+      "sourceName": "Fact vs opinion",
+      "name": "事实与观点",
+      "summary": "分清可核实的事实陈述和主观意见。"
+    },
+    "mt_jO0gHMk7Ti": {
+      "sourceName": "How Authors Treat Similar Themes",
+      "name": "不同作者如何处理同一主题",
+      "summary": "比较同体裁故事表达相似想法的不同方式。"
+    },
+    "mt_furAIwoO9t": {
+      "sourceName": "How Language Choices Affect the Reader",
+      "name": "语言选择如何影响读者",
+      "summary": "评估用词、意象和修辞带来的阅读效果。"
+    },
+    "mt_PetJM-AYz9": {
+      "sourceName": "How Parts Build a Whole Text",
+      "name": "各部分如何构成完整作品",
+      "summary": "分析章、场和诗节怎样共同组织整部作品。"
+    },
+    "mt_IX37F4rNed": {
+      "sourceName": "Justifying Views About Texts",
+      "name": "为阅读观点提供理由",
+      "summary": "用文本证据和逻辑支持自己的理解与判断。"
+    },
+    "mt_xsk3iuNVVI": {
+      "sourceName": "Multimedia elements in texts",
+      "name": "文本中的多媒体元素",
+      "summary": "分析图像和多媒体如何影响意义、语气及美感。"
+    },
+    "mt_5FREdVoS8s": {
+      "sourceName": "Multiple Accounts of Events",
+      "name": "同一事件的多种叙述",
+      "summary": "比较多份叙述的相同点、差异及各自立场。"
+    },
+    "mt_ak_ZgoMKRQ": {
+      "sourceName": "Quoting Accurately from Texts",
+      "name": "准确引用文本",
+      "summary": "解释明示内容或推断时，准确引用并标明出处。"
+    },
+    "mt_XnRhhEqJLJ": {
+      "sourceName": "Summarising Non-Fiction Main Ideas",
+      "name": "概括非虚构文本的主旨",
+      "summary": "找出多个主旨及支持细节，客观概括全文。"
+    },
+    "mt_S3XMQOYt_D": {
+      "sourceName": "Supporting ideas with evidence",
+      "name": "用证据支持想法",
+      "summary": "指出作者的具体理由和证据分别支持哪些观点。"
+    },
+    "mt_kJ4xXKL_nO": {
+      "sourceName": "Synthesising across multiple texts",
+      "name": "综合多篇文本",
+      "summary": "整合同主题材料，用自己的表达组织信息，避免抄袭。"
+    },
+    "mt_JVVKT-_AD9": {
+      "sourceName": "Using Multiple Sources",
+      "name": "使用多个信息来源",
+      "summary": "从纸质或数字材料中高效查找答案和解决问题。"
+    },
+    "mt_II6iw4BmJI": {
+      "sourceName": "Analysing Text Structure",
+      "name": "分析文本结构",
+      "summary": "解释篇章组织怎样影响意义、风格和思想发展。"
+    },
+    "mt_1GF5MeNZPA": {
+      "sourceName": "Critical comparison across texts",
+      "name": "批判性地比较文本",
+      "summary": "比较不同时代、体裁或文化作品的主题、风格与论证。"
+    },
+    "mt_gMSFymQlrW": {
+      "sourceName": "Evaluating Arguments in Non-Fiction",
+      "name": "评估非虚构文本的论证",
+      "summary": "检查逻辑、证据、事实与观点，辨认偏见及修辞手法。"
+    },
+    "mt_DVSHx3YMkN": {
+      "sourceName": "Figurative Language and Literary Devices",
+      "name": "比喻语言与文学手法",
+      "summary": "结合上下文理解隐含意义，分析比喻、拟人和反讽等。"
+    },
+    "mt_x2sWtfTeYT": {
+      "sourceName": "Narrative Perspective and Unreliable Narrators",
+      "name": "叙事视角与不可靠叙述者",
+      "summary": "分析视角如何塑造理解，制造悬念、反讽或幽默。"
+    },
+    "mt_Hqz5y_tWz2": {
+      "sourceName": "Plot Structure and Character Development",
+      "name": "情节结构与人物发展",
+      "summary": "分析关键事件如何推动情节，并使人物发生变化。"
+    },
+    "mt_aClzPBiS9k": {
+      "sourceName": "Poetic forms and conventions",
+      "name": "诗歌形式与惯例",
+      "summary": "认识诗体、格律、押韵、意象及声音技巧的表达效果。"
+    },
+    "mt_jIcgbCmziD": {
+      "sourceName": "Purpose, audience, and context",
+      "name": "目的、读者与背景",
+      "summary": "根据写作目的和目标读者理解文本惯例、语气与用词。"
+    },
+    "mt_wGxq92Na5g": {
+      "sourceName": "Tracing Theme Across a Text",
+      "name": "追踪主题的发展",
+      "summary": "说明主题如何随细节和事件展开，并客观概括。"
+    },
+    "mt_tIi6L1n7kF": {
+      "sourceName": "Understanding drama and performance",
+      "name": "理解戏剧与表演",
+      "summary": "分析舞台、灯光和表演选择如何诠释同一剧本。"
+    },
+    "mt_dmFnJzxKwz": {
+      "sourceName": "Using and Evaluating Textual Evidence",
+      "name": "使用与评估文本证据",
+      "summary": "区分强弱证据，解释引用如何支持明示或推断的观点。"
+    },
+    "mt_9k1qcpvVi_": {
+      "sourceName": "Wide Independent Reading Across Genres",
+      "name": "跨体裁自主广泛阅读",
+      "summary": "阅读不同时期、文化和体裁的完整作品，形成阅读兴趣。"
+    },
+    "mt_f8n4txtLej": {
+      "sourceName": "Asking Questions",
+      "name": "提出问题",
+      "summary": "提出相关问题，寻求帮助、获取信息或澄清疑惑。"
+    },
+    "mt_4A7FYmvVhA": {
+      "sourceName": "Describing Aloud",
+      "name": "口头描述",
+      "summary": "有条理、清楚地描述熟悉的人、事、地点和感受。"
+    },
+    "mt_n6GhzDPllD": {
+      "sourceName": "Exploring Ideas Through Talk",
+      "name": "通过交谈探索想法",
+      "summary": "借助猜想、假设和想象发展理解与词汇。"
+    },
+    "mt_S0hzjAeLSK": {
+      "sourceName": "Expressing & Justifying Opinions",
+      "name": "表达观点并说明理由",
+      "summary": "清楚陈述答案和意见，在讨论或辩论中给出理由。"
+    },
+    "mt_wwdRhPyz6s": {
+      "sourceName": "Group discussions",
+      "name": "小组讨论",
+      "summary": "围绕主题持续交流，保持注意并积极参与。"
+    },
+    "mt_mB7DVai-Uf": {
+      "sourceName": "Listening and responding",
+      "name": "倾听与回应",
+      "summary": "遵守讨论约定，认真听别人说并轮流回应。"
+    },
+    "mt_ZBMcX2oRor": {
+      "sourceName": "Reciting Poetry",
+      "name": "背诵诗歌",
+      "summary": "用恰当语调背诵诗歌，在口头展示中清楚表达。"
+    },
+    "mt_sXRHr7tfS5": {
+      "sourceName": "Engaging Listeners and Valuing Viewpoints",
+      "name": "吸引听众并重视不同观点",
+      "summary": "关注听众反应，回应他人贡献，按场合选择语言。"
+    },
+    "mt_yrMniCJu_S": {
+      "sourceName": "Preparing for and Explaining in Discussions",
+      "name": "带着准备参加讨论",
+      "summary": "运用事先准备的信息，并结合讨论解释想法。"
+    },
+    "mt_ds2TOtP8I1": {
+      "sourceName": "Reporting & Recounting",
+      "name": "口头汇报与复述经历",
+      "summary": "组织事实和细节，用清晰、适当的语速讲述。"
+    },
+    "mt_iodbOOmEQs": {
+      "sourceName": "Identifying Reasons Behind a Speaker's Points",
+      "name": "找出演讲观点背后的理由",
+      "summary": "辨认说话者的理由和证据，检查其逻辑与相关性。"
+    },
+    "mt_-DuXzMVVXQ": {
+      "sourceName": "Paraphrasing What You Hear",
+      "name": "用自己的话复述听到的内容",
+      "summary": "准确保留听读或媒体材料的关键意思。"
+    },
+    "mt_bkvB7QYKwg": {
+      "sourceName": "Adapting Speech to Context",
+      "name": "根据情境调整说话方式",
+      "summary": "按任务和听众调整语气、词汇及正式程度。"
+    },
+    "mt_LNYTNpJOGT": {
+      "sourceName": "Building on Others in Discussions",
+      "name": "接着别人的想法讨论",
+      "summary": "提出具体问题，并在他人的发言上补充和推进。"
+    },
+    "mt_Cc-QHVo747": {
+      "sourceName": "Drawing Conclusions from Discussion",
+      "name": "从讨论中得出结论",
+      "summary": "回顾关键想法，结合讨论获得的信息形成结论。"
+    },
+    "mt_on7FHCDmi-": {
+      "sourceName": "Evaluating a Speaker's Argument",
+      "name": "评估说话者的论证",
+      "summary": "概括观点，检查每个主张的理由与证据。"
+    },
+    "mt_VtqvUORa8K": {
+      "sourceName": "Multimedia Presentations",
+      "name": "多媒体展示",
+      "summary": "选择恰当的图像和媒体，帮助呈现核心想法。"
+    },
+    "mt_A4YUbzUFan": {
+      "sourceName": "Summarising Spoken and Media Presentations",
+      "name": "概括口头与媒体材料",
+      "summary": "抓住听读、图像和数量信息中的要点。"
+    },
+    "mt_ylFTYS80d1": {
+      "sourceName": "Performing Scripts & Poetry",
+      "name": "表演剧本与诗歌",
+      "summary": "通过排练、即兴及声音动作选择探索和表达意义。"
+    },
+    "mt_z07UNAIsNc": {
+      "sourceName": "Speaking Formally and Giving Presentations",
+      "name": "正式发言与演示",
+      "summary": "清楚、切题地表达想法，按听众调整用词和正式程度。"
+    },
+    "mt_Yrjn8jAt1c": {
+      "sourceName": "Formal Debates",
+      "name": "正式辩论",
+      "summary": "遵守讨论规则，用证据支持立场，并回应和总结他人观点。"
+    },
+    "mt_EqXlZfB4jp": {
+      "sourceName": "Phonics Vocabulary",
+      "name": "自然拼读术语",
+      "summary": "认识音素、字形、拼合、切分、词根和词缀等基础术语。"
+    },
+    "mt_BhYJZUsErp": {
+      "sourceName": "Segmenting words into sounds",
+      "name": "把单词拆成语音",
+      "summary": "把口语单词拆成音素，再用对应字母拼写。"
+    },
+    "mt_AhfyJoTQtY": {
+      "sourceName": "Spelling from Dictation",
+      "name": "听写句子",
+      "summary": "运用已学拼读和拼写规则，凭听到的内容写出简单句子。"
+    },
+    "mt_QdMMLRYWhn": {
+      "sourceName": "Spelling Verb Endings",
+      "name": "拼写动词等常见词尾",
+      "summary": "在不改变词根时，正确添加 -s、-ing、-ed 等词尾。"
+    },
+    "mt_zBUcAPDRPM": {
+      "sourceName": "The Prefix un-",
+      "name": "前缀 un-",
+      "summary": "用 un- 表示相反意思或逆转动作，并正确拼写。"
+    },
+    "mt_Jq0MjURrRC": {
+      "sourceName": "Tricky words",
+      "name": "不规则拼写词",
+      "summary": "记住不遵循常规拼读规则的常见词，包括星期名称。"
+    },
+    "mt_p_jxNLdus4": {
+      "sourceName": "Alternative Spellings for Sounds",
+      "name": "同音的不同拼写",
+      "summary": "学习同一语音的其他写法，并区分常见同音词。"
+    },
+    "mt_Z3G_97fnha": {
+      "sourceName": "Apostrophes for possession",
+      "name": "表示所属关系的撇号",
+      "summary": "在单数名词中用撇号表示“谁的”。"
+    },
+    "mt_IntmJBg4VQ": {
+      "sourceName": "Spelling Contracted Forms",
+      "name": "拼写缩写形式",
+      "summary": "在省略字母的位置放置撇号，正确拼写 can't 等缩写。"
+    },
+    "mt_FYK8m6eHQm": {
+      "sourceName": "Suffixes",
+      "name": "后缀",
+      "summary": "掌握加后缀时去 e、变 y、双写辅音等词根变化。"
+    },
+    "mt_HdI1y5KsBl": {
+      "sourceName": "Apostrophes for possession (age 7+)",
+      "name": "所有格撇号（7岁起）",
+      "summary": "正确表示规则、不规则复数名词的所属关系。"
+    },
+    "mt_37QCuGOxFe": {
+      "sourceName": "Homophones",
+      "name": "同音词",
+      "summary": "辨认并正确拼写常见同音、近音和易混淆词。"
+    },
+    "mt_T6nrrf2K43": {
+      "sourceName": "Prefixes (age 7+)",
+      "name": "前缀（7岁起）",
+      "summary": "添加 dis-、re- 等前缀，理解词义变化并保留词根拼写。"
+    },
+    "mt_O2dS6gvClw": {
+      "sourceName": "Spelling Word Lists (age 7+)",
+      "name": "拼写词表（7岁起）",
+      "summary": "学习原始课程三、四年级词表中的常见易错词。"
+    },
+    "mt_tHtjfjjFrl": {
+      "sourceName": "Suffixes (age 7+)",
+      "name": "后缀（7岁起）",
+      "summary": "学习 -ation、-ly、-ous 等词尾及较少见的音形对应。"
+    },
+    "mt_6W5zzDIGZH": {
+      "sourceName": "Using a Dictionary to Check Spellings",
+      "name": "用词典检查拼写",
+      "summary": "按词的前几个字母查词典，核实并纠正拼写。"
+    },
+    "mt_y8sicbhMci": {
+      "sourceName": "Spellings from Greek, French and Latin",
+      "name": "来自希腊语、法语和拉丁语的拼写",
+      "summary": "利用词源辨认 ch、sc、-gue 等特殊拼写模式。"
+    },
+    "mt_U_HQXCnAaG": {
+      "sourceName": "Advanced Spelling Conventions",
+      "name": "进阶拼写规则",
+      "summary": "掌握重音影响的双写、连字符及 ough 等复杂模式。"
+    },
+    "mt_u3OuIXqmAo": {
+      "sourceName": "Homophones (age 9+)",
+      "name": "同音词（9岁起）",
+      "summary": "区分并正确拼写更多同音词和容易混用的词。"
+    },
+    "mt_XK7NYt61cO": {
+      "sourceName": "Silent Letters in Words",
+      "name": "单词中不发音的字母",
+      "summary": "辨认常见不发音字母组合，用词源辅助记忆。"
+    },
+    "mt_9hBs430cU4": {
+      "sourceName": "Spelling -able & -ible",
+      "name": "拼写 -able 与 -ible",
+      "summary": "根据词根和规律选择 -able/-ible 及对应副词词尾。"
+    },
+    "mt_sJyZW4qYUG": {
+      "sourceName": "Spelling Word Lists (age 9+)",
+      "name": "拼写词表（9岁起）",
+      "summary": "学习原始课程五、六年级词表中需单独记忆的词。"
+    },
+    "mt_2X9Cd38eSJ": {
+      "sourceName": "Suffixes (age 9+)",
+      "name": "后缀（9岁起）",
+      "summary": "区分 -cious/-tious、-cial/-tial 等容易混淆的词尾。"
+    },
+    "mt_4PA9IrxtCQ": {
+      "sourceName": "Applying Spelling Rules to Complex Words",
+      "name": "把拼写规则用于复杂词汇",
+      "summary": "把已学规则应用到更复杂和学科专用的词汇中。"
+    },
+    "mt_6-MYToNZ39": {
+      "sourceName": "Discussing and Questioning New Words",
+      "name": "讨论和追问新词",
+      "summary": "询问陌生词的意思，并与已知词汇建立联系。"
+    },
+    "mt_VLu59hpQ4T": {
+      "sourceName": "Shades of Meaning",
+      "name": "词义的细微差别",
+      "summary": "区分相近动作和不同程度的描述，联系实际用法。"
+    },
+    "mt_oL9s_bufDp": {
+      "sourceName": "Sorting & Categorising Words",
+      "name": "词语分类",
+      "summary": "把词语和事物归类，理解概念关系及反义词。"
+    },
+    "mt_NP101Zl-4g": {
+      "sourceName": "Using New Vocabulary",
+      "name": "运用新词汇",
+      "summary": "在自己的表达中使用交谈和阅读中学到的词语。"
+    },
+    "mt_aw0PldeT_L": {
+      "sourceName": "Word Parts as Clues",
+      "name": "从词的组成寻找线索",
+      "summary": "利用词尾和前缀推测陌生词的意思。"
+    },
+    "mt_f_dMmvzxwo": {
+      "sourceName": "Defining Words",
+      "name": "给词语下定义",
+      "summary": "通过所属类别和关键特点说明词义。"
+    },
+    "mt_UEe3MC5RZc": {
+      "sourceName": "Root Words & Inflections",
+      "name": "词根与词形变化",
+      "summary": "识别词根及其变化，借助词缀理解词义和词性。"
+    },
+    "mt_86DyHo9zO3": {
+      "sourceName": "Formal and Informal English",
+      "name": "正式与非正式英语",
+      "summary": "比较不同场合、读者和目的下的语言选择。"
+    },
+    "mt_p1imGSFgJT": {
+      "sourceName": "Word Families and Root Words",
+      "name": "词族与词根",
+      "summary": "通过共同词根、前后缀理解词语的形式和意义联系。"
+    },
+    "mt_SUOhjmRqv9": {
+      "sourceName": "Literal vs Figurative Language",
+      "name": "字面义与比喻义",
+      "summary": "结合上下文区分直接含义和比喻表达。"
+    },
+    "mt_E5YbLvMgLL": {
+      "sourceName": "Antonyms & Synonyms",
+      "name": "反义词与近义词",
+      "summary": "通过词义关系扩大词汇，选择更准确的表达。"
+    },
+    "mt_WzOyJFKDIu": {
+      "sourceName": "Domain Vocabulary Across Subject Areas",
+      "name": "各学科的专用词汇",
+      "summary": "准确理解和使用不同学科的信息类词语。"
+    },
+    "mt_x_Lg4RASVU": {
+      "sourceName": "Greek and Latin Roots for Word Meaning",
+      "name": "用希腊语和拉丁语词根理解词义",
+      "summary": "借助常见词根和词缀推测陌生词的意思。"
+    },
+    "mt_IoGOSAQ8bz": {
+      "sourceName": "Idioms & Proverbs",
+      "name": "习语与谚语",
+      "summary": "理解常见固定表达的比喻含义和适用情境。"
+    },
+    "mt_hJW7hVflm3": {
+      "sourceName": "Similes & Metaphors",
+      "name": "明喻与暗喻",
+      "summary": "区分用 like/as 作比较与直接比喻，解释其表达效果。"
+    },
+    "mt_h3vmvQW5Wa": {
+      "sourceName": "Choosing Formal Vocabulary",
+      "name": "选择正式词汇",
+      "summary": "按正式写作或发言的需要选择恰当词语。"
+    },
+    "mt_1ro8W1cZYn": {
+      "sourceName": "Dialects & Registers",
+      "name": "方言与语域",
+      "summary": "比较英语如何随地区、情境和用途而变化。"
+    },
+    "mt_saW7PxtPxw": {
+      "sourceName": "Using a Thesaurus to Choose Words",
+      "name": "用同义词词典选词",
+      "summary": "查找近义词，再按语境、感情色彩和正式程度筛选。"
+    },
+    "mt_OLwNsTI6C7": {
+      "sourceName": "Academic Vocabulary",
+      "name": "学术词汇",
+      "summary": "积累通用学术词和学科词汇，有意识地用于表达。"
+    },
+    "mt_MlmIrLb_7x": {
+      "sourceName": "Advanced Figurative Language",
+      "name": "进阶比喻与修辞",
+      "summary": "理解典故、反讽、双关等，区分字面义与附加意味。"
+    },
+    "mt_WZnwITSWr8": {
+      "sourceName": "Vocabulary Strategies",
+      "name": "理解词汇的策略",
+      "summary": "综合上下文、词根和工具书推测词义，并核实判断。"
+    },
+    "mt_OyOYHlZ2_T": {
+      "sourceName": "Responding to Writing Feedback",
+      "name": "回应写作反馈",
+      "summary": "在成人或同伴支持下重读，按建议补细节、改清楚。"
+    },
+    "mt_PJyCGJz5Hv": {
+      "sourceName": "Saying Sentences Before Writing Them",
+      "name": "先说句子再写下来",
+      "summary": "写作前先口头组织完整句子。"
+    },
+    "mt_4A4RpX-Go9": {
+      "sourceName": "Shared Research Projects",
+      "name": "共同研究与写作",
+      "summary": "一起回忆经历、收集信息，合作回答一个问题。"
+    },
+    "mt_nYU6x2E2T8": {
+      "sourceName": "Sharing and Publishing Your Writing",
+      "name": "分享和发表作品",
+      "summary": "清楚朗读自己的文字，并使用数字工具制作和分享。"
+    },
+    "mt_nDAcXoPa0c": {
+      "sourceName": "Simple Stories with Beginning and Ending",
+      "name": "有开头和结尾的小故事",
+      "summary": "按顺序写出事件，包含开端、发展和结尾或反应。"
+    },
+    "mt_91f1XFvGZq": {
+      "sourceName": "Writing opinions",
+      "name": "写出自己的观点",
+      "summary": "通过画图、口述或文字，说明对话题或书籍的看法。"
+    },
+    "mt_o8ciHks8t2": {
+      "sourceName": "Writing Process Vocabulary",
+      "name": "写作过程术语",
+      "summary": "理解构思、草稿、修改和校对等不同步骤与决策。"
+    },
+    "mt__MDiDU9Vck": {
+      "sourceName": "Writing to inform",
+      "name": "用文字介绍信息",
+      "summary": "围绕一个话题，通过图画、口述或文字提供信息。"
+    },
+    "mt_hp2qJ-QRBn": {
+      "sourceName": "Basic Informational Writing",
+      "name": "基础说明文写作",
+      "summary": "引出话题，用事实和定义展开，并给出结尾。"
+    },
+    "mt_lIs10UMkPG": {
+      "sourceName": "Building Writing Stamina",
+      "name": "提升持续写作能力",
+      "summary": "围绕真实事件和不同用途，逐步延长写作投入。"
+    },
+    "mt_9P9o6d0Qm3": {
+      "sourceName": "Planning Ideas Before Writing",
+      "name": "写作前规划想法",
+      "summary": "先说出或记下要点和关键词，再逐句组织。"
+    },
+    "mt_I65kFjWwnF": {
+      "sourceName": "Revising and editing",
+      "name": "修改与校对",
+      "summary": "在他人支持下检查拼写、语法、标点和表达清晰度。"
+    },
+    "mt_WKxX-b86Vr": {
+      "sourceName": "Structured Opinion Writing",
+      "name": "有结构的观点写作",
+      "summary": "明确立场，有序提供理由，用连接词组织并收尾。"
+    },
+    "mt_YNe6siFTFq": {
+      "sourceName": "Writing Poetry",
+      "name": "写诗",
+      "summary": "探索语言、押韵和节奏，创作并朗诵诗歌。"
+    },
+    "mt_vauULTecMH": {
+      "sourceName": "Narrative Writing",
+      "name": "叙事写作",
+      "summary": "发展背景、人物与情节，用对话和描述呈现反应。"
+    },
+    "mt_AvJMWQbDsr": {
+      "sourceName": "Organising Writing into Paragraphs",
+      "name": "把文章组织成段落",
+      "summary": "将同主题内容归入一段，按需要使用标题。"
+    },
+    "mt_FGCFUCqJBB": {
+      "sourceName": "Rehearsing and Varying Sentences",
+      "name": "口头推敲和变化句子",
+      "summary": "动笔前练习句子，丰富词汇、结构和对话表达。"
+    },
+    "mt_pis4novXWQ": {
+      "sourceName": "Revising and editing (age 7+)",
+      "name": "修改与校对（7岁起）",
+      "summary": "评估效果，调整语法词汇的一致性，并检查基本错误。"
+    },
+    "mt_HWYAspz-LK": {
+      "sourceName": "Revising and editing (age 8+)",
+      "name": "修改与校对（8岁起）",
+      "summary": "独立发现意思不清或用词不足之处，自主判断并修改。"
+    },
+    "mt_FW9_8F52bw": {
+      "sourceName": "Short Research Projects",
+      "name": "小型研究项目",
+      "summary": "围绕一个问题搜集纸质和数字材料，做简要笔记。"
+    },
+    "mt_LMX-nZETLM": {
+      "sourceName": "Vivid Word Choices",
+      "name": "生动准确的用词",
+      "summary": "选择具体、有表现力的词语，创造预期效果。"
+    },
+    "mt_82KKv0Fca3": {
+      "sourceName": "Writing Craft Vocabulary",
+      "name": "写作技巧术语",
+      "summary": "理解结构、语气、风格、论据等术语所代表的写作选择。"
+    },
+    "mt_v5DyOEpbbr": {
+      "sourceName": "Choosing Form and Tone for Your Audience",
+      "name": "为读者选择形式与语气",
+      "summary": "开始写作前明确目的和读者，选择相应的表达方式。"
+    },
+    "mt_ZxdfRbwkKM": {
+      "sourceName": "Evidence-Based Writing",
+      "name": "以信息文本为证据写作",
+      "summary": "引用非虚构材料，支持分析、反思和研究。"
+    },
+    "mt_sdmm_m60qX": {
+      "sourceName": "Literary Evidence in Writing",
+      "name": "以文学文本为证据写作",
+      "summary": "运用文学作品中的证据，支持自己的分析与思考。"
+    },
+    "mt_cB7hV8sw7X": {
+      "sourceName": "Writing for an audience",
+      "name": "面向读者写作",
+      "summary": "按任务、目的和读者组织内容，保持清楚连贯。"
+    },
+    "mt_AHAFw-atka": {
+      "sourceName": "Layout and Formatting in Informational Writing",
+      "name": "说明文的排版与格式",
+      "summary": "用标题、分栏、列表和表格引导读者。"
+    },
+    "mt_j6ENpc8--_": {
+      "sourceName": "Planning Narratives",
+      "name": "规划叙事",
+      "summary": "借鉴阅读中观察到的人物和背景塑造方法。"
+    },
+    "mt_dRLP8g0SAg": {
+      "sourceName": "Research & Note-Taking",
+      "name": "研究与记笔记",
+      "summary": "收集相关材料，概括或转述，并列出基本来源。"
+    },
+    "mt_curkA82CmO": {
+      "sourceName": "Writing a Précis",
+      "name": "撰写摘要",
+      "summary": "保留核心意义，简洁概括长文，删去非必要细节。"
+    },
+    "mt_tn1rY9GbEZ": {
+      "sourceName": "Cohesion and Transitions Across Writing",
+      "name": "全文衔接与过渡",
+      "summary": "用多样的连接方式提示时间、论点或场景转换。"
+    },
+    "mt_zCUIJLdK_s": {
+      "sourceName": "Developed Informational and Explanatory Writing",
+      "name": "展开充分的说明文",
+      "summary": "有序组织信息，以事实、定义、细节和引文展开话题。"
+    },
+    "mt_Qxyikkkzam": {
+      "sourceName": "Persuasive Writing",
+      "name": "说服性写作",
+      "summary": "用合理理由和相关证据支持主张，并回应相反观点。"
+    },
+    "mt_av-uRBrhwT": {
+      "sourceName": "Planning, Revising and Editing Writing",
+      "name": "规划、修改与编辑文章",
+      "summary": "围绕读者和目的，改进结构、语言和准确性。"
+    },
+    "mt_Qcsl1Z1x0l": {
+      "sourceName": "Research & Source Evaluation",
+      "name": "研究与来源评估",
+      "summary": "评估多来源信息的可信度，综合证据且避免抄袭。"
+    },
+    "mt_9lN0SpKlEH": {
+      "sourceName": "Writing Across Genres",
+      "name": "跨体裁写作",
+      "summary": "为不同目的和读者选择剧本、诗歌、信件等形式。"
+    },
+    "mt_BLzNxSSdWu": {
+      "sourceName": "Writing Character & Dialogue",
+      "name": "描写人物与对话",
+      "summary": "通过对白、节奏和细节发展人物，并组织完整叙事。"
+    },
+    "mt_s6-6FYb5UQ": {
+      "sourceName": "Writing Techniques for Effect",
+      "name": "增强表达效果的写作技巧",
+      "summary": "运用阅读中学到的修辞、词汇和结构技巧改进文章。"
+    },
+    "mt_iFkd0CTwlA": {
+      "sourceName": "Hieroglyphs and Papyrus",
+      "name": "象形文字与莎草纸",
+      "summary": "认识古埃及的书写符号，以及用莎草植物制作的书写材料。"
+    },
+    "mt_mmudyxf7bT": {
+      "sourceName": "Pyramids and the Great Sphinx",
+      "name": "金字塔与狮身人面像",
+      "summary": "认识古埃及法老陵墓与吉萨的重要建筑。"
+    },
+    "mt_pTz6u49fQt": {
+      "sourceName": "Ancient Egypt on the Timeline",
+      "name": "时间线上的古埃及",
+      "summary": "把古埃及放入长时段历史，认识其主要时期。"
+    },
+    "mt_kgTN6yk4oE": {
+      "sourceName": "Building the Pyramids",
+      "name": "金字塔的建造",
+      "summary": "了解巨石运输、劳作组织和陵墓形制的演变。"
+    },
+    "mt_yNGrY9xJ8Y": {
+      "sourceName": "Egyptian Tomb Paintings and Artefacts",
+      "name": "埃及墓室壁画与文物",
+      "summary": "通过绘画、器物和工具推知古埃及人的生活。"
+    },
+    "mt_V_kAitNbLN": {
+      "sourceName": "Scribes and the Rosetta Stone",
+      "name": "书吏与罗塞塔石碑",
+      "summary": "认识书吏的工作，以及多种文字对照如何帮助破译。"
+    },
+    "mt_C3eNLQJlgt": {
+      "sourceName": "Egyptian Timelines and Maps",
+      "name": "埃及的时间线与地图",
+      "summary": "把历史时期和事件按时间排序，并解读地理位置。"
+    },
+    "mt_B1LdSGMP66": {
+      "sourceName": "Modern Archaeology and Egyptian Ethics",
+      "name": "现代考古与埃及文物伦理",
+      "summary": "了解考古技术，讨论展出、归属及殖民收藏的问题。"
+    },
+    "mt_PPNDO7BUrY": {
+      "sourceName": "Egyptian Maths and Engineering",
+      "name": "埃及数学与工程",
+      "summary": "通过纸草文献与建筑，认识古埃及的计算和测量成就。"
+    },
+    "mt_bhEuF-CCuY": {
+      "sourceName": "Historical Sources on Ancient Egypt",
+      "name": "研究古埃及的历史来源",
+      "summary": "比较铭文、文献和遗存，评估其中的偏见和空缺。"
+    },
+    "mt_xAG0aMeAIN": {
+      "sourceName": "Who Really Built the Pyramids",
+      "name": "究竟是谁建造了金字塔",
+      "summary": "用考古证据评估建造者的不同说法与社会背景。"
+    },
+    "mt_2GDBmKCJxs": {
+      "sourceName": "Different Accounts of the Same Event",
+      "name": "同一事件的不同说法",
+      "summary": "理解不同人即使真诚，也可能给出不同叙述。"
+    },
+    "mt_VXcua6-txq": {
+      "sourceName": "Vocabulary: historical thinking",
+      "name": "历史思维术语",
+      "summary": "用来源、证据、年代、解释和偏见等术语讨论历史。"
+    },
+    "mt_wWlZoLQBR6": {
+      "sourceName": "Checking Sources Against Each Other",
+      "name": "让不同来源相互印证",
+      "summary": "检查多份资料是否一致，并调查分歧的原因。"
+    },
+    "mt_TTzJTF-OkG": {
+      "sourceName": "Questioning Historical Sources",
+      "name": "追问历史来源",
+      "summary": "考察材料由谁、何时、为何制作，再判断可信程度。"
+    },
+    "mt_Lu4H4mbsqO": {
+      "sourceName": "Evidence Versus Interpretation",
+      "name": "证据与解释的区别",
+      "summary": "分清留存的材料与历史学家据此提出的解释。"
+    },
+    "mt_8dstvf-KKb": {
+      "sourceName": "Checking Your Own Work",
+      "name": "检查自己的成果",
+      "summary": "完成后回头检查，判断结果是否合理。"
+    },
+    "mt_S4G6GLKr1-": {
+      "sourceName": "Persisting When It's Hard",
+      "name": "遇到困难继续尝试",
+      "summary": "理解犯错和重试也是学习的一部分。"
+    },
+    "mt_klyw-tdlhP": {
+      "sourceName": "Feeling of not understanding",
+      "name": "察觉没弄懂的感觉",
+      "summary": "注意困惑之处，不直接跳过去。"
+    },
+    "mt_QR3vxbN1o4": {
+      "sourceName": "Planning a Task",
+      "name": "规划任务",
+      "summary": "开始前想清需要做什么，以及先做哪一步。"
+    },
+    "mt_LE7nFEwS12": {
+      "sourceName": "Thinking Before Starting",
+      "name": "开始前先想一想",
+      "summary": "接触新任务时，先回想自己已经知道什么。"
+    },
+    "mt_32B7xjUPwF": {
+      "sourceName": "Connecting New & Old Ideas",
+      "name": "连接新旧想法",
+      "summary": "把新知识与已有经验联系起来。"
+    },
+    "mt_wvcFlwOrDl": {
+      "sourceName": "Spotting Patterns",
+      "name": "发现规律",
+      "summary": "在数字、语言、自然或事件中发现重复结构。"
+    },
+    "mt_6eTZUwKQZr": {
+      "sourceName": "Teaching It Back",
+      "name": "用自己的话教回来",
+      "summary": "学完后向别人或自己解释，以梳理理解。"
+    },
+    "mt_95zxYqpP7m": {
+      "sourceName": "Trying a New Approach",
+      "name": "换一种办法",
+      "summary": "原先方法不奏效时，尝试不同策略。"
+    },
+    "mt_hbe_kdE_7C": {
+      "sourceName": "Describing Rules & Patterns",
+      "name": "描述规则与模式",
+      "summary": "把发现的规律说清楚，再用新例子检验。"
+    },
+    "mt_TDUpy57QVM": {
+      "sourceName": "Learning from Mistakes",
+      "name": "从错误中学习",
+      "summary": "调查错在哪里、为什么错，找出遗漏或误解。"
+    },
+    "mt_Y6P9y1Rz-u": {
+      "sourceName": "Understanding Why",
+      "name": "理解为什么",
+      "summary": "不只知道结论，还要追问原因和运作方式。"
+    },
+    "mt_q7zxOloj_L": {
+      "sourceName": "Choosing a Strategy",
+      "name": "选择学习策略",
+      "summary": "任务前有意识地选方法，完成后评估是否有效。"
+    },
+    "mt_v5yDTWEiyQ": {
+      "sourceName": "Reflecting After Learning",
+      "name": "学习后反思",
+      "summary": "回顾哪些方法有帮助、哪里困惑、下次如何调整。"
+    },
+    "mt_2uHYdoxD0H": {
+      "sourceName": "Finding Knowledge Gaps",
+      "name": "找出知识空缺",
+      "summary": "区分自己掌握牢固、不确定和尚未理解的部分。"
+    },
+    "mt_FIkqA0qhnj": {
+      "sourceName": "Coins & Notes",
+      "name": "硬币与纸币",
+      "summary": "认识面值，理解不同组合可以表示相同金额。"
+    },
+    "mt_aWOK1npO5s": {
+      "sourceName": "Making Change",
+      "name": "计算找零",
+      "summary": "通过实际购物计算差额；原始示例使用英镑与便士。"
+    },
+    "mt_yJmvUCCym7": {
+      "sourceName": "Addition and subtraction word problems",
+      "name": "加减法应用题",
+      "summary": "用实物或图画解决 10 以内的加减情境题。"
+    },
+    "mt_OvyoRo47K-": {
+      "sourceName": "Addition as combining or putting together two",
+      "name": "加法就是合在一起",
+      "summary": "把两组物品合并，求出总数。"
+    },
+    "mt_e8CZ7E5qW7": {
+      "sourceName": "Number bonds to 9",
+      "name": "9以内数的凑十配对",
+      "summary": "给定 1–9 中的一个数，找出再加多少等于 10。"
+    },
+    "mt_7XcCG43ZZW": {
+      "sourceName": "Numbers up to 10 into pairs",
+      "name": "把10以内的数拆成两部分",
+      "summary": "用不同方式把一个数分成两个数，理解部分与整体。"
+    },
+    "mt_PgsHGYJMH-": {
+      "sourceName": "Representing Addition and Subtraction",
+      "name": "表示加法和减法",
+      "summary": "用实物、图画和头脑中的图像呈现运算。"
+    },
+    "mt_zuKAX6lcYR": {
+      "sourceName": "Subtraction as taking away or separating",
+      "name": "减法就是拿走或分开",
+      "summary": "从一组中移走一部分，求还剩多少。"
+    },
+    "mt_mr_Vk7FGzK": {
+      "sourceName": "Adding and subtracting",
+      "name": "加法与减法",
+      "summary": "计算 20 以内一位数、两位数的加减，包括零。"
+    },
+    "mt_VAWV_l7J0D": {
+      "sourceName": "Early Word Problems",
+      "name": "初步应用题",
+      "summary": "解决 20 以内一步加减题，包括未知数问题。"
+    },
+    "mt_ghF3Vv6taM": {
+      "sourceName": "Fluent adding and subtracting within 5",
+      "name": "熟练计算5以内加减法",
+      "summary": "流利完成 5 以内的基本加减。"
+    },
+    "mt_s2mfRBoTal": {
+      "sourceName": "Number bonds",
+      "name": "数的分合关系",
+      "summary": "记住 20 以内的加法及对应减法关系。"
+    },
+    "mt_8RmpkDxT9L": {
+      "sourceName": "Reading +, −, and = symbols",
+      "name": "认识 +、−、= 符号",
+      "summary": "读写并解释算式中的加号、减号和等号。"
+    },
+    "mt_I5j1ZWo2cn": {
+      "sourceName": "Adding and subtracting tens mentally",
+      "name": "口算加减整十数",
+      "summary": "用位值和实物图示，计算两位数加减整十数。"
+    },
+    "mt_Zx1xZM-RbX": {
+      "sourceName": "Adding Three Small Numbers",
+      "name": "三个小数目相加",
+      "summary": "把三个一位数相加，灵活寻找能凑十的数对。"
+    },
+    "mt_UQnAFPs83F": {
+      "sourceName": "Adding two two-digit numbers",
+      "name": "两个两位数的加减",
+      "summary": "借助实物、图示和口算完成计算。"
+    },
+    "mt_glPPG-kTQY": {
+      "sourceName": "Adding within 100",
+      "name": "100以内加法",
+      "summary": "运用位值，计算两位数加一位数或整十数。"
+    },
+    "mt_PpWSHA-0kv": {
+      "sourceName": "Addition and subtraction strategies",
+      "name": "加减法策略",
+      "summary": "通过接着数和倒着数进行加减。"
+    },
+    "mt_m1W6nTQJ2b": {
+      "sourceName": "Addition and subtraction within 20",
+      "name": "20以内加减法",
+      "summary": "用凑十、拆分和已知算式帮助计算。"
+    },
+    "mt_QCgbiVrwnp": {
+      "sourceName": "Addition in any order",
+      "name": "交换加数的顺序",
+      "summary": "理解加法交换律：调换加数顺序，总和不变。"
+    },
+    "mt_ezc2m_0dzN": {
+      "sourceName": "Finding a missing number in addition",
+      "name": "找出加法中缺少的数",
+      "summary": "把减法理解为求未知加数。"
+    },
+    "mt__we2TDqnJx": {
+      "sourceName": "Fluent adding and subtracting within 10",
+      "name": "熟练计算10以内加减法",
+      "summary": "流利完成 10 以内的基本加减。"
+    },
+    "mt_3e_PQxwC12": {
+      "sourceName": "Fluent addition and subtraction",
+      "name": "熟练运用加减关系",
+      "summary": "熟记 20 以内加减，并推导 100 以内的相关关系。"
+    },
+    "mt_T76hKqXf0z": {
+      "sourceName": "Grouping numbers to add",
+      "name": "先把哪些数加起来",
+      "summary": "理解加法结合律：三个数相加可以先合并其中两个。"
+    },
+    "mt_ehGS_uVSJv": {
+      "sourceName": "Inverse: addition undoes subtraction",
+      "name": "加减法互为逆运算",
+      "summary": "用相反运算检查答案或求未知数。"
+    },
+    "mt_AKAtWEwpcj": {
+      "sourceName": "Mental addition and subtraction (age 6+)",
+      "name": "口算加减法（6岁起）",
+      "summary": "计算两位数加减一位数，并用实物图示解释。"
+    },
+    "mt_wzAZ8qFDc4": {
+      "sourceName": "Mental and written addition and subtraction",
+      "name": "口算与笔算加减法",
+      "summary": "选择口算或书面方法解决数量和测量问题。"
+    },
+    "mt_HJTuIGHvcR": {
+      "sourceName": "Subtracting multiples of 10",
+      "name": "整十数相减",
+      "summary": "利用位值计算 10–90 范围内整十数的减法。"
+    },
+    "mt_3JgrHY221M": {
+      "sourceName": "Unknown in Addition & Subtraction",
+      "name": "加减算式中的未知数",
+      "summary": "求出三个非负整数构成的加减等式中缺少的数。"
+    },
+    "mt_oIzycTBeE4": {
+      "sourceName": "What the equals sign means",
+      "name": "等号表示什么",
+      "summary": "理解等号两边数量相同，并判断等式真假。"
+    },
+    "mt_SrrsLiJkr3": {
+      "sourceName": "Adding and subtracting (age 7+)",
+      "name": "加减法（7岁起）",
+      "summary": "用竖式计算最多三位数的加减法。"
+    },
+    "mt_TiQbi027PE": {
+      "sourceName": "Adding numbers",
+      "name": "多个数相加",
+      "summary": "用位值与运算规律，把最多四个两位数相加。"
+    },
+    "mt_zxST3MarI9": {
+      "sourceName": "Addition and subtraction strategies (age 7+)",
+      "name": "加减法策略（7岁起）",
+      "summary": "用位值和运算规律解释计算方法为什么有效。"
+    },
+    "mt_ewmuMMPAzP": {
+      "sourceName": "Addition and subtraction within 1000",
+      "name": "1000以内加减法",
+      "summary": "借助模型、图画和位值，理解十与百的组合和拆分。"
+    },
+    "mt_QaYfeVL-0C": {
+      "sourceName": "Estimating by rounding",
+      "name": "用四舍五入估算",
+      "summary": "先估计结果，再用逆运算检查答案。"
+    },
+    "mt_cChv2j_-Da": {
+      "sourceName": "Fluent adding and subtracting within 100",
+      "name": "熟练计算100以内加减法",
+      "summary": "灵活运用位值、运算规律和加减关系。"
+    },
+    "mt__t4afSyZRm": {
+      "sourceName": "Fluent adding and subtracting within 20",
+      "name": "熟练计算20以内加减法",
+      "summary": "熟练口算，并记住两个一位数相加的结果。"
+    },
+    "mt_oDU_8zMZjp": {
+      "sourceName": "Mental addition and subtraction (age 7+)",
+      "name": "口算加减法（7岁起）",
+      "summary": "口算三位数加减一位数。"
+    },
+    "mt_xPqczp7zPX": {
+      "sourceName": "Mentally adding hundreds to 3-digit numbers",
+      "name": "三位数加减整百数",
+      "summary": "利用位值口算三位数与整百数的加减。"
+    },
+    "mt_aHQ9kNt3is": {
+      "sourceName": "Mentally adding tens to 3-digit numbers",
+      "name": "三位数加减整十数",
+      "summary": "利用位值口算三位数与整十数的加减。"
+    },
+    "mt_XuHmIn2xje": {
+      "sourceName": "Missing number problems (age 7+)",
+      "name": "未知数问题（7岁起）",
+      "summary": "结合基本算式和位值解决缺数的加减问题。"
+    },
+    "mt_19j_5AuuQI": {
+      "sourceName": "Numbers on a number line",
+      "name": "数轴上的数",
+      "summary": "用数轴上的长度表示非负整数及 100 以内加减。"
+    },
+    "mt_yTWxkzzoOZ": {
+      "sourceName": "Two-Step Word Problems",
+      "name": "两步应用题",
+      "summary": "解决 100 以内一步、两步加减题，未知量可在不同位置。"
+    },
+    "mt_mpS-JK_p_m": {
+      "sourceName": "Adding and subtracting (age 8+)",
+      "name": "加减法（8岁起）",
+      "summary": "用规范竖式计算最多四位数的加减法。"
+    },
+    "mt_HFRYjTb-Z5": {
+      "sourceName": "Fluent adding and subtracting within 1000",
+      "name": "熟练计算1000以内加减法",
+      "summary": "运用位值和加减关系，熟练选择计算方法。"
+    },
+    "mt_CDa5AVakLE": {
+      "sourceName": "Two-step addition and subtraction problems",
+      "name": "两步加减法问题",
+      "summary": "根据实际情境选择两步运算，并解释方法。"
+    },
+    "mt_anAe11HAEH": {
+      "sourceName": "Two-Step Equations",
+      "name": "两步方程问题",
+      "summary": "用四则运算解决两步问题，用字母表示未知量。"
+    },
+    "mt_-F_Lv_apzH": {
+      "sourceName": "Adding and subtracting (age 9+)",
+      "name": "加减法（9岁起）",
+      "summary": "解决多步情境题，说明所选运算和方法的理由。"
+    },
+    "mt_G3sVFQNCme": {
+      "sourceName": "Checking Answers by Rounding",
+      "name": "用四舍五入检查答案",
+      "summary": "结合情境选择精确程度，估算核验计算结果。"
+    },
+    "mt_Yw1_4Nfsql": {
+      "sourceName": "Fluent addition and subtraction (age 9+)",
+      "name": "熟练加减法（9岁起）",
+      "summary": "用竖式熟练计算超过四位数的非负整数加减。"
+    },
+    "mt_MWXPiaTnEu": {
+      "sourceName": "Mental addition and subtraction (age 9+)",
+      "name": "口算加减法（9岁起）",
+      "summary": "运用位值和已有算式，口算越来越大的数。"
+    },
+    "mt_M1tnXqmYbn": {
+      "sourceName": "Adding and subtracting (age 10+)",
+      "name": "加减法（10岁起）",
+      "summary": "解决涉及千万以内整数和小数的多步加减问题。"
+    },
+    "mt_JH_6RpNWjr": {
+      "sourceName": "Addition and subtraction strategies (age 10+)",
+      "name": "加减法策略（10岁起）",
+      "summary": "计算百分位小数的加减，并解释口算与笔算的联系。"
+    },
+    "mt_9QzSnn8m80": {
+      "sourceName": "Positive and Negative Numbers",
+      "name": "正数与负数",
+      "summary": "用温度、楼层和余额理解方向或意义相反的数量。"
+    },
+    "mt_YFS7JFk64p": {
+      "sourceName": "Equations with Two Unknowns",
+      "name": "含两个未知数的方程",
+      "summary": "找出能同时满足一个方程的不同数对。"
+    },
+    "mt_hBZwbst0ow": {
+      "sourceName": "Linear number sequences",
+      "name": "等差变化的数列",
+      "summary": "按固定步长生成数列，包括负数和小数步长。"
+    },
+    "mt_fxPtngwUfz": {
+      "sourceName": "Number Pattern Relationships",
+      "name": "数列之间的关系",
+      "summary": "比较两条规则生成的数列，将对应项配对并描点。"
+    },
+    "mt_gu0NPDvlhY": {
+      "sourceName": "Systematic Listing",
+      "name": "有条理地列举",
+      "summary": "系统列出两个变量的组合，避免遗漏或重复。"
+    },
+    "mt_Jvg8X0N5u0": {
+      "sourceName": "Using Simple Formulae",
+      "name": "使用简单公式",
+      "summary": "把数值代入用文字或符号表达的公式。"
+    },
+    "mt_i9rJbuFO3p": {
+      "sourceName": "Writing Algebraic Equations",
+      "name": "写出代数方程",
+      "summary": "用字母表示未知数，把文字问题转成等式。"
+    },
+    "mt_KwdjWEmMNo": {
+      "sourceName": "Algebraic Notation",
+      "name": "代数记号",
+      "summary": "理解省略乘号、系数、幂、分式和括号等写法。"
+    },
+    "mt_z5iwdZyeDr": {
+      "sourceName": "Algebraic Transformations",
+      "name": "在不同代数表示间转换",
+      "summary": "用表达式、公式、表格和图像表示情境，并相互转换。"
+    },
+    "mt_nNNVrLqPW3": {
+      "sourceName": "Collecting Like Terms",
+      "name": "合并同类项",
+      "summary": "合并字母及其指数相同的项，保持式子等价。"
+    },
+    "mt_hVpGOEz2kG": {
+      "sourceName": "Coordinates (age 11+)",
+      "name": "坐标（11岁起）",
+      "summary": "在四个象限中读写坐标，用正负值描述位置。"
+    },
+    "mt_FX4a2Q8XXN": {
+      "sourceName": "Expanding Single Brackets",
+      "name": "展开单括号",
+      "summary": "用分配律去括号，包括负数乘括号。"
+    },
+    "mt_g_fkAqmz72": {
+      "sourceName": "Expressions & Equations Vocabulary",
+      "name": "代数式与方程术语",
+      "summary": "区分表达式、等式和不等式，理解项与因式。"
+    },
+    "mt_yXO7lQ9Yn7": {
+      "sourceName": "Generating Sequences",
+      "name": "生成数列",
+      "summary": "按递推或通项规则生成数列，辨认等差和等比结构。"
+    },
+    "mt_i2F1nWxJjv": {
+      "sourceName": "Numbers on a number line",
+      "name": "数轴上的不等式",
+      "summary": "解简单一元一次不等式，并在数轴上表示解。"
+    },
+    "mt_QhFEDyIwSO": {
+      "sourceName": "Solving Linear Equations",
+      "name": "解一元一次方程",
+      "summary": "通过移项、去括号和合并同类项求未知数。"
+    },
+    "mt_vHzVa3SURC": {
+      "sourceName": "Substituting into Formulae",
+      "name": "代入公式",
+      "summary": "用给定数值替换变量，按正确运算顺序计算。"
+    },
+    "mt_uESbzWCZIq": {
+      "sourceName": "Factorising Expressions",
+      "name": "提公因式分解",
+      "summary": "找出各项公因式，把和式写成乘积。"
+    },
+    "mt_WBdHkc2HTf": {
+      "sourceName": "Linear Function Graphs",
+      "name": "一次函数图像",
+      "summary": "理解直线图像与斜率、纵截距及公式之间的关系。"
+    },
+    "mt_HRKzwEQJgO": {
+      "sourceName": "Nth-Term Rules",
+      "name": "数列的通项公式",
+      "summary": "根据公差求等差数列通项，判断某数是否属于数列。"
+    },
+    "mt_-3udyo6VyB": {
+      "sourceName": "Plotting Linear Graphs",
+      "name": "绘制一次函数图像",
+      "summary": "列值、描点，写出斜截式，并用两点计算斜率。"
+    },
+    "mt_3qrCtdoVAU": {
+      "sourceName": "Simple formulae",
+      "name": "公式变形",
+      "summary": "运用逆运算重新整理公式，改用另一变量作主项。"
+    },
+    "mt_Yw27nweoTj": {
+      "sourceName": "Estimating answers (age 13+)",
+      "name": "用图像估算（13岁起）",
+      "summary": "借助一次和二次函数图像估值、近似求解。"
+    },
+    "mt_KhS7K1Mgrw": {
+      "sourceName": "Expanding Double Brackets",
+      "name": "展开两个括号",
+      "summary": "把两个二项式相乘，再合并同类项。"
+    },
+    "mt_GZuoYaDdWd": {
+      "sourceName": "Quadratic Graphs",
+      "name": "二次函数图像",
+      "summary": "认识抛物线，利用图像估值和寻找近似解。"
+    },
+    "mt_mqgu72aCMz": {
+      "sourceName": "Simultaneous Equations",
+      "name": "联立方程",
+      "summary": "把两条直线的交点理解为同时满足两个方程的数对。"
+    },
+    "mt__h7hvT4tEb": {
+      "sourceName": "Comparing groups: more or fewer",
+      "name": "比较多少",
+      "summary": "通过一一配对和计数，判断两组物品的多少或相等。"
+    },
+    "mt_dmNvjroCPT": {
+      "sourceName": "How Many in Total?",
+      "name": "一共有多少",
+      "summary": "理解数数时最后一个数表示总量，不受排列影响。"
+    },
+    "mt_sYpKWbq5ra": {
+      "sourceName": "One More Each Time",
+      "name": "每次数都多一个",
+      "summary": "理解相邻计数之间相差一个。"
+    },
+    "mt_WcfaSfVT33": {
+      "sourceName": "One-to-one counting",
+      "name": "一一对应地数",
+      "summary": "每件物品只对应一个数词，既不漏数也不重复。"
+    },
+    "mt_pAcaehday5": {
+      "sourceName": "Representing numbers with objects",
+      "name": "用实物表示数",
+      "summary": "用物品、图画和数轴表示数量。"
+    },
+    "mt_nvdpxAJTBG": {
+      "sourceName": "Counting in 2s",
+      "name": "按2、5、10跳着数",
+      "summary": "按固定间隔数出 2、5 和 10 的倍数。"
+    },
+    "mt_yqAL6O5i_v": {
+      "sourceName": "Counting objects to 20",
+      "name": "数20以内的物品",
+      "summary": "数清不同排列方式下最多 20 件物品的总量。"
+    },
+    "mt_M5PPDJStGm": {
+      "sourceName": "Rote counting to 100",
+      "name": "顺数和倒数到100",
+      "summary": "从指定数开始，在 0–100 范围内逐一顺数或倒数。"
+    },
+    "mt__YRJ23GuIK": {
+      "sourceName": "Two written numerals between 1 and 10",
+      "name": "比较1–10的数字",
+      "summary": "看书写的数字，判断两个数谁大谁小。"
+    },
+    "mt_aHAM29nidj": {
+      "sourceName": "Counting forwards and backwards",
+      "name": "按3顺数和倒数",
+      "summary": "从零开始，以 3 为间隔向前或向后数。"
+    },
+    "mt_OkSJfrmFb_": {
+      "sourceName": "Counting forwards and backwards (age 6+)",
+      "name": "顺数和倒数（6岁起）",
+      "summary": "从任意数开始，每次加十或减十。"
+    },
+    "mt_M2v1A9OEuM": {
+      "sourceName": "Counting Within 1,000",
+      "name": "1000以内计数",
+      "summary": "在千以内逐个数，或按 5、10、100 跳数。"
+    },
+    "mt_IzQvs7k_sE": {
+      "sourceName": "Skip Counting (4s, 8s, 50s, 100s)",
+      "name": "按4、8、50、100跳数",
+      "summary": "从零开始，按这些固定间隔数数。"
+    },
+    "mt_7rJM8eWUfw": {
+      "sourceName": "Counting in 6s",
+      "name": "按6等间隔跳数",
+      "summary": "按 6、7、9、25 和 1000 的倍数计数。"
+    },
+    "mt_xppl18avyY": {
+      "sourceName": "Sorting into categories",
+      "name": "分类并计数",
+      "summary": "把物品归类，数出每类数量并排序。"
+    },
+    "mt_c29FaCTNsx": {
+      "sourceName": "Pictograms and tally charts",
+      "name": "象形统计图与计数表",
+      "summary": "读懂并制作简单图表、计数表和表格。"
+    },
+    "mt_u5HkSxZECM": {
+      "sourceName": "Pictograms and tally charts (age 6+)",
+      "name": "数据图表术语（6岁起）",
+      "summary": "认识频数、类别、坐标轴、刻度及各类图表名称。"
+    },
+    "mt_ylXdiVRAYv": {
+      "sourceName": "Sorting Data into Categories",
+      "name": "按类别整理数据",
+      "summary": "把数据分成最多三类，统计并比较数量。"
+    },
+    "mt_1VSfm9yiLn": {
+      "sourceName": "Sorting into categories (age 6+)",
+      "name": "分类数据比较（6岁起）",
+      "summary": "根据分类数据回答总数、各类数量及相差多少。"
+    },
+    "mt_VhBH8wrFC6": {
+      "sourceName": "Picture & Bar Graphs",
+      "name": "图示统计图与条形图",
+      "summary": "用一格表示一个单位，绘制并解读最多四类数据。"
+    },
+    "mt_ChjMU2GDJa": {
+      "sourceName": "Bar graphs",
+      "name": "条形图",
+      "summary": "选择适当图形，呈现离散或连续数据及时间变化。"
+    },
+    "mt_r8XnXwRA6g": {
+      "sourceName": "Representing numbers with objects (age 8+)",
+      "name": "带比例刻度的图表（8岁起）",
+      "summary": "用图示和条形图表示数据，解决总和与差值问题。"
+    },
+    "mt_H6LlpWgEYS": {
+      "sourceName": "Reading and Comparing Bar Graphs",
+      "name": "读取和比较条形图",
+      "summary": "利用条形图计算总和、差值及数量比较。"
+    },
+    "mt_Cqm8iy48UI": {
+      "sourceName": "Reading tables",
+      "name": "读取表格",
+      "summary": "补全并理解表格信息，包括时刻表。"
+    },
+    "mt_fmm-P17Vka": {
+      "sourceName": "Statistical Analysis Vocabulary",
+      "name": "统计分析术语",
+      "summary": "理解平均数、中位数、众数、极差、样本和相关等词。"
+    },
+    "mt_Cg8VPguS_V": {
+      "sourceName": "Calculating the Mean",
+      "name": "计算平均数",
+      "summary": "求数据总和再均分，并解释平均数的含义。"
+    },
+    "mt_bESTSBB0wK": {
+      "sourceName": "Line graphs (age 10+)",
+      "name": "折线图与扇形图（10岁起）",
+      "summary": "制作和解读图表，用其中信息解决问题。"
+    },
+    "mt_IHipFGTFEY": {
+      "sourceName": "Understanding fractions",
+      "name": "分数测量数据的点图",
+      "summary": "把分数测量值标在数线上，并用分数运算分析。"
+    },
+    "mt_XSXnTQoQ4l": {
+      "sourceName": "Comparing measurements",
+      "name": "比较测量数据的分布",
+      "summary": "结合平均数、中位数、众数、极差和离群值进行比较。"
+    },
+    "mt_eKJG-0eC6D": {
+      "sourceName": "Pictograms and tally charts (age 11+)",
+      "name": "统计图表（11岁起）",
+      "summary": "为分类及分组数值数据选择、制作和解释合适图表。"
+    },
+    "mt_BdAeZJUOir": {
+      "sourceName": "Scatter Graphs",
+      "name": "散点图",
+      "summary": "给成对数据描点，描述相关方向并估画趋势线。"
+    },
+    "mt_8atyuvPUZc": {
+      "sourceName": "Scatter Graphs & Correlation",
+      "name": "散点图与相关性",
+      "summary": "辨认正相关、负相关或无相关，并用趋势线预测。"
+    },
+    "mt_g3W0mdADVu": {
+      "sourceName": "Finding halves and quarters (age 5+)",
+      "name": "认识四分之一（5岁起）",
+      "summary": "把物体、图形或数量平均分成四份，认识其中一份。"
+    },
+    "mt_-hTTat0mBR": {
+      "sourceName": "What Is a Half?",
+      "name": "什么是一半",
+      "summary": "把整体平均分成两份，认识其中一份。"
+    },
+    "mt_hyvHv2BCwb": {
+      "sourceName": "Decomposing a shape into more equal shares",
+      "name": "等分越多，每份越小",
+      "summary": "理解同一图形分成更多等份后，每份会变小。"
+    },
+    "mt_vKcxX6iNOA": {
+      "sourceName": "Fraction Notation",
+      "name": "分数记号与术语",
+      "summary": "理解分子、分母、真分数、假分数、带分数和最简形式。"
+    },
+    "mt_cFltwUQi-d": {
+      "sourceName": "Fractions of amounts",
+      "name": "求一个数量的几分之几",
+      "summary": "找出长度、图形或物品的三分之一、四分之一等。"
+    },
+    "mt_xACS3rWWDp": {
+      "sourceName": "Halves & Quarters of Shapes",
+      "name": "图形的一半与四分之一",
+      "summary": "把圆或长方形二等分、四等分，并描述各份。"
+    },
+    "mt_MyGblah2yY": {
+      "sourceName": "Understanding fractions",
+      "name": "理解简单分数",
+      "summary": "把分数用于数量，认识二分之一与四分之二相等。"
+    },
+    "mt_IfEgu0X449": {
+      "sourceName": "Comparing fractions",
+      "name": "比较分数",
+      "summary": "比较并排列单位分数或同分母分数。"
+    },
+    "mt_SsLWS_APM7": {
+      "sourceName": "Comparing fractions (age 7+)",
+      "name": "分数综合问题（7岁起）",
+      "summary": "处理十分数、求部分数量、等值、加减和大小比较。"
+    },
+    "mt_FbDKeLfBCo": {
+      "sourceName": "Equivalent fractions",
+      "name": "等值分数",
+      "summary": "用图示说明分母较小的不同分数可以表示相同大小。"
+    },
+    "mt_Kr3IyA6m-O": {
+      "sourceName": "Fractions on a number line",
+      "name": "数轴上的分数",
+      "summary": "把单位分数和简单非单位分数标在数轴上。"
+    },
+    "mt_a1FdAsRKOF": {
+      "sourceName": "Simple Fraction Sums",
+      "name": "简单分数加减",
+      "summary": "计算结果不超过一个整体的同分母分数加减。"
+    },
+    "mt_Xp-rj46S2w": {
+      "sourceName": "Splitting shapes into equal parts (age 7+)",
+      "name": "把图形等分（7岁起）",
+      "summary": "分成二、三、四等份；同样大的份不一定形状相同。"
+    },
+    "mt_YzM5goBctT": {
+      "sourceName": "Tenths",
+      "name": "十分之一",
+      "summary": "按十分之一顺数、倒数，理解整体十等分。"
+    },
+    "mt_k2WE0-22-4": {
+      "sourceName": "Unit fractions",
+      "name": "单位分数与物品分组",
+      "summary": "找出一组物品的单位分数及简单的非单位分数。"
+    },
+    "mt_CBHwluE6Lp": {
+      "sourceName": "Adding Fractions (Same Denominator)",
+      "name": "同分母分数相加",
+      "summary": "计算同分母分数加减，包括结果大于一个整体。"
+    },
+    "mt_HnKbuCliNS": {
+      "sourceName": "Comparing fractions (age 8+)",
+      "name": "比较分数（8岁起）",
+      "summary": "比较同分子或同分母分数，用大小符号记录。"
+    },
+    "mt_TqDq6jyOmL": {
+      "sourceName": "Decimal equivalents of tenths and hundredths",
+      "name": "十分数、百分数的小数形式",
+      "summary": "把分母为 10 或 100 的分数写成小数。"
+    },
+    "mt_W17Kbwm0-u": {
+      "sourceName": "Decimal & Percent Notation",
+      "name": "小数与百分数记号",
+      "summary": "理解小数位和百分号，以及分数、小数、百分数的关系。"
+    },
+    "mt_Fl7b8q9pI1": {
+      "sourceName": "Decimal place value",
+      "name": "小数取整",
+      "summary": "把一位小数四舍五入到最接近的整数。"
+    },
+    "mt_IegHBHERVa": {
+      "sourceName": "Decimal place value (age 8+)",
+      "name": "比较小数位值（8岁起）",
+      "summary": "比较小数位数相同、最多两位小数的数。"
+    },
+    "mt_wB-GBDkoNr": {
+      "sourceName": "Decimals and fractions",
+      "name": "测量与金额中的小数和分数",
+      "summary": "解决涉及分数及两位小数的简单实际问题。"
+    },
+    "mt_kDMKJ5Ztt6": {
+      "sourceName": "Dividing by 10 and 100",
+      "name": "除以10与100",
+      "summary": "观察数字移到十分位、百分位时表示的值如何变化。"
+    },
+    "mt_FP-mjXaq3B": {
+      "sourceName": "Equivalent fractions (age 8+)",
+      "name": "等值分数（8岁起）",
+      "summary": "生成简单等值分数，并用图形模型解释。"
+    },
+    "mt_Ep7TDFuYUa": {
+      "sourceName": "Equivalent fractions on a number line",
+      "name": "数轴上的等值分数",
+      "summary": "理解数轴同一点表示相等的分数，找出等值分数族。"
+    },
+    "mt_DRlbMok2lT": {
+      "sourceName": "Fraction-Decimal Equivalents",
+      "name": "常见分数与小数互换",
+      "summary": "掌握四分之一、二分之一、四分之三的小数形式。"
+    },
+    "mt_idbKDrf9qZ": {
+      "sourceName": "Fractions as parts of shapes",
+      "name": "用分数表示图形部分",
+      "summary": "按面积等分图形，把每份表示为整体的单位分数。"
+    },
+    "mt_3y7xKP9MjU": {
+      "sourceName": "Fractions of amounts (harder)",
+      "name": "求部分数量的进阶问题",
+      "summary": "求较复杂分数对应的数量，包括答案为整数的情况。"
+    },
+    "mt_ndGqFPWyen": {
+      "sourceName": "Fractions of a whole",
+      "name": "整体与分数",
+      "summary": "理解 a/b 表示把整体 b 等分后取其中 a 份。"
+    },
+    "mt_AYzE1EAvI0": {
+      "sourceName": "Fractions of a whole (age 8+)",
+      "name": "把整数写成分数（8岁起）",
+      "summary": "认识整数的分数形式，以及与整数相等的分数。"
+    },
+    "mt_NoB20kVa4w": {
+      "sourceName": "Fractions on a number line (age 8+)",
+      "name": "数轴上的分数（8岁起）",
+      "summary": "把 0–1 等分，再从零起累计份数定位分数。"
+    },
+    "mt_doX1BhmFgk": {
+      "sourceName": "Tenths (age 8+)",
+      "name": "百分之一（8岁起）",
+      "summary": "按百分之一计数，理解整体百等分或十分之一再十等分。"
+    },
+    "mt_70qDTI14td": {
+      "sourceName": "Adding and subtracting mixed numbers",
+      "name": "带分数加减",
+      "summary": "计算同分母带分数，可先化为假分数。"
+    },
+    "mt_-V7EnqU7gG": {
+      "sourceName": "Adding fractions (different denominators)",
+      "name": "异分母分数加减入门",
+      "summary": "在分母有倍数关系等情况下，通分后计算。"
+    },
+    "mt_ZLqYE7la4Z": {
+      "sourceName": "Addition and subtraction word problems",
+      "name": "分数加减应用题",
+      "summary": "借助图形和等式解决同分母分数的实际问题。"
+    },
+    "mt_933BohS9BH": {
+      "sourceName": "Comparing Decimals",
+      "name": "比较小数",
+      "summary": "按位值比较两位或三位小数，用大小符号表示。"
+    },
+    "mt_SXbZ3bC9z7": {
+      "sourceName": "Comparing fractions (age 9+)",
+      "name": "比较分数（9岁起）",
+      "summary": "通过通分、同分子或参照二分之一等比较不同分数。"
+    },
+    "mt_NaqEP8xDhZ": {
+      "sourceName": "Converting tenths to hundredths",
+      "name": "把十分数化成百分数形式",
+      "summary": "把分母 10 改写为 100，进行相应分数加法。"
+    },
+    "mt_Ii1hV4V5ql": {
+      "sourceName": "Decimal place value (age 9+)",
+      "name": "小数近似值（9岁起）",
+      "summary": "把两位小数四舍五入到整数或一位小数。"
+    },
+    "mt_Vi4Vo5xs_g": {
+      "sourceName": "Decimals for Tenths & Hundredths",
+      "name": "十分数、百分数与小数互写",
+      "summary": "在分母为 10、100 的分数与小数之间转换。"
+    },
+    "mt_sA2OvTiech": {
+      "sourceName": "Decimals to three places",
+      "name": "三位小数",
+      "summary": "解决包含最多三位小数的问题。"
+    },
+    "mt_ebPelt-qAl": {
+      "sourceName": "Equivalent fractions (age 9+)",
+      "name": "等值分数（9岁起）",
+      "summary": "理解分子分母同时乘同一个非零数，分数大小不变。"
+    },
+    "mt_VgOePicFYK": {
+      "sourceName": "Fraction Addition Concepts",
+      "name": "分数加法的含义",
+      "summary": "把分数加减理解为合并与分开，并尝试多种拆分。"
+    },
+    "mt_HJA2Oz-Zh1": {
+      "sourceName": "Fractions of a whole (age 9+)",
+      "name": "分数乘整数的应用（9岁起）",
+      "summary": "用图示和等式解决求若干份分数的实际问题。"
+    },
+    "mt_o_p-3tCxiM": {
+      "sourceName": "Mixed numbers and improper fractions",
+      "name": "带分数与假分数",
+      "summary": "辨认两种表示方式，并相互转换。"
+    },
+    "mt_TgHxujL81r": {
+      "sourceName": "Multiplying fractions",
+      "name": "分数乘法入门",
+      "summary": "把分数看作单位分数的倍数，计算分数乘整数。"
+    },
+    "mt_4ubP_RMg9o": {
+      "sourceName": "Percentage and decimal equivalents",
+      "name": "百分数与小数的对应",
+      "summary": "运用常见分数、小数和百分数之间的等值关系解题。"
+    },
+    "mt_kdWoAel3Zl": {
+      "sourceName": "Tenths (age 9+)",
+      "name": "千分之一（9岁起）",
+      "summary": "理解千分数与十分数、百分数及小数的联系。"
+    },
+    "mt_09sySPqM9Z": {
+      "sourceName": "Understanding fractions (age 9+)",
+      "name": "把分数拆成单位分数（9岁起）",
+      "summary": "理解一个分数可以由若干个相同单位分数相加组成。"
+    },
+    "mt_ZM9mhHsyYZ": {
+      "sourceName": "Understanding Percentages",
+      "name": "理解百分数",
+      "summary": "理解百分之几表示每一百份中的几份，并写成分数、小数。"
+    },
+    "mt_14T5yPXUq_": {
+      "sourceName": "Adding Fractions (Unlike Denominators)",
+      "name": "一般异分母分数加减",
+      "summary": "将分数通分后相加减，包括带分数。"
+    },
+    "mt_gx6KQK5-Kx": {
+      "sourceName": "Area with Fractions",
+      "name": "分数边长的面积",
+      "summary": "用单位分数小正方形铺长方形，理解面积等于长乘宽。"
+    },
+    "mt_PL9VkDwXfh": {
+      "sourceName": "Comparing fractions (age 10+)",
+      "name": "比较分数（10岁起）",
+      "summary": "通过通分或参照数排序，包括大于 1 的分数。"
+    },
+    "mt_4K1dr204Hi": {
+      "sourceName": "Decimals and fractions (age 10+)",
+      "name": "小数与分数（10岁起）",
+      "summary": "把分数理解为除法，并灵活转换分数、小数和百分数。"
+    },
+    "mt_1PAWhRhpdg": {
+      "sourceName": "Dividing by Fractions",
+      "name": "整数除以单位分数",
+      "summary": "用图示和乘除关系理解一个整数包含多少个单位分数。"
+    },
+    "mt_ifPDOYvUqm": {
+      "sourceName": "Dividing fractions (unit fractions)",
+      "name": "单位分数除以整数",
+      "summary": "把一个单位分数再平均分给若干份，解释结果。"
+    },
+    "mt_rCMdwG-YOE": {
+      "sourceName": "Dividing unit fractions and whole numbers",
+      "name": "单位分数与整数的除法应用",
+      "summary": "用模型和等式解决两者相除的实际问题。"
+    },
+    "mt_4Km38F4L-6": {
+      "sourceName": "Fractions of a whole (age 10+)",
+      "name": "分数与除法（10岁起）",
+      "summary": "理解分子除以分母，解决商为分数或带分数的问题。"
+    },
+    "mt_e7filQgayF": {
+      "sourceName": "Fraction Word Problems",
+      "name": "分数应用题",
+      "summary": "解决异分母加减情境题，用参照分数检查合理性。"
+    },
+    "mt_VKW8lOcFaw": {
+      "sourceName": "Multiplication as scaling",
+      "name": "乘法作为缩放",
+      "summary": "不必计算，也能判断乘数大于或小于 1 对大小的影响。"
+    },
+    "mt_AabJisinfi": {
+      "sourceName": "Multiplying fractions (age 10+)",
+      "name": "分数乘法（10岁起）",
+      "summary": "计算分数乘分数或整数，并把答案化为最简分数。"
+    },
+    "mt_lvaSGHwvQ5": {
+      "sourceName": "Real-world fraction multiplication",
+      "name": "实际生活中的分数乘法",
+      "summary": "用图示或等式解决分数和带分数的乘法问题。"
+    },
+    "mt_b7T-CjOYUR": {
+      "sourceName": "Simplifying Fractions",
+      "name": "约分与通分",
+      "summary": "利用公因数化简，利用公倍数统一分母。"
+    },
+    "mt_SBkTGjiZjZ": {
+      "sourceName": "Decimals and fractions (age 11+)",
+      "name": "小数与分数互换（11岁起）",
+      "summary": "熟练转换有限小数与对应分数。"
+    },
+    "mt_9Y96vxG_LH": {
+      "sourceName": "Dividing fractions",
+      "name": "分数除法",
+      "summary": "结合图形理解乘倒数的方法，并用于实际问题。"
+    },
+    "mt_gNUE4B3vuk": {
+      "sourceName": "Mixed & Improper Fractions",
+      "name": "带分数与假分数的四则运算",
+      "summary": "用书面方法计算正负整数、小数、分数和带分数。"
+    },
+    "mt_J339bO7qLe": {
+      "sourceName": "Multiplying fractions (age 11+)",
+      "name": "用分数或百分数求部分（11岁起）",
+      "summary": "把“某数量的几分之几或百分之几”转化成乘法。"
+    },
+    "mt_KJeEeTutJI": {
+      "sourceName": "2-D shapes",
+      "name": "平面图形",
+      "summary": "认识圆、三角形和长方形（包括正方形）。"
+    },
+    "mt_Qcp2d_kuta": {
+      "sourceName": "3-D shapes",
+      "name": "立体图形",
+      "summary": "认识正方体、长方体、棱锥、球、圆柱和圆锥。"
+    },
+    "mt_qeZYF6HZ4o": {
+      "sourceName": "Positional Language",
+      "name": "描述位置的词语",
+      "summary": "用上下、前后、旁边等词描述物体位置。"
+    },
+    "mt_yGv8doDAmp": {
+      "sourceName": "3-D shapes (age 5+)",
+      "name": "比较图形（5岁起）",
+      "summary": "用边、顶点等直观特点比较平面和立体图形。"
+    },
+    "mt_2VR963szuk": {
+      "sourceName": "Building & Drawing Shapes",
+      "name": "搭建与画出图形",
+      "summary": "用小棒、黏土等材料搭模型，并画出图形。"
+    },
+    "mt_XjwUlmxdCT": {
+      "sourceName": "Combining Simple Shapes",
+      "name": "拼合简单图形",
+      "summary": "用较小图形组成较大图形。"
+    },
+    "mt_mnEVZNkX3p": {
+      "sourceName": "Flat vs Solid Shapes",
+      "name": "平面与立体的区别",
+      "summary": "区分二维的平面图形与三维的立体图形。"
+    },
+    "mt_Y9XKzLrUAZ": {
+      "sourceName": "Turns & Directions",
+      "name": "转动与方向",
+      "summary": "描述移动，以及整圈、半圈、四分之一圈等转动。"
+    },
+    "mt_UooUHC_V7U": {
+      "sourceName": "2-D faces on 3-D shapes",
+      "name": "立体表面的平面图形",
+      "summary": "辨认圆柱、棱锥等表面上的圆、三角形等形状。"
+    },
+    "mt_sBcRdUfAzV": {
+      "sourceName": "2-D shapes (age 6+)",
+      "name": "平面图形（6岁起）",
+      "summary": "描述边数，并辨认以竖直线为对称轴的图形。"
+    },
+    "mt_bfhng6mOuy": {
+      "sourceName": "Angles in triangles (age 6+)",
+      "name": "图形的关键特征（6岁起）",
+      "summary": "区分边数等定义特征，与颜色、方向和大小等非定义特征。"
+    },
+    "mt_QNxFnxikCN": {
+      "sourceName": "Building with 3-D Shapes",
+      "name": "用立体图形搭建",
+      "summary": "组合正方体、柱体、锥体等形成新的立体。"
+    },
+    "mt_MqqR7VUoz1": {
+      "sourceName": "Composing Shapes",
+      "name": "拼合平面图形",
+      "summary": "用三角形、长方形、半圆等组成复合图形。"
+    },
+    "mt_Mnodea7mG_": {
+      "sourceName": "Edges, vertices, and faces",
+      "name": "棱、顶点与面",
+      "summary": "描述立体图形的棱数、顶点数和面数。"
+    },
+    "mt_WXW0hjNhph": {
+      "sourceName": "Patterns & Sequences",
+      "name": "图案与序列",
+      "summary": "按规律排列数学物品和图形。"
+    },
+    "mt_TdV9YGJEoY": {
+      "sourceName": "Position, direction, and movement",
+      "name": "位置、方向与移动",
+      "summary": "用直线、直角、顺逆时针等词准确描述运动。"
+    },
+    "mt_fEuoBYw6bU": {
+      "sourceName": "Sorting 2-D and 3-D shapes",
+      "name": "给平面和立体图形分类",
+      "summary": "根据属性比较和整理图形及日常物体。"
+    },
+    "mt_vJUa62bxeR": {
+      "sourceName": "2-D shapes (age 7+)",
+      "name": "画图与搭模型（7岁起）",
+      "summary": "画平面图形、制作立体模型，辨认不同朝向的立体。"
+    },
+    "mt_zuOGOGFAKb": {
+      "sourceName": "Angles in triangles (age 7+)",
+      "name": "按特征辨认图形（7岁起）",
+      "summary": "根据指定角数、面等条件，辨认并画出图形。"
+    },
+    "mt_u23IGDxOpk": {
+      "sourceName": "Parallel and perpendicular lines",
+      "name": "平行线与垂直线",
+      "summary": "辨认水平、竖直、互相平行和互相垂直的线。"
+    },
+    "mt_MFfYcnv6Tv": {
+      "sourceName": "Right Angles & Turns",
+      "name": "直角与转动",
+      "summary": "理解两个直角对应半圈，四个直角对应一整圈。"
+    },
+    "mt_8OAGVdeTJ_": {
+      "sourceName": "Understanding angles",
+      "name": "认识角",
+      "summary": "把角理解为图形属性，也可用来描述转动。"
+    },
+    "mt_hRZyKvz1KN": {
+      "sourceName": "2-D shapes (age 8+)",
+      "name": "平面图形的对称轴（8岁起）",
+      "summary": "辨认不同朝向图形的对称轴，并画出来。"
+    },
+    "mt_i5_HnoFOYw": {
+      "sourceName": "Coordinates (age 8+)",
+      "name": "坐标描点（8岁起）",
+      "summary": "在网格上标出指定点，再连接成多边形。"
+    },
+    "mt_Uq5vYqboCR": {
+      "sourceName": "Describing Movements",
+      "name": "描述平移",
+      "summary": "用向左、右、上、下移动若干单位描述位置变化。"
+    },
+    "mt_jBQS-CicNn": {
+      "sourceName": "First Quadrant Coordinates",
+      "name": "第一象限坐标",
+      "summary": "用一对坐标数描述网格中的位置。"
+    },
+    "mt_hR2Y7NhMSY": {
+      "sourceName": "Lines of symmetry",
+      "name": "对称轴",
+      "summary": "根据指定对称轴补全简单对称图形。"
+    },
+    "mt_vnJEztczji": {
+      "sourceName": "Nets of 3-D Shapes",
+      "name": "立体图形的展开图",
+      "summary": "判断平面组合能否折成立体，画出并解释展开图。"
+    },
+    "mt_SH7QgFl8-v": {
+      "sourceName": "Transformations on a grid",
+      "name": "网格上的图形变换",
+      "summary": "完成并描述轴对称、平移和指定中心的旋转。"
+    },
+    "mt_h0CVtqI2xo": {
+      "sourceName": "Types of angles",
+      "name": "角的类型",
+      "summary": "辨认锐角和钝角，比较不超过平角的角。"
+    },
+    "mt_e4V6hvcuEJ": {
+      "sourceName": "Types of angles (age 8+)",
+      "name": "几何图示记号（8岁起）",
+      "summary": "读写直角、等边、等角等标记和三字母角名称。"
+    },
+    "mt_Xt1cRqaBOW": {
+      "sourceName": "Understanding angles (age 8+)",
+      "name": "按共同属性分类（8岁起）",
+      "summary": "理解正方形、长方形、菱形等四边形类别之间的关系。"
+    },
+    "mt_wUSbRt3-qw": {
+      "sourceName": "3-D shapes (age 9+)",
+      "name": "立体图形（9岁起）",
+      "summary": "从平面呈现中辨认正方体及其他长方体等立体。"
+    },
+    "mt_oqziWKry-L": {
+      "sourceName": "Angle Sum Rules",
+      "name": "角的和与相等关系",
+      "summary": "运用周角 360°、平角 180°及对顶角相等求未知角。"
+    },
+    "mt_r8c43QB6wx": {
+      "sourceName": "Classifying shapes by line properties",
+      "name": "按线和角的性质分类",
+      "summary": "根据平行、垂直和角度特征区分平面图形。"
+    },
+    "mt_qUGMyMYn9m": {
+      "sourceName": "Degrees and turns",
+      "name": "角度与转动",
+      "summary": "理解一度是一整圈的 1/360，并用度数描述转动。"
+    },
+    "mt_YUJ5pwalqL": {
+      "sourceName": "Estimating Angles",
+      "name": "估计角的大小",
+      "summary": "估计、比较并排列锐角、钝角和优角。"
+    },
+    "mt_QysgF57dxh": {
+      "sourceName": "Lines, Rays & Angles",
+      "name": "直线、射线与角",
+      "summary": "画出和辨认点、线段、射线及不同角和线的关系。"
+    },
+    "mt_4MFUAsbx_6": {
+      "sourceName": "Measuring angles",
+      "name": "测量角",
+      "summary": "用量角器测量整度数的角，并画指定角度。"
+    },
+    "mt_89riIKwGYp": {
+      "sourceName": "Measuring angles (age 9+)",
+      "name": "角度的相加相减（9岁起）",
+      "summary": "通过角度可相加的性质，用等式求未知角。"
+    },
+    "mt_8H2kO4k2B9": {
+      "sourceName": "Regular and irregular polygons",
+      "name": "正多边形与不规则多边形",
+      "summary": "根据边长和内角是否全部相等区分图形。"
+    },
+    "mt_efOeaGFyGM": {
+      "sourceName": "Transformations on a Grid",
+      "name": "网格上的平移与轴对称",
+      "summary": "描述变换后的位置，理解图形形状和大小保持不变。"
+    },
+    "mt_KFKUR_gBg_": {
+      "sourceName": "Understanding angles (age 9+)",
+      "name": "利用长方形性质（9岁起）",
+      "summary": "根据长方形的性质求未知边长和角度。"
+    },
+    "mt_3S10OOGPqu": {
+      "sourceName": "What Is an Angle?",
+      "name": "什么是角",
+      "summary": "理解两条共端点射线形成角，在生活和图形中辨认。"
+    },
+    "mt_hdrMoiTgqu": {
+      "sourceName": "2-D shapes (age 10+)",
+      "name": "按条件画平面图形（10岁起）",
+      "summary": "准确使用尺和量角器，按给定边长和角度作图。"
+    },
+    "mt_REwgr0d_ss": {
+      "sourceName": "3-D shapes (age 10+)",
+      "name": "制作立体图形（10岁起）",
+      "summary": "辨认、描述和搭建简单立体，包括制作展开图。"
+    },
+    "mt_cdMlC7EpTJ": {
+      "sourceName": "Angles in triangles (age 10+)",
+      "name": "多边形中的未知角（10岁起）",
+      "summary": "利用内角和求三角形、四边形和正多边形的未知角。"
+    },
+    "mt_liIW336odh": {
+      "sourceName": "Classifying shapes by properties",
+      "name": "按性质分层分类图形",
+      "summary": "理解大类别的属性同样适用于其子类别。"
+    },
+    "mt_R4AY0LKxfl": {
+      "sourceName": "Coordinates (age 10+)",
+      "name": "四象限坐标（10岁起）",
+      "summary": "在完整坐标平面中，用含负数的坐标描述位置。"
+    },
+    "mt_oDlduFnemk": {
+      "sourceName": "Numbers on a number line",
+      "name": "坐标轴与有序数对",
+      "summary": "认识原点和两条垂直数轴，理解横纵坐标的顺序。"
+    },
+    "mt_xq3YHZ2zeR": {
+      "sourceName": "Parts of a circle",
+      "name": "圆的组成部分",
+      "summary": "认识半径、直径和圆周，理解直径是半径的两倍。"
+    },
+    "mt_snlqRCiA1R": {
+      "sourceName": "Plotting points in the first quadrant",
+      "name": "第一象限描点",
+      "summary": "绘制和读取数对，并结合情境解释坐标。"
+    },
+    "mt_lxaM6iVpdr": {
+      "sourceName": "Translating and reflecting shapes",
+      "name": "平移与轴对称作图",
+      "summary": "在坐标平面中平移图形，并以坐标轴作对称轴。"
+    },
+    "mt_QDTO3GAgcq": {
+      "sourceName": "Understanding angles (age 10+)",
+      "name": "角的基本关系（10岁起）",
+      "summary": "利用周角、平角和对顶角性质求缺少的角。"
+    },
+    "mt_nRksLqt-iR": {
+      "sourceName": "3-D shapes (age 11+)",
+      "name": "立体图形性质（11岁起）",
+      "summary": "用面、棱、顶点及曲面性质解决问题，并想象截面。"
+    },
+    "mt_tAJH5BrpOx": {
+      "sourceName": "Angles in triangles (age 11+)",
+      "name": "面积与体积公式推导（11岁起）",
+      "summary": "联系几何原理，推导常见平面图形面积及柱体体积。"
+    },
+    "mt_J03RFlVdas": {
+      "sourceName": "Angle sums in triangles and polygons",
+      "name": "三角形与多边形内角和",
+      "summary": "从三角形 180°推导多边形内角和及正多边形内外角。"
+    },
+    "mt_K0Y15w48SY": {
+      "sourceName": "Coordinate Transformations",
+      "name": "坐标中的全等变换",
+      "summary": "描述平移、旋转和轴对称，理解变换前后图形全等。"
+    },
+    "mt_Jf8xcX4UTq": {
+      "sourceName": "Measuring angles (age 11+)",
+      "name": "精确测量与比例图（11岁起）",
+      "summary": "用尺和量角器作图测量，从比例图求实际尺寸。"
+    },
+    "mt_DNYQLahbfa": {
+      "sourceName": "Properties of triangles and quadrilaterals",
+      "name": "三角形与四边形的性质",
+      "summary": "推导并说明角、对角线、对称和边长关系。"
+    },
+    "mt_WtIFJSCQIT": {
+      "sourceName": "Types of angles (age 11+)",
+      "name": "几何术语与记号（11岁起）",
+      "summary": "准确描述和画出线、角、多边形及对称图形。"
+    },
+    "mt_tedML_iu4Y": {
+      "sourceName": "Understanding angles (age 11+)",
+      "name": "多步求角（11岁起）",
+      "summary": "综合运用周角、平角和对顶角性质解决问题。"
+    },
+    "mt_167X6Ax8P7": {
+      "sourceName": "Angles in triangles (age 12+)",
+      "name": "三角形全等（12岁起）",
+      "summary": "运用边边边、边角边等判定，正确标记边和角。"
+    },
+    "mt_H_pNJ3ZI_S": {
+      "sourceName": "Angles with parallel lines",
+      "name": "平行线中的角",
+      "summary": "理解同位角、内错角和同旁内角关系，并求未知角。"
+    },
+    "mt_svFa6_mjO_": {
+      "sourceName": "Circles: Circumference & Area",
+      "name": "圆的周长与面积",
+      "summary": "使用圆周长、面积公式，解决含圆弧的组合图形问题。"
+    },
+    "mt_y-BuQAfw4B": {
+      "sourceName": "Coordinates (age 12+)",
+      "name": "相似与放大（12岁起）",
+      "summary": "按给定中心和比例因子构造相似图形。"
+    },
+    "mt_ZrsqGVG-Wt": {
+      "sourceName": "Understanding angles (age 12+)",
+      "name": "尺规作图（12岁起）",
+      "summary": "用直尺和圆规作垂直平分线、垂线及角平分线。"
+    },
+    "mt_KB_Czd7RQH": {
+      "sourceName": "Trigonometry basics",
+      "name": "三角函数入门",
+      "summary": "用正弦、余弦和正切求直角三角形未知边角。"
+    },
+    "mt_1VmTUxBrNd": {
+      "sourceName": "Types of angles (age 13+)",
+      "name": "勾股定理（13岁起）",
+      "summary": "用两直角边平方和等于斜边平方，求未知边长。"
+    },
+    "mt_lMz9nAs7VO": {
+      "sourceName": "Early Maths Vocabulary",
+      "name": "初步数学词汇",
+      "summary": "准确使用计数、比较、图形和位置相关的词语。"
+    },
+    "mt_RFeVlw0QvX": {
+      "sourceName": "Finding efficient methods",
+      "name": "寻找高效方法",
+      "summary": "发现重复计算和规律，更快计数或预测结果。"
+    },
+    "mt_20WfHhnL39": {
+      "sourceName": "Hands-On Problem Solving",
+      "name": "动手解决数学问题",
+      "summary": "选择实物、手指、十格框等熟悉工具帮助思考。"
+    },
+    "mt_WkKkb7W9Qd": {
+      "sourceName": "Making Sense of Problems",
+      "name": "读懂数学问题",
+      "summary": "弄清题目在问什么，用实物或图画表示并说明思路。"
+    },
+    "mt_IM1G_7QzTa": {
+      "sourceName": "Real-World to Maths Connections",
+      "name": "把实际情境转成数学表示",
+      "summary": "用图画、表格、算式或条形模型表示生活问题。"
+    },
+    "mt_nyK25mNOeR": {
+      "sourceName": "Showing Your Working",
+      "name": "展示解题过程",
+      "summary": "用物品、图画和口述说明答案是怎样得到的。"
+    },
+    "mt_uG2mjHFOlO": {
+      "sourceName": "Spotting mathematical patterns",
+      "name": "发现数学规律",
+      "summary": "观察顺序改变、数量关系等简单结构。"
+    },
+    "mt_fLOkq-HfPB": {
+      "sourceName": "Using objects to model real problems",
+      "name": "用实物为实际问题建模",
+      "summary": "用物品、图画或简单算式表示生活中的情境。"
+    },
+    "mt_f67qGDhyfi": {
+      "sourceName": "Connecting maths to real life",
+      "name": "联系数学与生活",
+      "summary": "用算式和图示解题，再回到情境解释结果。"
+    },
+    "mt_EBYGhd8X3x": {
+      "sourceName": "Connecting Representations",
+      "name": "连接不同表示方式",
+      "summary": "说明实际情境、图画和算式之间怎样对应。"
+    },
+    "mt_kJ5wYzO8qC": {
+      "sourceName": "Explaining Mathematical Reasoning",
+      "name": "解释数学推理",
+      "summary": "在教师提示下，用图画、算式或语言说明理由。"
+    },
+    "mt_fZTn0W_iZR": {
+      "sourceName": "Generalising Patterns",
+      "name": "概括规律",
+      "summary": "从重复推理中发现规则，并用已知关系预测。"
+    },
+    "mt_O_UOTiMvT_": {
+      "sourceName": "Guided Multi-Step Problem Solving",
+      "name": "在指导下解决多步问题",
+      "summary": "找出有关信息、规划步骤并选择所需运算。"
+    },
+    "mt_zMEvtigoM3": {
+      "sourceName": "Numbers on a number line",
+      "name": "选择数轴等数学工具",
+      "summary": "使用数轴、百数表、尺或部分整体模型帮助解题。"
+    },
+    "mt_TMoHjMhRS2": {
+      "sourceName": "Precise Maths Communication",
+      "name": "准确交流数学想法",
+      "summary": "使用正确词汇和符号，写清单位。"
+    },
+    "mt_DW2D1c0fKx": {
+      "sourceName": "Shape patterns",
+      "name": "利用数学结构",
+      "summary": "运用运算规律、位值和图形关系提高解题效率。"
+    },
+    "mt_mQcWGh02no": {
+      "sourceName": "Choosing the right strategy",
+      "name": "选择合适的策略",
+      "summary": "按需要选择口算、草稿、规范笔算或计算器。"
+    },
+    "mt_2jbUekyTu4": {
+      "sourceName": "Extending Table Patterns",
+      "name": "延伸乘法表规律",
+      "summary": "从已知算式推导未知算式，描述序列规则。"
+    },
+    "mt_pyMD_SIiYO": {
+      "sourceName": "Justifying mathematical reasoning",
+      "name": "说明数学推理的依据",
+      "summary": "组织多步论证，找出推理错误并解释方法是否有效。"
+    },
+    "mt_RKeheOL9uo": {
+      "sourceName": "Multi-Step Problem Solving",
+      "name": "多步解题入门",
+      "summary": "在教师支持下拆解问题、选择策略并检查合理性。"
+    },
+    "mt_FAXjFkgG6X": {
+      "sourceName": "Shape patterns (age 7+)",
+      "name": "运用结构（7岁起）",
+      "summary": "利用三位数位值、乘除关系和图形性质解题分类。"
+    },
+    "mt_dXq9VWm31W": {
+      "sourceName": "Understanding fractions",
+      "name": "连接整数与分数的表示",
+      "summary": "在情境、图示和等式间转换，解释每部分代表什么。"
+    },
+    "mt_HY8Yycu_rz": {
+      "sourceName": "Understanding fractions (age 7+)",
+      "name": "准确表达分数（7岁起）",
+      "summary": "正确使用位值、分数术语、测量单位和记号。"
+    },
+    "mt_iQYPw8bMfN": {
+      "sourceName": "Working with money",
+      "name": "金额、测量与时间建模",
+      "summary": "选择合适表示解决生活问题，并结合情境解释结果。"
+    },
+    "mt_d-WZC2OyMB": {
+      "sourceName": "Choosing mathematical tools",
+      "name": "选择数学工具",
+      "summary": "比较口算、笔算和图示，选择分数模型并用计算器检查。"
+    },
+    "mt_3VmBdlAeOZ": {
+      "sourceName": "Fractions on a number line",
+      "name": "连接分数、小数的表示",
+      "summary": "在情境、图示、数轴和等式间转换并解释意义。"
+    },
+    "mt_a3dov8CZkq": {
+      "sourceName": "Justifying mathematical reasoning (age 8+)",
+      "name": "说明推理依据（8岁起）",
+      "summary": "呈现多步论证，评价他人方法为何有效或失败。"
+    },
+    "mt_mywsN77hGZ": {
+      "sourceName": "Mathematical Precision",
+      "name": "数学表达的准确性",
+      "summary": "准确使用分数、小数、角和单位术语及运算符号。"
+    },
+    "mt_K3R0yaHVcx": {
+      "sourceName": "Modelling with multiplication and fractions",
+      "name": "用乘法与分数建模",
+      "summary": "为面积、分数和单位换算等实际问题选择表示方式。"
+    },
+    "mt_SmghasIvbT": {
+      "sourceName": "Multi-Step Problem Solving",
+      "name": "自主处理多步问题",
+      "summary": "拆解四则运算、分数及面积体积问题，并监控进展。"
+    },
+    "mt_aivrWs6jrS": {
+      "sourceName": "Times tables (age 8+)",
+      "name": "概括乘法与分数规律（8岁起）",
+      "summary": "延伸乘法表和等值分数模式，从已知推导未知。"
+    },
+    "mt__Itf4aQZUj": {
+      "sourceName": "Using Mathematical Structure",
+      "name": "运用数学结构",
+      "summary": "利用位值、分配律、等值分数和图形性质解题。"
+    },
+    "mt_IwEOCN6bL1": {
+      "sourceName": "Choosing representations strategically",
+      "name": "有策略地选择表示方式",
+      "summary": "按题目需要选口算、笔算、量角器、分数条或图示。"
+    },
+    "mt_GpltXPoaoc": {
+      "sourceName": "Complex Multi-Step Problems",
+      "name": "复杂多步问题",
+      "summary": "分析已知与未知，规划步骤，用估算和逆运算检查。"
+    },
+    "mt_hlGKg5M7qJ": {
+      "sourceName": "Fractions, Decimals & Percentages",
+      "name": "联系分数、小数与百分数",
+      "summary": "利用等值关系、因数配对及角和多边形性质解题。"
+    },
+    "mt_CUmjcE7W6c": {
+      "sourceName": "Fractions on a number line (age 9+)",
+      "name": "连接多种数学表示（9岁起）",
+      "summary": "说明图示、数轴、条形模型与符号等式之间的联系。"
+    },
+    "mt_xfwv0M83mJ": {
+      "sourceName": "Precise Maths Vocabulary",
+      "name": "精确的数学术语",
+      "summary": "准确描述质数、因倍数、角和多边形，并写对单位与幂。"
+    },
+    "mt_8xVHooT4aI": {
+      "sourceName": "Real-World Maths Modelling",
+      "name": "实际问题的数学建模",
+      "summary": "用数学表示处理缩放、换算、面积周长和百分数。"
+    },
+    "mt_jCy07DyBNU": {
+      "sourceName": "Reasoning with Equivalences",
+      "name": "用等值关系推理",
+      "summary": "归纳分数和百分数转换规律，并预测数列项。"
+    },
+    "mt_2ESZh70NyS": {
+      "sourceName": "Understanding fractions (age 9+)",
+      "name": "评价分数等问题的推理（9岁起）",
+      "summary": "呈现多步论证，解释他人推理的错误或替代方法。"
+    },
+    "mt_3rTIyJDw7-": {
+      "sourceName": "Advanced Maths Vocabulary",
+      "name": "进阶数学术语",
+      "summary": "准确表达比、比例、代数、体积、坐标及圆的概念。"
+    },
+    "mt_FieL-vVTI_": {
+      "sourceName": "Advanced Multi-Step Problems",
+      "name": "进阶多步问题",
+      "summary": "综合比、代数、负数和分数小数运算，规划并检查解法。"
+    },
+    "mt_ZJC7JnnPCu": {
+      "sourceName": "Choosing Maths Tools",
+      "name": "选择数学方法与工具",
+      "summary": "按任务选择口算、笔算、代数、坐标网格或技术工具。"
+    },
+    "mt_j5YqQnN6xe": {
+      "sourceName": "Constructing mathematical arguments",
+      "name": "构建数学论证",
+      "summary": "组织正式的多步推理，评价分数、代数和几何论证。"
+    },
+    "mt_iyovKgZC1q": {
+      "sourceName": "Generalising with repeated reasoning",
+      "name": "通过重复推理概括规则",
+      "summary": "提出数列和运算规则，再用具体例子检验。"
+    },
+    "mt_hImiKNiaNh": {
+      "sourceName": "Order of operations (age 10+)",
+      "name": "运算顺序与结构（10岁起）",
+      "summary": "利用图形分类、代数结构和比例关系简化问题。"
+    },
+    "mt_yqZiX6vS7D": {
+      "sourceName": "Real-World Mathematical Modelling",
+      "name": "综合实际问题建模",
+      "summary": "用工具、图示和方程表示比、比例尺、体积及换算。"
+    },
+    "mt_9KmVWCuh5_": {
+      "sourceName": "Understanding fractions (age 10+)",
+      "name": "连接分数、比与代数（10岁起）",
+      "summary": "在情境、图示、表格、坐标和代数式间灵活转换。"
+    },
+    "mt_zkFbMLpu3U": {
+      "sourceName": "Comparing Capacity",
+      "name": "比较容量",
+      "summary": "用满、空、半满、更多或更少描述容器容量。"
+    },
+    "mt_TcG90kS8nu": {
+      "sourceName": "Comparing durations",
+      "name": "比较时间长短",
+      "summary": "用快慢、早晚等词描述时间。"
+    },
+    "mt_uhuxX8sg9f": {
+      "sourceName": "Comparing Lengths & Heights",
+      "name": "比较长度与高度",
+      "summary": "直接比较两个物体，用更长、更高、一半等词描述。"
+    },
+    "mt_NtJYlJdUe9": {
+      "sourceName": "Measurable Attributes of Objects",
+      "name": "物体的可测量属性",
+      "summary": "认识长度、高度、重量和容量，并作比较。"
+    },
+    "mt_-P1kdZhHbL": {
+      "sourceName": "Measuring mass and weight (age 4+)",
+      "name": "比较轻重（4岁起）",
+      "summary": "直接比较两个物体，用轻、重、更轻或更重描述。"
+    },
+    "mt_-vvVxpOHG2": {
+      "sourceName": "Ordering Events in Time",
+      "name": "按时间排列事件",
+      "summary": "用之前、之后、今天、明天等词整理顺序。"
+    },
+    "mt_4lp_b5Pzik": {
+      "sourceName": "Capacity and volume",
+      "name": "容量与体积",
+      "summary": "使用非标准或标准单位，开始测量和记录。"
+    },
+    "mt_cPZwlUk8Nd": {
+      "sourceName": "Coin Values",
+      "name": "硬币与纸币面值",
+      "summary": "认识不同钱币及其代表的金额。"
+    },
+    "mt_bj1YCgNWUx": {
+      "sourceName": "Days, Weeks, Months & Years",
+      "name": "日、周、月与年",
+      "summary": "认识星期、周、月份和年份等日期词语。"
+    },
+    "mt_KaF0SQvaiu": {
+      "sourceName": "Measuring length and height (age 5+)",
+      "name": "测量长度与高度（5岁起）",
+      "summary": "尝试用非标准和标准单位测量并记录。"
+    },
+    "mt_zd0YkB3xNj": {
+      "sourceName": "Measuring mass and weight",
+      "name": "测量质量与重量",
+      "summary": "用不同单位测量、记录物体的轻重。"
+    },
+    "mt_0XxyaQLRhn": {
+      "sourceName": "Telling Time: Hours and Half Hours",
+      "name": "认识整点与半点",
+      "summary": "读取整点和半点，并画出对应指针。"
+    },
+    "mt__N55B7u7HD": {
+      "sourceName": "Telling time to the minute",
+      "name": "记录时、分、秒",
+      "summary": "开始用小时、分钟和秒测量并记录时间。"
+    },
+    "mt_AF2BeFQwfX": {
+      "sourceName": "Adding money and giving change",
+      "name": "相同金额的不同组合",
+      "summary": "找出不同硬币组合，使总金额相同。"
+    },
+    "mt_DOe893F6gN": {
+      "sourceName": "Choosing measurement units",
+      "name": "选择测量单位",
+      "summary": "按长度、质量、温度和容量选适当标准单位。"
+    },
+    "mt_BFJ-ch_8QU": {
+      "sourceName": "Comparing and ordering measurements",
+      "name": "比较与排列测量值",
+      "summary": "用大于、小于或等号记录长度、质量和容量的比较。"
+    },
+    "mt_skYly2Qm01": {
+      "sourceName": "Measuring length",
+      "name": "比较三个物体的长度",
+      "summary": "给三个物体排序，并借助第三个物体间接比较。"
+    },
+    "mt_cqSf213hSa": {
+      "sourceName": "Measuring length (age 6+)",
+      "name": "测量长度（6岁起）",
+      "summary": "把等长单位首尾相接，不留空隙也不重叠。"
+    },
+    "mt_6J1wmCWf41": {
+      "sourceName": "Money Addition & Subtraction",
+      "name": "金额加减法",
+      "summary": "解决简单的购物金额和找零问题。"
+    },
+    "mt_2XDGT5tei1": {
+      "sourceName": "Number of minutes in an hour",
+      "name": "一小时有多少分钟",
+      "summary": "知道一小时 60 分钟，一天 24 小时。"
+    },
+    "mt_pbuhUQJjtt": {
+      "sourceName": "Pounds & Pence Notation",
+      "name": "英镑与便士的记号",
+      "summary": "认识 £ 和 p，并用不同金额组成指定数值。"
+    },
+    "mt_6XCURuNwPw": {
+      "sourceName": "Sequence intervals of time",
+      "name": "比较时间间隔",
+      "summary": "按持续时间长短比较和排序。"
+    },
+    "mt_HNOPGJYiRK": {
+      "sourceName": "Telling Time: Minutes",
+      "name": "认钟表：五分钟刻度",
+      "summary": "读写精确到五分钟的时刻，包括一刻和差一刻。"
+    },
+    "mt_DLcEzmmj2r": {
+      "sourceName": "Addition and subtraction word problems",
+      "name": "长度的加减应用题",
+      "summary": "用图示和等式解决 100 以内的长度问题。"
+    },
+    "mt_6oxQPNLHNv": {
+      "sourceName": "Calculating with measurements",
+      "name": "测量值的计算",
+      "summary": "测量、比较并加减长度、质量和容量。"
+    },
+    "mt_xWg0lI_gG4": {
+      "sourceName": "Comparing lengths by measuring",
+      "name": "测量长度差",
+      "summary": "用标准单位说明一个物体比另一个长多少。"
+    },
+    "mt_4emC463IyW": {
+      "sourceName": "Comparing Time Durations",
+      "name": "比较持续时间",
+      "summary": "比较事件时长，并计算一项任务花了多久。"
+    },
+    "mt_3XJkeIn6J6": {
+      "sourceName": "Estimating answers (age 7+)",
+      "name": "估计与读取时间（7岁起）",
+      "summary": "逐步精确到分钟，用秒、分、小时记录和比较。"
+    },
+    "mt_OzRZ89GrQW": {
+      "sourceName": "Estimating Lengths",
+      "name": "估计长度",
+      "summary": "用英寸、英尺、厘米和米等单位估计。"
+    },
+    "mt_6_O6THdEDK": {
+      "sourceName": "Giving Change",
+      "name": "找零",
+      "summary": "用英镑和便士的加减解决实际购物问题。"
+    },
+    "mt_3tz3Otap5j": {
+      "sourceName": "Halves and quarters (age 7+)",
+      "name": "美元与硬币应用题（7岁起）",
+      "summary": "使用美元、美分及常见硬币面值解决金额问题。"
+    },
+    "mt_e4x3l2JeLI": {
+      "sourceName": "Measuring length (age 7+)",
+      "name": "选择量长工具（7岁起）",
+      "summary": "按物体选用直尺、米尺或卷尺测量。"
+    },
+    "mt_wE7-Gs9ENL": {
+      "sourceName": "Measuring Perimeters",
+      "name": "测量周长",
+      "summary": "测量简单平面图形边界的总长度。"
+    },
+    "mt_mayItsxMUu": {
+      "sourceName": "Measuring & Plotting Lengths",
+      "name": "测量长度并画点图",
+      "summary": "记录精确到整单位的长度，并在数线上用点表示。"
+    },
+    "mt_jHv4BgRK8B": {
+      "sourceName": "Measuring with different units",
+      "name": "用不同单位测量",
+      "summary": "用两种长度单位测同一物体，理解单位大小与数值的关系。"
+    },
+    "mt_4m8BimI4G5": {
+      "sourceName": "Telling time to the minute (age 7+)",
+      "name": "读写钟表（7岁起）",
+      "summary": "精确到五分钟，认识上下午以及 12、24 小时记法。"
+    },
+    "mt_EXlmTURK_o": {
+      "sourceName": "Time Units and Calendar Facts",
+      "name": "时间单位与日历知识",
+      "summary": "认识分秒换算、每月天数，以及平年和闰年。"
+    },
+    "mt_WfrE_4r-kY": {
+      "sourceName": "12-hour and 24-hour time",
+      "name": "12小时制与24小时制",
+      "summary": "读写指针钟和数字钟，并转换两种记时方式。"
+    },
+    "mt_y1n0Zwhoca": {
+      "sourceName": "Area (age 8+)",
+      "name": "数方格求面积（8岁起）",
+      "summary": "用平方厘米、平方米等单位方格测量面积。"
+    },
+    "mt_AQo4u7O4sM": {
+      "sourceName": "Area and the distributive property",
+      "name": "面积与分配律",
+      "summary": "通过把长方形分块，解释乘法分配律。"
+    },
+    "mt_Jvvh5P06NV": {
+      "sourceName": "Area by Tiling",
+      "name": "铺方格求面积",
+      "summary": "用单位正方形铺满长方形，理解面积等于长乘宽。"
+    },
+    "mt_eMtV6tBSJm": {
+      "sourceName": "Area of compound shapes",
+      "name": "组合图形的面积",
+      "summary": "拆成不重叠长方形，求面积后相加。"
+    },
+    "mt_d8al9JcajP": {
+      "sourceName": "Converting measurement units",
+      "name": "测量单位换算",
+      "summary": "转换千米与米，以及常用时间单位等。"
+    },
+    "mt_mFJ-2ZF6Tk": {
+      "sourceName": "Estimating and comparing money",
+      "name": "估计和比较金额",
+      "summary": "估算、比较并计算不同测量值，包括英镑和便士。"
+    },
+    "mt_ghK1mnEstc": {
+      "sourceName": "Halves and quarters (age 8+)",
+      "name": "半英寸与四分之一英寸（8岁起）",
+      "summary": "按这些精度测量长度，并在带分数刻度的数线上画点图。"
+    },
+    "mt_-af65bxfdp": {
+      "sourceName": "Measuring Liquids & Masses",
+      "name": "测量液体与质量",
+      "summary": "用克、千克和升测量估计，并解决一步应用题。"
+    },
+    "mt_IL86kadLSS": {
+      "sourceName": "Numbers on a number line",
+      "name": "用数轴计算经过时间",
+      "summary": "通过分钟间隔的加减，求事件持续多久。"
+    },
+    "mt_WtcFrxGOgw": {
+      "sourceName": "Perimeters of polygons",
+      "name": "多边形周长",
+      "summary": "求周长或未知边，探索相同周长与不同面积。"
+    },
+    "mt_UNzojLkNdm": {
+      "sourceName": "Telling time to the minute (age 8+)",
+      "name": "读钟精确到分钟（8岁起）",
+      "summary": "准确读写指针钟和数字钟的时刻。"
+    },
+    "mt_GzcJEVkNRn": {
+      "sourceName": "Understanding angles (age 8+)",
+      "name": "长方形面积与乘法（8岁起）",
+      "summary": "用边长相乘求面积，用面积模型表示整数乘积。"
+    },
+    "mt_6xNmQLzuqm": {
+      "sourceName": "Understanding Area",
+      "name": "理解面积",
+      "summary": "用不重叠、无空隙覆盖图形的单位正方形数表示面积。"
+    },
+    "mt_Zks8xyInSG": {
+      "sourceName": "Converting measurement units (age 9+)",
+      "name": "测量单位换算（9岁起）",
+      "summary": "理解同一系统单位的大小关系，并用换算表记录。"
+    },
+    "mt_eiB3-6pu6a": {
+      "sourceName": "Estimating answers (age 9+)",
+      "name": "面积与周长的计算估计（9岁起）",
+      "summary": "运用长方形公式解题，并估计不规则图形面积。"
+    },
+    "mt_NSC3LT_-ch": {
+      "sourceName": "Estimating volume",
+      "name": "估计体积与容量",
+      "summary": "用单位小方块估计长方体体积，用水估计容器容量。"
+    },
+    "mt_5HV4mbgSGH": {
+      "sourceName": "Fractions on a number line",
+      "name": "分数小数测量应用题",
+      "summary": "用四则运算和数轴等图示解决距离、时间、容量和金额问题。"
+    },
+    "mt_42QD6nYjiZ": {
+      "sourceName": "Measurement Line Plots",
+      "name": "测量数据点图",
+      "summary": "把分数单位的测量值画成点图，用分数加减分析。"
+    },
+    "mt_p6MhZJYYPN": {
+      "sourceName": "Metric & Imperial Conversion",
+      "name": "公制与英制换算",
+      "summary": "认识厘米等公制单位与英寸、磅、品脱的近似关系。"
+    },
+    "mt_n0AlyLQwC9": {
+      "sourceName": "Perimeter of Compound Shapes",
+      "name": "组合图形的周长",
+      "summary": "测量并计算由直角边界组成的复合图形周长。"
+    },
+    "mt_2yas4Unc8o": {
+      "sourceName": "Telling time to the minute (age 9+)",
+      "name": "时间换算问题（9岁起）",
+      "summary": "解决时分秒、年月、周日等单位转换问题。"
+    },
+    "mt_ML5t7n2-U8": {
+      "sourceName": "Area of Triangles & Parallelograms",
+      "name": "三角形与平行四边形面积",
+      "summary": "用底乘高及其一半的公式计算面积。"
+    },
+    "mt_d7XktBQPxm": {
+      "sourceName": "Counting Unit Cubes",
+      "name": "数单位小正方体",
+      "summary": "以立方厘米等单位，通过数小方块测量体积。"
+    },
+    "mt_2VpdPjvewx": {
+      "sourceName": "Decimal place value",
+      "name": "用小数表示单位换算",
+      "summary": "在大小单位之间转换，使用最多三位小数记录。"
+    },
+    "mt_nTL-owFJTF": {
+      "sourceName": "Estimating answers (age 10+)",
+      "name": "长方体体积（10岁起）",
+      "summary": "用单位方块理解长乘宽乘高，并计算、估计和比较体积。"
+    },
+    "mt_SqhXQhAEUf": {
+      "sourceName": "Measurement Conversions",
+      "name": "测量换算应用题",
+      "summary": "在实际情境中结合小数与多步推理处理单位换算。"
+    },
+    "mt_IuHa5UI5od": {
+      "sourceName": "Measuring length (age 10+)",
+      "name": "理解体积单位（10岁起）",
+      "summary": "认识单位正方体，以能装入的小方块个数表示体积。"
+    },
+    "mt_3tPI0HqqcN": {
+      "sourceName": "Miles & Kilometres",
+      "name": "英里与千米",
+      "summary": "利用 5 英里约等于 8 千米进行近似换算。"
+    },
+    "mt_MJZA90uc6H": {
+      "sourceName": "Perimeter (age 10+)",
+      "name": "周长与面积的关系（10岁起）",
+      "summary": "探索同面积不同周长，以及同周长不同面积的情况。"
+    },
+    "mt_5TBUFnCy5-": {
+      "sourceName": "Volume as additive",
+      "name": "体积可以相加",
+      "summary": "把组合立体分成互不重叠的长方体，求体积后相加。"
+    },
+    "mt_LpSuPgL31x": {
+      "sourceName": "Division as equal sharing",
+      "name": "除法就是平均分或分组",
+      "summary": "理解每组分得多少，以及能分成多少个等大的组。"
+    },
+    "mt_GRWwTDZ3wD": {
+      "sourceName": "Arrays for multiplication",
+      "name": "用阵列表示乘除法",
+      "summary": "把物品排成行列，理解等组数量关系。"
+    },
+    "mt_PZ909yPrEC": {
+      "sourceName": "Multiplication as repeated addition",
+      "name": "乘法就是相同数相加",
+      "summary": "理解若干个等大组的合计可以用乘法表示。"
+    },
+    "mt_C9ZfT-4cgn": {
+      "sourceName": "Commutative Multiplication",
+      "name": "乘法交换律",
+      "summary": "理解交换因数顺序积不变，而除法不能照搬。"
+    },
+    "mt_wh3UqnWsa7": {
+      "sourceName": "Multiplication as repeated addition (age 6+)",
+      "name": "乘除法入门（6岁起）",
+      "summary": "用阵列、重复加法、口算及已知关系解题。"
+    },
+    "mt_0u4KLbvBa1": {
+      "sourceName": "Odd and even numbers",
+      "name": "奇数与偶数",
+      "summary": "辨认一个数是奇数还是偶数。"
+    },
+    "mt_zOWwLxa77y": {
+      "sourceName": "Reading ×, ÷, and = Symbols",
+      "name": "认识 ×、÷、= 符号",
+      "summary": "读写和解释乘除算式中的符号。"
+    },
+    "mt_HhuSDxwDNM": {
+      "sourceName": "Times tables",
+      "name": "乘法表入门",
+      "summary": "记忆并运用 2、5、10 的乘法及对应除法关系。"
+    },
+    "mt_B1zj1RwQ3a": {
+      "sourceName": "Arrays for multiplication (age 7+)",
+      "name": "阵列与乘法（7岁起）",
+      "summary": "数出最多五行五列的物品，用相同加数的和表示。"
+    },
+    "mt_EmR5n58jZt": {
+      "sourceName": "Multi-Step Multiply & Divide",
+      "name": "多步乘除问题",
+      "summary": "解决缩放及两组对象配对组合等问题。"
+    },
+    "mt_UTnDKQkVX5": {
+      "sourceName": "Rows & Columns in Rectangles",
+      "name": "长方形中的行与列",
+      "summary": "把长方形分成等大小方格，按行列求总数。"
+    },
+    "mt_wQ89AEXhz3": {
+      "sourceName": "Times tables (age 7+)",
+      "name": "乘法表（7岁起）",
+      "summary": "记忆并运用 3、4、8 的乘除关系。"
+    },
+    "mt_DyGBW3ZHh3": {
+      "sourceName": "Written Multiplication & Division",
+      "name": "笔算乘法与除法",
+      "summary": "利用乘法表，逐步从口算过渡到规范书写计算。"
+    },
+    "mt_K5jM7vlVhA": {
+      "sourceName": "All times tables to 12×12",
+      "name": "完整乘法表至12×12",
+      "summary": "掌握最高到 12×12 的乘法及相应除法关系。"
+    },
+    "mt_GDG9_SZmsO": {
+      "sourceName": "Division as Unknown Factor",
+      "name": "把除法看作求未知因数",
+      "summary": "通过“几乘某数等于总数”理解和求出商。"
+    },
+    "mt_nZkL5-XjRX": {
+      "sourceName": "Factor Pairs & Commutativity",
+      "name": "因数配对与交换律",
+      "summary": "用成对因数和乘法交换律简化口算。"
+    },
+    "mt_WX30dzi4dt": {
+      "sourceName": "Fluent multiplication and division facts",
+      "name": "熟练运用乘除关系",
+      "summary": "利用乘除互逆等方法，熟练计算 100 以内乘除。"
+    },
+    "mt_pjfmCMMPjO": {
+      "sourceName": "Mental multiplication and division",
+      "name": "口算乘法与除法",
+      "summary": "用位值及已知关系计算，包括乘零、乘一和三个数相乘。"
+    },
+    "mt_Zdv-b-iW5K": {
+      "sourceName": "Multiplication and Division Word Problems",
+      "name": "乘除法应用题",
+      "summary": "解决 100 以内等组、阵列和测量数量问题。"
+    },
+    "mt_AR-K72OIIO": {
+      "sourceName": "Multiply & Add Problems",
+      "name": "乘加混合问题",
+      "summary": "运用分配律解决乘加、整数缩放和配对组合问题。"
+    },
+    "mt_isojCL9yy-": {
+      "sourceName": "Multiplying by Tens",
+      "name": "乘整十数",
+      "summary": "运用位值，计算一位数乘 10–90 的整十数。"
+    },
+    "mt_w6MxaaoMXZ": {
+      "sourceName": "Patterns in Times Tables",
+      "name": "乘法表中的规律",
+      "summary": "找出加法表和乘法表规律，并用运算性质解释。"
+    },
+    "mt_Lb2ZnMdkYR": {
+      "sourceName": "Properties of Operations",
+      "name": "运算规律",
+      "summary": "用交换律、结合律和分配律帮助乘除计算。"
+    },
+    "mt_xZvDCYA5Ae": {
+      "sourceName": "Unknown in Multiplication & Division",
+      "name": "乘除等式中的未知数",
+      "summary": "根据三个数的乘除关系求出缺少的数。"
+    },
+    "mt_iNdrM2-oJf": {
+      "sourceName": "What Division Means",
+      "name": "除法的含义",
+      "summary": "把商解释为每份数量或等大组的组数。"
+    },
+    "mt_gtTl3R5buH": {
+      "sourceName": "What Multiplication Means",
+      "name": "乘法的含义",
+      "summary": "把积解释为若干个等大组的总量。"
+    },
+    "mt_18fK9sQdIz": {
+      "sourceName": "Written Multiplication",
+      "name": "竖式乘法",
+      "summary": "用规范书写计算两位数、三位数乘一位数。"
+    },
+    "mt_MCu_SNg_OW": {
+      "sourceName": "Arrays for multiplication (age 9+)",
+      "name": "一位数除法（9岁起）",
+      "summary": "用简便笔算计算最多四位数除以一位数，按情境解释余数。"
+    },
+    "mt_p-nbe0w_lf": {
+      "sourceName": "Division with remainders",
+      "name": "余数与多步应用题",
+      "summary": "综合四则运算解题，合理处理余数并估算检查。"
+    },
+    "mt_FHIAv6dfhU": {
+      "sourceName": "Factors, multiples, and primes",
+      "name": "因数、倍数与质数基础",
+      "summary": "找出 1–100 的因数对，以及两个数的公因数、公倍数。"
+    },
+    "mt_0Wg5F97osg": {
+      "sourceName": "Factors, multiples, and primes (age 9+)",
+      "name": "因倍数应用（9岁起）",
+      "summary": "结合因数、倍数、平方数和立方数解决乘除问题。"
+    },
+    "mt_q9EaJc2FP8": {
+      "sourceName": "Long multiplication",
+      "name": "多位数竖式乘法",
+      "summary": "计算最多四位数乘一位数及两位数乘两位数，配合面积模型。"
+    },
+    "mt_8A3pZNOp7Z": {
+      "sourceName": "Mental multiplication and division (age 9+)",
+      "name": "口算乘除法（9岁起）",
+      "summary": "利用已知关系及位值变化推算新的结果。"
+    },
+    "mt_6-j1NO2ZUH": {
+      "sourceName": "Multiplicative Comparison",
+      "name": "倍数比较应用题",
+      "summary": "用图画和含未知数的等式解决“几倍”的问题。"
+    },
+    "mt_U4cIBXVug4": {
+      "sourceName": "Multiplicative Comparison",
+      "name": "理解倍数比较",
+      "summary": "把乘法等式解释成一个数是另一个数的几倍。"
+    },
+    "mt_LlMl2PbaZe": {
+      "sourceName": "Multiplying and dividing",
+      "name": "乘除10、100、1000",
+      "summary": "计算整数和小数的十倍、百倍、千倍及相反变化。"
+    },
+    "mt_y1XCVsIelg": {
+      "sourceName": "Prime numbers",
+      "name": "质数",
+      "summary": "认识质数、质因数与合数，判断 100 以内的质数。"
+    },
+    "mt_A-FyLLLLzy": {
+      "sourceName": "Shape patterns",
+      "name": "数与图形的规律",
+      "summary": "按规则生成模式，并解释规则之外观察到的特征。"
+    },
+    "mt_gxCIASSezX": {
+      "sourceName": "Square and cube numbers",
+      "name": "平方数与立方数",
+      "summary": "认识平方、立方及上标 ²、³ 的意义。"
+    },
+    "mt_ZOJ6EbdPOb": {
+      "sourceName": "Understanding fractions",
+      "name": "分数缩放与简单比率",
+      "summary": "解决按简单分数缩放及单位比率的问题。"
+    },
+    "mt_8jFSnXxqQD": {
+      "sourceName": "Brackets in Expressions",
+      "name": "算式中的括号",
+      "summary": "理解括号确定分组，并计算含括号的算式。"
+    },
+    "mt_SoDP1fSQEB": {
+      "sourceName": "Decimal place value",
+      "name": "小数乘整数",
+      "summary": "计算整数部分为一位、最多两位小数的数乘整数。"
+    },
+    "mt_FvEq4heNBx": {
+      "sourceName": "Dividing by two-digit numbers",
+      "name": "除以两位数",
+      "summary": "选择适当笔算方法，计算最多四位数除以两位数。"
+    },
+    "mt_lU-2aTRB9f": {
+      "sourceName": "Division with Decimals",
+      "name": "带小数的除法",
+      "summary": "笔算商最多两位小数的除法，以及小数除以整数。"
+    },
+    "mt_WsM4EmdOLe": {
+      "sourceName": "Division with remainders (age 10+)",
+      "name": "有余数除法（10岁起）",
+      "summary": "用长除法计算，并按需要保留余数、化分数或取近似值。"
+    },
+    "mt_ilPrU0cbtT": {
+      "sourceName": "Estimation to check answers to calculations",
+      "name": "用估算检查计算",
+      "summary": "判断答案是否合理，并按情境选择准确程度。"
+    },
+    "mt_XLP1IM3Qbb": {
+      "sourceName": "Long multiplication (age 10+)",
+      "name": "竖式乘法（10岁起）",
+      "summary": "熟练计算最多四位数乘两位数。"
+    },
+    "mt_wPgpMJ0-PA": {
+      "sourceName": "Multiplying and dividing (age 10+)",
+      "name": "乘除法（10岁起）",
+      "summary": "用数位移动理解乘除十、百、千，结果可到三位小数。"
+    },
+    "mt_RXnyhCRYXA": {
+      "sourceName": "Multi-step problems: choosing operations",
+      "name": "多步问题：选择运算",
+      "summary": "按情境选择加减乘除及方法，并说明原因。"
+    },
+    "mt_jHgRQ4hR0g": {
+      "sourceName": "Order of operations",
+      "name": "运算顺序",
+      "summary": "正确运用括号及先乘除后加减等规则。"
+    },
+    "mt_vmW2cb5c7A": {
+      "sourceName": "Ratio (age 10+)",
+      "name": "大数与混合运算口算（10岁起）",
+      "summary": "运用拆分、补偿和已知关系进行心算。"
+    },
+    "mt_QU5R7Aajy9": {
+      "sourceName": "Rounding Answers",
+      "name": "答案的近似值",
+      "summary": "按题目要求把结果四舍五入到指定精度。"
+    },
+    "mt_4WaKWECpcv": {
+      "sourceName": "Writing Number Sentences",
+      "name": "写出数值表达式",
+      "summary": "把计算过程写成算式，并不求值也能解释其结构。"
+    },
+    "mt_xhoOWnhtHq": {
+      "sourceName": "Factors, multiples, and primes (age 11+)",
+      "name": "因数、倍数与质数（11岁起）",
+      "summary": "运用最大公因数、最小公倍数及质因数分解。"
+    },
+    "mt_X5cypSGoGU": {
+      "sourceName": "Ratio (age 11+)",
+      "name": "复杂算式的运算顺序（11岁起）",
+      "summary": "正确处理括号、幂、根和倒数的运算优先级。"
+    },
+    "mt_rxInpOQ74w": {
+      "sourceName": "Sign Rules for Multiplication",
+      "name": "乘除法的正负号规则",
+      "summary": "理解正负整数和有理数相乘、相除的符号变化。"
+    },
+    "mt_VUQNveSYjQ": {
+      "sourceName": "Using inverse operations",
+      "name": "利用逆运算",
+      "summary": "运用运算之间的关系检查答案和简化计算。"
+    },
+    "mt_9IzhGUZ30z": {
+      "sourceName": "Number Words to Twenty",
+      "name": "二十以内的英文数词",
+      "summary": "读写 one 到 twenty 等英文数量名称。"
+    },
+    "mt_x8TshvbbQT": {
+      "sourceName": "Reading and writing numbers to 100",
+      "name": "读写100以内的数字",
+      "summary": "认读并写出 0–100 的数字记号。"
+    },
+    "mt_fR0UtsSREU": {
+      "sourceName": "Reading and writing numbers to 20",
+      "name": "读写20以内的数字",
+      "summary": "认读并写出 0–20 的数字记号。"
+    },
+    "mt_xmmgAzxe5j": {
+      "sourceName": "The teen numbers",
+      "name": "十几的数",
+      "summary": "理解 11–19 由一个十和若干个一组成。"
+    },
+    "mt_kw7xmp68rU": {
+      "sourceName": "10 More or 10 Less",
+      "name": "多10或少10",
+      "summary": "不用逐个数，就能口算两位数加十或减十。"
+    },
+    "mt_r0VXbfAmsH": {
+      "sourceName": "A Ten Is Ten Ones",
+      "name": "十个一就是一个十",
+      "summary": "把十个单独的单位组成一捆“十”。"
+    },
+    "mt_U0waNfD8PB": {
+      "sourceName": "Comparing and ordering numbers",
+      "name": "比较和排列数",
+      "summary": "根据位值比较两位数，用大小符号记录。"
+    },
+    "mt_76SPWvdI7r": {
+      "sourceName": "Number Words to 100",
+      "name": "一百以内的英文数词",
+      "summary": "用英文单词读写至少到 100 的数。"
+    },
+    "mt_kJGCjnuelW": {
+      "sourceName": "Place value understanding and number facts",
+      "name": "用位值和数的关系解题",
+      "summary": "结合数位意义及已知算式解决问题。"
+    },
+    "mt_XV0B4kWwqL": {
+      "sourceName": "Reading and writing numbers to 120",
+      "name": "计数和读写到120",
+      "summary": "从指定数开始数到 120，并读写数字。"
+    },
+    "mt_9L3NQqgqRd": {
+      "sourceName": "Representing Numbers",
+      "name": "数的不同表示",
+      "summary": "用数轴等方式辨认、表示和估计数。"
+    },
+    "mt_zfy1gOEewd": {
+      "sourceName": "The multiples of 10",
+      "name": "10的倍数",
+      "summary": "理解 10–90 分别表示一到九个十、零个一。"
+    },
+    "mt_THl9GLxwoL": {
+      "sourceName": "The two digits of a two-digit number",
+      "name": "两位数的两个数位",
+      "summary": "理解十位和个位分别表示几个十与几个一。"
+    },
+    "mt_izien3ZX51": {
+      "sourceName": "10 or 100 More or Less",
+      "name": "多10、100或少10、100",
+      "summary": "在千以内，求比指定数多或少十、一百的数。"
+    },
+    "mt_8gy7uxRlF6": {
+      "sourceName": "A Hundred Is Ten Tens",
+      "name": "十个十就是一百",
+      "summary": "把十捆“十”看作一个“百”。"
+    },
+    "mt_hniI4E-OCE": {
+      "sourceName": "Odd or Even",
+      "name": "判断奇偶",
+      "summary": "通过物品分组判断 20 以内数量是奇数还是偶数。"
+    },
+    "mt_AQcVRBddko": {
+      "sourceName": "Ordering Numbers to 1000",
+      "name": "排列1000以内的数",
+      "summary": "按位值比较千以内数，并用大小符号表示。"
+    },
+    "mt_98c2qwEF7Q": {
+      "sourceName": "Place Value to 1000",
+      "name": "1000以内位值应用",
+      "summary": "利用位值解决数值题和实际问题。"
+    },
+    "mt_VFsuftfvYM": {
+      "sourceName": "Reading and writing numbers to 1000",
+      "name": "读写1000以内的数",
+      "summary": "用数字、数词和按位展开形式表示数。"
+    },
+    "mt_R2ccrI-nKD": {
+      "sourceName": "The multiples of 100",
+      "name": "100的倍数",
+      "summary": "理解 100–900 表示若干个百、零个十和一。"
+    },
+    "mt_aPBzD28_mT": {
+      "sourceName": "The three digits of a three-digit number",
+      "name": "三位数的三个数位",
+      "summary": "理解百位、十位和个位分别代表的数量。"
+    },
+    "mt_9XVFje6Tyr": {
+      "sourceName": "1000 More or Less",
+      "name": "多1000或少1000",
+      "summary": "求比指定数多或少一千的数。"
+    },
+    "mt_MHaiUd2FLA": {
+      "sourceName": "Comparing Large Numbers",
+      "name": "比较较大的数",
+      "summary": "比较并排列超过 1000 的数。"
+    },
+    "mt_vXRzMbiPff": {
+      "sourceName": "Negative Numbers",
+      "name": "负数",
+      "summary": "倒数穿过零，认识零以下的数。"
+    },
+    "mt_lC_Q5mSL_I": {
+      "sourceName": "Numbers to 10,000",
+      "name": "10000以内的数",
+      "summary": "用不同方式辨认、表示和估计万以内的数。"
+    },
+    "mt_jY7uf0Cb7o": {
+      "sourceName": "Place value of each digit",
+      "name": "每一位数字的值",
+      "summary": "理解四位数的千、百、十、个位。"
+    },
+    "mt__sMrmOv3bx": {
+      "sourceName": "Place Value Problem-Solving",
+      "name": "位值应用题",
+      "summary": "用位值解决越来越大的正数问题。"
+    },
+    "mt_MewIRdzpzz": {
+      "sourceName": "Roman numerals to 100",
+      "name": "罗马数字至100",
+      "summary": "认读 I 至 C，了解数字记法、零和位值的发展。"
+    },
+    "mt_NLSfvB9vUl": {
+      "sourceName": "Rounding to 10, 100, 1000",
+      "name": "取近似到十、百、千",
+      "summary": "把数四舍五入到最接近的整十、整百或整千。"
+    },
+    "mt_tAtMET4EIU": {
+      "sourceName": "Counting forwards and backwards (age 9+)",
+      "name": "按十的幂顺数倒数（9岁起）",
+      "summary": "在百万以内，按十、百、千、万等步长计数。"
+    },
+    "mt_1KkvzwYxbR": {
+      "sourceName": "Negative numbers in context",
+      "name": "情境中的负数",
+      "summary": "通过温度、海拔和余额理解正负数，并跨零计数。"
+    },
+    "mt_QqG6IdmTSE": {
+      "sourceName": "Place Value × 10 Pattern",
+      "name": "相邻数位的十倍关系",
+      "summary": "理解同一个数字左移一位所表示的值变成十倍。"
+    },
+    "mt_JwP9QFv6gQ": {
+      "sourceName": "Reading and writing numbers (age 9+)",
+      "name": "读写大数（9岁起）",
+      "summary": "用数字、数词、展开式和位值比较至少百万以内的数。"
+    },
+    "mt_To9HdLy8vq": {
+      "sourceName": "Roman numerals to 1000",
+      "name": "罗马数字至1000",
+      "summary": "认读至 M，并辨认用罗马数字书写的年份。"
+    },
+    "mt_5NwqN6pf_A": {
+      "sourceName": "Rounding Large Numbers",
+      "name": "大数取近似值",
+      "summary": "把百万以内整数四舍五入到指定数位。"
+    },
+    "mt_xMt1TLTs--": {
+      "sourceName": "Working with Large Numbers",
+      "name": "大数应用",
+      "summary": "解决百万以内的读写、排序、比较和取近似问题。"
+    },
+    "mt__casygEB85": {
+      "sourceName": "Decimal place value",
+      "name": "小数与整数的近似值",
+      "summary": "根据位值把数四舍五入到所需精度。"
+    },
+    "mt_RVK655t391": {
+      "sourceName": "Measuring temperature",
+      "name": "温度等情境中的跨零间隔",
+      "summary": "用负数描述实际情况，计算跨过零的差距。"
+    },
+    "mt_XNmGwNggdU": {
+      "sourceName": "Numbers to Ten Million",
+      "name": "千万以内的数",
+      "summary": "解决读写、排序、近似及正负数相关的实际问题。"
+    },
+    "mt_HLUqHJ9Y7n": {
+      "sourceName": "Patterns with Powers of Ten",
+      "name": "十的幂的规律",
+      "summary": "解释乘除十的幂时零和小数位置的规律，使用指数记法。"
+    },
+    "mt_EDgw64OmfA": {
+      "sourceName": "Place Value × 10 and ÷ 10",
+      "name": "数位间的十倍与十分之一",
+      "summary": "理解相邻数位左右移动时，数字表示值的变化。"
+    },
+    "mt_Ac7oMWhyPw": {
+      "sourceName": "Reading and writing numbers (age 10+)",
+      "name": "读写小数（10岁起）",
+      "summary": "读写并比较最多三位小数，包括按位展开表示。"
+    },
+    "mt_Gag_h98jWP": {
+      "sourceName": "Reading and writing numbers to 10,000,000",
+      "name": "读写千万以内的数",
+      "summary": "读写、排列和比较这些数，并确定每位数字的值。"
+    },
+    "mt_lNGpnILM5C": {
+      "sourceName": "Reading Decimal Places",
+      "name": "认识小数各位",
+      "summary": "辨认十分位、百分位、千分位及各位数值。"
+    },
+    "mt_U9sme87C32": {
+      "sourceName": "Decimal place value (age 11+)",
+      "name": "小数精度与有效数字（11岁起）",
+      "summary": "按小数位数或有效数字要求取恰当近似值。"
+    },
+    "mt_PsylzZ9lHW": {
+      "sourceName": "Fractions on a number line",
+      "name": "把不同类型的数放到数轴上",
+      "summary": "用位值理解整数、小数和分数，把正负数统一表示。"
+    },
+    "mt_uDJY0X0hgo": {
+      "sourceName": "Fractions on a number line (age 11+)",
+      "name": "数轴上的数值比较（11岁起）",
+      "summary": "排列正负整数、小数和分数，使用不等号等比较。"
+    },
+    "mt_RWUY7_IXvw": {
+      "sourceName": "Numbers on a number line",
+      "name": "绝对值与数轴",
+      "summary": "把绝对值理解为到零的距离，区分距离和数值大小。"
+    },
+    "mt_hCVPYlF-7Y": {
+      "sourceName": "Square and cube numbers",
+      "name": "整数幂与方根",
+      "summary": "认识平方、立方及更高次幂和根，区分精确值与近似值。"
+    },
+    "mt_VVn1IXjkzn": {
+      "sourceName": "Estimating by rounding",
+      "name": "近似值与误差范围",
+      "summary": "通过四舍五入估算，并用不等式表达可能的上下界。"
+    },
+    "mt_bO-njVOige": {
+      "sourceName": "Powers of Ten Notation",
+      "name": "科学记数法",
+      "summary": "用 A×10ⁿ 表示、比较大小数，并与普通写法互换。"
+    },
+    "mt_b4lbTOJYwI": {
+      "sourceName": "Number Sets & Infinity",
+      "name": "数集与无穷",
+      "summary": "认识整数、有理数、无理数和实数，以及数集的无限性。"
+    },
+    "mt_xSgAgg9Ej_": {
+      "sourceName": "Equally Likely Outcomes",
+      "name": "等可能结果",
+      "summary": "理解每种结果机会相同，并辨认机会不均等的情境。"
+    },
+    "mt_iFFKZd-Vgv": {
+      "sourceName": "Likelihood Language",
+      "name": "描述可能性的语言",
+      "summary": "用一定、可能、机会各半、不太可能、不可能等词描述。"
+    },
+    "mt_UcGn2hjhYU": {
+      "sourceName": "Ordering Likelihoods",
+      "name": "排列可能性大小",
+      "summary": "比较事件发生机会，并说明判断理由。"
+    },
+    "mt_-c4Ca_nBzX": {
+      "sourceName": "Probability as a Fraction",
+      "name": "用分数表示概率",
+      "summary": "在等可能情境中用单位分数表示机会，放到 0–1 标尺上。"
+    },
+    "mt_J4j7d3iAfg": {
+      "sourceName": "Simple Chance Experiments",
+      "name": "简单随机实验",
+      "summary": "抛硬币、掷骰子或抽彩片，记录并比较预期与实际结果。"
+    },
+    "mt_Zt30Gxi-qp": {
+      "sourceName": "Calculating Simple Probability",
+      "name": "计算简单概率",
+      "summary": "在等可能前提下，用符合条件的结果数除以全部结果数。"
+    },
+    "mt_-bMnJcPJy8": {
+      "sourceName": "Experimental vs Theoretical",
+      "name": "实验结果与理论概率",
+      "summary": "比较重复实验和理论预期，理解少量试验可能偏差很大。"
+    },
+    "mt_3fwYu7imd4": {
+      "sourceName": "Probabilities Sum to One",
+      "name": "全部结果的概率和为1",
+      "summary": "用 1 减去事件概率，求它不发生的概率。"
+    },
+    "mt_t0g2SlP404": {
+      "sourceName": "The 0-to-1 Probability Scale",
+      "name": "0到1的概率标尺",
+      "summary": "把不可能到必然的机会表示为分数、小数或百分数。"
+    },
+    "mt_XfyqXLqzpx": {
+      "sourceName": "Complementary events",
+      "name": "互补事件",
+      "summary": "利用全部互斥结果的概率和为 1，求相反事件概率。"
+    },
+    "mt_sHJqh6UUya": {
+      "sourceName": "Experimental probability",
+      "name": "实验概率",
+      "summary": "记录和分析结果频数，用相对频率估计概率。"
+    },
+    "mt_vmQJAtAFuy": {
+      "sourceName": "The Probability Scale",
+      "name": "概率标尺",
+      "summary": "用 0 表示不可能、1 表示必然，理解中间的可能性。"
+    },
+    "mt_1YwOCMMwD8": {
+      "sourceName": "Sets & Venn Diagrams",
+      "name": "集合与韦恩图",
+      "summary": "用表格、网格和韦恩图整理集合、并集与交集。"
+    },
+    "mt_GDtFU5fyUv": {
+      "sourceName": "Tree diagrams",
+      "name": "树状图",
+      "summary": "系统列出单一或组合事件的结果，并计算理论概率。"
+    },
+    "mt_eSv_w46u6H": {
+      "sourceName": "Venn Diagrams and Counting Outcomes",
+      "name": "用韦恩图清点结果",
+      "summary": "用两三个集合的图、系统列举和乘法原理统计可能结果。"
+    },
+    "mt_ePXg_XyCKU": {
+      "sourceName": "Bar Models for Ratios",
+      "name": "用条形模型表示比",
+      "summary": "把数量画成等份条带，解决不均分、缩放和百分数问题。"
+    },
+    "mt_ESgc4YBw-a": {
+      "sourceName": "Percentages (age 9+)",
+      "name": "比与占比术语（9岁起）",
+      "summary": "区分部分之间的比与部分占整体的比例。"
+    },
+    "mt_PNSyfH56eQ": {
+      "sourceName": "Calculating Percentages",
+      "name": "计算百分数",
+      "summary": "求一个数量的百分之几，并用百分数比较。"
+    },
+    "mt_h0gJcSuwdL": {
+      "sourceName": "Ratio Problems",
+      "name": "比的应用题",
+      "summary": "利用整数乘除关系，求两个相对数量中缺少的值。"
+    },
+    "mt_2OtRUM_0zW": {
+      "sourceName": "Scale and similar shapes",
+      "name": "比例因子与相似图形",
+      "summary": "已知或求出缩放倍数，解决相似图形问题。"
+    },
+    "mt_FnUJMXPUZX": {
+      "sourceName": "Understanding fractions",
+      "name": "不平均分配与分组",
+      "summary": "利用分数和倍数关系，解决按不同份额分配的问题。"
+    },
+    "mt_kLQOzZYrd5": {
+      "sourceName": "Compound Units",
+      "name": "复合单位",
+      "summary": "理解速度、单价、密度等由两个量相除得到的单位。"
+    },
+    "mt_nOCPx5qw0Z": {
+      "sourceName": "Dividing Quantities by Ratio",
+      "name": "按比分配数量",
+      "summary": "按部分比或部分占整体的比，把总量分成两部分。"
+    },
+    "mt_xAf2bu9wYK": {
+      "sourceName": "One Quantity as a Fraction",
+      "name": "一个量是另一个量的几分之几",
+      "summary": "用分数表示两量关系，结果可以小于或大于 1。"
+    },
+    "mt_ALUrJpY0cZ": {
+      "sourceName": "Percentages as Fractions",
+      "name": "百分数的分数表示",
+      "summary": "理解百分比及变化，比较数量，包括超过 100% 的情况。"
+    },
+    "mt_ATYLKt0je-": {
+      "sourceName": "Proportional Reasoning Vocabulary",
+      "name": "比例推理术语",
+      "summary": "准确使用正反比例、比率、单位比率和比例因子等词。"
+    },
+    "mt_FspV_imUGK": {
+      "sourceName": "Proportion Graphs",
+      "name": "比例关系的图像",
+      "summary": "用双数轴和比例表表示关系，认识经过原点的直线。"
+    },
+    "mt_XWSGuFW7It": {
+      "sourceName": "Ratio Notation",
+      "name": "比的记号",
+      "summary": "用比描述数量关系，化简并与分数表示互换。"
+    },
+    "mt_1badik7iKJ": {
+      "sourceName": "Scale and similar shapes (age 11+)",
+      "name": "比例尺与相似图形（11岁起）",
+      "summary": "制作和解读比例图、地图，换算图上和实际距离。"
+    },
+    "mt_tpT9brpI6D": {
+      "sourceName": "Unit Conversions",
+      "name": "单位换算",
+      "summary": "转换时间、长度、面积、体积和质量，按需使用小数。"
+    },
+    "mt_iEXqN48w3x": {
+      "sourceName": "Percentages (age 12+)",
+      "name": "百分数变化（12岁起）",
+      "summary": "计算增减幅度、变化前的原值和单利。"
+    },
+    "mt_5mIcmKRCgA": {
+      "sourceName": "Proportion",
+      "name": "正比例与反比例",
+      "summary": "识别并解决这两类关系的问题，结合图像和代数表示。"
+    },
+    "mt_yK51ZnKA8m": {
+      "sourceName": "Ratio Notation and Relationships",
+      "name": "比的记号与倍数关系",
+      "summary": "把数量之间的乘法关系写成比，并化成最简形式。"
+    },
+    "mt_kvrvpQris4": {
+      "sourceName": "Expressing Feelings with Words",
+      "name": "用语言表达感受",
+      "summary": "说清自己的情绪和原因，用恰当表达代替冲动反应。"
+    },
+    "mt_ggcamLzXAy": {
+      "sourceName": "Feelings Change and Differ",
+      "name": "感受会变化，也因人而异",
+      "summary": "理解同一事件可带来不同感受，情绪也会随时间改变。"
+    },
+    "mt_9NQEiYLQA3": {
+      "sourceName": "Seeing Someone Else's Point of View",
+      "name": "从别人的角度看问题",
+      "summary": "想象他人在具体情境中的感受，练习换位思考。"
+    },
+    "mt_PdYlsA33jB": {
+      "sourceName": "Asking for Help",
+      "name": "主动求助",
+      "summary": "需要时向朋友、老师或家人寻求帮助。"
+    },
+    "mt_YbX3LD0Eca": {
+      "sourceName": "Listening to Others",
+      "name": "倾听别人",
+      "summary": "等待对方说完，并针对听到的内容回应。"
+    },
+    "mt_iWGnyUyN2j": {
+      "sourceName": "Resolving Disagreements with Friends",
+      "name": "解决朋友间的分歧",
+      "summary": "说明感受、听取对方意见，寻找双方能接受的办法。"
+    },
+    "mt_QxsoqVUt6u": {
+      "sourceName": "Working Well in a Group",
+      "name": "在小组中合作",
+      "summary": "贡献想法、公平分工，并支持共同目标。"
+    },
+    "mt_33zncDHC3N": {
+      "sourceName": "Giving and Receiving Feedback",
+      "name": "给出与接受反馈",
+      "summary": "具体、友善地说明优点和改进处，也愿意听取建议。"
+    },
+    "mt_RNeEF1JU4J": {
+      "sourceName": "Ethics in Real-World Issues",
+      "name": "实际问题中的伦理",
+      "summary": "考虑不同立场，对公平、环境和数字生活等问题给出理由。"
+    },
+    "mt_miGrca8zaS": {
+      "sourceName": "Breaking Tasks into Steps",
+      "name": "把任务拆成小步骤",
+      "summary": "把困难任务分成可完成的小步，并看见过程中的进展。"
+    },
+    "mt_pAuo9Op89t": {
+      "sourceName": "Growth Mindset",
+      "name": "成长型思维",
+      "summary": "理解能力可以通过练习、努力和合适策略发展。"
+    },
+    "mt_6Z42wJaKYG": {
+      "sourceName": "Fossils as Evidence",
+      "name": "化石作为证据",
+      "summary": "用化石资料推知古代生物与环境。"
+    },
+    "mt_HZvTriQWTh": {
+      "sourceName": "Local weather patterns",
+      "name": "当地天气规律",
+      "summary": "记录温度、降雨等情况，描述随时间变化的模式。"
+    },
+    "mt_go5i87u2b9": {
+      "sourceName": "Seasonal changes",
+      "name": "四季变化",
+      "summary": "观察各季节的天气及白昼长短变化。"
+    },
+    "mt_NYsz6QgaaE": {
+      "sourceName": "Seasonal changes (age 8+)",
+      "name": "季节变化（8岁起）",
+      "summary": "用表格和图表呈现某季节典型的天气数据。"
+    },
+    "mt_0_K-GrKQpd": {
+      "sourceName": "Rock layers and Earth's history",
+      "name": "岩层与地球历史",
+      "summary": "读懂地球结构和地层剖面图，认识岩层所记录的历史。"
+    },
+    "mt_LsY4-T2fU7": {
+      "sourceName": "Salt Water vs Fresh Water",
+      "name": "咸水与淡水",
+      "summary": "用数据和图表描述地球不同水体的分布。"
+    },
+    "mt_JyfLtl_nhw": {
+      "sourceName": "Efficiency, Sankey diagrams, and work done",
+      "name": "效率、桑基图与功",
+      "summary": "计算能量效率，用桑基图表示能量流，并计算力做的功。"
+    },
+    "mt_OUv-QXmW7_": {
+      "sourceName": "Reading Distance-Time Graphs",
+      "name": "读取路程—时间图像",
+      "summary": "辨认静止和匀速阶段，用直线斜率解释速度。"
+    },
+    "mt_q-1a86ydgU": {
+      "sourceName": "Speed & Distance-Time Graphs",
+      "name": "速度与路程—时间图像",
+      "summary": "计算平均速度，用图像描述行程与停留。"
+    },
+    "mt_7EqhgErJyU": {
+      "sourceName": "Drawing Life Cycle Diagrams",
+      "name": "绘制生命周期图",
+      "summary": "标出不同生物的阶段与转变，并比较生命周期。"
+    },
+    "mt_XirhnAB6Ye": {
+      "sourceName": "Asking scientific questions",
+      "name": "提出科学问题",
+      "summary": "提出可通过观察、实验或资料研究回答的问题。"
+    },
+    "mt_7IFpDVNsmt": {
+      "sourceName": "Classifying living things",
+      "name": "整理和呈现科学数据",
+      "summary": "用表格、条形图、标注图和检索表分类记录资料。"
+    },
+    "mt_7VrR1GzhrN": {
+      "sourceName": "Drawing conclusions from evidence",
+      "name": "根据证据得出结论",
+      "summary": "口头或书面报告发现，作简单预测并提出改进。"
+    },
+    "mt_nUnowllzaN": {
+      "sourceName": "Measuring accurately",
+      "name": "准确测量",
+      "summary": "系统、细致地观察，使用标准单位和测量设备。"
+    },
+    "mt_CVywzrjT_c": {
+      "sourceName": "Using evidence to answer questions",
+      "name": "用证据回答问题",
+      "summary": "找出异同或变化，用科学证据支持发现。"
+    },
+    "mt_rDjtmDogJr": {
+      "sourceName": "Classifying living things (age 9+)",
+      "name": "复杂科学数据的记录（9岁起）",
+      "summary": "用科学图示、分类检索表和多种统计图记录结果。"
+    },
+    "mt_nyPMkeHlVJ": {
+      "sourceName": "Drawing conclusions from evidence (age 9+)",
+      "name": "依据证据报告结论（9岁起）",
+      "summary": "说明因果关系、解释及结果的可信程度。"
+    },
+    "mt_AstzvYDU2m": {
+      "sourceName": "Evidence Supporting Ideas",
+      "name": "支持想法的证据",
+      "summary": "辨认用于支持或反驳主张的科学证据，并评估强弱。"
+    },
+    "mt_Ae56umVlTT": {
+      "sourceName": "Controlling variables (age 11+)",
+      "name": "控制变量（11岁起）",
+      "summary": "提出可检验假设，规划变量、样本量和风险评估。"
+    },
+    "mt_3jmBpEepYX": {
+      "sourceName": "Drawing conclusions from evidence (age 12+)",
+      "name": "证据与结论评估（12岁起）",
+      "summary": "用数据回答假设，区分系统和随机误差，提出针对性改进。"
+    },
+    "mt_YHsUhi4Prc": {
+      "sourceName": "Tables, charts, and graphs",
+      "name": "表格与统计图",
+      "summary": "标清标题和国际单位，选择图形、拟合趋势线并求斜率。"
+    },
+    "mt_ThTbUuNb3p": {
+      "sourceName": "Writing Science Reports",
+      "name": "撰写科学报告",
+      "summary": "规范呈现研究，理解同行评审和重复验证的作用。"
+    },
+    "mt_-2VNlwAR5z": {
+      "sourceName": "Drawing Ray Diagrams",
+      "name": "绘制光路图",
+      "summary": "画出反射与折射光线，用图像解释镜子、透镜与成像。"
+    }
+  }
+}

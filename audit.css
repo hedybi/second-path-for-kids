@@ -1,0 +1,22 @@
+/* Independent Shanghai audit views; original maps are untouched. */
+.comparison .a-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#304338;border:1px solid #304338;border-radius:10px;overflow:hidden;margin:20px 0 10px}
+.comparison .a-stats>div{padding:18px 22px;background:#121e17}
+.comparison .a-stats strong{font-size:2rem;color:#c3eba9;font-weight:500;display:block}
+.comparison .a-stats span{font-size:.875rem;color:#aec0b2;display:block;margin-top:4px}
+.comparison .a-nav,.comparison .a-domains,.comparison .a-filters{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
+.comparison .a-nav{border-bottom:1px solid #3b5142;padding-bottom:14px;margin-top:24px}
+.comparison .a-nav button,.comparison .a-domains button,.comparison .a-filters button{font:inherit;border:1px solid #3b5142;color:#becdc2;background:#101c14;padding:9px 13px;border-radius:6px;cursor:pointer;font-size:.9rem}
+.comparison .a-nav button[aria-pressed=true],.comparison .a-domains button[aria-pressed=true],.comparison .a-filters button[aria-pressed=true]{color:#13200e;background:#b2e889;border-color:#b2e889}
+.comparison .a-note{font-size:.875rem;color:#a0b3a6;max-width:1100px}
+.comparison .a-intro{max-width:1100px;margin:14px 0 20px}
+.comparison .a-table th:first-child{width:18%}.comparison .a-table th:nth-child(2){width:21%}.comparison .a-table th:nth-child(3){width:25%}.comparison .a-table th:nth-child(4){width:36%}
+.comparison .a-row>th{position:sticky;left:0;background:#101a14;z-index:1;font-weight:500}
+.comparison .a-row>td{background:#101913}.comparison .a-row>td.a-analysis{background:#152219}
+.comparison .a-row p{margin:0}.comparison .a-row small{display:block;font-size:.8rem;color:#98ae9e;line-height:1.6;margin:6px 0 12px}
+.comparison .a-row strong{line-height:1.6}.comparison .a-skills{list-style:none;padding:0;margin:0}.comparison .a-skills li+li{margin-top:12px;border-top:1px solid #2b3e31;padding-top:12px}.comparison .a-skills small{margin-bottom:0}
+.comparison .a-probe{border-top:1px solid #3b5142;padding-top:14px;margin-top:18px}.comparison .a-probe strong{font-size:.875rem;color:#bee3ac;display:block;margin-bottom:6px}.comparison .a-probe p{font-size:.9rem;color:#bfd1c2}
+.comparison .a-search{max-width:620px;display:flex;flex-direction:column;gap:8px}.comparison .a-search label{font-size:.9rem;color:#b8cbbd}.comparison .a-search input{font:inherit;background:#0d1811;color:#dce9df;border:1px solid #43614b;border-radius:6px;padding:12px 14px;width:100%}.comparison .a-search input:focus-visible{outline:2px solid #b2e889;outline-offset:2px}
+.comparison .a-result-count{font-size:.875rem;margin:16px 0}.comparison .a-inventory th:first-child{width:22%}.comparison .a-inventory th:nth-child(2){width:28%}.comparison .a-inventory th:nth-child(3){width:25%}.comparison .a-inventory th:nth-child(4){width:25%}
+.comparison .a-evidence-link{display:block;font:inherit;background:none;border:0;color:#b2e889;padding:0;text-align:left;text-decoration:underline;text-underline-offset:3px;line-height:1.6;cursor:pointer}
+.comparison .a-neighbours{margin-top:15px}.comparison .a-neighbours[open] summary{margin-bottom:12px}.comparison .a-row:focus{outline:2px solid #b2e889;outline-offset:-2px}
+@media(max-width:650px){.comparison .a-stats{grid-template-columns:repeat(2,1fr)}.comparison .a-stats>div{padding:14px}.comparison .a-stats strong{font-size:1.7rem}.comparison .a-nav button{flex:1 1 40%}.comparison .a-domains button,.comparison .a-filters button{font-size:.85rem}}

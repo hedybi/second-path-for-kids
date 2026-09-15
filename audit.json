@@ -1,0 +1,978 @@
+{
+  "sources": {
+    "national2022": {
+      "title": {
+        "en": "Ministry of Education: curriculum reform 2022",
+        "zh": "教育部：2022年义务教育课程改革"
+      },
+      "url": "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202204/t20220421_620068.html",
+      "kind": {
+        "en": "National direction, not Shanghai textbook sequencing",
+        "zh": "国家总方针，不是上海教材进度"
+      }
+    },
+    "mathstructure": {
+      "title": {
+        "en": "National maths standard: content structure, p.17",
+        "zh": "国家数学课标：内容结构，第17页"
+      },
+      "url": "https://www.pep.com.cn/xw/zt/rjwy/yjkb2022/202205/P020220512583134605579.pdf",
+      "kind": {
+        "en": "National standard hosted by PEP; the indexed structure was checked",
+        "zh": "人教社收录的国家课标；已核对可检索的内容结构"
+      }
+    },
+    "math2022early": {
+      "title": {
+        "en": "National maths standard: April 2022 PDF",
+        "zh": "国家数学课标：2022年4月公开文本"
+      },
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582346895190.pdf",
+      "kind": {
+        "en": "Version caveat: recheck against the May 9 correction before textbook assignment",
+        "zh": "版本提示：具体条目仍需与5月9日修正版及上海原书复核"
+      }
+    },
+    "mathrelease": {
+      "title": {
+        "en": "Ministry release: corrected maths standard",
+        "zh": "教育部课标发布页：数学以5月9日版为准"
+      },
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html?fromColId=194",
+      "kind": {
+        "en": "Authoritative version reference",
+        "zh": "正式版本依据"
+      }
+    },
+    "rmbschool": {
+      "title": {
+        "en": "Shanghai Qingpu World Foreign Language School: money project",
+        "zh": "上海青浦区世外学校：人民币项目化学习实践"
+      },
+      "url": "https://cms.shwfl.edu.cn/_s56/2024/1128/c2425a14645/page.psp",
+      "kind": {
+        "en": "School account, 2024; does not establish all new-book editions",
+        "zh": "2024年学校实践记录，不证明全套新教材版次"
+      }
+    },
+    "measurementsh": {
+      "title": {
+        "en": "Xuhui Tianlin No.3 Primary: measurement teaching",
+        "zh": "徐汇田林三小：量感主题教研"
+      },
+      "url": "https://tl3x.xhedu.sh.cn/cms/app/info/doc/index.php/27620",
+      "kind": {
+        "en": "Local teaching evidence, not a complete textbook index",
+        "zh": "本地教研依据，不是全套教材目录"
+      }
+    },
+    "shai": {
+      "title": {
+        "en": "Shanghai AI in basic education action plan, 2024–2026",
+        "zh": "上海市教委：人工智能赋能基础教育行动方案（2024—2026年）"
+      },
+      "url": "https://www.shanghai.gov.cn/gwk/search/content/d41f0919ad4446f28076eb15c5669070",
+      "kind": {
+        "en": "Shanghai policy; local AI course, not maths/English content",
+        "zh": "上海政策；地方人工智能课程，不等于数学或英语章节"
+      }
+    },
+    "strongnation": {
+      "title": {
+        "en": "Education development plan, 2024–2035",
+        "zh": "《教育强国建设规划纲要（2024—2035年）》"
+      },
+      "url": "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202501/t20250119_1176166.html",
+      "kind": {
+        "en": "National strategic goals",
+        "zh": "国家战略目标"
+      }
+    },
+    "aied2026": {
+      "title": {
+        "en": "Five ministries: AI + education, 2026",
+        "zh": "五部门：“人工智能+教育”行动计划（2026）"
+      },
+      "url": "https://edu.sh.gov.cn/mbjy_fgwx_qt/20260605/eafd2cbb51794e8d8f997f2902df7889.html",
+      "kind": {
+        "en": "National policy reproduced by Shanghai Education Commission",
+        "zh": "国家政策，上海市教委转载"
+      }
+    },
+    "doing2026": {
+      "title": {
+        "en": "Ministry: learning science by doing, 2026",
+        "zh": "教育部：义务教育科学教育“做中学”领航行动（2026）"
+      },
+      "url": "https://edu.sh.gov.cn/mbjy_xwzx/20260812/7cbec405d560411faf8ea4491cf664f7.html",
+      "kind": {
+        "en": "Science and interdisciplinary implementation; not an English syllabus",
+        "zh": "科学与跨学科实施要求，不是英语课纲"
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "rmb",
+      "subject": "Mathematics",
+      "kind": "local",
+      "title": {
+        "en": "Renminbi ↔ pounds and pence",
+        "zh": "人民币 ↔ 英镑与便士"
+      },
+      "fact": {
+        "en": "Shanghai school reports document renminbi learning and shopping projects.",
+        "zh": "上海学校记录了人民币认识及购物项目。"
+      },
+      "topics": [
+        "mt_cPZwlUk8Nd",
+        "mt_AF2BeFQwfX",
+        "mt_6J1wmCWf41",
+        "mt_pbuhUQJjtt",
+        "mt_6_O6THdEDK",
+        "mt_mFJ-2ZF6Tk"
+      ],
+      "analysis": {
+        "en": "Marble has general money skills and explicit £/p nodes, but this imported maths inventory has no named renminbi node. This is a two-way localisation difference, not an absence of financial reasoning. A direct translation of £ into 元 would silently change the source.",
+        "zh": "Marble 有通用货币能力，也明确列出英镑/便士；当前数学数据没有明确的人民币节点。这是双向的地域内容差异，不是缺少理财思维。把 £ 直接译成“元”会改动原始要求。"
+      },
+      "probe": {
+        "en": "Can the child apply the same change-making method to a new currency after learning its units?",
+        "zh": "换一种货币、先说明单位关系后，孩子能否迁移找零方法？"
+      },
+      "sources": [
+        "rmbschool"
+      ],
+      "locator": ""
+    },
+    {
+      "id": "measure-units",
+      "subject": "Mathematics",
+      "kind": "local",
+      "title": {
+        "en": "Measurement ↔ imperial extensions",
+        "zh": "量感与计量 ↔ 英制扩展"
+      },
+      "fact": {
+        "en": "A Shanghai teaching report covers capacity, length and surface-area activities.",
+        "zh": "上海教研记录涉及容量、长度和表面积活动。"
+      },
+      "topics": [
+        "mt_zkFbMLpu3U",
+        "mt_DOe893F6gN",
+        "mt_OzRZ89GrQW",
+        "mt_6xNmQLzuqm",
+        "mt_p6MhZJYYPN",
+        "mt_3tPI0HqqcN"
+      ],
+      "analysis": {
+        "en": "The portable skill is choosing, estimating and converting units. Marble also explicitly adds inches, pounds, pints and miles. Those contexts are real Marble additions to the selected local evidence, not proof that Shanghai never introduces them.",
+        "zh": "可迁移的能力是选单位、估测、换算。Marble 还明确涉及英寸、磅、品脱、英里；这些超出本次上海教研材料列出的情境，但不能据此断言上海从不介绍英制。"
+      },
+      "probe": {
+        "en": "Ask for an estimate before measuring, then an explanation of why that unit fits.",
+        "zh": "先估测再测量，并解释为什么选这个单位；不能只看是否会套换算公式。"
+      },
+      "sources": [
+        "measurementsh"
+      ],
+      "locator": ""
+    },
+    {
+      "id": "abacus",
+      "subject": "Mathematics",
+      "kind": "candidate",
+      "title": {
+        "en": "Abacus as a representation",
+        "zh": "算盘表示数"
+      },
+      "fact": {
+        "en": "The April national text names abacus representations.",
+        "zh": "国家课标4月公开文本提及用算盘表示数。"
+      },
+      "topics": [
+        "mt_r0VXbfAmsH",
+        "mt_98c2qwEF7Q",
+        "mt_jY7uf0Cb7o"
+      ],
+      "analysis": {
+        "en": "No explicit abacus task was found in the imported maths records. Place-value nodes are conceptual neighbours, not an abacus match. This is a candidate source-side omission; the corrected standard and Shanghai book sequence still need checking.",
+        "zh": "当前数学记录未找到明确的算盘任务。位值节点只是概念邻居，不能视为算盘教学已覆盖。这是中国侧内容的缺项候选；修正版课标与上海新版课本进度仍待核对。"
+      },
+      "probe": {
+        "en": "Represent the same number with blocks, written digits and beads; explain what stays the same.",
+        "zh": "用积木、数字和算珠表示同一个数，解释不变的位值关系。"
+      },
+      "sources": [
+        "math2022early",
+        "mathrelease"
+      ],
+      "locator": "p.18 · 4月文本，待修正版复核 / April text; correction check pending"
+    },
+    {
+      "id": "reasoning",
+      "subject": "Mathematics",
+      "kind": "shared",
+      "title": {
+        "en": "Reasoning is a shared goal",
+        "zh": "推理是共同目标"
+      },
+      "fact": {
+        "en": "Shanghai new-book training stresses questioning and reasoning.",
+        "zh": "上海新教材教研强调提问与推理。"
+      },
+      "topics": [
+        "mt_kJ5wYzO8qC",
+        "mt_pyMD_SIiYO",
+        "mt_a3dov8CZkq",
+        "mt_SmghasIvbT"
+      ],
+      "analysis": {
+        "en": "Marble separates prompted reasoning, justification, critique and self-monitoring. One broad Shanghai teaching goal may relate to several nodes. Counting it as one versus four would manufacture a gap; assuming equal independence would conceal a real depth question.",
+        "zh": "Marble 把提示下推理、论证、评价他人方法、自我检查分开。上海一项概括性目标可能关联多个点：简单比较“1项对4项”会制造数量差距；直接判等则会掩盖独立性与论证深度的差异。"
+      },
+      "probe": {
+        "en": "Can the child explain a result, find a counterexample, and revise an argument without a hint?",
+        "zh": "能否解释答案、找反例，并在没有提示时修正自己的论证？"
+      },
+      "sources": [
+        "m67"
+      ],
+      "locator": ""
+    },
+    {
+      "id": "data-depth",
+      "subject": "Mathematics",
+      "kind": "depth",
+      "title": {
+        "en": "Classifying data → inference",
+        "zh": "分类整理 → 数据推断"
+      },
+      "fact": {
+        "en": "The national structure progresses from classification to data work and sampling.",
+        "zh": "国家内容结构从分类发展到数据整理、抽样分析。"
+      },
+      "topics": [
+        "mt_xppl18avyY",
+        "mt_VhBH8wrFC6",
+        "mt_Cqm8iy48UI",
+        "mt_Cg8VPguS_V",
+        "mt_bESTSBB0wK",
+        "mt_BdAeZJUOir"
+      ],
+      "analysis": {
+        "en": "Marble splits graphs and summaries into separate nodes, reaching scatter plots. This is a progression within its inventory, not six extra Shanghai omissions. The unresolved comparison is which displays, datasets and explanations Shanghai expects at each stage.",
+        "zh": "Marble 按图表与统计量拆点，延伸到散点图。这是其内部的进阶，不是六项“上海没教”。需要继续核对的是上海各阶段采用哪些图、什么数据、要求怎样解释，而不只是有没有“统计”二字。"
+      },
+      "probe": {
+        "en": "Give the same data as a table and a misleading chart; ask which conclusion is justified.",
+        "zh": "把同一组数据画成表格和一张容易误导的图，让孩子判断哪些结论有依据。"
+      },
+      "sources": [
+        "mathstructure"
+      ],
+      "locator": ""
+    },
+    {
+      "id": "probability-depth",
+      "subject": "Mathematics",
+      "kind": "depth",
+      "title": {
+        "en": "Likelihood ↔ numerical probability",
+        "zh": "可能性判断 ↔ 概率计算"
+      },
+      "fact": {
+        "en": "The national structure separates primary likelihood from secondary event probability.",
+        "zh": "国家结构将小学可能性与初中事件概率分层。"
+      },
+      "topics": [
+        "mt_xSgAgg9Ej_",
+        "mt_iFFKZd-Vgv",
+        "mt_UcGn2hjhYU",
+        "mt_-c4Ca_nBzX",
+        "mt_Zt30Gxi-qp",
+        "mt_-bMnJcPJy8",
+        "mt_3fwYu7imd4",
+        "mt_GDtFU5fyUv",
+        "mt_eSv_w46u6H"
+      ],
+      "analysis": {
+        "en": "Marble ranges from qualitative language to fractions, complements and combined-event sample spaces. Its age labels alone cannot establish earlier Shanghai coverage. A child who can say “more likely” has not thereby mastered counting outcomes or explaining experimental variation.",
+        "zh": "Marble 从定性描述延伸到分数概率、补事件和组合事件样本空间。不能仅据其年龄标签判断上海早教或晚教。会说“更可能”，并不等于会计数所有结果、解释实验频率的波动。"
+      },
+      "probe": {
+        "en": "Before calculating, ask whether outcomes are equally likely and whether the sample space is complete.",
+        "zh": "计算前先问：结果真的等可能吗？有没有漏掉结果？"
+      },
+      "sources": [
+        "mathstructure"
+      ],
+      "locator": ""
+    },
+    {
+      "id": "ratio-depth",
+      "subject": "Mathematics",
+      "kind": "candidate",
+      "title": {
+        "en": "Proportion ↔ several representations",
+        "zh": "比例关系 ↔ 多种表征"
+      },
+      "fact": {
+        "en": "The April national text includes ratio and direct proportion in contexts.",
+        "zh": "国家课标4月文本包含情境中的比与正比例。"
+      },
+      "topics": [
+        "mt_ePXg_XyCKU",
+        "mt_h0gJcSuwdL",
+        "mt_nOCPx5qw0Z",
+        "mt_FspV_imUGK",
+        "mt_XWSGuFW7It",
+        "mt_5mIcmKRCgA"
+      ],
+      "analysis": {
+        "en": "Marble distinguishes bar models, ratio notation, graphs and inverse proportion. These are not all equivalent to a single ratio topic. Inverse proportion and algebraic/graphical demands need separate Shanghai verification; this source version is provisional.",
+        "zh": "Marble 分列条形模型、比的记法、图像，还包含反比例，不能全打包成一个“比例已覆盖”。尤其反比例以及代数/图像要求，要分别核对上海内容；此处国家来源版次仍需复核。"
+      },
+      "probe": {
+        "en": "Can the child move between a recipe, a ratio table and a graph, and say when proportional reasoning fails?",
+        "zh": "能否在配方、比值表和图像之间转换，并举出不能按比例推算的例子？"
+      },
+      "sources": [
+        "math2022early",
+        "mathrelease"
+      ],
+      "locator": "p.24 · 版本待复核 / provisional version"
+    },
+    {
+      "id": "algebra-scope",
+      "subject": "Mathematics",
+      "kind": "scope",
+      "title": {
+        "en": "Arithmetic relationships ↔ later algebra",
+        "zh": "数量关系 ↔ 后续代数"
+      },
+      "fact": {
+        "en": "National maths separates primary quantities from secondary algebraic study.",
+        "zh": "国家数学结构区分小学数量关系与初中代数学习。"
+      },
+      "topics": [
+        "mt_Jvg8X0N5u0",
+        "mt_i9rJbuFO3p",
+        "mt_KwdjWEmMNo",
+        "mt_nNNVrLqPW3",
+        "mt_QhFEDyIwSO",
+        "mt_uESbzWCZIq",
+        "mt_WBdHkc2HTf",
+        "mt_Yw27nweoTj",
+        "mt_GZuoYaDdWd",
+        "mt_mqgu72aCMz"
+      ],
+      "analysis": {
+        "en": "Marble includes formula substitution, equations, factorisation and quadratic graphs in one subject inventory. Some start at 13. Listing all of them against ages 0–12 creates a false “Shanghai missing” impression. Age ≤12 is still not a Shanghai grade assignment.",
+        "zh": "Marble 同一学科库存包含代入、方程、因式分解、二次函数图像，其中一些起始年龄是13岁。把它们全算进0–12岁，会产生“上海少教了”的错觉；即使起始年龄≤12，也不能直接换成上海年级。"
+      },
+      "probe": {
+        "en": "Separate expressing a relationship from solving an equation and interpreting its graph.",
+        "zh": "把“表示数量关系”“解方程”“解释图像”分别观察，不用一个“会代数”笼统判断。"
+      },
+      "sources": [
+        "mathstructure"
+      ],
+      "locator": ""
+    },
+    {
+      "id": "fractions-granularity",
+      "subject": "Mathematics",
+      "kind": "scope",
+      "title": {
+        "en": "One fraction theme, many demands",
+        "zh": "同是分数，要求并不相同"
+      },
+      "fact": {
+        "en": "Primary number-and-operation content includes fractions.",
+        "zh": "国家小学数与运算内容包含分数。"
+      },
+      "topics": [
+        "mt_g3W0mdADVu",
+        "mt_-hTTat0mBR",
+        "mt_vKcxX6iNOA",
+        "mt_FbDKeLfBCo",
+        "mt_Kr3IyA6m-O",
+        "mt_a1FdAsRKOF",
+        "mt_CBHwluE6Lp",
+        "mt_FP-mjXaq3B",
+        "mt_14T5yPXUq_",
+        "mt_1PAWhRhpdg",
+        "mt_VKW8lOcFaw",
+        "mt_9Y96vxG_LH",
+        "mt_gNUE4B3vuk"
+      ],
+      "analysis": {
+        "en": "Marble has separate part-whole, number-line, equivalence and operation nodes. Even “same denominator” splits into results below and above one. Some titles understate their descriptions. Compare representations, operand range and explanation demands before counting matched points.",
+        "zh": "Marble 将分物、数轴、等值与运算拆开；同分母加减又区分结果在1以内或超过1。有的标题还小于正文范围。应先比较表征、操作数范围、解释要求，再统计对应点，不能按关键词批量判等。"
+      },
+      "probe": {
+        "en": "Ask why an equivalent fraction has the same value, using both an area model and a number line.",
+        "zh": "要求用面积图和数轴两种方式解释：为什么等值分数的大小不变？"
+      },
+      "sources": [
+        "math2022early",
+        "mathrelease"
+      ],
+      "locator": ""
+    },
+    {
+      "id": "geometry-depth",
+      "subject": "Mathematics",
+      "kind": "scope",
+      "title": {
+        "en": "Recognising a shape ↔ proving a property",
+        "zh": "认图形 ↔ 证明性质"
+      },
+      "fact": {
+        "en": "National geometry distinguishes recognition/measurement, movement and later properties.",
+        "zh": "国家几何结构区分认识测量、位置运动与后续性质研究。"
+      },
+      "topics": [
+        "mt_KJeEeTutJI",
+        "mt_Qcp2d_kuta",
+        "mt_Mnodea7mG_",
+        "mt_hRZyKvz1KN",
+        "mt_vnJEztczji",
+        "mt_4MFUAsbx_6",
+        "mt_cdMlC7EpTJ",
+        "mt_tAJH5BrpOx",
+        "mt_167X6Ax8P7",
+        "mt_ZrsqGVG-Wt",
+        "mt_KB_Czd7RQH",
+        "mt_1VmTUxBrNd"
+      ],
+      "analysis": {
+        "en": "Marble progresses from naming to nets, construction, congruence and trigonometry. These do not share one mastery criterion. A geometry chapter cannot cover every linked node; trigonometry and Pythagoras here have age-13 starts and are outside the chosen starting-age window.",
+        "zh": "Marble 从命名进阶到展开图、作图、全等、三角比，不共享一个达标标准。一章“几何”不能代表全部关联点已覆盖；这里三角比与勾股定理的参考起始年龄为13岁，应移出本次起始年龄范围。"
+      },
+      "probe": {
+        "en": "After recognising a solid, predict its net; after stating a property, explain why it holds.",
+        "zh": "认出立体图形后能否预测展开图？说出性质后能否说明为什么成立？"
+      },
+      "sources": [
+        "mathstructure"
+      ],
+      "locator": ""
+    },
+    {
+      "id": "phonics",
+      "subject": "English",
+      "kind": "shared",
+      "title": {
+        "en": "Phonics is present on both sides",
+        "zh": "两边都有拼读"
+      },
+      "fact": {
+        "en": "The standard includes sound–letter connections and decoding.",
+        "zh": "课标包含音形联系与拼读。"
+      },
+      "topics": [
+        "mt__KHQttMde3",
+        "mt_frDIaXzWbx",
+        "mt_F978c32kDr",
+        "mt_ZhvwM6LMBL",
+        "mt_UvNrOXny1i",
+        "mt_V-ldQp56bF",
+        "mt_HrgDjxcWvf"
+      ],
+      "analysis": {
+        "en": "Marble explicitly spans blending, fluency, syllables and morphology. That is richer detail than a broad phonics label, not evidence that Chinese English ignores phonics. Compare unfamiliar-word decoding and the amount of prompting; do not import Marble age expectations as EFL deadlines.",
+        "zh": "Marble 明列合音、流利度、音节、词素，拆分比“拼读”更细，不代表中国英语没有自然拼读。需要比较陌生词解码能力和提示量；不能把 Marble 的英语读写年龄当作外语学习达标期限。"
+      },
+      "probe": {
+        "en": "Try a new decodable word, rather than a memorised word from the unit.",
+        "zh": "用符合已学规则的新词，区别真正拼读与背熟课内单词。"
+      },
+      "sources": [
+        "enstandard"
+      ],
+      "locator": "Printed p.19 / 课标正文第19页"
+    },
+    {
+      "id": "grammar-depth",
+      "subject": "English",
+      "kind": "depth",
+      "title": {
+        "en": "Language use ↔ grammar analysis",
+        "zh": "语言运用 ↔ 语法分析"
+      },
+      "fact": {
+        "en": "Levels 1–2 introduce basic sentence and tense use.",
+        "zh": "一级、二级逐步要求基本句式和时态运用。"
+      },
+      "topics": [
+        "mt_N8CpN1EJrP",
+        "mt_QEr24lqzvH",
+        "mt_enj1sMcfOT",
+        "mt_7D-vlii8F-",
+        "mt_Of-WsrRQ8B",
+        "mt_N9zffZxuu5",
+        "mt_YQ64pzcLDl",
+        "mt_gbTyzvnWzr",
+        "mt_uycuqPaiJ1",
+        "mt_hzkNpp2PdV",
+        "mt_k7VtbWdfDO",
+        "mt_ZO2iP89cld"
+      ],
+      "analysis": {
+        "en": "Marble extends to relative clauses, passive voice, semicolons and subjunctive forms. This goes beyond basic introductory use, but the later Shanghai sequence is unverified. Recognising a rule, using it in speech and analysing its stylistic effect require separate judgements.",
+        "zh": "Marble 延伸到关系从句、被动、分号、虚拟语气，范围超出基础入门运用；上海后续具体进度仍未核实。识别规则、在交际中使用、分析文体效果，是三个不同要求。"
+      },
+      "probe": {
+        "en": "Can the child use a form to express a real meaning without first naming the grammar rule?",
+        "zh": "孩子能否不先背语法术语，就用合适形式表达真实意思？"
+      },
+      "sources": [
+        "enstandard"
+      ],
+      "locator": "Printed p.21 / 课标正文第21页"
+    },
+    {
+      "id": "reading-inference",
+      "subject": "English",
+      "kind": "shared",
+      "title": {
+        "en": "Reading for meaning and evidence",
+        "zh": "理解意义与寻找依据"
+      },
+      "fact": {
+        "en": "Primary levels include prediction and supported interpretation.",
+        "zh": "小学阶段包含预测与借助线索理解。"
+      },
+      "topics": [
+        "mt_8-POYyg7GJ",
+        "mt_OlhMP7ShFT",
+        "mt_E5KC4AnRLW",
+        "mt_ukLvUD8DFA",
+        "mt_sMAcZW6vWM",
+        "mt_OltpfaX7l6",
+        "mt_k-V37x3zsF",
+        "mt_V6456X6pJE",
+        "mt_IX37F4rNed",
+        "mt_gMSFymQlrW"
+      ],
+      "analysis": {
+        "en": "Marble separates picture clues, inference, author purpose, fact/opinion and argument evaluation. Later nodes demand more than predicting a picture story. Both have thinking goals; compare text difficulty, evidence quality and independence rather than declaring one side “critical” and the other not.",
+        "zh": "Marble 分列图像线索、推断、作者目的、事实观点与论点评价。后面的要求显然高于看图猜故事。双方都有思考目标；要比较文本难度、依据质量与独立性，不能直接划成“有批判思维”和“没有”。"
+      },
+      "probe": {
+        "en": "Ask what in the text supports the answer, and whether another interpretation also fits.",
+        "zh": "追问文本中哪条证据支持答案，以及是否存在同样说得通的另一种解释。"
+      },
+      "sources": [
+        "enstandard"
+      ],
+      "locator": "Printed p.25–27 / 课标正文第25–27页"
+    },
+    {
+      "id": "writing-depth",
+      "subject": "English",
+      "kind": "depth",
+      "title": {
+        "en": "Supported sentences ↔ independent composition",
+        "zh": "支架下写句子 ↔ 独立创作"
+      },
+      "fact": {
+        "en": "Primary writing includes supported expression and short connected text.",
+        "zh": "小学写作包含有支持的表达与连贯短文。"
+      },
+      "topics": [
+        "mt_OyOYHlZ2_T",
+        "mt_PJyCGJz5Hv",
+        "mt_nDAcXoPa0c",
+        "mt_9P9o6d0Qm3",
+        "mt_I65kFjWwnF",
+        "mt_HWYAspz-LK",
+        "mt_v5DyOEpbbr",
+        "mt_AHAFw-atka"
+      ],
+      "analysis": {
+        "en": "Marble includes independent critical revision and audience/style decisions. Copying a model accurately cannot establish those skills. The useful gap to investigate is moving from a supplied frame to choosing structure and revising meaning, not simply writing more words.",
+        "zh": "Marble 包含独立审改、针对受众选择文体。准确套用范文不能证明掌握这些能力。值得观察的差距，是能否由给定框架转向自主组织与修改意思，而不是单纯增加字数。"
+      },
+      "probe": {
+        "en": "Give the same message two audiences; ask what needs changing and why.",
+        "zh": "把同一个消息写给朋友与陌生读者，让孩子解释需要改哪些地方。"
+      },
+      "sources": [
+        "enstandard"
+      ],
+      "locator": "Printed p.26–27 / 课标正文第26–27页"
+    },
+    {
+      "id": "oral-depth",
+      "subject": "English",
+      "kind": "shared",
+      "title": {
+        "en": "Interaction ↔ formal discussion",
+        "zh": "日常互动 ↔ 正式讨论"
+      },
+      "fact": {
+        "en": "The standard includes situational interaction and polite language.",
+        "zh": "课标包含情境互动与礼貌表达。"
+      },
+      "topics": [
+        "mt_f8n4txtLej",
+        "mt_4A7FYmvVhA",
+        "mt_S0hzjAeLSK",
+        "mt_wwdRhPyz6s",
+        "mt_mB7DVai-Uf",
+        "mt_bkvB7QYKwg",
+        "mt_LNYTNpJOGT",
+        "mt_on7FHCDmi-",
+        "mt_ylFTYS80d1",
+        "mt_Yrjn8jAt1c"
+      ],
+      "analysis": {
+        "en": "Marble moves from listening/responding to building on others, evaluating speakers and formal debate. “Can speak English” conceals these differences. Daily communication and formal argument are different tasks; neither should be treated as an automatic substitute for the other.",
+        "zh": "Marble 从倾听回应进阶到接续他人观点、评价发言与正式辩论。“会说英语”会遮住这些差别。日常交际和论证讨论是不同任务，不能互相替代。"
+      },
+      "probe": {
+        "en": "Can the child first restate someone else’s idea accurately, then add a reasoned response?",
+        "zh": "能否先准确复述别人的意思，再给出有理由的回应？"
+      },
+      "sources": [
+        "enstandard"
+      ],
+      "locator": "Printed p.23, 25–27 / 课标正文第23, 25–27页"
+    },
+    {
+      "id": "culture-local",
+      "subject": "English",
+      "kind": "local",
+      "title": {
+        "en": "Chinese context ↔ cross-cultural literature",
+        "zh": "中国情境 ↔ 跨文化阅读"
+      },
+      "fact": {
+        "en": "The standard explicitly includes Chinese and international cultural knowledge.",
+        "zh": "课标明确涉及中国及世界文化知识。"
+      },
+      "topics": [
+        "mt_ZanQuV90qi",
+        "mt_tX0R4-4WXy",
+        "mt_1GF5MeNZPA",
+        "mt_9k1qcpvVi_"
+      ],
+      "analysis": {
+        "en": "Marble does contain cultural comparison in reading; it is incorrect to mark culture absent. However, these records do not explicitly define a China-specific English-expression pathway. Reading stories from several cultures and explaining one’s own customs to a visitor are related but different outputs.",
+        "zh": "Marble 的阅读确实包含跨文化比较，不能标成“没有文化”。但当前记录未明确建立中国情境的英语表达路径。读不同文化的故事，与向访客解释自己的习俗，关联但并不等同。"
+      },
+      "probe": {
+        "en": "Explain a familiar local custom to someone unfamiliar with it, without assuming shared knowledge.",
+        "zh": "向不了解中国生活的访客解释一个熟悉习俗，观察能否补足背景信息。"
+      },
+      "sources": [
+        "enstandard"
+      ],
+      "locator": "Printed p.24 / 课标正文第24页"
+    },
+    {
+      "id": "vocab-depth",
+      "subject": "English",
+      "kind": "shared",
+      "title": {
+        "en": "Vocabulary size ↔ vocabulary use",
+        "zh": "词汇量 ↔ 词汇运用"
+      },
+      "fact": {
+        "en": "The standard connects word form, meaning and contextual use.",
+        "zh": "课标联系词形、意义与语境运用。"
+      },
+      "topics": [
+        "mt_LH714Riydn",
+        "mt_6W5zzDIGZH",
+        "mt_6-MYToNZ39",
+        "mt_NP101Zl-4g",
+        "mt_aw0PldeT_L",
+        "mt_f_dMmvzxwo",
+        "mt_WZnwITSWr8"
+      ],
+      "analysis": {
+        "en": "Marble makes word-learning strategies, word parts and dictionary work visible. A word-count benchmark cannot be compared with a count of these skill nodes. Knowing a translation, inferring a meaning and choosing an appropriate word should be tracked separately.",
+        "zh": "Marble 把词汇策略、构词、查词典列成节点。“词数”不能与“技能点数”比较。知道中文意思、推断新词、选择得体用词，需要分别记录。"
+      },
+      "probe": {
+        "en": "Ask for a meaning guess from context, then a dictionary check and an original sentence.",
+        "zh": "先据语境猜义，再查词典核对，最后在自己的句子中使用。"
+      },
+      "sources": [
+        "enstandard"
+      ],
+      "locator": "Printed p.20 / 课标正文第20页"
+    },
+    {
+      "id": "learning-strategy",
+      "subject": "English",
+      "kind": "shared",
+      "title": {
+        "en": "Learning to learn within English",
+        "zh": "英语学科中的学会学习"
+      },
+      "fact": {
+        "en": "The standard includes help-seeking, reflection and learning strategies.",
+        "zh": "课标包含求助、反思与学习策略。"
+      },
+      "topics": [
+        "mt_GugVunb2lI",
+        "mt_LH714Riydn",
+        "mt_U_8iVFZuHH",
+        "mt_haNr13NIuN",
+        "mt_rQ2YJJi4uh",
+        "mt_OyOYHlZ2_T",
+        "mt_I65kFjWwnF",
+        "mt_HWYAspz-LK"
+      ],
+      "analysis": {
+        "en": "Marble shows monitoring and revision as named skills. National English already has strategy goals, so this is not a policy omission. The real comparison is whether support fades over time and whether the learner can choose a strategy in a new task.",
+        "zh": "Marble 将自我检查与修改独立命名。国家英语已有策略目标，因此不能判为政策缺失。更实质的对比是支持是否逐渐减少，以及能否在新任务中自主选策略。"
+      },
+      "probe": {
+        "en": "When stuck, ask the learner to choose a next step and later judge whether it helped.",
+        "zh": "遇到困难时让孩子选择下一步，事后判断这个办法有没有用。"
+      },
+      "sources": [
+        "enstandard"
+      ],
+      "locator": "Printed p.31–32 / 课标正文第31–32页"
+    },
+    {
+      "id": "genre-scope",
+      "subject": "English",
+      "kind": "depth",
+      "title": {
+        "en": "Text variety ↔ sustained literary reading",
+        "zh": "语篇种类 ↔ 持续文学阅读"
+      },
+      "fact": {
+        "en": "The standard differentiates genres across levels.",
+        "zh": "课标按级别区分语篇类型。"
+      },
+      "topics": [
+        "mt_XeMZdf2Y9W",
+        "mt_ZhUuT__i2H",
+        "mt_zlSoIKPyId",
+        "mt_8FwtdJzeDh",
+        "mt_tX0R4-4WXy",
+        "mt_sUVOS2jH3J",
+        "mt_kJ4xXKL_nO",
+        "mt_x2sWtfTeYT",
+        "mt_9k1qcpvVi_"
+      ],
+      "analysis": {
+        "en": "Marble reaches whole-book reading, cross-text synthesis and unreliable narrators. A picture story, a short functional text and a full novel differ in length, cultural load and interpretive demand. These nodes are candidate enrichment, not requirements for every Shanghai child of the same reference age.",
+        "zh": "Marble 延伸到整本书、跨文本综合、不可靠叙述者。图画故事、功能短文与整部小说，在长度、文化背景、解释要求上均不同。这些可作拓展候选，不能变成所有上海同龄孩子的必修任务。"
+      },
+      "probe": {
+        "en": "Compare two accounts of the same event and identify what each leaves out.",
+        "zh": "比较同一事件的两个叙述，指出各自遗漏了什么。"
+      },
+      "sources": [
+        "enstandard"
+      ],
+      "locator": "Printed p.18 / 课标正文第18页"
+    }
+  ],
+  "policies": [
+    {
+      "id": "policy-purpose",
+      "title": {
+        "en": "What education is for",
+        "zh": "育人目标与工具用途"
+      },
+      "fact": {
+        "en": "National policy combines values, capabilities and all-round development.",
+        "zh": "国家方针同时规定价值观、能力与德智体美劳全面发展。"
+      },
+      "analysis": {
+        "en": "A national education system also has civic and public-service goals. A skills database organises learnable performances. Their purposes differ: counting policy goals as missing maths/English nodes is not a like-for-like comparison.",
+        "zh": "国家教育体系还承担公民培养与公共教育职责；技能数据库主要组织可学习的表现。用途不同，把政策目标硬算成数学/英语“缺失知识点”，并不是同口径比较。"
+      },
+      "topics": {
+        "Mathematics": [],
+        "English": []
+      },
+      "probe": {
+        "en": "Judge subject knowledge, self-directed learning and broader development separately.",
+        "zh": "分别观察学科知识、自主学习与更广泛的发展，不用一张学科技能表替代整体成长判断。"
+      },
+      "sources": [
+        "strongnation",
+        "national2022"
+      ]
+    },
+    {
+      "id": "policy-project",
+      "title": {
+        "en": "Projects and real problems",
+        "zh": "项目与真实问题"
+      },
+      "fact": {
+        "en": "Shanghai policy asks schools to incorporate subject and interdisciplinary projects.",
+        "zh": "上海政策要求推进学科及跨学科项目学习。"
+      },
+      "analysis": {
+        "en": "Marble can identify component skills; a project tests whether a learner combines them. Neither a policy document nor a completed worksheet proves transfer. Compare the learner’s decisions, revisions and final explanation, not whether an activity is called a project.",
+        "zh": "Marble 能拆出组成能力，项目检验能否组合运用。政策文件或填完的练习单都不能证明迁移；应比较孩子作出的决策、修改过程与最终解释，而不只是活动是否叫“项目”。"
+      },
+      "topics": {
+        "Mathematics": [
+          "mt_IM1G_7QzTa",
+          "mt_O_UOTiMvT_",
+          "mt_mQcWGh02no",
+          "mt_pyMD_SIiYO"
+        ],
+        "English": [
+          "mt_4A4RpX-Go9",
+          "mt_FW9_8F52bw",
+          "mt_LNYTNpJOGT",
+          "mt_v5DyOEpbbr"
+        ]
+      },
+      "probe": {
+        "en": "Plan a small event with a budget and an invitation; preserve the choices and revisions.",
+        "zh": "做一个带预算和邀请函的小活动，留下选择依据与修改记录。"
+      },
+      "sources": [
+        "project"
+      ]
+    },
+    {
+      "id": "policy-ai",
+      "title": {
+        "en": "AI is already in Shanghai policy",
+        "zh": "上海政策已包含人工智能"
+      },
+      "fact": {
+        "en": "Shanghai’s 2024–2026 plan specifies local AI courses in Grades 4 and 7.",
+        "zh": "上海2024—2026年方案明确在四、七年级开设人工智能地方课程。"
+      },
+      "analysis": {
+        "en": "This is a school-curriculum requirement outside the two subject inventories, not proof of an AI chapter in maths or English. The imported nodes offer reasoning and source-evaluation neighbours; they do not constitute a complete AI literacy curriculum.",
+        "zh": "这是两科学科表之外的学校课程安排，不证明数学或英语教材有某一AI章节。当前节点有推理、来源判断等相关基础，却不能组成完整的AI素养课程。"
+      },
+      "topics": {
+        "Mathematics": [
+          "mt_pyMD_SIiYO",
+          "mt_a3dov8CZkq"
+        ],
+        "English": [
+          "mt_JVVKT-_AD9",
+          "mt_Qcsl1Z1x0l"
+        ]
+      },
+      "probe": {
+        "en": "Distinguish a plausible answer from a checked answer; identify evidence that could disprove it.",
+        "zh": "区分“看起来合理”与“已经核实”，找出可能推翻答案的证据。"
+      },
+      "sources": [
+        "shai",
+        "aied2026"
+      ]
+    },
+    {
+      "id": "policy-science",
+      "title": {
+        "en": "Inquiry has a concrete process",
+        "zh": "探究有具体过程"
+      },
+      "fact": {
+        "en": "The 2026 science initiative specifies tasks for Grades 4–9; Grades 1–3 follow existing science inquiry requirements.",
+        "zh": "2026年科学行动对四至九年级规定任务；一至三年级依现有科学探究要求落实。"
+      },
+      "analysis": {
+        "en": "Observation, testing and revision are more demanding than being told a correct explanation. Maths data skills and English reporting can support inquiry, but the science requirement is not a new compulsory English test. Policy implementation in an individual class remains unobserved.",
+        "zh": "观察、验证、改进比听懂正确解释更进一步。数学数据能力和英语汇报可支持探究，但科学要求不能改写成额外英语考核；具体班级是否落实仍需实际观察。"
+      },
+      "topics": {
+        "Mathematics": [
+          "mt_Cqm8iy48UI",
+          "mt_IM1G_7QzTa",
+          "mt_pyMD_SIiYO"
+        ],
+        "English": [
+          "mt_sMAcZW6vWM",
+          "mt_FW9_8F52bw",
+          "mt_v5DyOEpbbr"
+        ]
+      },
+      "probe": {
+        "en": "Keep a prediction, measurements and a revised explanation; compare what changed.",
+        "zh": "保留预测、测量数据与修改后的解释，比较什么证据改变了想法。"
+      },
+      "sources": [
+        "doing2026"
+      ]
+    },
+    {
+      "id": "policy-assess",
+      "title": {
+        "en": "Evidence of learning, not just an answer",
+        "zh": "观察学习过程，不只看答案"
+      },
+      "fact": {
+        "en": "Shanghai project guidance includes process observations and varied outputs.",
+        "zh": "上海项目指导意见包含过程观察与多样成果。"
+      },
+      "analysis": {
+        "en": "Marble observation prompts can help record concrete behaviour. Neither taxonomy completion nor grades alone show independence or transfer. Record the task, support provided, evidence and a repeat attempt in a new context; avoid a permanent trait label from one activity.",
+        "zh": "Marble 的观察提示可帮助记录具体行为。勾完节点或分数都不能单独证明独立性、迁移力。应记录任务、提供的帮助、行为证据，再换情境观察；不凭一次活动给孩子贴永久标签。"
+      },
+      "topics": {
+        "Mathematics": [
+          "mt_SmghasIvbT",
+          "mt_kJ5wYzO8qC"
+        ],
+        "English": [
+          "mt_GugVunb2lI",
+          "mt_U_8iVFZuHH",
+          "mt_HWYAspz-LK"
+        ]
+      },
+      "probe": {
+        "en": "Was it independent, prompted, modelled, or not yet observed? Record the evidence.",
+        "zh": "独立完成、经提示完成、跟示范完成，还是尚未观察？记录具体证据。"
+      },
+      "sources": [
+        "project"
+      ]
+    },
+    {
+      "id": "policy-early",
+      "title": {
+        "en": "Ages 0–6 are not early school grades",
+        "zh": "0–6岁不是小学前置年级"
+      },
+      "fact": {
+        "en": "Shanghai transition guidance centres on developmentally appropriate preparation.",
+        "zh": "上海幼小衔接以适宜的发展准备为依据。"
+      },
+      "analysis": {
+        "en": "The imported maths/English nodes start at 4; none define infant milestones. A missing age-0–3 node is a scope boundary, not a child’s deficit. Play-based quantity and spatial experiences can be linked; compulsory preschool English targets cannot be inferred.",
+        "zh": "本次数学/英语数据最早从4岁起，没有婴幼儿里程碑。0–3岁没有节点是范围边界，不是孩子有缺陷。游戏中的数量、空间经验可关联，但不能推导学前英语必达目标。"
+      },
+      "topics": {
+        "Mathematics": [
+          "mt__h7hvT4tEb",
+          "mt_dmNvjroCPT",
+          "mt_KJeEeTutJI",
+          "mt_Qcp2d_kuta"
+        ],
+        "English": []
+      },
+      "probe": {
+        "en": "Observe interests and spontaneous use during play; do not convert the map into age-based drills.",
+        "zh": "在游戏中观察兴趣与自发运用，不把图谱变成年龄刷题清单。"
+      },
+      "sources": [
+        "transition"
+      ]
+    }
+  ]
+}
