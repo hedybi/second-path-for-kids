@@ -1,110 +1,108 @@
-# Second Path · 第二路径
+# Second Path
 
 A bilingual family learning project based on Marble Skill Taxonomy. Explore learning habits, mathematics and English through separate tools.
 
-一个帮助家长与孩子一起探索学习的开源项目：从具体活动中观察学习过程，通过能力图谱了解数学与英语，再结合有出处的课程资料提出问题。
+Second Path helps families observe how learning happens through everyday activities, explore subject skills, and ask informed questions using referenced curriculum materials.
 
-**Designed by Lianghuan Bi(Hedy Bi).** 英文默认界面，支持中文切换；黑底与绿色配色。
+**Designed by Lianghuan Bi(Hedy Bi).** English is the default interface language, with a Chinese option and a dark theme with green accents.
 
-[GitHub 仓库](https://github.com/hedybi/second-path-for-kids) · [反馈与建议](https://github.com/hedybi/second-path-for-kids/issues) · [Marble 原项目](https://github.com/withmarbleapp/os-taxonomy)
+[GitHub repository](https://github.com/hedybi/second-path-for-kids) · [Feedback and suggestions](https://github.com/hedybi/second-path-for-kids/issues) · [Marble source project](https://github.com/withmarbleapp/os-taxonomy)
 
-## 两个主要工具，从这里进入
+## Start with one of the two main tools
 
-| 工具 | 适合做什么 | 网站入口 | 对应的本地成品 |
+| Tool | What it offers | Website entry | Local build |
 | --- | --- | --- | --- |
-| **Learning to Learn · 学会学习** | 看亲子案例、填写万能观察模板、导出报告与汇总记录 | [打开学会学习](https://hedybi.github.io/second-path-for-kids/) | `dist/index.html`，同版文件为 `dist/studio.html` |
-| **Maths & English · 数学与英语** | 浏览数学、英语能力图谱，以及上海课程资料的阶段性对比 | [打开数学与英语](https://hedybi.github.io/second-path-for-kids/subject-maps.html) | `dist/subject-maps.html` |
+| **Learning to Learn** | Family activity cases, one flexible observation template, individual reports and a cumulative learner summary | [Open Learning to Learn](https://hedybi.github.io/second-path-for-kids/) | `dist/index.html`; `dist/studio.html` contains the same version |
+| **Maths & English** | Mathematics and English skill maps, with a provisional comparison against available Shanghai curriculum materials | [Open Maths & English](https://hedybi.github.io/second-path-for-kids/subject-maps.html) | `dist/subject-maps.html` |
 
-以上是本项目约定的网站入口。实际能否访问取决于 GitHub Pages 的发布目录和部署结果；更新这份 README 不会自动上传或发布页面。
+These are the intended website entry points. Availability depends on the GitHub Pages publishing directory and deployment result. Updating this README does not upload or deploy the pages.
 
-**数学小游戏是另一个独立原型，不属于“数学与英语”图谱页面的发布内容。** 它的本地文件是 `dist/math-play.html`，介绍见下方。保留这些区别，避免把学习记录、图谱和游戏混为一个工具。
+**The maths game is a separate prototype and is excluded from the Maths & English map release.** Its local file is `dist/math-play.html`; see its description below.
 
-English: Use **Learning to Learn** for family activities and observation records. Use **Maths & English** for subject maps and a provisional Shanghai comparison. The maths game is a separate prototype. Shanghai source collection and curriculum matching are incomplete; an unmatched skill does not establish a curriculum gap or a child's learning deficit.
+## Shanghai sources and comparison: important limitations
 
-## 上海资料与对比：请先了解这些限制
+> **The collection of Shanghai textbooks and related materials is incomplete. This is a provisional comparison based on the sources found so far, not a complete Shanghai syllabus, a full review of the new textbook series, or an official curriculum evaluation.**
 
-> **上海教材及相关资料目前收集不完整。这里是基于已找到资料的阶段性对比，不是完整的上海教纲、全套新教材审校结果，也不是官方课程评价。**
+- The intended scope is **ages 0–12 within Shanghai's education system**, with attention to the **new-textbook pathway for children who entered school in 2024**. It is not limited to Grade 3. Source availability varies across stages.
+- Sources include national curriculum and education policies, Shanghai policies and teaching research, selected school teaching examples, and explicitly labelled third-party textbook contents or lesson-plan leads. **Policy goals, textbook content and actual classroom teaching are different kinds of evidence.**
+- The new textbooks and their knowledge points have not been checked in full across all grades and terms. Some records are supported only by contents lists or teaching reports, which cannot establish the complete sequence of a textbook series. Current selection catalogues also cannot confirm every future edition a child will use.
+- **“No corresponding source found” or “not yet matched” does not mean “Shanghai does not teach this,” “Marble does not contain this,” or “the child cannot do this.”** Identifying a difference requires checking both sides, their level of detail, age scope and supporting sources.
+- The page includes the complete imported Marble mathematics and English inventories, but matching them to Shanghai content remains unfinished. A complete inventory is not a complete curriculum comparison, and match counts are not coverage percentages.
+- General preschool language-development guidance is not an English syllabus. Reference ages in the imported Marble subjects begin at 4; no requirements for ages 0–3 have been extrapolated. Reference ages are not mastery deadlines.
 
-- 范围面向 **0–12 岁、上海教育体系**，关注 **2024 年入学儿童的新教材路径**，并非仅限三年级。不同年龄段的资料完整程度不同。
-- 资料包括国家课程与教育政策、上海地方政策和教研材料、部分学校教学实例，以及明确标注的第三方教材目录或教案线索。**政策目标、教材内容、课堂实际教学是不同层次的证据。**
-- 上海各年级、各学期的新教材原文与知识点尚未全部核验。部分内容只有目录或教学报道支持，不能据此推断一套教材的完整安排；现有选用目录也不能确定孩子未来每一年会使用的版本。
-- **“未找到对应资料”“尚未匹配”不等于“上海不教”或“Marble 没有”，更不等于“孩子不会”。** 判断差异需要同时检查双方内容、表述粒度、年龄范围和证据来源。
-- Marble 数学与英语条目清单已完整列入本页，但与上海课程的逐点对应仍未完成。不能把清单完整当成课程对比完整，也不能把匹配数量当作覆盖率。
-- 学龄前的一般语言发展指导不等于英语课程要求；Marble 本次导入科目的参考年龄从 4 岁开始，没有据此推导 0–3 岁要求。参考年龄也不是必须掌握的期限。
+Contributions of verifiable Shanghai textbook references, official curriculum documents and teaching research are welcome. Please include the **subject, grade, term, publisher, edition or year, and relevant page numbers or official links**. References and brief explanations are sufficient; there is no need to upload entire textbooks.
 
-欢迎补充可核验的上海新教材、官方课程文件或教研资料。请附**科目、年级、学期、出版社、版次或年份、相关页码或官方链接**。可以提供引用信息与简短说明，不需要上传整本教材。
+## Learning to Learn
 
-## Learning to Learn · 学会学习
+Start with a small shared experience and observe how learning unfolds. A child does not need to have a problem that requires correction to use this tool.
 
-从“小小的体验”开始记录学习怎样发生，不要求孩子先有一个需要纠正的问题。
+- **22 activity cases:** 18 relate to Learning to Learn skills, with 4 additional family activities. Cases include materials, steps, questions and observable behaviours.
+- **One flexible template:** children can invent an activity and record its title, materials, plan and what happened. Custom activities are not automatically assigned to a Marble skill.
+- **Observation records and reports:** generate an individual report, download HTML or print to PDF, and export or import JSON backups.
+- **A cumulative learner summary:** review observed behaviours and support needs. At least three distinct sessions across two dates are required before the summary describes repeated independent performance.
+- **A Learning to Learn map:** preserves 18 Marble nodes, 22 internal prerequisite relationships and 3 mathematics prerequisites.
 
-- **22 个案例**：18 个关联学会学习能力，另有 4 个亲子拓展练习；提供材料、步骤、提问与可观察表现。
-- **一个万能模板**：孩子可以自创活动，填写活动名称、材料、计划和尝试中发生的事情；自创活动不会被自动归入某项 Marble 能力。
-- **观察记录与报告**：填写后生成单次报告，下载 HTML 或通过打印保存 PDF；支持 JSON 备份与导入。
-- **学习者观察汇总**：汇总已有记录中的表现与支持需求。至少三个独立活动记录、分布在两个日期，才会描述重复出现的独立表现。
-- **学会学习图谱**：保留 18 个 Marble 节点、22 条内部前置关系和 3 项数学前置能力。
+Reports use entered observations and fixed rules without calling an AI model. They are family observation notes, not standardized assessments, diagnoses or fixed learning-style classifications. Missing observations are not evidence of inability.
 
-报告依据填写的内容和固定规则生成，不调用 AI 模型。它是家庭观察笔记，不是标准化测评、诊断或固定“学习类型”判定；未观察到的表现不能被当作能力不足。
+Records are stored in the current browser. Enable “Keep records on this device” to retain generated sessions, and export JSON backups regularly. Records do not automatically sync across devices, browsers, or local files and the published website.
 
-记录保存在当前浏览器中。启用“在此设备保留记录”可保留生成的活动记录，建议定期导出 JSON 备份。不同设备、浏览器以及本地文件和线上网站之间不会自动同步。
+## Maths & English
 
-## Maths & English · 数学与英语
+The standalone map page contains four tabs:
 
-独立图谱页面包含四个标签页：
-
-| 标签页 | 内容 |
+| Tab | Content |
 | --- | --- |
-| 数学 | Marble 的 503 个数学知识与能力点 |
-| 英语 | Marble 的 286 个英语知识与能力点 |
-| 上海数学对比 | 已分析差异、完整 Marble 清单、政策与学习目标、已有教材证据 |
-| 上海英语对比 | 同样的四类视图，单独列出英语资料与待核验内容 |
+| Mathematics | All 503 mathematics topics in the imported Marble inventory |
+| English | All 286 English topics in the imported Marble inventory |
+| Shanghai Mathematics Comparison | Analysed differences, the complete Marble inventory, policy and learning goals, and available textbook evidence |
+| Shanghai English Comparison | The same four views, with separate English sources and outstanding verification needs |
 
-支持中英文、搜索与筛选，查看节点说明、前置关系及原文参考。中文内容包括翻译与简明改写；原始英文参考保留在页面中。图谱页不收集学习记录，不包含数学小游戏。
+The page supports English and Chinese, search and filters, topic descriptions, prerequisite relationships and original references. Chinese content includes translations and concise adaptations; original English references remain available. The map page does not collect learner records or include the maths game.
 
-当前对比数据包含 15 条精选教材及教学证据记录、19 条深入对比和 6 条政策对比。数学有 95 个点关联了选定的内容证据，408 个点尚未关联；英语分别为 71 个和 215 个。**这些是编辑整理的关联数量，不是上海教材的覆盖率或缺失数量。**
+The current comparison data contains 15 selected textbook and teaching evidence records, 19 detailed comparisons and 6 policy comparisons. In mathematics, 95 topics have selected content-evidence associations and 408 remain unassociated; the English counts are 71 and 215. **These are editorial association counts, not measures of Shanghai textbook coverage or missing curriculum content.**
 
-数学清单中有 9 个点的 Marble 参考起始年龄为 13 岁，其余 494 个为 12 岁及以下；英语 286 个均为 12 岁及以下。这些年龄没有被直接换算成上海年级。涉及国家数学课标早期 PDF 的部分判断仍需结合更正版本及上海教材原本复核。
+Nine mathematics topics have a Marble reference starting age of 13; the other 494 start at 12 or below. All 286 English topics start at 12 or below. These ages are not directly converted into Shanghai grades. Some findings based on an early national mathematics curriculum PDF still require checking against the corrected edition and original Shanghai textbooks.
 
-源数据、汉化与对比的维护说明见 [数学与英语模块 README](subject-maps/README.md)。
+See the [Maths & English module README](subject-maps/README.md) for source data, Chinese adaptations and comparison maintenance details.
 
-## 独立原型：Maths Adventures · 数学小冒险
+## Separate prototype: Maths Adventures
 
-本地成品：`dist/math-play.html`。**本次数学与英语图谱发布不包含这个页面。**
+Local build: `dist/math-play.html`. **This page is excluded from the Maths & English map release.**
 
-五个挑战围绕预算、周长、等值分数、等差规律、数据比较展开，每个挑战有两种固定情境。题目由 Second Path 编写，关联部分 Marble 节点；不是 Marble 官方题库，也不能评估整个数学图谱或上海数学课程。
+Five challenges cover budgets, perimeter, equivalent fractions, equal-step patterns and data comparisons, each with two fixed situations. Second Path authored the challenges and linked them to selected Marble nodes. They are not an official Marble question bank and cannot assess the complete mathematics taxonomy or Shanghai curriculum.
 
-页面另有“家长观察指南”标签页，针对挑战关联的 8 个节点提供：能力表现证据（evidence）、观察提问（assessmentPrompt）、16 条直接前置关系及原因，以及对应的领域概述和课标关联。中文改写与上游原文分别保留。
+A separate “Parent observation guide” tab within the prototype covers the 8 nodes linked to the challenges. It provides observable evidence (`evidence`), assessment questions (`assessmentPrompt`), all 16 direct prerequisite relationships and their reasons, and relevant domain summaries and curriculum associations. Chinese adaptations and upstream originals remain separate.
 
-完成状态只描述这一次尝试及是否使用帮助；没有排名、年龄常模或整体掌握率。记录存于浏览器，可下载文本。详见 [数学小冒险模块 README](math-play/README.md)。
+Completion states describe the current attempt and whether support was used. There are no rankings, age norms or overall mastery percentages. Records are stored in the browser and can be downloaded as text. See the [Maths Adventures module README](math-play/README.md).
 
-## 文件怎么分：网页、源码和说明
+## Files: pages, source code and documentation
 
-**同一个仓库可以容纳两个主要工具，不需要为两个网址再建两个仓库。** 每个工具有自己的 HTML 入口；根目录只需要一份综合 `README.md`。
+**One repository can host both main tools. Two website addresses do not require two repositories.** Each tool has its own HTML entry point, with one overview `README.md` at the repository root.
 
-| 文件或目录 | 用途 |
+| File or directory | Purpose |
 | --- | --- |
-| `README.md` | 仓库总导航、工具说明、资料限制与使用方法 |
-| `templates/studio.html` | 学会学习页面的可编辑 HTML 模板 |
-| `dist/studio.js`、`dist/content.js`、`dist/reports.js`、`dist/learning-map.js`、`dist/studio.css`、`dist/data/` | 学会学习的可编辑程序、样式与数据；目前放在 `dist/`，不能把整个目录当缓存删除 |
-| `subject-maps/` | 数学与英语图谱的源码、数据、翻译及模块说明，包括 `app.js`、`audit.js`、`audit.css`、`audit-data.py` 等 |
-| `math-play/` | 独立数学小游戏原型的源码、数据与模块说明 |
-| 根目录的 `build-*.py`、`make-offline.py` | 生成网页的构建脚本 |
-| 根目录的 `check-*.mjs` | 数据与程序检查脚本 |
-| `dist/index.html`、`dist/studio.html`、`dist/subject-maps.html`、`dist/math-play.html` | 构建生成的可直接打开的网页 |
-| `deliverables/` | 交付或上传副本；旧发布包可能落后于当前源码 |
-| `LICENSE`、`NOTICE.md` | 代码许可、数据及内容来源说明 |
+| `README.md` | Project navigation, tool descriptions, source limitations and usage instructions |
+| `templates/studio.html` | Editable HTML template for Learning to Learn |
+| `dist/studio.js`, `dist/content.js`, `dist/reports.js`, `dist/learning-map.js`, `dist/studio.css`, `dist/data/` | Editable Learning to Learn code, styles and data; these currently live in `dist/`, so do not delete that entire directory as a build cache |
+| `subject-maps/` | Maths & English source code, data, translations and module documentation, including `app.js`, `audit.js`, `audit.css` and `audit-data.py` |
+| `math-play/` | Source code, data and module documentation for the separate maths-game prototype |
+| Root-level `build-*.py` and `make-offline.py` | Scripts that generate the standalone pages |
+| Root-level `check-*.mjs` | Data and program checks |
+| `dist/index.html`, `dist/studio.html`, `dist/subject-maps.html`, `dist/math-play.html` | Generated pages that can be opened directly in a browser |
+| `deliverables/` | Delivery or upload copies; older release packages may lag behind the current source |
+| `LICENSE`, `NOTICE.md` | Code licensing and attribution for data and content |
 
-如果仓库根目录已经出现 `app.js`、`audit.js`、`audit-data.py` 等图谱文件，说明模块文件可能在上传时被平铺到了根目录。上表描述的是构建脚本要求的目录结构，**更新 README 不会自动移动这些文件**。后续整理时应核对内容并放回 `subject-maps/`，保留模块自己的 README，不用它覆盖仓库总 README。
+If map files such as `app.js`, `audit.js` or `audit-data.py` appear at the repository root, module files may have been flattened during upload. The table describes the structure required by the build scripts. **Updating the README does not move these files.** When organizing the repository, verify their contents and restore them to `subject-maps/`. Keep the module README inside its module directory instead of using it to replace this project overview.
 
-独立 HTML 已嵌入运行所需的样式、脚本和数据，所以单独发布网页时不需要额外的 `audit.js` 等文件。开源维护则应保留源码、数据、构建脚本和许可文件，让其他人可以检查、修改和重新生成网页。
+Each standalone HTML file embeds its required styles, scripts and data, so publishing that page does not require a separate `audit.js` or similar runtime file. For open-source maintenance, retain the editable source, data, build scripts and license files so others can inspect, modify and rebuild the project.
 
-## 本地使用与构建
+## Local use and builds
 
-直接用浏览器打开生成的 HTML 即可使用，无需安装服务、数据库或配置 AI API Key。访问来源链接或 GitHub 反馈需要联网。
+Open a generated HTML file directly in a browser. No server installation, database or AI API key is required. Source links and GitHub feedback require internet access.
 
-修改项目需要 Python 3 与 Node.js（现有工作流使用 Node.js 24）。下面的命令在仓库根目录执行，并依赖上表中的源码目录结构。
+Development requires Python 3 and Node.js; the existing workflow uses Node.js 24. Run the following commands from the repository root with the source directory structure described above.
 
-### 学会学习
+### Learning to Learn
 
 ```sh
 python3 build-learning-map.py
@@ -113,9 +111,9 @@ node check-learning-map.mjs
 node check-reports.mjs
 ```
 
-输出 `dist/index.html`、`dist/studio.html` 和 `deliverables/一起长大.html`。
+Outputs: `dist/index.html`, `dist/studio.html` and `deliverables/一起长大.html`.
 
-### 数学与英语图谱
+### Maths & English maps
 
 ```sh
 python3 subject-maps/shanghai-data.py
@@ -124,9 +122,9 @@ python3 build-subject-maps.py
 node check-subject-maps.mjs
 ```
 
-输出 `dist/subject-maps.html` 和 `deliverables/subject-maps.html`。只调整界面时不需要重新生成上海与对比数据；调整资料时应先修改相应的数据生成脚本。
+Outputs: `dist/subject-maps.html` and `deliverables/subject-maps.html`. Interface-only changes do not require regenerating the Shanghai and comparison data. For source updates, edit the relevant data-generation scripts first.
 
-### 独立数学小游戏原型
+### Separate maths-game prototype
 
 ```sh
 python3 math-play/data.py
@@ -135,57 +133,57 @@ python3 build-math-play.py
 node check-math-play.mjs
 ```
 
-输出 `dist/math-play.html` 和 `deliverables/math-play.html`。部分检查也使用已有的数学与英语成品，应先构建图谱。
+Outputs: `dist/math-play.html` and `deliverables/math-play.html`. Some checks also use the existing Maths & English build, so build the maps first.
 
-修改源码后需要重新构建并更新成品 HTML。数据与程序检查不等于浏览器视觉验收，也不能证明上海资料收集完整或活动具有测评效度。
+After source changes, rebuild and update the generated HTML. Data and program checks do not replace browser visual review or establish that the Shanghai research is complete or the activities are validated assessments.
 
-## GitHub Pages 发布与更新
+## Publishing and updating GitHub Pages
 
-先确认仓库 **Settings → Pages** 当前使用的发布方式。GitHub 支持从分支的根目录或 `docs/` 发布，也支持 GitHub Actions；具体操作见 [GitHub 官方发布说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
+First check the publishing method under **Settings → Pages**. GitHub supports publishing from a branch's root or `docs/` directory, or through GitHub Actions. See the [official GitHub publishing guide](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-如果当前从 `main` 分支的根目录发布，两个主要入口应这样放置：
+If Pages currently publishes from the root of the `main` branch, place the two main entry points as follows:
 
-| 本地文件 | 上传到仓库根目录后的名字 | 对应网址 |
+| Local file | Name at the repository root | Destination |
 | --- | --- | --- |
-| `dist/index.html` | `index.html` | `https://hedybi.github.io/second-path-for-kids/` |
-| `dist/subject-maps.html` | `subject-maps.html` | `https://hedybi.github.io/second-path-for-kids/subject-maps.html` |
-| 本 README | `README.md` | GitHub 仓库首页说明 |
+| `dist/index.html` | `index.html` | [Learning to Learn](https://hedybi.github.io/second-path-for-kids/) |
+| `dist/subject-maps.html` | `subject-maps.html` | [Maths & English](https://hedybi.github.io/second-path-for-kids/subject-maps.html) |
+| This README | `README.md` | GitHub repository overview |
 
-**不要把 `subject-maps.html` 改名为 `index.html` 覆盖学会学习入口。** 两个 HTML 可以并存，README 负责将两个入口列清楚。发布数学与英语时可使用 `deliverables/github-maths-english/subject-maps.html` 副本，但应确保它与最新构建一致。
+**Do not rename `subject-maps.html` to `index.html` and overwrite the Learning to Learn entry point.** Both HTML files can coexist, with this README linking to each. You can use the upload copy at `deliverables/github-maths-english/subject-maps.html` if it matches the latest build.
 
-现有 `.github/workflows/pages.yml` 只构建和检查学会学习，却会将整个 `dist/` 作为网站发布。因此，若使用这个工作流，需要另行补齐数学与英语的构建步骤，并明确限定要发布的成品；否则已有的游戏原型也可能随 `dist/` 一起发布。这份 README 的更新没有修改工作流。
+The existing `.github/workflows/pages.yml` builds and checks only Learning to Learn, but publishes the entire `dist/` directory. Before using it for both main tools, add the Maths & English build steps and explicitly select the intended release files. Otherwise, the existing game prototype may also be published with `dist/`. This README update does not change the workflow.
 
-更新后以 Pages 部署结果及实际打开两个页面为准，不能仅凭提交旁的绿色勾判断所有入口都正确。
+Confirm the Pages deployment result and open both actual pages after updating. A green check beside a commit alone does not confirm that every entry point works correctly.
 
-## 常见问题
+## Frequently asked questions
 
-**找不到 Learning to Learn 了？**
+**Where did Learning to Learn go?**
 
-先打开上方“学会学习”入口。若首页显示数学与英语，检查发布目录里的 `index.html` 是否被替换；学会学习本地成品仍是 `dist/index.html` 或 `dist/studio.html`。README 被覆盖与网页入口被覆盖是两件不同的事。
+Try the Learning to Learn link above. If the homepage displays Maths & English, check whether `index.html` in the publishing directory was replaced. The local Learning to Learn build remains `dist/index.html` or `dist/studio.html`. Replacing a README and replacing a website entry point are separate issues.
 
-**`dist/`、`deliverables/` 和根目录的 HTML，应该改哪份？**
+**Which HTML copy should I edit: `dist/`, `deliverables/` or the repository root?**
 
-修改对应模块源码，再构建生成成品；将最新成品复制到实际发布目录。不要分别手工修改多个 HTML 副本。仅更新源码不会自动更新已经上传的独立 HTML。
+Edit the corresponding module's source and rebuild, then copy the latest generated page into the actual publishing directory. Avoid manually editing several HTML copies independently. Updating source files alone does not update an already uploaded standalone HTML file.
 
-**为什么打开 GitHub 里的 HTML 看到的是代码？**
+**Why does GitHub show code when I open an HTML file?**
 
-GitHub 仓库页面用于查看文件。请使用上方 GitHub Pages 网址，或下载 HTML 后用浏览器打开。
+The repository view displays files. Use the GitHub Pages links above, or download the HTML and open it in a browser.
 
-## 反馈与参与
+## Feedback and contributions
 
-在 [GitHub Issues](https://github.com/hedybi/second-path-for-kids/issues) 留下建议、问题或资料补充，维护者可以在仓库中查看与回复；也欢迎提交 Pull Request。
+Share suggestions, bugs or source references through [GitHub Issues](https://github.com/hedybi/second-path-for-kids/issues), where the maintainer can read and reply. Pull requests are also welcome.
 
-反馈时请说明工具名称、使用语言、问题或建议。课程对比请附具体来源和版本；界面问题请描述操作步骤、预期结果和实际结果。公开反馈不需要孩子的姓名、学校或完整个人学习报告。
+Please name the tool, interface language and issue or suggestion. For curriculum comparisons, include a specific source and edition. For interface issues, describe the steps, expected result and actual result. Public feedback does not need a child's name, school or complete personal learning report.
 
-## 来源与许可
+## Sources and licenses
 
-本项目基于 [Marble Skill Taxonomy v1](https://github.com/withmarbleapp/os-taxonomy)，上游版权归 **Generative Spark, Inc. (Marble)** 所有。Second Path 提供中英文界面、内容改写、亲子活动、观察记录与课程资料整理。
+This project is based on [Marble Skill Taxonomy v1](https://github.com/withmarbleapp/os-taxonomy), copyright **Generative Spark, Inc. (Marble)**. Second Path adds bilingual interfaces, content adaptations, family activities, observation records and curriculum-source organization.
 
-- 数据库与派生的节点、依赖映射：**ODbL 1.0**。
-- Marble 编写的学习内容、翻译与相应活动改写：**CC BY-SA 4.0**。
-- 本项目原创程序、样式与图形：**MIT**，见 [LICENSE](LICENSE)。
-- 第三方课标、教材及其他来源保留各自授权条件；参考 [上游 PROVENANCE](https://github.com/withmarbleapp/os-taxonomy/blob/main/PROVENANCE.md) 与具体来源。
+- Database and derived topic/dependency mappings: **ODbL 1.0**.
+- Marble-authored learning content, translations and related activity adaptations: **CC BY-SA 4.0**.
+- Original application code, styles and artwork: **MIT**, see [LICENSE](LICENSE).
+- Third-party standards, textbooks and other sources retain their own terms; consult [upstream PROVENANCE](https://github.com/withmarbleapp/os-taxonomy/blob/main/PROVENANCE.md) and the individual sources.
 
-详见 [NOTICE.md](NOTICE.md)。生成的 HTML 同时包含代码与另行授权的数据、内容，不能将整个网页中的全部材料都视为 MIT 授权。上海部分仅提供简短摘要、编辑解释与来源链接，不提供整本教材。
+See [NOTICE.md](NOTICE.md). Generated HTML contains both code and separately licensed data and content; the MIT license does not apply to every included material. The Shanghai comparison provides brief summaries, editorial interpretations and source links, not entire textbooks.
 
-**设计与维护：Lianghuan Bi(Hedy Bi)**
+**Design and maintenance: Lianghuan Bi(Hedy Bi)**
