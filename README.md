@@ -65,16 +65,6 @@ Nine mathematics topics have a Marble reference starting age of 13; the other 49
 
 See the [Maths & English module README](subject-maps/README.md) for source data, Chinese adaptations and comparison maintenance details.
 
-## Separate prototype: Maths Adventures
-
-Local build: `dist/math-play.html`. **This page is excluded from the Maths & English map release.**
-
-Five challenges cover budgets, perimeter, equivalent fractions, equal-step patterns and data comparisons, each with two fixed situations. Second Path authored the challenges and linked them to selected Marble nodes. They are not an official Marble question bank and cannot assess the complete mathematics taxonomy or Shanghai curriculum.
-
-A separate “Parent observation guide” tab within the prototype covers the 8 nodes linked to the challenges. It provides observable evidence (`evidence`), assessment questions (`assessmentPrompt`), all 16 direct prerequisite relationships and their reasons, and relevant domain summaries and curriculum associations. Chinese adaptations and upstream originals remain separate.
-
-Completion states describe the current attempt and whether support was used. There are no rankings, age norms or overall mastery percentages. Records are stored in the browser and can be downloaded as text. See the [Maths Adventures module README](math-play/README.md).
-
 ## Files: pages, source code and documentation
 
 **One repository can host both main tools. Two website addresses do not require two repositories.** Each tool has its own HTML entry point, with one overview `README.md` at the repository root.
