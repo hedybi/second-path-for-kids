@@ -1,5 +1,7 @@
 # Second Path
 
+**New: [Play six English grammar modules](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html)** · [Quick-start guide](skills/grammar-adventures/README.md) · [Teaching skill](skills/grammar-adventures/SKILL.md)
+
 A bilingual family learning project based on Marble Skill Taxonomy. Explore learning habits, mathematics and English through separate tools.
 
 Second Path helps families observe how learning happens through everyday activities, explore subject skills, and ask informed questions using referenced curriculum materials.
@@ -184,3 +186,25 @@ See [NOTICE.md](NOTICE.md). Generated HTML contains both code and separately lic
 - **Who it is for:** Designed for Grade 3 primary-school learners in Shanghai, using Chinese explanations and simple English examples. It supports supplementary practice; alignment with a specific Shanghai textbook or teaching sequence has not been verified.
 - **How to use:** Open the [quick-start guide](skills/subject-verb-agreement/README.md), copy the full contents of [SKILL.md](skills/subject-verb-agreement/SKILL.md) into your own AI chat, then paste the guide’s starter prompt. Chat practice uses your own AI account. Clickable games require an AI that can generate HTML; playing inside the chat also requires webpage preview support.
 - **Where to start:** Open the [Maths & English map](https://hedybi.github.io/second-path-for-kids/subject-maps.html), select **English**, and click **Subject–verb agreement · AI interactive learning** above the map. The same guide is linked from the **Subject-verb agreement** topic details, or you can visit the [resource page](https://github.com/hedybi/second-path-for-kids/tree/main/skills/subject-verb-agreement) directly. These entries open the teaching guide; a playable game is generated separately in your own AI.
+
+## Grammar Adventures · six playable modules
+
+Explore English grammar with Chinese explanations, simple English examples and sentence-change animations.
+
+**[Play the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html)** · [Quick-start guide](skills/grammar-adventures/README.md) · [Teaching skill](skills/grammar-adventures/SKILL.md)
+
+| Module | Reference ages |
+| --- | --- |
+| [Question Words & Questions](skills/grammar-adventures/question-words.md) | 5–6 |
+| [Agreement in Sentences](skills/grammar-adventures/sentence-agreement.md) | 8–10 |
+| [Plurals & Possessives](skills/grammar-adventures/plurals-and-possessives.md) | 8–9 |
+| [Simple Past, Present & Future](skills/grammar-adventures/simple-tenses.md) | 8–9 |
+| [Standard English Verb Forms](skills/grammar-adventures/standard-verb-forms.md) | 8–9 |
+| [Progressive Tenses](skills/grammar-adventures/progressive-tenses.md) | 9–10 |
+
+Choose a module, explore the lessons, try 12 questions, then practise new examples for topics that needed hints or retries. There are 30 short lessons and 121 practice questions across the six modules, with no timer or penalty for mistakes.
+
+The browser game needs no login or AI API key. Progress stays in the current browser or supported chat; it does not sync across devices. To use the teaching skill, follow the quick-start guide in your AI client. Inline play requires interactive preview support. Ages are references, not deadlines; completion is practice evidence, not a mastery assessment.
+
+The [original subject–verb agreement guide](skills/subject-verb-agreement/README.md) is also available. All six new modules are linked from the [English map](https://hedybi.github.io/second-path-for-kids/subject-maps.html).
+
