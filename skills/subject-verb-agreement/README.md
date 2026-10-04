@@ -4,6 +4,8 @@ An AI teaching skill for primary-school children, developed for **Second Path**.
 
 Designed for Grade 3 learners by default, with Chinese explanations and simple English examples. Language and difficulty can be adjusted.
 
+**[Play the ready-made game](https://hedybi.github.io/second-path-for-kids/skills/subject-verb-agreement/game.html)** — animated lessons, sentence experiments and practice. Or download [game.html](game.html) and open it in a browser.
+
 ## What it covers
 
 - Finding the subject and choosing the matching verb.
