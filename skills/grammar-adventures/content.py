@@ -118,7 +118,7 @@ dict(id='plurals-and-possessives',name='名词复数与所有格',en='Plurals & 
  Q('two-counts','一位男孩的多辆玩具车：the ___ cars',["boys'","boy's",'boys'],"boy's",'先看拥有者，而不是车的数量。','一个 boy 拥有多辆 cars，用 boy’s cars。'),
  Q('contraction',"Tom's here. 是什么意思？",['Tom is here.','汤姆的这里','多个汤姆'],'Tom is here.','here 表示在这里。','这里 ’s 是 is 的缩写。'),
  Q('its','The dog wags ___ tail.',['it',"it's",'its'],'its','表示狗的尾巴。','its tail：它的尾巴。')]),
-dict(id='simple-tenses',name='一般过去、现在与将来时',en='Simple Past, Present & Future',age='8–9',icon='🕰️',node='PLACEHOLDER_SIMPLE',mission='驾驶时间列车，送动词到正确的时间站。',boundary='一般现在表达习惯、事实或状态；本课用 will + 原形表达将来，不声称它是唯一方式。',lessons=[
+dict(id='simple-tenses',name='一般过去、现在与将来时',en='Simple Past, Present & Future',age='8–9',icon='🕰️',node='mt_Of-WsrRQ8B',mission='驾驶时间列车，送动词到正确的时间站。',boundary='一般现在表达习惯、事实或状态；本课用 will + 原形表达将来，不声称它是唯一方式。',lessons=[
  L('时间不是只看中文“现在”','先分清习惯、已发生、将来。',[
  V('每天 · 习惯','Mia plays tennis every day.','米娅每天打网球。',['Mia → 第三人称单数','plays → 一般现在','every day → 习惯'],'一般现在时表示习惯，不是说她此刻正在打球。'),
  V('昨天 · 已发生','Mia played tennis yesterday.','米娅昨天打了网球。',['Mia → 主语','played → 过去式','yesterday → 昨天'],'过去的事用过去式，不再因为 Mia 而加第三人称 s。'),
@@ -157,7 +157,7 @@ dict(id='simple-tenses',name='一般过去、现在与将来时',en='Simple Past
  Q('be','You ___ at school yesterday.',['was','were','are'],'were','you 的过去 be 形式。','You were。'),
  Q('spelling','Yesterday the bus ___ here.',['stoped','stops','stopped'],'stopped','stop 的过去式需双写 p。','stop → stopped。'),
  Q('timeline','Last week I visited Ben. Next week I ___ Mia.',['will visit','visited','visits'],'will visit','next week 改成将来。','按新时间用 will visit。')]),
-dict(id='standard-verb-forms',name='标准英语动词形式',en='Standard English Verb Forms',age='8–9',icon='🛠️',node='PLACEHOLDER_STANDARD',mission='帮句子修理站选择适合学校书面表达的动词。',boundary='标准书面形式是一种表达场合要求，不把家庭语言、方言或说话者贬为错误。',lessons=[
+dict(id='standard-verb-forms',name='标准英语动词形式',en='Standard English Verb Forms',age='8–9',icon='🛠️',node='mt_ay0qkGj0jg',mission='帮句子修理站选择适合学校书面表达的动词。',boundary='标准书面形式是一种表达场合要求，不把家庭语言、方言或说话者贬为错误。',lessons=[
  L('先认清表达场合','本课练学校书面表达中的标准形式；不同社区有自己的语言变体。',[
  V('一个人，过去','He was at home.','他当时在家。',['He → 主语','was → 过去 be','at home → 地点'],'标准书面英语中 he 配 was；不据此评价说其他变体的人。'),
  V('多个人，过去','They were at home.','他们当时在家。',['They → 主语','were → 过去 be','at home → 地点'],'同样是过去，主语换成 they，be 用 were。')]),

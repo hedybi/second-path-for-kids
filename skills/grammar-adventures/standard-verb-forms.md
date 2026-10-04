@@ -4,8 +4,6 @@ Reference ages: **8–9** · Map node: `mt_ay0qkGj0jg`.
 
 Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **标准英语动词形式**. Or download `game.html` and open it in a browser.
 
-![Actual lesson preview](standard-verb-forms.png)
-
 ## Teaching focus
 
 标准书面形式是一种表达场合要求，不把家庭语言、方言或说话者贬为错误。

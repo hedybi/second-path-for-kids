@@ -4,8 +4,6 @@ Reference ages: **8–9** · Map node: `mt_bn5ggh84qD`.
 
 Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **名词复数与所有格**. Or download `game.html` and open it in a browser.
 
-![Actual lesson preview](plurals-and-possessives.png)
-
 ## Teaching focus
 
 区分复数 s、单数所有格 ’s、规则复数所有格 s’ 和不规则复数所有格；不把所有 ’s 都当所属。

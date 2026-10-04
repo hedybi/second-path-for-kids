@@ -48,4 +48,4 @@ Maintain keyboard-accessible controls, responsive layout and reduced-motion supp
 
 Before releasing changes, check answer uniqueness, examples and explanations; run `node verify.cjs` from this folder and inspect the rendered interface. Verify lesson switching, incorrect answers, hints, locked completed answers, next-question navigation and transfer review. A state-engine test does not replace browser review.
 
-Use actual screenshots from the delivered game in documentation. Label standalone previews versus captures inside Codex accurately; never fabricate app chrome or imply a particular AI client supports inline play without checking. Preserve source map IDs and label the activities as original supplementary exercises, not official Marble assessments.
+If screenshots are added later, use actual captures of the delivered game. Label standalone previews versus captures inside Codex accurately; never fabricate app chrome or imply a particular AI client supports inline play without checking. Preserve source map IDs and label the activities as original supplementary exercises, not official Marble assessments.

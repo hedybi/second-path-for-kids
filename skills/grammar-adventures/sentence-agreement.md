@@ -4,8 +4,6 @@ Reference ages: **8–10** · Map node: `mt_2NfIKEYdbm`.
 
 Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **句子中的一致关系**. Or download `game.html` and open it in a browser.
 
-![Actual lesson preview](sentence-agreement.png)
-
 ## Teaching focus
 
 承接基础主谓一致；不把“最近的名词”当主语，不把单数 they 判为错误。

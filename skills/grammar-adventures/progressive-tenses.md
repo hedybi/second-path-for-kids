@@ -4,8 +4,6 @@ Reference ages: **9–10** · Map node: `mt_mkDqmejLMw`.
 
 Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **进行时态**. Or download `game.html` and open it in a browser.
 
-![Actual lesson preview](progressive-tenses.png)
-
 ## Teaching focus
 
 涵盖现在、过去、将来进行时；强调 be + ing，否定、提问和常见状态动词的边界。

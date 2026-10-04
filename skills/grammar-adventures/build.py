@@ -5,11 +5,11 @@ from content import MODULES
 HERE=Path(__file__).resolve().parent
 parser=argparse.ArgumentParser()
 parser.add_argument('--renderer',required=True,help='Path to visualize/scripts/render.py')
-parser.add_argument('--out',default=str(HERE.parent/'deliverables/grammar-adventures'))
-parser.add_argument('--inline-dir',default=str(HERE.parent/'deliverables/grammar-adventures'))
+parser.add_argument('--out',default='.',help='Output folder (default: current directory)')
+parser.add_argument('--inline-dir',default=None)
 args=parser.parse_args()
 out=Path(args.out).resolve();out.mkdir(parents=True,exist_ok=True)
-inline=Path(args.inline_dir).resolve();inline.mkdir(parents=True,exist_ok=True)
+inline=Path(args.inline_dir or out).resolve();inline.mkdir(parents=True,exist_ok=True)
 ids={'simple-tenses':'mt_Of-WsrRQ8B','standard-verb-forms':'mt_ay0qkGj0jg'}
 for m in MODULES:
     if m['id'] in ids:m['node']=ids[m['id']]
@@ -29,9 +29,9 @@ assert len(fragment.encode())<1000000
 spec=importlib.util.spec_from_file_location('viz_renderer',Path(args.renderer));r=importlib.util.module_from_spec(spec);spec.loader.exec_module(r)
 r.export_html(out/'grammar-adventures.html',out/'game.html',title='Second Path · Grammar Adventures',force=True)
 for name in ['content.py','engine.js','template.html','build.py','verify.cjs']:
-    if (HERE/name).exists():shutil.copy2(HERE/name,out/name)
+    if (HERE/name).exists() and (HERE/name).resolve()!=(out/name).resolve():shutil.copy2(HERE/name,out/name)
 for m in MODULES:
-    rows=['# '+m['en'],'',f"Reference ages: **{m['age']}** · Map node: `{m['node']}`.",'',f"Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **{m['name']}**. Or download `game.html` and open it in a browser.",'',f"![Actual lesson preview]({m['id']}.png)",'','## Teaching focus','',m['boundary'],'','## Interactive lessons','']
+    rows=['# '+m['en'],'',f"Reference ages: **{m['age']}** · Map node: `{m['node']}`.",'',f"Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **{m['name']}**. Or download `game.html` and open it in a browser.",'','## Teaching focus','',m['boundary'],'','## Interactive lessons','']
     for l in m['lessons']:
         rows.extend(['### '+l['title'],'',l['clue'],''])
         for v in l['variants']:rows.extend([f"- **{v['sentence']}** — {v['zh']} {v['rule']}"])

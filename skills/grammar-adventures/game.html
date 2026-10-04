@@ -1647,7 +1647,7 @@ if(typeof module!==&#x27;undefined&#x27;&amp;&amp;module.exports)module.exports=
   function renderLesson(m,motion,previous){
     const l=m.lessons[state.lesson],v=l.variants[state.variant];
     const before=previous.split(&#x27; &#x27;);
-    const sentence=v.sentence.split(&#x27; &#x27;).map((w,i)=&gt;`&lt;span${before[i]!==w?&#x27; class=&quot;ga-change&quot;&#x27;:&#x27;&#x27;}&gt;${html(w)}&lt;/span&gt;`).join(&#x27; &#x27;);
+    const sentence=v.sentence.split(&#x27; &#x27;).map((w,i)=&gt;`&lt;span${previous&amp;&amp;before[i]!==w?&#x27; class=&quot;ga-change&quot;&#x27;:&#x27;&#x27;}&gt;${html(w)}&lt;/span&gt;`).join(&#x27; &#x27;);
     const timeline=[&#x27;simple-tenses&#x27;,&#x27;progressive-tenses&#x27;].includes(m.id)&amp;&amp;state.lesson&lt;2?`&lt;svg class=&quot;ga-timeline&quot; viewBox=&quot;0 0 600 48&quot; role=&quot;img&quot; aria-label=&quot;过去、现在、将来三个时间位置&quot;&gt;&lt;line x1=&quot;50&quot; y1=&quot;12&quot; x2=&quot;550&quot; y2=&quot;12&quot;/&gt;&lt;circle cx=&quot;${/yesterday|last |was |were |walked|went/.test(v.sentence)?70:/will /.test(v.sentence)?530:300}&quot; cy=&quot;12&quot; r=&quot;7&quot;/&gt;&lt;text x=&quot;70&quot; y=&quot;42&quot; text-anchor=&quot;middle&quot;&gt;过去&lt;/text&gt;&lt;text x=&quot;300&quot; y=&quot;42&quot; text-anchor=&quot;middle&quot;&gt;现在&lt;/text&gt;&lt;text x=&quot;530&quot; y=&quot;42&quot; text-anchor=&quot;middle&quot;&gt;将来&lt;/text&gt;&lt;/svg&gt;`:&#x27;&#x27;;
     content.innerHTML=`&lt;div class=&quot;ga-space viz-row&quot;&gt;&lt;span class=&quot;viz-badge&quot;&gt;${html(m.en)}&lt;/span&gt;&lt;span&gt;小课 ${state.lesson+1} / ${m.lessons.length}&lt;/span&gt;&lt;/div&gt;
       &lt;div class=&quot;viz-controls ga-space&quot;&gt;&lt;label class=&quot;form-label&quot;&gt;选择小课 &lt;select class=&quot;form-select&quot; id=&quot;ga-lesson&quot;&gt;${m.lessons.map((x,i)=&gt;`&lt;option value=&quot;${i}&quot; ${i===state.lesson?&#x27;selected&#x27;:&#x27;&#x27;}&gt;${i+1}. ${html(x.title)}&lt;/option&gt;`).join(&#x27;&#x27;)}&lt;/select&gt;&lt;/label&gt;&lt;/div&gt;
@@ -1710,7 +1710,7 @@ if(typeof module!==&#x27;undefined&#x27;&amp;&amp;module.exports)module.exports=
   });
   window.addEventListener(&#x27;openai:set_globals&#x27;,event=&gt;{
     const saved=event.detail?.globals?.widgetState?.privateContent;
-    if(saved?.version===1){state=E.clean(saved,data);render();}
+    if(saved?.version===1&amp;&amp;JSON.stringify(saved)!==JSON.stringify(state)){state=E.clean(saved,data);render();}
   });
   render();
 })();

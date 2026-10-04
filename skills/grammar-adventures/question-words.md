@@ -4,8 +4,6 @@ Reference ages: **5–6** · Map node: `mt_6lHBTwQPrS`.
 
 Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **疑问词与提问**. Or download `game.html` and open it in a browser.
 
-![Actual lesson preview](question-words.png)
-
 ## Teaching focus
 
 先学问什么，再学怎样问。成人可读出题目；不要求孩子独立阅读所有英文。

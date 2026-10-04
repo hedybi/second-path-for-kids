@@ -4,8 +4,6 @@ Reference ages: **8–9** · Map node: `mt_Of-WsrRQ8B`.
 
 Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **一般过去、现在与将来时**. Or download `game.html` and open it in a browser.
 
-![Actual lesson preview](simple-tenses.png)
-
 ## Teaching focus
 
 一般现在表达习惯、事实或状态；本课用 will + 原形表达将来，不声称它是唯一方式。

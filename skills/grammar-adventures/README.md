@@ -17,9 +17,7 @@ Choose a module, explore **动画课堂与实验** (lessons and sentence experim
 | [Standard English Verb Forms](standard-verb-forms.md) | 8–9 |
 | [Progressive Tenses](progressive-tenses.md) | 9–10 |
 
-![Question Words lesson in the running game](question-words.png)
-
-Every module guide includes an actual game screenshot. Ages are approximate map labels, not deadlines. Completion is practice evidence, not a mastery assessment.
+Ages are approximate map labels, not deadlines. Completion is practice evidence, not a mastery assessment.
 
 ## Use with your AI
 

@@ -70,7 +70,7 @@ __ENGINE_JS__
   function renderLesson(m,motion,previous){
     const l=m.lessons[state.lesson],v=l.variants[state.variant];
     const before=previous.split(' ');
-    const sentence=v.sentence.split(' ').map((w,i)=>`<span${before[i]!==w?' class="ga-change"':''}>${html(w)}</span>`).join(' ');
+    const sentence=v.sentence.split(' ').map((w,i)=>`<span${previous&&before[i]!==w?' class="ga-change"':''}>${html(w)}</span>`).join(' ');
     const timeline=['simple-tenses','progressive-tenses'].includes(m.id)&&state.lesson<2?`<svg class="ga-timeline" viewBox="0 0 600 48" role="img" aria-label="过去、现在、将来三个时间位置"><line x1="50" y1="12" x2="550" y2="12"/><circle cx="${/yesterday|last |was |were |walked|went/.test(v.sentence)?70:/will /.test(v.sentence)?530:300}" cy="12" r="7"/><text x="70" y="42" text-anchor="middle">过去</text><text x="300" y="42" text-anchor="middle">现在</text><text x="530" y="42" text-anchor="middle">将来</text></svg>`:'';
     content.innerHTML=`<div class="ga-space viz-row"><span class="viz-badge">${html(m.en)}</span><span>小课 ${state.lesson+1} / ${m.lessons.length}</span></div>
       <div class="viz-controls ga-space"><label class="form-label">选择小课 <select class="form-select" id="ga-lesson">${m.lessons.map((x,i)=>`<option value="${i}" ${i===state.lesson?'selected':''}>${i+1}. ${html(x.title)}</option>`).join('')}</select></label></div>
@@ -133,7 +133,7 @@ __ENGINE_JS__
   });
   window.addEventListener('openai:set_globals',event=>{
     const saved=event.detail?.globals?.widgetState?.privateContent;
-    if(saved?.version===1){state=E.clean(saved,data);render();}
+    if(saved?.version===1&&JSON.stringify(saved)!==JSON.stringify(state)){state=E.clean(saved,data);render();}
   });
   render();
 })();
