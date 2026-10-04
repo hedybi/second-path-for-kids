@@ -2,7 +2,7 @@
 
 Reference ages: **8–10** · Map node: `mt_2NfIKEYdbm`.
 
-Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **句子中的一致关系**. Or download `game.html` and open it in a browser.
+[Play this module](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/sentence-agreement.html). This address opens **句子中的一致关系** directly. You can also download `sentence-agreement.html` and open it in a browser.
 
 ## Teaching focus
 

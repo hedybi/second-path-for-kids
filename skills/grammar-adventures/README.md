@@ -6,16 +6,16 @@ Six ready-to-play English grammar modules for **Second Path**, with Chinese expl
 
 ## Play
 
-Choose a module, explore **动画课堂与实验** (lessons and sentence experiments), then try **线索闯关** (12 questions). **错题换句练** gives new examples for topics that needed hints or retries. Each module has five short lessons. There is no timer or penalty for mistakes.
+Use a module’s **Play** link to open it directly, or choose a module in the shared game. Explore **动画课堂与实验** (lessons and sentence experiments), then try **线索闯关** (12 questions). **错题换句练** gives new examples for topics that needed hints or retries. Each module has five short lessons. There is no timer or penalty for mistakes.
 
-| Module | Reference ages |
-| --- | --- |
-| [Question Words & Questions](question-words.md) | 5–6 |
-| [Agreement in Sentences](sentence-agreement.md) | 8–10 |
-| [Plurals & Possessives](plurals-and-possessives.md) | 8–9 |
-| [Simple Past, Present & Future](simple-tenses.md) | 8–9 |
-| [Standard English Verb Forms](standard-verb-forms.md) | 8–9 |
-| [Progressive Tenses](progressive-tenses.md) | 9–10 |
+| Module | Reference ages | Play |
+| --- | --- | --- |
+| [Question Words & Questions](question-words.md) | 5–6 | [Play](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/question-words.html) |
+| [Agreement in Sentences](sentence-agreement.md) | 8–10 | [Play](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/sentence-agreement.html) |
+| [Plurals & Possessives](plurals-and-possessives.md) | 8–9 | [Play](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/plurals-and-possessives.html) |
+| [Simple Past, Present & Future](simple-tenses.md) | 8–9 | [Play](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/simple-tenses.html) |
+| [Standard English Verb Forms](standard-verb-forms.md) | 8–9 | [Play](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/standard-verb-forms.html) |
+| [Progressive Tenses](progressive-tenses.md) | 9–10 | [Play](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/progressive-tenses.html) |
 
 Ages are approximate map labels, not deadlines. Completion is practice evidence, not a mastery assessment.
 

@@ -2,7 +2,7 @@
 
 Reference ages: **8–9** · Map node: `mt_Of-WsrRQ8B`.
 
-Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **一般过去、现在与将来时**. Or download `game.html` and open it in a browser.
+[Play this module](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/simple-tenses.html). This address opens **一般过去、现在与将来时** directly. You can also download `simple-tenses.html` and open it in a browser.
 
 ## Teaching focus
 

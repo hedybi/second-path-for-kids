@@ -2,7 +2,7 @@
 
 Reference ages: **9–10** · Map node: `mt_mkDqmejLMw`.
 
-Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **进行时态**. Or download `game.html` and open it in a browser.
+[Play this module](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/progressive-tenses.html). This address opens **进行时态** directly. You can also download `progressive-tenses.html` and open it in a browser.
 
 ## Teaching focus
 

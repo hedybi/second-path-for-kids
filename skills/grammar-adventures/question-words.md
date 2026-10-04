@@ -2,7 +2,7 @@
 
 Reference ages: **5–6** · Map node: `mt_6lHBTwQPrS`.
 
-Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **疑问词与提问**. Or download `game.html` and open it in a browser.
+[Play this module](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/question-words.html). This address opens **疑问词与提问** directly. You can also download `question-words.html` and open it in a browser.
 
 ## Teaching focus
 

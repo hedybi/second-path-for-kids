@@ -2,7 +2,7 @@
 
 Reference ages: **8–9** · Map node: `mt_ay0qkGj0jg`.
 
-Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **标准英语动词形式**. Or download `game.html` and open it in a browser.
+[Play this module](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/standard-verb-forms.html). This address opens **标准英语动词形式** directly. You can also download `standard-verb-forms.html` and open it in a browser.
 
 ## Teaching focus
 

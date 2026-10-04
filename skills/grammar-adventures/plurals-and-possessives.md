@@ -2,7 +2,7 @@
 
 Reference ages: **8–9** · Map node: `mt_bn5ggh84qD`.
 
-Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **名词复数与所有格**. Or download `game.html` and open it in a browser.
+[Play this module](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/plurals-and-possessives.html). This address opens **名词复数与所有格** directly. You can also download `plurals-and-possessives.html` and open it in a browser.
 
 ## Teaching focus
 

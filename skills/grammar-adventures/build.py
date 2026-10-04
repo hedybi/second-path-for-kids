@@ -1,5 +1,5 @@
 from pathlib import Path
-import json, importlib.util, argparse, shutil
+import json, importlib.util, argparse, shutil, tempfile
 from content import MODULES
 
 HERE=Path(__file__).resolve().parent
@@ -28,10 +28,16 @@ assert len(fragment.encode())<1000000
 (out/'lessons.json').write_text(json.dumps(MODULES,ensure_ascii=False,indent=2)+'\n')
 spec=importlib.util.spec_from_file_location('viz_renderer',Path(args.renderer));r=importlib.util.module_from_spec(spec);spec.loader.exec_module(r)
 r.export_html(out/'grammar-adventures.html',out/'game.html',title='Second Path · Grammar Adventures',force=True)
+for index,m in enumerate(MODULES):
+    start="let state=E.clean(window.openai?.widgetState?.privateContent,data);"
+    direct=fragment.replace(start,start+f"\n  if(state.module!=={index}){{state.module={index};state.mode='learn';state.lesson=0;state.variant=0;}}")
+    with tempfile.TemporaryDirectory() as temp:
+        source=Path(temp)/'lesson.html';source.write_text(direct)
+        r.export_html(source,out/(m['id']+'.html'),title='Second Path · '+m['en'],force=True)
 for name in ['content.py','engine.js','template.html','build.py','verify.cjs']:
     if (HERE/name).exists() and (HERE/name).resolve()!=(out/name).resolve():shutil.copy2(HERE/name,out/name)
 for m in MODULES:
-    rows=['# '+m['en'],'',f"Reference ages: **{m['age']}** · Map node: `{m['node']}`.",'',f"Open [the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html) and select **{m['name']}**. Or download `game.html` and open it in a browser.",'','## Teaching focus','',m['boundary'],'','## Interactive lessons','']
+    rows=['# '+m['en'],'',f"Reference ages: **{m['age']}** · Map node: `{m['node']}`.",'',f"[Play this module](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/{m['id']}.html). This address opens **{m['name']}** directly. You can also download `{m['id']}.html` and open it in a browser.",'','## Teaching focus','',m['boundary'],'','## Interactive lessons','']
     for l in m['lessons']:
         rows.extend(['### '+l['title'],'',l['clue'],''])
         for v in l['variants']:rows.extend([f"- **{v['sentence']}** — {v['zh']} {v['rule']}"])
