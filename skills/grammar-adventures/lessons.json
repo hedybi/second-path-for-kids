@@ -1,0 +1,2654 @@
+[
+  {
+    "id": "question-words",
+    "name": "疑问词与提问",
+    "en": "Question Words & Questions",
+    "age": "5–6",
+    "icon": "🔎",
+    "node": "mt_6lHBTwQPrS",
+    "mission": "帮小兔找到问题里缺少的线索。",
+    "boundary": "先学问什么，再学怎样问。成人可读出题目；不要求孩子独立阅读所有英文。",
+    "lessons": [
+      {
+        "title": "想问人，还是东西？",
+        "clue": "先决定你想知道什么，再选疑问词。",
+        "variants": [
+          {
+            "label": "问谁 · Who",
+            "sentence": "Who is at the door?",
+            "zh": "谁在门口？",
+            "parts": [
+              "Who → 谁",
+              "is → 是 / 处于",
+              "at the door → 在门口"
+            ],
+            "rule": "回答应指向人：Mum is at the door. 不用 where 问“谁”。"
+          },
+          {
+            "label": "问什么 · What",
+            "sentence": "What is in the box?",
+            "zh": "盒子里是什么？",
+            "parts": [
+              "What → 什么",
+              "is → 是 / 处于",
+              "in the box → 在盒子里"
+            ],
+            "rule": "回答应说明东西：A ball is in the box. who 问人，what 在这里问东西。"
+          }
+        ]
+      },
+      {
+        "title": "地点和时间分开问",
+        "clue": "哪里问地点，什么时候问时间。",
+        "variants": [
+          {
+            "label": "找地点 · Where",
+            "sentence": "Where is the rabbit?",
+            "zh": "小兔在哪里？",
+            "parts": [
+              "Where → 哪里",
+              "is → be 动词",
+              "the rabbit → 小兔"
+            ],
+            "rule": "In the garden. 回答的是地点，不是时间。"
+          },
+          {
+            "label": "找时间 · When",
+            "sentence": "When is the party?",
+            "zh": "聚会在什么时候？",
+            "parts": [
+              "When → 什么时候",
+              "is → be 动词",
+              "the party → 聚会"
+            ],
+            "rule": "On Sunday. 回答的是时间，不是地点。"
+          }
+        ]
+      },
+      {
+        "title": "原因和方法分开问",
+        "clue": "为什么？怎样做？是两种不同的信息。",
+        "variants": [
+          {
+            "label": "问原因 · Why",
+            "sentence": "Why are you happy?",
+            "zh": "你为什么开心？",
+            "parts": [
+              "Why → 为什么",
+              "are → be 动词",
+              "you happy → 你开心"
+            ],
+            "rule": "Because it is my birthday. because 引出原因。"
+          },
+          {
+            "label": "问方法 · How",
+            "sentence": "How do you go to school?",
+            "zh": "你怎样去学校？",
+            "parts": [
+              "How → 怎样",
+              "do → 提问小助手",
+              "you go → 你去"
+            ],
+            "rule": "By bus. 回答出行方式；how 还可以问状态，如 How are you?"
+          }
+        ]
+      },
+      {
+        "title": "同一件事，问法不同",
+        "clue": "有 be 的句子，把 be 放在主语前提问。",
+        "variants": [
+          {
+            "label": "先说一件事",
+            "sentence": "The rabbit is in the garden.",
+            "zh": "小兔在花园里。",
+            "parts": [
+              "The rabbit → 主语",
+              "is → be 动词",
+              "in the garden → 地点"
+            ],
+            "rule": "句子告诉我们一件事，结尾用句号。"
+          },
+          {
+            "label": "问是不是",
+            "sentence": "Is the rabbit in the garden?",
+            "zh": "小兔在花园里吗？",
+            "parts": [
+              "Is → 放到前面",
+              "the rabbit → 主语",
+              "in the garden? → 问号"
+            ],
+            "rule": "可以回答 Yes 或 No。Is 来到主语前面，不用再加 do。"
+          },
+          {
+            "label": "问在哪里",
+            "sentence": "Where is the rabbit?",
+            "zh": "小兔在哪里？",
+            "parts": [
+              "Where → 想知道的地点",
+              "is → be 动词",
+              "the rabbit? → 主语"
+            ],
+            "rule": "问的是缺少的地点，回答 In the garden.，只说 Yes 不够。"
+          }
+        ]
+      },
+      {
+        "title": "动作句的小助手",
+        "clue": "练熟例句即可；这不是所有疑问句的万能公式。",
+        "variants": [
+          {
+            "label": "你喜欢吗",
+            "sentence": "Do you like apples?",
+            "zh": "你喜欢苹果吗？",
+            "parts": [
+              "Do → 小助手",
+              "you → 主语",
+              "like → 原形"
+            ],
+            "rule": "普通动词 like 提问：Do you like…? 可以回答 Yes, I do.。"
+          },
+          {
+            "label": "她喜欢什么",
+            "sentence": "What does she like?",
+            "zh": "她喜欢什么？",
+            "parts": [
+              "What → 问东西",
+              "does → 小助手",
+              "she like → 主语 + 原形"
+            ],
+            "rule": "does 后面的 like 用原形，不写 likes。"
+          },
+          {
+            "label": "谁喜欢苹果",
+            "sentence": "Who likes apples?",
+            "zh": "谁喜欢苹果？",
+            "parts": [
+              "Who → 主语未知",
+              "likes → 动词",
+              "apples? → 苹果"
+            ],
+            "rule": "这里 Who 自己就是主语，基础中性问法不加 do。先认得例句，不背复杂术语。"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "tag": "who",
+        "prompt": "想知道门口是谁：___ is at the door?",
+        "options": [
+          "Who",
+          "Where",
+          "When"
+        ],
+        "answer": "Who",
+        "hint": "你在找人、地点还是时间？",
+        "explain": "Who 问谁；回答可以是 Dad。",
+        "id": "question-words-questions-1"
+      },
+      {
+        "tag": "what",
+        "prompt": "回答是 A ball.：___ is in the box?",
+        "options": [
+          "When",
+          "What",
+          "Who"
+        ],
+        "answer": "What",
+        "hint": "ball 是东西。",
+        "explain": "What 问盒子里是什么。",
+        "id": "question-words-questions-2"
+      },
+      {
+        "tag": "where",
+        "prompt": "回答是 In the garden.：___ is the rabbit?",
+        "options": [
+          "Where",
+          "Why",
+          "When"
+        ],
+        "answer": "Where",
+        "hint": "garden 是地点。",
+        "explain": "Where 问地点。",
+        "id": "question-words-questions-3"
+      },
+      {
+        "tag": "when",
+        "prompt": "回答是 On Sunday.：___ is the party?",
+        "options": [
+          "Who",
+          "Where",
+          "When"
+        ],
+        "answer": "When",
+        "hint": "Sunday 告诉我们时间。",
+        "explain": "When 问什么时候。",
+        "id": "question-words-questions-4"
+      },
+      {
+        "tag": "why",
+        "prompt": "回答是 Because I lost my toy.：___ are you sad?",
+        "options": [
+          "Why",
+          "What",
+          "Where"
+        ],
+        "answer": "Why",
+        "hint": "because 后面给出原因。",
+        "explain": "Why 问为什么。",
+        "id": "question-words-questions-5"
+      },
+      {
+        "tag": "how",
+        "prompt": "回答是 By bus.：___ do you go to school?",
+        "options": [
+          "Who",
+          "How",
+          "When"
+        ],
+        "answer": "How",
+        "hint": "这是出行方法。",
+        "explain": "How 在这里问怎样去。",
+        "id": "question-words-questions-6"
+      },
+      {
+        "tag": "be",
+        "prompt": "把 The cat is here. 变成“猫在这里吗？”",
+        "options": [
+          "Is the cat here?",
+          "Does the cat here?",
+          "The cat here?"
+        ],
+        "answer": "Is the cat here?",
+        "hint": "原句的动词是 is。",
+        "explain": "把 is 移到主语前，结尾换问号。",
+        "id": "question-words-questions-7"
+      },
+      {
+        "tag": "where",
+        "prompt": "Where is my bag? 哪个回答提供了地点？",
+        "options": [
+          "On the chair.",
+          "Tomorrow.",
+          "My sister."
+        ],
+        "answer": "On the chair.",
+        "hint": "Where 要找位置。",
+        "explain": "On the chair. 表示在椅子上。",
+        "id": "question-words-questions-8"
+      },
+      {
+        "tag": "do",
+        "prompt": "___ you like milk?",
+        "options": [
+          "Are",
+          "Do",
+          "Does"
+        ],
+        "answer": "Do",
+        "hint": "like 是普通动词，主语是 you。",
+        "explain": "Do you like milk?；不能把 are 放在普通动词 like 前这样提问。",
+        "id": "question-words-questions-9"
+      },
+      {
+        "tag": "does",
+        "prompt": "What does Lily ___?",
+        "options": [
+          "likes",
+          "liking",
+          "like"
+        ],
+        "answer": "like",
+        "hint": "小助手 does 已经出现。",
+        "explain": "does 后面的主要动词用原形 like。",
+        "id": "question-words-questions-10"
+      },
+      {
+        "tag": "who",
+        "prompt": "问“谁喜欢苹果？”",
+        "options": [
+          "Who likes apples?",
+          "Where likes apples?",
+          "Who like apples?"
+        ],
+        "answer": "Who likes apples?",
+        "hint": "问的这个“谁”自己在做动作。",
+        "explain": "基础问法是 Who likes apples?；不是把每个疑问句都套上 do。",
+        "id": "question-words-questions-11"
+      },
+      {
+        "tag": "when",
+        "prompt": "你想知道生日的时间，选一句。",
+        "options": [
+          "Where is your bag?",
+          "When is your birthday?",
+          "Who is your friend?"
+        ],
+        "answer": "When is your birthday?",
+        "hint": "要问的不是人或地点。",
+        "explain": "When is your birthday? 问生日在什么时候。",
+        "id": "question-words-questions-12"
+      }
+    ],
+    "transfer": [
+      {
+        "tag": "who",
+        "prompt": "回答是 My teacher.：___ is at the gate?",
+        "options": [
+          "When",
+          "Who",
+          "Where"
+        ],
+        "answer": "Who",
+        "hint": "想知道的是人。",
+        "explain": "Who 问是谁。",
+        "id": "question-words-transfer-1"
+      },
+      {
+        "tag": "what",
+        "prompt": "回答是 A kite.：___ is on the desk?",
+        "options": [
+          "What",
+          "Why",
+          "When"
+        ],
+        "answer": "What",
+        "hint": "kite 是物品。",
+        "explain": "What 问是什么。",
+        "id": "question-words-transfer-2"
+      },
+      {
+        "tag": "where",
+        "prompt": "回答是 Under the bed.：___ is the shoe?",
+        "options": [
+          "When",
+          "Who",
+          "Where"
+        ],
+        "answer": "Where",
+        "hint": "under the bed 是位置。",
+        "explain": "Where 问哪里。",
+        "id": "question-words-transfer-3"
+      },
+      {
+        "tag": "when",
+        "prompt": "回答是 At six.：___ is dinner?",
+        "options": [
+          "When",
+          "Where",
+          "What"
+        ],
+        "answer": "When",
+        "hint": "At six 是时间。",
+        "explain": "When 问什么时候。",
+        "id": "question-words-transfer-4"
+      },
+      {
+        "tag": "why",
+        "prompt": "回答是 Because it is cold.：___ are you wearing a coat?",
+        "options": [
+          "Who",
+          "Why",
+          "Where"
+        ],
+        "answer": "Why",
+        "hint": "解释穿外套的原因。",
+        "explain": "Why 问为什么。",
+        "id": "question-words-transfer-5"
+      },
+      {
+        "tag": "how",
+        "prompt": "回答是 On foot.：___ do you get home?",
+        "options": [
+          "How",
+          "When",
+          "Who"
+        ],
+        "answer": "How",
+        "hint": "步行是一种方式。",
+        "explain": "How 问怎样回家。",
+        "id": "question-words-transfer-6"
+      },
+      {
+        "tag": "be",
+        "prompt": "问“书包是红色的吗？”",
+        "options": [
+          "Does the bag red?",
+          "Is the bag red?",
+          "Are the bag red?"
+        ],
+        "answer": "Is the bag red?",
+        "hint": "the bag 是单数；red 是形容词。",
+        "explain": "用 Is the bag red?。",
+        "id": "question-words-transfer-7"
+      },
+      {
+        "tag": "do",
+        "prompt": "___ you play tennis?",
+        "options": [
+          "Do",
+          "Is",
+          "Does"
+        ],
+        "answer": "Do",
+        "hint": "you 配哪个小助手？",
+        "explain": "Do you play tennis?。",
+        "id": "question-words-transfer-8"
+      },
+      {
+        "tag": "does",
+        "prompt": "Where does Ben ___?",
+        "options": [
+          "lives",
+          "live",
+          "living"
+        ],
+        "answer": "live",
+        "hint": "does 后面恢复原形。",
+        "explain": "Where does Ben live? 问他住哪里。",
+        "id": "question-words-transfer-9"
+      }
+    ]
+  },
+  {
+    "id": "sentence-agreement",
+    "name": "句子中的一致关系",
+    "en": "Agreement in Sentences",
+    "age": "8–10",
+    "icon": "🤝",
+    "node": "mt_2NfIKEYdbm",
+    "mission": "找到真正的主语，让动词和代词组成队伍。",
+    "boundary": "承接基础主谓一致；不把“最近的名词”当主语，不把单数 they 判为错误。",
+    "lessons": [
+      {
+        "title": "先找整个主语的中心",
+        "clue": "夹在中间的描述，不决定动词形式。",
+        "variants": [
+          {
+            "label": "一个女孩",
+            "sentence": "The girl with two dogs is happy.",
+            "zh": "带着两只狗的女孩很开心。",
+            "parts": [
+              "The girl → 主语中心，单数",
+              "with two dogs → 补充描述",
+              "is → 跟 girl 一致"
+            ],
+            "rule": "two dogs 离 is 很近，但主语中心是 girl。"
+          },
+          {
+            "label": "多个女孩",
+            "sentence": "The girls with a dog are happy.",
+            "zh": "带着一只狗的女孩们很开心。",
+            "parts": [
+              "The girls → 主语中心，复数",
+              "with a dog → 补充描述",
+              "are → 跟 girls 一致"
+            ],
+            "rule": "a dog 是描述的一部分，不能让 are 变 is。"
+          }
+        ]
+      },
+      {
+        "title": "and 连接的人物有几个？",
+        "clue": "本课比较两个独立的人物和一个人物。",
+        "variants": [
+          {
+            "label": "一个人",
+            "sentence": "Mia plays outside.",
+            "zh": "米娅在外面玩。",
+            "parts": [
+              "Mia → 一个人",
+              "plays → 第三人称单数",
+              "outside → 在外面"
+            ],
+            "rule": "普通动词一般现在时肯定句中，Mia 配 plays。"
+          },
+          {
+            "label": "两个人",
+            "sentence": "Mia and Ben play outside.",
+            "zh": "米娅和本在外面玩。",
+            "parts": [
+              "Mia and Ben → 两个人",
+              "play → 原形",
+              "outside → 在外面"
+            ],
+            "rule": "两个人组成复数主语，可以换成 they。"
+          }
+        ]
+      },
+      {
+        "title": "代词接住前面的人或物",
+        "clue": "先找到代词在说谁，再检查搭配。",
+        "variants": [
+          {
+            "label": "一只猫",
+            "sentence": "The cat is hungry. It wants food.",
+            "zh": "猫饿了。它想吃东西。",
+            "parts": [
+              "The cat → 单数",
+              "It → 指这只猫",
+              "wants → 随 it 变化"
+            ],
+            "rule": "It 接住 the cat，两个句子说的是同一个对象。"
+          },
+          {
+            "label": "多只猫",
+            "sentence": "The cats are hungry. They want food.",
+            "zh": "猫们饿了。它们想吃东西。",
+            "parts": [
+              "The cats → 复数",
+              "They → 指这些猫",
+              "want → 原形"
+            ],
+            "rule": "这里 They 接住复数 cats。"
+          },
+          {
+            "label": "单数 they",
+            "sentence": "Alex uses they/them pronouns. They are here.",
+            "zh": "Alex 使用 they/them 代词。Alex 在这里。",
+            "parts": [
+              "Alex → 一个人",
+              "They → Alex 使用的代词",
+              "are → they 的搭配"
+            ],
+            "rule": "they 也能指一个人；标准搭配仍是 they are / they have，不写 they is。"
+          }
+        ]
+      },
+      {
+        "title": "所有关系也要接得上",
+        "clue": "my、her、their 说明谁拥有东西。",
+        "variants": [
+          {
+            "label": "Mia 的",
+            "sentence": "Mia has a bag. Her bag is blue.",
+            "zh": "米娅有个包。她的包是蓝色的。",
+            "parts": [
+              "Mia → 拥有者",
+              "Her → 她的",
+              "bag is → 一个包"
+            ],
+            "rule": "Her 指 Mia；is 跟本句的主语 bag 一致。"
+          },
+          {
+            "label": "孩子们的",
+            "sentence": "The children have bags. Their bags are blue.",
+            "zh": "孩子们有包。他们的包是蓝色的。",
+            "parts": [
+              "The children → 拥有者",
+              "Their → 他们的",
+              "bags are → 多个包"
+            ],
+            "rule": "their 说明拥有者；are 由 bags 决定，不由 their 决定。"
+          }
+        ]
+      },
+      {
+        "title": "每一个与特殊搭配",
+        "clue": "every + 单数名词，在本课例句里配单数动词。",
+        "variants": [
+          {
+            "label": "每个孩子",
+            "sentence": "Every child has a pencil.",
+            "zh": "每个孩子都有一支铅笔。",
+            "parts": [
+              "Every child → 逐个看，单数",
+              "has → have 的单数形式",
+              "a pencil → 宾语"
+            ],
+            "rule": "现实里可能有很多孩子，但 every child 这个主语按单数搭配。"
+          },
+          {
+            "label": "I 和 you",
+            "sentence": "I am ready. You are ready.",
+            "zh": "我准备好了。你准备好了。",
+            "parts": [
+              "I → am",
+              "You → are",
+              "ready → 状态"
+            ],
+            "rule": "不能只按“一个人”选 is；人称也影响 be 的形式。"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "tag": "head",
+        "prompt": "The boy with two cats ___ happy.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": "is",
+        "hint": "先圈出主语中心 boy。",
+        "explain": "with two cats 只描述 boy，单数 boy 配 is。",
+        "id": "sentence-agreement-questions-1"
+      },
+      {
+        "tag": "head",
+        "prompt": "The dogs near the tree ___ hungry.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": "are",
+        "hint": "near the tree 是位置描述。",
+        "explain": "真正的主语中心 dogs 是复数，配 are。",
+        "id": "sentence-agreement-questions-2"
+      },
+      {
+        "tag": "and",
+        "prompt": "Lily and Ben ___ tennis every day.",
+        "options": [
+          "plays",
+          "play",
+          "playing"
+        ],
+        "answer": "play",
+        "hint": "Lily 和 Ben 是两个人。",
+        "explain": "复数主语的一般现在时用 play。",
+        "id": "sentence-agreement-questions-3"
+      },
+      {
+        "tag": "pronoun",
+        "prompt": "The rabbit is small. ___ has long ears.",
+        "options": [
+          "They",
+          "It",
+          "We"
+        ],
+        "answer": "It",
+        "hint": "前面说一只兔子。",
+        "explain": "这里用 It 接住 the rabbit。",
+        "id": "sentence-agreement-questions-4"
+      },
+      {
+        "tag": "pronoun",
+        "prompt": "The birds are noisy. They ___ in the tree.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": "are",
+        "hint": "they 的 be 形式是什么？",
+        "explain": "They are；这里指这些鸟。",
+        "id": "sentence-agreement-questions-5"
+      },
+      {
+        "tag": "possessor",
+        "prompt": "The children have bikes. ___ bikes are new.",
+        "options": [
+          "His",
+          "Their",
+          "Its"
+        ],
+        "answer": "Their",
+        "hint": "是谁拥有这些自行车？",
+        "explain": "Their 指孩子们的。",
+        "id": "sentence-agreement-questions-6"
+      },
+      {
+        "tag": "every",
+        "prompt": "Every student ___ a book.",
+        "options": [
+          "have",
+          "has",
+          "having"
+        ],
+        "answer": "has",
+        "hint": "every student 逐个看，按单数搭配。",
+        "explain": "Every student has a book.。",
+        "id": "sentence-agreement-questions-7"
+      },
+      {
+        "tag": "person",
+        "prompt": "You ___ my friend.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": "are",
+        "hint": "you 即使指一个人，也有自己的搭配。",
+        "explain": "You are。",
+        "id": "sentence-agreement-questions-8"
+      },
+      {
+        "tag": "head",
+        "prompt": "The box of pencils ___ on the desk.",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": "is",
+        "hint": "是在说盒子的位置，还是铅笔的位置？",
+        "explain": "主语中心 box 是单数，用 is。",
+        "id": "sentence-agreement-questions-9"
+      },
+      {
+        "tag": "singular-they",
+        "prompt": "Alex uses they/them pronouns. They ___ kind.",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": "are",
+        "hint": "they 的搭配不因这里指一人而变 is。",
+        "explain": "单数 they 也配 are。",
+        "id": "sentence-agreement-questions-10"
+      },
+      {
+        "tag": "possessor",
+        "prompt": "Mia has a dog. ___ dog likes milk.",
+        "options": [
+          "Their",
+          "Her",
+          "Its"
+        ],
+        "answer": "Her",
+        "hint": "在这里要说“米娅的狗”。",
+        "explain": "Her 指 Mia；Its 会把拥有者换成物或动物。",
+        "id": "sentence-agreement-questions-11"
+      },
+      {
+        "tag": "pronoun",
+        "prompt": "The kittens are hungry. ___ want food.",
+        "options": [
+          "It",
+          "He",
+          "They"
+        ],
+        "answer": "They",
+        "hint": "kittens 是多只小猫。",
+        "explain": "They 接住复数 kittens，后面用 want。",
+        "id": "sentence-agreement-questions-12"
+      }
+    ],
+    "transfer": [
+      {
+        "tag": "head",
+        "prompt": "The basket of apples ___ heavy.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": "is",
+        "hint": "主语中心是 basket。",
+        "explain": "of apples 不决定动词；basket 配 is。",
+        "id": "sentence-agreement-transfer-1"
+      },
+      {
+        "tag": "and",
+        "prompt": "Tom and Sue ___ ready.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": "are",
+        "hint": "两个独立的人组成复数主语。",
+        "explain": "Tom and Sue are ready.。",
+        "id": "sentence-agreement-transfer-2"
+      },
+      {
+        "tag": "pronoun",
+        "prompt": "The flowers are red. ___ look lovely.",
+        "options": [
+          "It",
+          "They",
+          "She"
+        ],
+        "answer": "They",
+        "hint": "flowers 是复数。",
+        "explain": "They 接住 flowers。",
+        "id": "sentence-agreement-transfer-3"
+      },
+      {
+        "tag": "possessor",
+        "prompt": "The boys have a ball. ___ ball is green.",
+        "options": [
+          "Their",
+          "Her",
+          "Its"
+        ],
+        "answer": "Their",
+        "hint": "看拥有者 boys。",
+        "explain": "他们的球：Their ball；球只有一个仍用 is。",
+        "id": "sentence-agreement-transfer-4"
+      },
+      {
+        "tag": "every",
+        "prompt": "Every player ___ a number.",
+        "options": [
+          "have",
+          "has",
+          "are"
+        ],
+        "answer": "has",
+        "hint": "every player 按单数搭配。",
+        "explain": "Every player has a number.。",
+        "id": "sentence-agreement-transfer-5"
+      },
+      {
+        "tag": "person",
+        "prompt": "I ___ excited.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": "am",
+        "hint": "I 有单独的 be 形式。",
+        "explain": "I am。",
+        "id": "sentence-agreement-transfer-6"
+      },
+      {
+        "tag": "singular-they",
+        "prompt": "Sam uses they/them pronouns. They ___ a book.",
+        "options": [
+          "has",
+          "have",
+          "is"
+        ],
+        "answer": "have",
+        "hint": "they 配 have，即使指一个人。",
+        "explain": "They have a book.。",
+        "id": "sentence-agreement-transfer-7"
+      }
+    ]
+  },
+  {
+    "id": "plurals-and-possessives",
+    "name": "名词复数与所有格",
+    "en": "Plurals & Possessives",
+    "age": "8–9",
+    "icon": "🎒",
+    "node": "mt_bn5ggh84qD",
+    "mission": "替失物招领站分清：几个？谁的？",
+    "boundary": "区分复数 s、单数所有格 ’s、规则复数所有格 s’ 和不规则复数所有格；不把所有 ’s 都当所属。",
+    "lessons": [
+      {
+        "title": "先问几个，再问谁的",
+        "clue": "复数说明数量，所有格说明所属。",
+        "variants": [
+          {
+            "label": "几只狗",
+            "sentence": "Two dogs are here.",
+            "zh": "两只狗在这里。",
+            "parts": [
+              "dog → 狗",
+              "dogs → 多只狗",
+              "不加撇号 → 复数"
+            ],
+            "rule": "只表达多只狗，加 s，不加撇号。"
+          },
+          {
+            "label": "一只狗的球",
+            "sentence": "The dog's ball is red.",
+            "zh": "这只狗的球是红色的。",
+            "parts": [
+              "the dog → 一只狗",
+              "dog’s → 狗的",
+              "ball → 被拥有的东西"
+            ],
+            "rule": "一只狗拥有球：在 dog 后加 ’s。"
+          }
+        ]
+      },
+      {
+        "title": "主人不止一个",
+        "clue": "先写出拥有者的复数，再决定撇号。",
+        "variants": [
+          {
+            "label": "一个女孩的包",
+            "sentence": "The girl's bag is blue.",
+            "zh": "这个女孩的包是蓝色的。",
+            "parts": [
+              "girl → 一个女孩",
+              "girl’s → 单数所有格",
+              "bag → 一个包"
+            ],
+            "rule": "一个女孩：girl + ’s。"
+          },
+          {
+            "label": "多个女孩的包",
+            "sentence": "The girls' bags are blue.",
+            "zh": "这些女孩的包是蓝色的。",
+            "parts": [
+              "girls → 多个女孩",
+              "girls’ → 已有复数 s，只加撇号",
+              "bags → 多个包"
+            ],
+            "rule": "girls 已经以复数 s 结尾，后面加撇号：girls’。"
+          }
+        ]
+      },
+      {
+        "title": "不规则复数怎么办？",
+        "clue": "children 已经是复数，不再加一个复数 s。",
+        "variants": [
+          {
+            "label": "多个孩子",
+            "sentence": "The children are playing.",
+            "zh": "孩子们正在玩。",
+            "parts": [
+              "child → 一个孩子",
+              "children → 多个孩子",
+              "are playing → 正在玩"
+            ],
+            "rule": "children 本身是复数，不写 childrens。"
+          },
+          {
+            "label": "孩子们的玩具",
+            "sentence": "The children's toys are here.",
+            "zh": "孩子们的玩具在这里。",
+            "parts": [
+              "children → 复数，不以 s 结尾",
+              "children’s → 加 ’s",
+              "toys → 多个玩具"
+            ],
+            "rule": "不以 s 结尾的不规则复数，所有格仍加 ’s。"
+          }
+        ]
+      },
+      {
+        "title": "主人数量和东西数量分开看",
+        "clue": "撇号放哪里，由拥有者决定。",
+        "variants": [
+          {
+            "label": "一只狗，多个玩具",
+            "sentence": "The dog's toys are here.",
+            "zh": "这只狗的玩具们在这里。",
+            "parts": [
+              "dog’s → 一只狗的",
+              "toys → 多个玩具",
+              "are → 随 toys 变化"
+            ],
+            "rule": "玩具有多个，不会把 dog’s 改成 dogs’；主人仍是一只狗。"
+          },
+          {
+            "label": "多只狗，共用一个碗",
+            "sentence": "The dogs' bowl is here.",
+            "zh": "这些狗共用的碗在这里。",
+            "parts": [
+              "dogs’ → 多只狗的",
+              "bowl → 一个共用的碗",
+              "is → 随 bowl 变化"
+            ],
+            "rule": "碗只有一个，拥有它的狗有多只；两件事要分开。"
+          }
+        ]
+      },
+      {
+        "title": "撇号还有缩写用途",
+        "clue": "试着把 ’s 展开，看意思是否成立。",
+        "variants": [
+          {
+            "label": "说明所属",
+            "sentence": "Lily's bag is new.",
+            "zh": "莉莉的包是新的。",
+            "parts": [
+              "Lily’s → 莉莉的",
+              "bag → 包",
+              "is new → 是新的"
+            ],
+            "rule": "Lily’s 后面是她拥有的包。"
+          },
+          {
+            "label": "缩写 is",
+            "sentence": "Lily's happy.",
+            "zh": "莉莉很开心。",
+            "parts": [
+              "Lily’s → Lily is",
+              "happy → 开心",
+              "不能解释成“莉莉的开心的”"
+            ],
+            "rule": "这里 ’s 是 is 的缩写；其他语境也可能缩写 has，不能只凭撇号判断。"
+          },
+          {
+            "label": "its 不加撇号",
+            "sentence": "The cat licks its paw.",
+            "zh": "猫舔它的爪子。",
+            "parts": [
+              "its → 它的",
+              "paw → 爪子",
+              "it’s → it is / it has 的缩写"
+            ],
+            "rule": "所属代词 its 不加撇号；it’s 不能在这里替换 its。"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "tag": "plural",
+        "prompt": "两只猫：two ___",
+        "options": [
+          "cats",
+          "cat's",
+          "cats'"
+        ],
+        "answer": "cats",
+        "hint": "只数数量，没有说谁的东西。",
+        "explain": "cats 是复数，不加撇号。",
+        "id": "plurals-and-possessives-questions-1"
+      },
+      {
+        "tag": "single",
+        "prompt": "一只狗的球：the ___ ball",
+        "options": [
+          "dogs",
+          "dogs'",
+          "dog's"
+        ],
+        "answer": "dog's",
+        "hint": "拥有者是一只狗。",
+        "explain": "单数拥有者 dog + ’s。",
+        "id": "plurals-and-possessives-questions-2"
+      },
+      {
+        "tag": "plural-owner",
+        "prompt": "多个女孩各自的书包：the ___ bags",
+        "options": [
+          "girl's",
+          "girls'",
+          "girls"
+        ],
+        "answer": "girls'",
+        "hint": "拥有者是 girls，已经以 s 结尾。",
+        "explain": "规则复数 girls 后只加撇号。",
+        "id": "plurals-and-possessives-questions-3"
+      },
+      {
+        "tag": "irregular",
+        "prompt": "孩子们的玩具：the ___ toys",
+        "options": [
+          "childrens'",
+          "children's",
+          "childrens"
+        ],
+        "answer": "children's",
+        "hint": "children 是不以 s 结尾的复数。",
+        "explain": "children + ’s 表示孩子们的。",
+        "id": "plurals-and-possessives-questions-4"
+      },
+      {
+        "tag": "two-counts",
+        "prompt": "一只猫的两只耳朵：the ___ ears",
+        "options": [
+          "cat's",
+          "cats'",
+          "cats"
+        ],
+        "answer": "cat's",
+        "hint": "主人只有一只；耳朵有两只。",
+        "explain": "撇号由拥有者 cat 决定，与耳朵数量分开。",
+        "id": "plurals-and-possessives-questions-5"
+      },
+      {
+        "tag": "two-counts",
+        "prompt": "两只狗共用一个碗：the ___ bowl",
+        "options": [
+          "dog's",
+          "dogs",
+          "dogs'"
+        ],
+        "answer": "dogs'",
+        "hint": "拥有者是两只狗。",
+        "explain": "多只狗 dogs 的所有格是 dogs’。",
+        "id": "plurals-and-possessives-questions-6"
+      },
+      {
+        "tag": "contraction",
+        "prompt": "Lily's tired. 中的 Lily's 是什么？",
+        "options": [
+          "Lily is",
+          "莉莉的物品",
+          "多个莉莉"
+        ],
+        "answer": "Lily is",
+        "hint": "把 is 放回去能否组成句子？",
+        "explain": "Lily is tired.：这里 ’s 缩写 is。",
+        "id": "plurals-and-possessives-questions-7"
+      },
+      {
+        "tag": "its",
+        "prompt": "The bird opens ___ wings.",
+        "options": [
+          "its",
+          "it's",
+          "it"
+        ],
+        "answer": "its",
+        "hint": "这里说“它的翅膀”。",
+        "explain": "its 表示它的；it’s 是 it is 或 it has 的缩写。",
+        "id": "plurals-and-possessives-questions-8"
+      },
+      {
+        "tag": "plural",
+        "prompt": "三辆公交车：three ___",
+        "options": [
+          "bus",
+          "bus's",
+          "buses"
+        ],
+        "answer": "buses",
+        "hint": "复数不需要撇号。",
+        "explain": "bus 的规则复数是 buses。",
+        "id": "plurals-and-possessives-questions-9"
+      },
+      {
+        "tag": "irregular",
+        "prompt": "这些男士的帽子：the ___ hats",
+        "options": [
+          "men's",
+          "mens'",
+          "mens"
+        ],
+        "answer": "men's",
+        "hint": "men 已经是复数，不以 s 结尾。",
+        "explain": "men 的所有格是 men’s。",
+        "id": "plurals-and-possessives-questions-10"
+      },
+      {
+        "tag": "single",
+        "prompt": "Ben 的书：___ book",
+        "options": [
+          "Bens",
+          "Ben's",
+          "Bens'"
+        ],
+        "answer": "Ben's",
+        "hint": "Ben 是一个人的名字。",
+        "explain": "Ben + ’s 表示 Ben 的。",
+        "id": "plurals-and-possessives-questions-11"
+      },
+      {
+        "tag": "contraction",
+        "prompt": "It's cold. 中的 It's 可以展开成什么？",
+        "options": [
+          "It is",
+          "它的",
+          "很多个它"
+        ],
+        "answer": "It is",
+        "hint": "cold 在这里描述状态。",
+        "explain": "It is cold.；这里不是所属关系。",
+        "id": "plurals-and-possessives-questions-12"
+      }
+    ],
+    "transfer": [
+      {
+        "tag": "plural",
+        "prompt": "三只兔子：three ___",
+        "options": [
+          "rabbit's",
+          "rabbits",
+          "rabbits'"
+        ],
+        "answer": "rabbits",
+        "hint": "只数数量。",
+        "explain": "rabbits 是复数，不用撇号。",
+        "id": "plurals-and-possessives-transfer-1"
+      },
+      {
+        "tag": "single",
+        "prompt": "一个老师的桌子：the ___ desk",
+        "options": [
+          "teacher's",
+          "teachers'",
+          "teachers"
+        ],
+        "answer": "teacher's",
+        "hint": "只有一位老师。",
+        "explain": "单数 teacher 后加 ’s。",
+        "id": "plurals-and-possessives-transfer-2"
+      },
+      {
+        "tag": "plural-owner",
+        "prompt": "多个学生的书：the ___ books",
+        "options": [
+          "student's",
+          "students",
+          "students'"
+        ],
+        "answer": "students'",
+        "hint": "students 是以 s 结尾的复数。",
+        "explain": "在 students 后加撇号。",
+        "id": "plurals-and-possessives-transfer-3"
+      },
+      {
+        "tag": "irregular",
+        "prompt": "女士们的包：the ___ bags",
+        "options": [
+          "womens'",
+          "women's",
+          "womens"
+        ],
+        "answer": "women's",
+        "hint": "women 已经是复数。",
+        "explain": "不以 s 结尾的复数所有格加 ’s。",
+        "id": "plurals-and-possessives-transfer-4"
+      },
+      {
+        "tag": "two-counts",
+        "prompt": "一位男孩的多辆玩具车：the ___ cars",
+        "options": [
+          "boys'",
+          "boy's",
+          "boys"
+        ],
+        "answer": "boy's",
+        "hint": "先看拥有者，而不是车的数量。",
+        "explain": "一个 boy 拥有多辆 cars，用 boy’s cars。",
+        "id": "plurals-and-possessives-transfer-5"
+      },
+      {
+        "tag": "contraction",
+        "prompt": "Tom's here. 是什么意思？",
+        "options": [
+          "Tom is here.",
+          "汤姆的这里",
+          "多个汤姆"
+        ],
+        "answer": "Tom is here.",
+        "hint": "here 表示在这里。",
+        "explain": "这里 ’s 是 is 的缩写。",
+        "id": "plurals-and-possessives-transfer-6"
+      },
+      {
+        "tag": "its",
+        "prompt": "The dog wags ___ tail.",
+        "options": [
+          "it",
+          "it's",
+          "its"
+        ],
+        "answer": "its",
+        "hint": "表示狗的尾巴。",
+        "explain": "its tail：它的尾巴。",
+        "id": "plurals-and-possessives-transfer-7"
+      }
+    ]
+  },
+  {
+    "id": "simple-tenses",
+    "name": "一般过去、现在与将来时",
+    "en": "Simple Past, Present & Future",
+    "age": "8–9",
+    "icon": "🕰️",
+    "node": "mt_Of-WsrRQ8B",
+    "mission": "驾驶时间列车，送动词到正确的时间站。",
+    "boundary": "一般现在表达习惯、事实或状态；本课用 will + 原形表达将来，不声称它是唯一方式。",
+    "lessons": [
+      {
+        "title": "时间不是只看中文“现在”",
+        "clue": "先分清习惯、已发生、将来。",
+        "variants": [
+          {
+            "label": "每天 · 习惯",
+            "sentence": "Mia plays tennis every day.",
+            "zh": "米娅每天打网球。",
+            "parts": [
+              "Mia → 第三人称单数",
+              "plays → 一般现在",
+              "every day → 习惯"
+            ],
+            "rule": "一般现在时表示习惯，不是说她此刻正在打球。"
+          },
+          {
+            "label": "昨天 · 已发生",
+            "sentence": "Mia played tennis yesterday.",
+            "zh": "米娅昨天打了网球。",
+            "parts": [
+              "Mia → 主语",
+              "played → 过去式",
+              "yesterday → 昨天"
+            ],
+            "rule": "过去的事用过去式，不再因为 Mia 而加第三人称 s。"
+          },
+          {
+            "label": "明天 · 将来",
+            "sentence": "Mia will play tennis tomorrow.",
+            "zh": "米娅明天将打网球。",
+            "parts": [
+              "Mia → 主语",
+              "will play → will + 原形",
+              "tomorrow → 明天"
+            ],
+            "rule": "will 后用原形 play；将来还可用其他表达，本课先学这一种。"
+          }
+        ]
+      },
+      {
+        "title": "过去式：规则变化与单独记忆",
+        "clue": "不是所有过去式都加 ed。",
+        "variants": [
+          {
+            "label": "规则动词",
+            "sentence": "We walked home yesterday.",
+            "zh": "我们昨天走路回家。",
+            "parts": [
+              "walk → walked",
+              "yesterday → 过去",
+              "We → 不改变过去式"
+            ],
+            "rule": "常见规则变化加 ed；study → studied，stop → stopped 要留意拼写。"
+          },
+          {
+            "label": "不规则动词",
+            "sentence": "We went home yesterday.",
+            "zh": "我们昨天回家了。",
+            "parts": [
+              "go → went",
+              "不写 goed",
+              "yesterday → 过去"
+            ],
+            "rule": "went 是 go 的过去式，需要结合例句单独记。"
+          }
+        ]
+      },
+      {
+        "title": "be 也有时间变化",
+        "clue": "be 不使用普通动词的加 ed 规则。",
+        "variants": [
+          {
+            "label": "今天的状态",
+            "sentence": "I am happy today.",
+            "zh": "我今天很开心。",
+            "parts": [
+              "I → am",
+              "happy → 状态",
+              "today → 今天"
+            ],
+            "rule": "描述现在的状态可用一般现在时。"
+          },
+          {
+            "label": "昨天的状态",
+            "sentence": "I was happy yesterday.",
+            "zh": "我昨天很开心。",
+            "parts": [
+              "I → was",
+              "you / we / they → were",
+              "yesterday → 过去"
+            ],
+            "rule": "am / is 的常用过去式是 was；you / we / they 配 were。"
+          },
+          {
+            "label": "将来的状态",
+            "sentence": "I will be happy.",
+            "zh": "我会开心的。",
+            "parts": [
+              "will → 将来",
+              "be → 原形",
+              "happy → 状态"
+            ],
+            "rule": "will 后用 be，不写 will am 或 will was。"
+          }
+        ]
+      },
+      {
+        "title": "提问和否定，小助手负责变化",
+        "clue": "普通动词遇到 did 或 will 后，用原形。",
+        "variants": [
+          {
+            "label": "过去否定",
+            "sentence": "She didn't go out.",
+            "zh": "她没有出去。",
+            "parts": [
+              "didn’t → did not",
+              "go → 原形",
+              "不用 went"
+            ],
+            "rule": "过去的否定由 did 表示，后面的 go 回原形。"
+          },
+          {
+            "label": "过去提问",
+            "sentence": "Did she go out?",
+            "zh": "她出去了吗？",
+            "parts": [
+              "Did → 过去提问",
+              "she → 主语",
+              "go → 原形"
+            ],
+            "rule": "Did she go…? 不写 Did she went…?。"
+          },
+          {
+            "label": "将来提问",
+            "sentence": "Will she go out?",
+            "zh": "她会出去吗？",
+            "parts": [
+              "Will → 提问",
+              "she → 主语",
+              "go → 原形"
+            ],
+            "rule": "Will 放主语前；否定可用 will not / won’t。"
+          }
+        ]
+      },
+      {
+        "title": "同一个故事里的时间线",
+        "clue": "时间明确改变，时态可以跟着改变。",
+        "variants": [
+          {
+            "label": "先过去",
+            "sentence": "Yesterday I visited Grandma.",
+            "zh": "昨天我看望了奶奶。",
+            "parts": [
+              "Yesterday → 时间",
+              "visited → 过去式",
+              "Grandma → 奶奶"
+            ],
+            "rule": "叙述过去的经历，保持过去时。"
+          },
+          {
+            "label": "再将来",
+            "sentence": "Tomorrow I will visit Grandma again.",
+            "zh": "明天我将再次看望奶奶。",
+            "parts": [
+              "Tomorrow → 时间改变",
+              "will visit → 将来",
+              "again → 再次"
+            ],
+            "rule": "时间从昨天转到明天，改变时态是有理由的。"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "tag": "habit",
+        "prompt": "She ___ to school every day.",
+        "options": [
+          "walked",
+          "walks",
+          "will walked"
+        ],
+        "answer": "walks",
+        "hint": "every day 表示这里的习惯。",
+        "explain": "一般现在时，she 配 walks。",
+        "id": "simple-tenses-questions-1"
+      },
+      {
+        "tag": "past",
+        "prompt": "Yesterday we ___ football.",
+        "options": [
+          "play",
+          "played",
+          "will play"
+        ],
+        "answer": "played",
+        "hint": "yesterday 明确是过去。",
+        "explain": "规则动词 play 的过去式是 played。",
+        "id": "simple-tenses-questions-2"
+      },
+      {
+        "tag": "future",
+        "prompt": "Tomorrow he will ___ a cake.",
+        "options": [
+          "makes",
+          "made",
+          "make"
+        ],
+        "answer": "make",
+        "hint": "will 后看动词原形。",
+        "explain": "will make，不受 he 的第三人称影响。",
+        "id": "simple-tenses-questions-3"
+      },
+      {
+        "tag": "irregular",
+        "prompt": "Last Sunday, we ___ to the zoo.",
+        "options": [
+          "goed",
+          "go",
+          "went"
+        ],
+        "answer": "went",
+        "hint": "go 的过去式需要单独记。",
+        "explain": "go → went。",
+        "id": "simple-tenses-questions-4"
+      },
+      {
+        "tag": "did",
+        "prompt": "She didn't ___ breakfast yesterday.",
+        "options": [
+          "eat",
+          "ate",
+          "eats"
+        ],
+        "answer": "eat",
+        "hint": "didn’t 已经表示过去。",
+        "explain": "didn’t 后用原形 eat。",
+        "id": "simple-tenses-questions-5"
+      },
+      {
+        "tag": "did",
+        "prompt": "Did Ben ___ the door?",
+        "options": [
+          "opened",
+          "opens",
+          "open"
+        ],
+        "answer": "open",
+        "hint": "小助手 Did 已经变化。",
+        "explain": "Did Ben open…?。",
+        "id": "simple-tenses-questions-6"
+      },
+      {
+        "tag": "be",
+        "prompt": "I ___ at home yesterday.",
+        "options": [
+          "am",
+          "was",
+          "were"
+        ],
+        "answer": "was",
+        "hint": "过去的 I 配哪个 be？",
+        "explain": "I was，you / we / they were。",
+        "id": "simple-tenses-questions-7"
+      },
+      {
+        "tag": "be",
+        "prompt": "They ___ tired last night.",
+        "options": [
+          "was",
+          "are",
+          "were"
+        ],
+        "answer": "were",
+        "hint": "last night 是过去，主语是 they。",
+        "explain": "They were tired last night.。",
+        "id": "simple-tenses-questions-8"
+      },
+      {
+        "tag": "future",
+        "prompt": "She will ___ ready soon.",
+        "options": [
+          "is",
+          "be",
+          "was"
+        ],
+        "answer": "be",
+        "hint": "will 后的 be 保持原形。",
+        "explain": "will be，不用 will is。",
+        "id": "simple-tenses-questions-9"
+      },
+      {
+        "tag": "habit",
+        "prompt": "哪句表达平时的习惯？",
+        "options": [
+          "I read every evening.",
+          "I am reading now.",
+          "I read a book yesterday."
+        ],
+        "answer": "I read every evening.",
+        "hint": "找“经常、每天”的语境。",
+        "explain": "every evening 表示习惯；now 的那句是在进行。",
+        "id": "simple-tenses-questions-10"
+      },
+      {
+        "tag": "spelling",
+        "prompt": "Yesterday Lily ___ English.",
+        "options": [
+          "studyed",
+          "studies",
+          "studied"
+        ],
+        "answer": "studied",
+        "hint": "study 以辅音字母 + y 结尾。",
+        "explain": "study → studied；这里是过去式，不是 studies。",
+        "id": "simple-tenses-questions-11"
+      },
+      {
+        "tag": "timeline",
+        "prompt": "Yesterday I played. Tomorrow I ___ again.",
+        "options": [
+          "played",
+          "will play",
+          "plays"
+        ],
+        "answer": "will play",
+        "hint": "第二句把时间移到明天。",
+        "explain": "有明确时间变化，所以使用 will play。",
+        "id": "simple-tenses-questions-12"
+      }
+    ],
+    "transfer": [
+      {
+        "tag": "habit",
+        "prompt": "Ben ___ books every night.",
+        "options": [
+          "reads",
+          "readed",
+          "will reads"
+        ],
+        "answer": "reads",
+        "hint": "习惯，主语 Ben。",
+        "explain": "一般现在时 Ben 配 reads。",
+        "id": "simple-tenses-transfer-1"
+      },
+      {
+        "tag": "past",
+        "prompt": "Last night, I ___ my room.",
+        "options": [
+          "clean",
+          "cleaned",
+          "cleans"
+        ],
+        "answer": "cleaned",
+        "hint": "last night 是已过去的时间。",
+        "explain": "clean → cleaned。",
+        "id": "simple-tenses-transfer-2"
+      },
+      {
+        "tag": "future",
+        "prompt": "Next week, we will ___ our aunt.",
+        "options": [
+          "visited",
+          "visits",
+          "visit"
+        ],
+        "answer": "visit",
+        "hint": "will 后用原形。",
+        "explain": "will visit。",
+        "id": "simple-tenses-transfer-3"
+      },
+      {
+        "tag": "irregular",
+        "prompt": "Yesterday she ___ an apple.",
+        "options": [
+          "eated",
+          "ate",
+          "eats"
+        ],
+        "answer": "ate",
+        "hint": "eat 的过去式不加 ed。",
+        "explain": "eat → ate。",
+        "id": "simple-tenses-transfer-4"
+      },
+      {
+        "tag": "did",
+        "prompt": "Did you ___ the game?",
+        "options": [
+          "enjoyed",
+          "enjoy",
+          "enjoys"
+        ],
+        "answer": "enjoy",
+        "hint": "Did 承担过去的变化。",
+        "explain": "Did you enjoy…?。",
+        "id": "simple-tenses-transfer-5"
+      },
+      {
+        "tag": "be",
+        "prompt": "You ___ at school yesterday.",
+        "options": [
+          "was",
+          "were",
+          "are"
+        ],
+        "answer": "were",
+        "hint": "you 的过去 be 形式。",
+        "explain": "You were。",
+        "id": "simple-tenses-transfer-6"
+      },
+      {
+        "tag": "spelling",
+        "prompt": "Yesterday the bus ___ here.",
+        "options": [
+          "stoped",
+          "stops",
+          "stopped"
+        ],
+        "answer": "stopped",
+        "hint": "stop 的过去式需双写 p。",
+        "explain": "stop → stopped。",
+        "id": "simple-tenses-transfer-7"
+      },
+      {
+        "tag": "timeline",
+        "prompt": "Last week I visited Ben. Next week I ___ Mia.",
+        "options": [
+          "will visit",
+          "visited",
+          "visits"
+        ],
+        "answer": "will visit",
+        "hint": "next week 改成将来。",
+        "explain": "按新时间用 will visit。",
+        "id": "simple-tenses-transfer-8"
+      }
+    ]
+  },
+  {
+    "id": "standard-verb-forms",
+    "name": "标准英语动词形式",
+    "en": "Standard English Verb Forms",
+    "age": "8–9",
+    "icon": "🛠️",
+    "node": "mt_ay0qkGj0jg",
+    "mission": "帮句子修理站选择适合学校书面表达的动词。",
+    "boundary": "标准书面形式是一种表达场合要求，不把家庭语言、方言或说话者贬为错误。",
+    "lessons": [
+      {
+        "title": "先认清表达场合",
+        "clue": "本课练学校书面表达中的标准形式；不同社区有自己的语言变体。",
+        "variants": [
+          {
+            "label": "一个人，过去",
+            "sentence": "He was at home.",
+            "zh": "他当时在家。",
+            "parts": [
+              "He → 主语",
+              "was → 过去 be",
+              "at home → 地点"
+            ],
+            "rule": "标准书面英语中 he 配 was；不据此评价说其他变体的人。"
+          },
+          {
+            "label": "多个人，过去",
+            "sentence": "They were at home.",
+            "zh": "他们当时在家。",
+            "parts": [
+              "They → 主语",
+              "were → 过去 be",
+              "at home → 地点"
+            ],
+            "rule": "同样是过去，主语换成 they，be 用 were。"
+          }
+        ]
+      },
+      {
+        "title": "普通过去式和 have 后的形式",
+        "clue": "先看前面有没有 has / have / had。",
+        "variants": [
+          {
+            "label": "直接说过去",
+            "sentence": "I saw the bird yesterday.",
+            "zh": "我昨天看见了那只鸟。",
+            "parts": [
+              "saw → see 的过去式",
+              "yesterday → 过去",
+              "没有 have → 不用 seen"
+            ],
+            "rule": "普通过去句用 saw，不写 I seen the bird yesterday.。"
+          },
+          {
+            "label": "已经见过",
+            "sentence": "I have seen the bird.",
+            "zh": "我见过那只鸟。",
+            "parts": [
+              "have → 小助手",
+              "seen → 过去分词",
+              "see → saw → seen"
+            ],
+            "rule": "have 后用 seen，不写 have saw；这里先学形式配对，完成时另作深入学习。"
+          }
+        ]
+      },
+      {
+        "title": "do：did 和 done 有不同搭档",
+        "clue": "did 可以做主要动词，也可以做小助手。",
+        "variants": [
+          {
+            "label": "主要动词 did",
+            "sentence": "She did her homework.",
+            "zh": "她做了作业。",
+            "parts": [
+              "did → do 的过去式",
+              "her homework → 作业",
+              "直接说过去"
+            ],
+            "rule": "这里 did 自己就是“做”的过去式。"
+          },
+          {
+            "label": "have + done",
+            "sentence": "She has done her homework.",
+            "zh": "她已经做完了作业。",
+            "parts": [
+              "has → 小助手",
+              "done → 过去分词",
+              "do → did → done"
+            ],
+            "rule": "has 后用 done，不用 did。"
+          },
+          {
+            "label": "did + 原形",
+            "sentence": "Did she do her homework?",
+            "zh": "她做作业了吗？",
+            "parts": [
+              "Did → 提问小助手",
+              "do → 主要动词原形",
+              "不写 did done"
+            ],
+            "rule": "提问的 Did 后，主要动词 do 用原形。"
+          }
+        ]
+      },
+      {
+        "title": "最常见的搭配别重复变化",
+        "clue": "看主语，也看小助手。",
+        "variants": [
+          {
+            "label": "have / has",
+            "sentence": "She has a bike. They have bikes.",
+            "zh": "她有一辆自行车。他们有自行车。",
+            "parts": [
+              "She → has",
+              "They → have",
+              "这里 have 表示拥有"
+            ],
+            "rule": "一般现在时：she has，they have。"
+          },
+          {
+            "label": "doesn’t + 原形",
+            "sentence": "He doesn't like rain.",
+            "zh": "他不喜欢下雨。",
+            "parts": [
+              "He → doesn’t",
+              "like → 原形",
+              "不写 doesn’t likes"
+            ],
+            "rule": "doesn’t 后的主要动词用原形。"
+          },
+          {
+            "label": "can + 原形",
+            "sentence": "She can swim.",
+            "zh": "她会游泳。",
+            "parts": [
+              "can → 情态动词",
+              "swim → 原形",
+              "不写 can swims"
+            ],
+            "rule": "不管主语是谁，can 后用动词原形。"
+          }
+        ]
+      },
+      {
+        "title": "更多不规则形式",
+        "clue": "同一动词的过去式和过去分词可能不同。",
+        "variants": [
+          {
+            "label": "go → went → gone",
+            "sentence": "He went home. He has gone home.",
+            "zh": "他回家了。他已经回家了。",
+            "parts": [
+              "went → 普通过去",
+              "has gone → has + 分词",
+              "不写 has went"
+            ],
+            "rule": "gone 常表示去了而尚未回来；本课重点先认出 has gone 的形式。"
+          },
+          {
+            "label": "write → wrote → written",
+            "sentence": "I wrote a note. I have written a note.",
+            "zh": "我写了便条。我已经写好一张便条。",
+            "parts": [
+              "wrote → 普通过去",
+              "have written → have + 分词",
+              "不写 have wrote"
+            ],
+            "rule": "不需要一口气背全部不规则动词表，先用常见词造句。"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "tag": "was-were",
+        "prompt": "学校书面表达：We ___ late yesterday.",
+        "options": [
+          "was",
+          "were",
+          "is"
+        ],
+        "answer": "were",
+        "hint": "主语 we，过去的 be。",
+        "explain": "标准书面形式是 We were。",
+        "id": "standard-verb-forms-questions-1"
+      },
+      {
+        "tag": "was-were",
+        "prompt": "学校书面表达：She ___ at home last night.",
+        "options": [
+          "were",
+          "are",
+          "was"
+        ],
+        "answer": "was",
+        "hint": "主语 she，过去的 be。",
+        "explain": "She was。",
+        "id": "standard-verb-forms-questions-2"
+      },
+      {
+        "tag": "saw-seen",
+        "prompt": "Yesterday I ___ a fox.",
+        "options": [
+          "seen",
+          "saw",
+          "seeing"
+        ],
+        "answer": "saw",
+        "hint": "直接表达过去，前面没有 have。",
+        "explain": "see 的普通过去式是 saw。",
+        "id": "standard-verb-forms-questions-3"
+      },
+      {
+        "tag": "saw-seen",
+        "prompt": "I have ___ that film.",
+        "options": [
+          "saw",
+          "see",
+          "seen"
+        ],
+        "answer": "seen",
+        "hint": "have 后需要过去分词。",
+        "explain": "have seen，不写 have saw。",
+        "id": "standard-verb-forms-questions-4"
+      },
+      {
+        "tag": "did-done",
+        "prompt": "She has ___ her homework.",
+        "options": [
+          "did",
+          "done",
+          "do"
+        ],
+        "answer": "done",
+        "hint": "has 后用 do 的过去分词。",
+        "explain": "has done。",
+        "id": "standard-verb-forms-questions-5"
+      },
+      {
+        "tag": "did-base",
+        "prompt": "Did they ___ the job?",
+        "options": [
+          "done",
+          "did",
+          "do"
+        ],
+        "answer": "do",
+        "hint": "Did 是提问小助手。",
+        "explain": "Did they do…?；do 用原形。",
+        "id": "standard-verb-forms-questions-6"
+      },
+      {
+        "tag": "have-has",
+        "prompt": "My sister ___ a red bike.",
+        "options": [
+          "have",
+          "has",
+          "having"
+        ],
+        "answer": "has",
+        "hint": "my sister 可换成 she。",
+        "explain": "She has / My sister has。",
+        "id": "standard-verb-forms-questions-7"
+      },
+      {
+        "tag": "does-base",
+        "prompt": "He doesn't ___ coffee.",
+        "options": [
+          "likes",
+          "like",
+          "liked"
+        ],
+        "answer": "like",
+        "hint": "doesn’t 已经随主语变化。",
+        "explain": "doesn’t like。",
+        "id": "standard-verb-forms-questions-8"
+      },
+      {
+        "tag": "modal",
+        "prompt": "Lily can ___ fast.",
+        "options": [
+          "runs",
+          "ran",
+          "run"
+        ],
+        "answer": "run",
+        "hint": "can 后的动词是什么形式？",
+        "explain": "can run，用原形。",
+        "id": "standard-verb-forms-questions-9"
+      },
+      {
+        "tag": "went-gone",
+        "prompt": "He has ___ home.",
+        "options": [
+          "went",
+          "go",
+          "gone"
+        ],
+        "answer": "gone",
+        "hint": "has 后需要过去分词。",
+        "explain": "go → went → gone；has gone。",
+        "id": "standard-verb-forms-questions-10"
+      },
+      {
+        "tag": "wrote-written",
+        "prompt": "I have ___ a letter.",
+        "options": [
+          "written",
+          "wrote",
+          "write"
+        ],
+        "answer": "written",
+        "hint": "have 后看过去分词。",
+        "explain": "write → wrote → written。",
+        "id": "standard-verb-forms-questions-11"
+      },
+      {
+        "tag": "did-done",
+        "prompt": "Yesterday she ___ the washing-up.",
+        "options": [
+          "done",
+          "did",
+          "does"
+        ],
+        "answer": "did",
+        "hint": "直接说过去，前面没有 has。",
+        "explain": "普通过去式用 did。",
+        "id": "standard-verb-forms-questions-12"
+      }
+    ],
+    "transfer": [
+      {
+        "tag": "was-were",
+        "prompt": "You ___ very helpful yesterday.",
+        "options": [
+          "was",
+          "were",
+          "is"
+        ],
+        "answer": "were",
+        "hint": "you 的过去 be 形式。",
+        "explain": "标准书面形式 You were。",
+        "id": "standard-verb-forms-transfer-1"
+      },
+      {
+        "tag": "saw-seen",
+        "prompt": "Ben has ___ a rainbow.",
+        "options": [
+          "saw",
+          "seen",
+          "see"
+        ],
+        "answer": "seen",
+        "hint": "has 后用过去分词。",
+        "explain": "has seen。",
+        "id": "standard-verb-forms-transfer-2"
+      },
+      {
+        "tag": "did-done",
+        "prompt": "We have ___ the work.",
+        "options": [
+          "did",
+          "do",
+          "done"
+        ],
+        "answer": "done",
+        "hint": "have 后用分词。",
+        "explain": "have done。",
+        "id": "standard-verb-forms-transfer-3"
+      },
+      {
+        "tag": "did-base",
+        "prompt": "I didn't ___ the answer.",
+        "options": [
+          "knew",
+          "known",
+          "know"
+        ],
+        "answer": "know",
+        "hint": "didn’t 后恢复原形。",
+        "explain": "didn’t know。",
+        "id": "standard-verb-forms-transfer-4"
+      },
+      {
+        "tag": "have-has",
+        "prompt": "The children ___ lunch at school.",
+        "options": [
+          "has",
+          "have",
+          "having"
+        ],
+        "answer": "have",
+        "hint": "children 是复数。",
+        "explain": "The children have lunch…。",
+        "id": "standard-verb-forms-transfer-5"
+      },
+      {
+        "tag": "does-base",
+        "prompt": "Mia doesn't ___ TV every day.",
+        "options": [
+          "watches",
+          "watch",
+          "watched"
+        ],
+        "answer": "watch",
+        "hint": "doesn’t 后用原形。",
+        "explain": "doesn’t watch。",
+        "id": "standard-verb-forms-transfer-6"
+      },
+      {
+        "tag": "modal",
+        "prompt": "They must ___ here.",
+        "options": [
+          "wait",
+          "waits",
+          "waited"
+        ],
+        "answer": "wait",
+        "hint": "must 和 can 一样，后接原形。",
+        "explain": "must wait。",
+        "id": "standard-verb-forms-transfer-7"
+      },
+      {
+        "tag": "went-gone",
+        "prompt": "Yesterday Ben ___ to the park.",
+        "options": [
+          "gone",
+          "went",
+          "go"
+        ],
+        "answer": "went",
+        "hint": "没有 have，直接说过去。",
+        "explain": "普通过去式 went。",
+        "id": "standard-verb-forms-transfer-8"
+      },
+      {
+        "tag": "wrote-written",
+        "prompt": "Last night, I ___ a story.",
+        "options": [
+          "written",
+          "write",
+          "wrote"
+        ],
+        "answer": "wrote",
+        "hint": "直接描述昨晚的动作。",
+        "explain": "普通过去式 wrote。",
+        "id": "standard-verb-forms-transfer-9"
+      }
+    ]
+  },
+  {
+    "id": "progressive-tenses",
+    "name": "进行时态",
+    "en": "Progressive Tenses",
+    "age": "9–10",
+    "icon": "🎬",
+    "node": "mt_mkDqmejLMw",
+    "mission": "把动作定格，看看那一刻谁正在做什么。",
+    "boundary": "涵盖现在、过去、将来进行时；强调 be + ing，否定、提问和常见状态动词的边界。",
+    "lessons": [
+      {
+        "title": "习惯和正在进行不一样",
+        "clue": "像相机一样，定格某个时间的动作。",
+        "variants": [
+          {
+            "label": "平时的习惯",
+            "sentence": "She reads every evening.",
+            "zh": "她每天晚上读书。",
+            "parts": [
+              "reads → 一般现在",
+              "every evening → 习惯",
+              "不是某个瞬间"
+            ],
+            "rule": "一般现在时不等于正在发生。"
+          },
+          {
+            "label": "此刻的动作",
+            "sentence": "She is reading now.",
+            "zh": "她现在正在读书。",
+            "parts": [
+              "She → 主语",
+              "is + reading → be + ing",
+              "now → 此刻"
+            ],
+            "rule": "进行时需要 be 和 ing 动词一起工作，不能只写 She reading。"
+          }
+        ]
+      },
+      {
+        "title": "把同一个动作移到不同时间",
+        "clue": "变的是 be 部分，reading 保持 ing 形式。",
+        "variants": [
+          {
+            "label": "现在",
+            "sentence": "They are reading now.",
+            "zh": "他们现在正在读书。",
+            "parts": [
+              "They → 主语",
+              "are reading → 现在进行",
+              "now → 现在"
+            ],
+            "rule": "I am；he / she / it is；you / we / they are，加 ing 动词。"
+          },
+          {
+            "label": "过去某一刻",
+            "sentence": "They were reading at eight last night.",
+            "zh": "昨晚八点他们正在读书。",
+            "parts": [
+              "They → 主语",
+              "were reading → 过去进行",
+              "at eight last night → 过去的一刻"
+            ],
+            "rule": "I / he / she / it was；you / we / they were，加 ing 动词。"
+          },
+          {
+            "label": "将来某一刻",
+            "sentence": "They will be reading at eight tomorrow.",
+            "zh": "明天八点他们将正在读书。",
+            "parts": [
+              "They → 主语",
+              "will be reading → 将来进行",
+              "at eight tomorrow → 将来的一刻"
+            ],
+            "rule": "will be + ing；will 后 be 用原形。"
+          }
+        ]
+      },
+      {
+        "title": "ing 的拼写工坊",
+        "clue": "规则服务于单词，不把一个口诀套给所有结尾。",
+        "variants": [
+          {
+            "label": "直接加 ing",
+            "sentence": "play → playing",
+            "zh": "玩 → 正在玩",
+            "parts": [
+              "play → 原形",
+              "playing → ing 形式",
+              "y 保留"
+            ],
+            "rule": "多数动词直接加 ing：read → reading；play 不变 plaing。"
+          },
+          {
+            "label": "去不发音 e",
+            "sentence": "make → making",
+            "zh": "制作 → 正在制作",
+            "parts": [
+              "make → 去 e",
+              "making → 加 ing",
+              "see → seeing 保留 ee"
+            ],
+            "rule": "常见不发音 e 结尾去 e；不是所有 e 结尾都去 e。"
+          },
+          {
+            "label": "双写末尾辅音",
+            "sentence": "run → running",
+            "zh": "跑 → 正在跑",
+            "parts": [
+              "run → 双写 n",
+              "running → 加 ing",
+              "stop → stopping"
+            ],
+            "rule": "run、sit、stop 等常见短词按此模式；不要把所有辅音结尾都双写。"
+          },
+          {
+            "label": "ie 变 y",
+            "sentence": "lie → lying",
+            "zh": "躺 → 正在躺",
+            "parts": [
+              "lie → ie 换 y",
+              "lying → 加 ing",
+              "不是 lieing"
+            ],
+            "rule": "先记常用例词 lie → lying。"
+          }
+        ]
+      },
+      {
+        "title": "否定和疑问都围绕 be",
+        "clue": "有 be 的进行时，不再添加 do 来提问。",
+        "variants": [
+          {
+            "label": "肯定",
+            "sentence": "She is drawing.",
+            "zh": "她正在画画。",
+            "parts": [
+              "She → 主语",
+              "is → be",
+              "drawing → ing 动词"
+            ],
+            "rule": "两个部分 is + drawing 缺一不可。"
+          },
+          {
+            "label": "否定",
+            "sentence": "She is not drawing.",
+            "zh": "她没有在画画。",
+            "parts": [
+              "She → 主语",
+              "is not → be 后加 not",
+              "drawing → 保留 ing"
+            ],
+            "rule": "把 not 放在 is 后面。"
+          },
+          {
+            "label": "提问",
+            "sentence": "Is she drawing?",
+            "zh": "她正在画画吗？",
+            "parts": [
+              "Is → 移到主语前",
+              "she → 主语",
+              "drawing? → 保留 ing"
+            ],
+            "rule": "不写 Does she drawing?。将来进行时提问把 will 移到前面。"
+          }
+        ]
+      },
+      {
+        "title": "背景动作与发生的事情",
+        "clue": "一个动作进行着，另一个事情发生了。",
+        "variants": [
+          {
+            "label": "正在读书时响铃",
+            "sentence": "I was reading when the phone rang.",
+            "zh": "电话响时，我正在读书。",
+            "parts": [
+              "was reading → 进行中的背景",
+              "when → 当……时",
+              "rang → 响铃这件事"
+            ],
+            "rule": "背景用过去进行时；发生的事件用一般过去时。"
+          },
+          {
+            "label": "状态不硬套 ing",
+            "sentence": "I know the answer.",
+            "zh": "我知道答案。",
+            "parts": [
+              "know → 知道这种状态",
+              "一般现在时",
+              "不写 I am knowing the answer."
+            ],
+            "rule": "know、believe 等常见状态意义通常不用进行时；有些动词换意义可有其他用法。"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "tag": "present",
+        "prompt": "Look! She ___ a picture.",
+        "options": [
+          "is drawing",
+          "draws every day",
+          "drawing"
+        ],
+        "answer": "is drawing",
+        "hint": "Look! 指向此刻正在做的动作。",
+        "explain": "现在进行时 is + drawing，不能漏 is。",
+        "id": "progressive-tenses-questions-1"
+      },
+      {
+        "tag": "present",
+        "prompt": "I ___ reading now.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": "am",
+        "hint": "I 的 be 形式。",
+        "explain": "I am reading。",
+        "id": "progressive-tenses-questions-2"
+      },
+      {
+        "tag": "past",
+        "prompt": "At seven yesterday, we ___ dinner.",
+        "options": [
+          "are eating",
+          "was eating",
+          "were eating"
+        ],
+        "answer": "were eating",
+        "hint": "过去一刻，主语 we。",
+        "explain": "过去进行时 were eating。",
+        "id": "progressive-tenses-questions-3"
+      },
+      {
+        "tag": "future",
+        "prompt": "At this time tomorrow, she will ___ sleeping.",
+        "options": [
+          "is",
+          "be",
+          "was"
+        ],
+        "answer": "be",
+        "hint": "will 后 be 必须用原形。",
+        "explain": "will be sleeping。",
+        "id": "progressive-tenses-questions-4"
+      },
+      {
+        "tag": "spelling",
+        "prompt": "run 的 ing 形式是？",
+        "options": [
+          "runing",
+          "running",
+          "runs"
+        ],
+        "answer": "running",
+        "hint": "这个短词要双写末尾 n。",
+        "explain": "run → running。",
+        "id": "progressive-tenses-questions-5"
+      },
+      {
+        "tag": "spelling",
+        "prompt": "make 的 ing 形式是？",
+        "options": [
+          "makeing",
+          "making",
+          "makking"
+        ],
+        "answer": "making",
+        "hint": "先去掉末尾不发音 e。",
+        "explain": "make → making。",
+        "id": "progressive-tenses-questions-6"
+      },
+      {
+        "tag": "negative",
+        "prompt": "“他现在没在跑。”选一句。",
+        "options": [
+          "He not running.",
+          "He is not running.",
+          "He does not running."
+        ],
+        "answer": "He is not running.",
+        "hint": "进行时保留 be，在其后放 not。",
+        "explain": "is not running。",
+        "id": "progressive-tenses-questions-7"
+      },
+      {
+        "tag": "question",
+        "prompt": "“他们正在玩吗？”选一句。",
+        "options": [
+          "Do they playing?",
+          "Are they playing?",
+          "Is they playing?"
+        ],
+        "answer": "Are they playing?",
+        "hint": "they 配 are，再把 are 放前面。",
+        "explain": "Are they playing?，不需要 do。",
+        "id": "progressive-tenses-questions-8"
+      },
+      {
+        "tag": "habit",
+        "prompt": "Every Monday, Ben ___ tennis.",
+        "options": [
+          "plays",
+          "is play",
+          "playing"
+        ],
+        "answer": "plays",
+        "hint": "这里说每周的习惯。",
+        "explain": "一般现在时 Ben plays，不是见动作就用 ing。",
+        "id": "progressive-tenses-questions-9"
+      },
+      {
+        "tag": "background",
+        "prompt": "I ___ when the doorbell rang.",
+        "options": [
+          "was sleeping",
+          "will sleep",
+          "am sleeping"
+        ],
+        "answer": "was sleeping",
+        "hint": "响铃时，睡觉这个动作已经在进行。",
+        "explain": "过去进行时 was sleeping 表示背景。",
+        "id": "progressive-tenses-questions-10"
+      },
+      {
+        "tag": "state",
+        "prompt": "“我知道你的名字。”选一句。",
+        "options": [
+          "I am knowing your name.",
+          "I know your name.",
+          "I knowing your name."
+        ],
+        "answer": "I know your name.",
+        "hint": "know 在这里表示状态。",
+        "explain": "这种意义通常用一般现在时。",
+        "id": "progressive-tenses-questions-11"
+      },
+      {
+        "tag": "spelling",
+        "prompt": "lie（躺）的 ing 形式是？",
+        "options": [
+          "lieing",
+          "lying",
+          "liing"
+        ],
+        "answer": "lying",
+        "hint": "ie 先变成 y。",
+        "explain": "lie → lying。",
+        "id": "progressive-tenses-questions-12"
+      }
+    ],
+    "transfer": [
+      {
+        "tag": "present",
+        "prompt": "Listen! The birds ___ singing.",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": "are",
+        "hint": "birds 是复数。",
+        "explain": "The birds are singing。",
+        "id": "progressive-tenses-transfer-1"
+      },
+      {
+        "tag": "past",
+        "prompt": "At noon yesterday, he ___ cooking.",
+        "options": [
+          "were",
+          "is",
+          "was"
+        ],
+        "answer": "was",
+        "hint": "过去某一刻，he 配哪个 be？",
+        "explain": "He was cooking。",
+        "id": "progressive-tenses-transfer-2"
+      },
+      {
+        "tag": "future",
+        "prompt": "At nine tomorrow, we ___ travelling.",
+        "options": [
+          "will be",
+          "will are",
+          "will"
+        ],
+        "answer": "will be",
+        "hint": "将来进行需要 will + be + ing。",
+        "explain": "will be travelling（美式也常拼 traveling）。",
+        "id": "progressive-tenses-transfer-3"
+      },
+      {
+        "tag": "spelling",
+        "prompt": "sit 的 ing 形式是？",
+        "options": [
+          "siting",
+          "sitting",
+          "sitinging"
+        ],
+        "answer": "sitting",
+        "hint": "常见短词 sit 双写 t。",
+        "explain": "sit → sitting。",
+        "id": "progressive-tenses-transfer-4"
+      },
+      {
+        "tag": "negative",
+        "prompt": "把 They are playing. 变成否定句。",
+        "options": [
+          "They not playing.",
+          "They are not playing.",
+          "They do not playing."
+        ],
+        "answer": "They are not playing.",
+        "hint": "在 are 后加 not。",
+        "explain": "They are not playing.。",
+        "id": "progressive-tenses-transfer-5"
+      },
+      {
+        "tag": "question",
+        "prompt": "“她当时正在读书吗？”",
+        "options": [
+          "Did she reading?",
+          "Was she reading?",
+          "Were she reading?"
+        ],
+        "answer": "Was she reading?",
+        "hint": "过去进行时 she 配 was。",
+        "explain": "Was she reading?。",
+        "id": "progressive-tenses-transfer-6"
+      },
+      {
+        "tag": "habit",
+        "prompt": "My mum ___ tea every morning.",
+        "options": [
+          "drinks",
+          "drinking",
+          "is drink"
+        ],
+        "answer": "drinks",
+        "hint": "every morning 表示习惯。",
+        "explain": "一般现在时 drinks。",
+        "id": "progressive-tenses-transfer-7"
+      },
+      {
+        "tag": "background",
+        "prompt": "We ___ when it started to rain.",
+        "options": [
+          "are walking",
+          "were walking",
+          "will walk"
+        ],
+        "answer": "were walking",
+        "hint": "下雨发生时，我们已经在走路。",
+        "explain": "过去进行时 were walking 表示背景。",
+        "id": "progressive-tenses-transfer-8"
+      },
+      {
+        "tag": "state",
+        "prompt": "表示“我相信你”：",
+        "options": [
+          "I am believing you.",
+          "I believe you.",
+          "I believing you."
+        ],
+        "answer": "I believe you.",
+        "hint": "believe 在这里是状态。",
+        "explain": "这种意思通常不用进行时。",
+        "id": "progressive-tenses-transfer-9"
+      }
+    ]
+  }
+]

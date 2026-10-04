@@ -1,0 +1,140 @@
+<div id="grammar-adventures" lang="zh-CN">
+  <div class="ga-heading"><div><h2>🐰 小兔语法探险队</h2><span>发现线索，让句子说清楚。</span></div></div>
+  <div class="viz-controls"><label class="form-label">今天探索什么？ <select class="form-select" id="ga-module" aria-label="选择语法模块"></select></label></div>
+  <div class="viz-controls" aria-label="选择玩法">
+    <button type="button" class="btn" data-mode="learn" aria-pressed="true">🧪 动画课堂与实验</button>
+    <button type="button" class="btn" data-mode="game" aria-pressed="false">⭐ 线索闯关</button>
+    <button type="button" class="btn" data-mode="review" aria-pressed="false">🌱 错题换句练</button>
+  </div>
+  <div id="ga-content"></div>
+  <p id="ga-save" class="text-small text-muted">参考年龄不是期限。先试一小段，随时休息。</p>
+  <details><summary>给陪伴者：玩法与记录</summary><p>先选一小课，切换情境，观察句子怎样变化；再做 12 道闯关题。提示后或重试后答对会单独记录，通关不代表已经掌握。错题换句练提供相同知识点的新题。低龄孩子可以由成人读题。</p><p>记录只尝试保存在当前聊天或浏览器，不跨设备同步，不上传学习记录。这里是自编练习，不是标准化测评。动画可以随系统“减少动态效果”设置关闭。</p></details>
+</div>
+<style>
+#grammar-adventures{color:var(--foreground)}
+#grammar-adventures .ga-heading{padding-right:90px;margin-bottom:16px}
+#grammar-adventures .ga-heading h2{margin:0 0 8px}
+#grammar-adventures .ga-space{margin-top:18px}
+#grammar-adventures .ga-scene{text-align:center;display:grid;gap:14px;padding:14px 0}
+#grammar-adventures .ga-sentence{display:flex;align-items:baseline;justify-content:center;flex-wrap:wrap;gap:8px}
+#grammar-adventures .ga-sentence h2{margin:0;overflow-wrap:anywhere}
+#grammar-adventures .ga-parts{display:grid;gap:8px;text-align:left}
+#grammar-adventures .ga-parts p{margin:0}
+#grammar-adventures .ga-track{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin:14px 0}
+#grammar-adventures .ga-stop{color:var(--muted-foreground)}
+#grammar-adventures .ga-stop[data-done="true"]{color:var(--foreground)}
+#grammar-adventures .ga-change{text-decoration:underline;text-decoration-color:var(--viz-series-1);text-underline-offset:5px}
+#grammar-adventures .ga-sentence[data-move="true"] .ga-change{animation:ga-arrive .45s ease-out both}
+#grammar-adventures .ga-detail{margin:14px 0;overflow-wrap:anywhere}
+#grammar-adventures .ga-feedback{min-height:3em;margin:14px 0}
+#grammar-adventures .ga-examples{display:grid;gap:14px}
+#grammar-adventures .ga-question{overflow-wrap:anywhere}
+#grammar-adventures details{margin-top:16px}
+#grammar-adventures summary{color:var(--muted-foreground)}
+#grammar-adventures .ga-timeline{width:100%;height:auto;display:block}
+#grammar-adventures .ga-timeline text{fill:var(--foreground);font-size:14px}
+#grammar-adventures .ga-timeline line{stroke:var(--border);stroke-width:2}
+#grammar-adventures .ga-timeline circle{fill:var(--viz-series-1)}
+@keyframes ga-arrive{from{transform:translateY(-12px)}to{transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){#grammar-adventures *{animation:none!important;transition:none!important}}
+</style>
+<script type="application/json" id="ga-data">__LESSONS_JSON__</script>
+<script>
+__ENGINE_JS__
+(() => {
+  const root=document.getElementById('grammar-adventures');
+  const content=root.querySelector('#ga-content');
+  const select=root.querySelector('#ga-module');
+  const data=JSON.parse(document.getElementById('ga-data').textContent);
+  const E=GrammarEngine;
+  const html=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let state=E.clean(window.openai?.widgetState?.privateContent,data);
+  let memoryOnly=false;
+  select.innerHTML=data.map((m,i)=>`<option value="${i}">${m.icon} ${m.name} · ${m.age} 岁参考</option>`).join('');
+  function current(){return data[state.module]}
+  function progress(){const m=current();return state.progress[m.id]??=( {records:{},reviews:{},index:0,reviewIndex:0,queue:[]} );}
+  function persist(){
+    const p=progress(),m=current();
+    const modelContent={activity:'六个语法互动',module:m.name,mode:state.mode,completed:Object.values(p.records).filter(r=>r.solved).length,total:m.questions.length,independent:Object.values(p.records).filter(E.independent).length,needsPractice:[...new Set(m.questions.filter((q,i)=>E.assisted(p.records[i])).map(q=>q.tag))]};
+    if(window.openai?.setWidgetState){try{Promise.resolve(window.openai.setWidgetState({modelContent,privateContent:state})).catch(()=>{memoryOnly=true;saveNote();});}catch{memoryOnly=true;saveNote();}}
+    else {memoryOnly=true;saveNote();}
+  }
+  function saveNote(){root.querySelector('#ga-save').textContent=memoryOnly?'本次进度暂存在当前页面；关闭后可能丢失。参考年龄不是期限。':'参考年龄不是期限。记录保存在当前聊天或浏览器，不跨设备同步。';}
+  function btn(label,action,value='',extra=''){return `<button type="button" class="btn" data-action="${action}" data-value="${html(value)}" ${extra}>${html(label)}</button>`;}
+  function render(motion=false,previous=''){
+    const m=current();select.value=state.module;
+    root.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===state.mode)));
+    if(state.mode==='learn')renderLesson(m,motion,previous);else renderGame(m);
+    saveNote();
+  }
+  function renderLesson(m,motion,previous){
+    const l=m.lessons[state.lesson],v=l.variants[state.variant];
+    const before=previous.split(' ');
+    const sentence=v.sentence.split(' ').map((w,i)=>`<span${before[i]!==w?' class="ga-change"':''}>${html(w)}</span>`).join(' ');
+    const timeline=['simple-tenses','progressive-tenses'].includes(m.id)&&state.lesson<2?`<svg class="ga-timeline" viewBox="0 0 600 48" role="img" aria-label="过去、现在、将来三个时间位置"><line x1="50" y1="12" x2="550" y2="12"/><circle cx="${/yesterday|last |was |were |walked|went/.test(v.sentence)?70:/will /.test(v.sentence)?530:300}" cy="12" r="7"/><text x="70" y="42" text-anchor="middle">过去</text><text x="300" y="42" text-anchor="middle">现在</text><text x="530" y="42" text-anchor="middle">将来</text></svg>`:'';
+    content.innerHTML=`<div class="ga-space viz-row"><span class="viz-badge">${html(m.en)}</span><span>小课 ${state.lesson+1} / ${m.lessons.length}</span></div>
+      <div class="viz-controls ga-space"><label class="form-label">选择小课 <select class="form-select" id="ga-lesson">${m.lessons.map((x,i)=>`<option value="${i}" ${i===state.lesson?'selected':''}>${i+1}. ${html(x.title)}</option>`).join('')}</select></label></div>
+      <h3>${html(l.title)}</h3><p>${html(l.clue)}</p>
+      <div class="viz-controls">${l.variants.map((x,i)=>btn(x.label,'variant',i,`aria-pressed="${i===state.variant}"`)).join('')}</div>
+      <div class="card ga-space"><div class="ga-scene" aria-live="polite"><span aria-hidden="true">${m.icon} 🐰</span>${timeline}<div class="ga-sentence" data-move="${motion}"><h2>${sentence}</h2></div><div>${html(v.zh)}</div></div><div class="ga-parts">${v.parts.map((x,i)=>`<p>${i+1}. ${html(x)}</p>`).join('')}</div><p class="ga-detail">${html(v.rule)}</p></div>
+      ${previous&&previous!==v.sentence?`<p class="text-small">刚才：${html(previous)} → 现在：${html(v.sentence)}</p>`:''}
+      <div class="viz-controls ga-space">${btn('上一小课','lesson',state.lesson-1,state.lesson===0?'disabled':'')}${state.lesson<m.lessons.length-1?btn('下一小课 →','lesson',state.lesson+1):btn('进入线索闯关 →','start')}</div>`;
+  }
+  function getQuestion(){
+    const m=current(),p=progress(),review=state.mode==='review';
+    const index=review?p.queue[p.reviewIndex]:p.index;
+    const bank=review?m.transfer:m.questions;
+    const records=review?p.reviews:p.records;
+    const q=bank[index];
+    return {m,p,review,index,bank,records,q,record:q?(records[index]??=E.fresh()):null};
+  }
+  function renderGame(m){
+    const {p,review,index,q,record:r}=getQuestion();
+    if(review&&!p.queue.length){content.innerHTML=`<h3>🌱 错题换句练</h3><p>闯关中用过提示或需要重试的知识点，会在这里换一个句子再练。现在还没有这样的记录。</p><div class="viz-controls">${btn('去线索闯关','start')}${btn('练全部新句子','all-review')}</div>`;return;}
+    const done=review?p.reviewIndex:p.index,total=review?p.queue.length:m.questions.length;
+    if(!q){
+      const entries=review?p.queue.map(i=>p.reviews[i]):m.questions.map((_,i)=>p.records[i]);
+      const count=entries.filter(r=>r?.solved).length,ind=entries.filter(E.independent).length;
+      content.innerHTML=`<h3>🎉 ${review?'换句练习':'这一轮闯关'}完成</h3><p>完成 ${count} / ${total} 题 · 首次独立答对 ${ind} 题 · 提示或重试后完成 ${count-ind} 题。</p><p>试着口头造一个新句子，说说为什么这样选。通关是练习记录，不等于已经掌握。</p><div class="viz-controls">${review?btn('回到课堂','learn'):btn('错题换句练','review')}${btn('本模块重新练','restart')}</div>`;return;
+    }
+    content.innerHTML=`<div class="ga-space viz-row"><span class="viz-badge">${review?'🌱 换个句子':'⭐ 线索闯关'}</span><span>第 ${done+1} / ${total} 题</span></div>
+      <div class="ga-track" aria-label="已完成 ${done} 题，共 ${total} 题">${Array.from({length:total},(_,i)=>`<span class="ga-stop" data-done="${i<done}" aria-hidden="true">${i<done?'★':i===done?'🐰':'○'}</span>`).join('')}</div>
+      <div class="progress" role="progressbar" aria-label="本轮完成进度" aria-valuenow="${done}" aria-valuemin="0" aria-valuemax="${total}"><div class="progress-bar" style="width:${100*done/total}%"></div></div>
+      <h3 class="ga-question">${html(q.prompt)}</h3>
+      <div class="viz-grid">${q.options.map((o,i)=>btn(o,'answer',o,r.solved?'disabled':`aria-pressed="${r.attempts.at(-1)===o}"`)).join('')}</div>
+      <div class="ga-feedback" aria-live="polite">${r.solved?`<strong>${E.independent(r)?'⭐ 首次独立答对':'🌱 通过提示或重试完成'}</strong><p>${html(q.explain)}</p>`:r.attempts.length?`<strong>还没找到合适的搭配，再试试。</strong><p>${html(q.hint)}</p>`:r.hinted?`<p>线索：${html(q.hint)}</p>`:'<p>慢慢看，找到线索再选择。</p>'}</div>
+      <div class="viz-controls">${btn('给我一条线索','hint','',r.solved?'disabled':'')}${btn(done===total-1?'完成这一轮':'下一题 →','next','',r.solved?'':'disabled')}</div>`;
+  }
+  function prepareReview(all=false){const m=current(),p=progress();p.queue=all?m.transfer.map((_,i)=>i):E.review(m.questions,m.transfer,p.records);p.reviews={};p.reviewIndex=0;state.mode='review';}
+  root.addEventListener('change',e=>{
+    if(e.target===select){state.module=Number(select.value);state.lesson=0;state.variant=0;state.mode='learn';render();persist();}
+    if(e.target.id==='ga-lesson'){state.lesson=Number(e.target.value);state.variant=0;render();persist();}
+  });
+  root.addEventListener('click',e=>{
+    const b=e.target.closest('button');if(!b||b.disabled)return;
+    if(b.dataset.mode){state.mode=b.dataset.mode;if(state.mode==='review'&&!progress().queue.length)prepareReview();render();persist();return;}
+    const a=b.dataset.action;if(!a)return;
+    let previous='',motion=false;
+    if(a==='variant'){previous=current().lessons[state.lesson].variants[state.variant].sentence;state.variant=Number(b.dataset.value);motion=true;}
+    if(a==='lesson'){state.lesson=Number(b.dataset.value);state.variant=0;}
+    if(a==='start')state.mode='game';
+    if(a==='learn')state.mode='learn';
+    if(a==='review')prepareReview();
+    if(a==='all-review')prepareReview(true);
+    if(a==='restart'){state.progress[current().id]={records:{},reviews:{},index:0,reviewIndex:0,queue:[]};state.mode='game';}
+    if(['answer','hint','next'].includes(a)){
+      const x=getQuestion();if(!x.q)return;
+      if(a==='answer')x.records[x.index]=E.answer(x.record,b.dataset.value,x.q.answer);
+      if(a==='hint'&&!x.record.solved)x.record.hinted=true;
+      if(a==='next'&&x.record.solved){if(x.review)x.p.reviewIndex++;else x.p.index++;}
+    }
+    render(motion,previous);persist();
+    if(a==='answer'&&getQuestion().record?.solved)content.querySelector('[data-action="next"]')?.focus();
+  });
+  window.addEventListener('openai:set_globals',event=>{
+    const saved=event.detail?.globals?.widgetState?.privateContent;
+    if(saved?.version===1){state=E.clean(saved,data);render();}
+  });
+  render();
+})();
+</script>
