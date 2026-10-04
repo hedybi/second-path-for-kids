@@ -11,24 +11,24 @@ Designed for Grade 3 learners by default, with Chinese explanations and simple E
 - **do / does**, **am / is / are**, and base verbs after **does** or **can**.
 - Feedback, retries and practice based on mistakes.
 
-## Use
+## Start in your AI chat
 
-Ask your AI assistant to read [SKILL.md](SKILL.md), then describe the child's difficulty:
+Open [SKILL.md](SKILL.md), copy its **full contents** into your own AI chat, then paste this prompt:
 
-> Use this skill to teach a Grade 3 child when to use “play” or “plays”. Explain in Chinese, add an interactive sentence experiment, and finish with a few practice questions.
+> Follow the skill above. Teach a Grade 3 child when to use “play” or “plays”. Explain in Chinese with simple English examples. Start now: ask one question at a time and wait for the child's answer. Give a hint after a mistake and let the child try again.
 
-The assistant needs the relevant tools to create an interactive page. This package contains instructions and documentation; a playable game is generated separately.
+The default is a conversation: explanations, questions, answers and feedback. No coding or installation is needed; results depend on the AI following the instructions.
 
-## Add to Second Path
+## Optional clickable game
 
-Upload this folder to `skills/subject-verb-agreement/` in the existing repository.
+After sharing the skill, ask:
 
-Suggested map location: **English → Grammar & Punctuation → Subject-verb agreement** (node `mt_u7Jxjjatkh`). This is a supplementary teaching resource, not an official Marble assessment.
+> Create a small animated subject–verb agreement game as a standalone HTML page. Keep questions and scoring in the browser, with no login, server or AI API. If you can preview it, let us play; otherwise provide the HTML and explain how to save and open it.
 
-Add this link to the repository's main README:
+This requires an AI that can generate web code. Playing inside the chat also requires webpage preview support. The skill itself is instructions, not a ready-made game.
 
-```markdown
-- [Subject–Verb Agreement](skills/subject-verb-agreement/README.md) — Interactive grammar lessons and practice for children.
-```
+## Resources and map
 
-Uploading these documents does not automatically add a game or update the map interface.
+AI chat and game generation use **your own AI account**, subject to its limits and pricing. The basic generated game runs in your browser without paid AI calls.
+
+Suggested Second Path location: **English → Grammar & Punctuation → Subject-verb agreement**. These documents do not add a playable entry to the map. This is supplementary teaching material, not an official Marble assessment.
