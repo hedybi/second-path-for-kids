@@ -31,4 +31,4 @@ This requires an AI that can generate web code. Playing inside the chat also req
 
 AI chat and game generation use **your own AI account**, subject to its limits and pricing. The basic generated game runs in your browser without paid AI calls.
 
-Suggested Second Path location: **English → Grammar & Punctuation → Subject-verb agreement**. These documents do not add a playable entry to the map. This is supplementary teaching material, not an official Marble assessment.
+Open the [Maths & English map](https://hedybi.github.io/second-path-for-kids/subject-maps.html), select **English**, and use the **Subject–verb agreement · AI interactive learning** link above the map. The same guide is linked from **Grammar & Punctuation → Subject-verb agreement**. These links open this guide; a game is generated separately in your own AI. This is supplementary teaching material, not an official Marble assessment.
