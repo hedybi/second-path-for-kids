@@ -1,7 +1,5 @@
 # Second Path
 
-**New: [Play six English grammar modules](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html)** · [Quick-start guide](skills/grammar-adventures/README.md) · [Teaching skill](skills/grammar-adventures/SKILL.md)
-
 A bilingual family learning project based on Marble Skill Taxonomy. Explore learning habits, mathematics and English through separate tools.
 
 Second Path helps families observe how learning happens through everyday activities, explore subject skills, and ask informed questions using referenced curriculum materials.
@@ -15,7 +13,7 @@ Second Path helps families observe how learning happens through everyday activit
 | Tool | What it offers | Website entry | Local build |
 | --- | --- | --- | --- |
 | **Learning to Learn** | Family activity cases, one flexible observation template, individual reports and a cumulative learner summary | [Open Learning to Learn](https://hedybi.github.io/second-path-for-kids/) | `dist/index.html`; `dist/studio.html` contains the same version |
-| **Maths & English** | Mathematics and English skill maps, with a provisional comparison against available Shanghai curriculum materials | [Open Maths & English](https://hedybi.github.io/second-path-for-kids/subject-maps.html) | `dist/subject-maps.html` |
+| **Maths & English** | Mathematics and English skill maps, separate provisional Shanghai comparisons, and a contents-level BNU junior-secondary maths comparison | [Open Maths & English](https://hedybi.github.io/second-path-for-kids/subject-maps.html) | `dist/subject-maps.html` |
 
 These are the intended website entry points. Availability depends on the GitHub Pages publishing directory and deployment result. Updating this README does not upload or deploy the pages.
 
@@ -50,22 +48,39 @@ Records are stored in the current browser. Enable “Keep records on this device
 
 ## Maths & English
 
-The standalone map page contains four tabs:
+The standalone map page contains five tabs:
 
 | Tab | Content |
 | --- | --- |
-| Mathematics | All 503 mathematics topics in the imported Marble inventory |
+| Mathematics | All 503 Marble mathematics topics in the original skill map |
 | English | All 286 English topics in the imported Marble inventory |
 | Shanghai Mathematics Comparison | Analysed differences, the complete Marble inventory, policy and learning goals, and available textbook evidence |
 | Shanghai English Comparison | The same four views, with separate English sources and outstanding verification needs |
+| BNU Mathematics Comparison | A standalone, bidirectional table comparing 127 contents headings from six 2024-revised BNU junior-secondary books with Marble mathematics topics |
 
-The page supports English and Chinese, search and filters, topic descriptions, prerequisite relationships and original references. Chinese content includes translations and concise adaptations; original English references remain available. The map page does not collect learner records or include the maths game.
+The page supports English and Chinese, search and filters, topic descriptions, prerequisite relationships and original references. Chinese content includes adaptations; original English references remain available. In the BNU comparison tab, switch between **BNU textbook → Marble** and **Marble → BNU textbook**, then search in either language or filter by one of six volumes and reference status. The comparison covers six 2024-revised Grade 7–9 books, 37 chapters and 127 contents headings; 28 headings have 30 curated links to 23 Marble topics. This is a contents-level index, not a full skill-by-skill decomposition. The source headings come from public third-party contents pages; check the printed book actually used. The [Ministry of Education's 2024 textbook list](https://www.moe.gov.cn/srcsite/A26/s8001/202408/W020240805496325238752.pdf) and [2022 mathematics curriculum-standard notice](https://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html?fromColId=204) provide official context. Curated links are editorial navigation aids, not official equivalences, prerequisites or evidence of full coverage. An unmapped heading or Marble topic is unresolved, not proof of a missing skill. The Shanghai-comparison tabs remain separate. The map page does not collect learner records or include the maths game.
 
 The current comparison data contains 15 selected textbook and teaching evidence records, 19 detailed comparisons and 6 policy comparisons. In mathematics, 95 topics have selected content-evidence associations and 408 remain unassociated; the English counts are 71 and 215. **These are editorial association counts, not measures of Shanghai textbook coverage or missing curriculum content.**
 
 Nine mathematics topics have a Marble reference starting age of 13; the other 494 start at 12 or below. All 286 English topics start at 12 or below. These ages are not directly converted into Shanghai grades. Some findings based on an early national mathematics curriculum PDF still require checking against the corrected edition and original Shanghai textbooks.
 
 See the [Maths & English module README](subject-maps/README.md) for source data, Chinese adaptations and comparison maintenance details.
+
+## Child-friendly edition: Discovery Club
+
+A separate, bright interface for the same 503 mathematics and 286 English topics is available locally at `deliverables/kids-maps.html` (also `dist/kids-maps.html`). It includes domain islands, bilingual search, original references and prerequisite links, with no Shanghai comparisons or games.
+
+Children can keep a local stamp book using “Want to try,” “Exploring,” and “Can explain it,” with an optional note per topic and JSON backup import/export. Stamps record personal exploration, not measured mastery; there are no daily streaks. This edition has not been deployed. See the [Discovery Club module README](kids-maps/README.md) for use, storage limits and build instructions.
+
+## Separate prototype: Maths Adventures
+
+Local build: `dist/math-play.html`. **This page is excluded from the Maths & English map release.**
+
+Five challenges cover budgets, perimeter, equivalent fractions, equal-step patterns and data comparisons, each with two fixed situations. Second Path authored the challenges and linked them to selected Marble nodes. They are not an official Marble question bank and cannot assess the complete mathematics taxonomy or Shanghai curriculum.
+
+A separate “Parent observation guide” tab within the prototype covers the 8 nodes linked to the challenges. It provides observable evidence (`evidence`), assessment questions (`assessmentPrompt`), all 16 direct prerequisite relationships and their reasons, and relevant domain summaries and curriculum associations. Chinese adaptations and upstream originals remain separate.
+
+Completion states describe the current attempt and whether support was used. There are no rankings, age norms or overall mastery percentages. Records are stored in the browser and can be downloaded as text. See the [Maths Adventures module README](math-play/README.md).
 
 ## Files: pages, source code and documentation
 
@@ -76,11 +91,12 @@ See the [Maths & English module README](subject-maps/README.md) for source data,
 | `README.md` | Project navigation, tool descriptions, source limitations and usage instructions |
 | `templates/studio.html` | Editable HTML template for Learning to Learn |
 | `dist/studio.js`, `dist/content.js`, `dist/reports.js`, `dist/learning-map.js`, `dist/studio.css`, `dist/data/` | Editable Learning to Learn code, styles and data; these currently live in `dist/`, so do not delete that entire directory as a build cache |
-| `subject-maps/` | Maths & English source code, data, translations and module documentation, including `app.js`, `audit.js`, `audit.css` and `audit-data.py` |
+| `subject-maps/` | Maths & English source code, data, translations and module documentation, including `bnu2024.json`, `app.js`, `audit.js`, `audit.css` and `audit-data.py` |
 | `math-play/` | Source code, data and module documentation for the separate maths-game prototype |
 | Root-level `build-*.py` and `make-offline.py` | Scripts that generate the standalone pages |
 | Root-level `check-*.mjs` | Data and program checks |
-| `dist/index.html`, `dist/studio.html`, `dist/subject-maps.html`, `dist/math-play.html` | Generated pages that can be opened directly in a browser |
+| `dist/index.html`, `dist/studio.html`, `dist/subject-maps.html`, `dist/kids-maps.html`, `dist/math-play.html` | Generated pages that can be opened directly in a browser; the child-friendly map and maths game are separate editions/prototypes |
+| Root-level `subject-maps.html` | Mirror of the generated Maths & English map for branch-root Pages publishing; preserve the homepage `index.html` |
 | `deliverables/` | Delivery or upload copies; older release packages may lag behind the current source |
 | `LICENSE`, `NOTICE.md` | Code licensing and attribution for data and content |
 
@@ -133,17 +149,19 @@ After source changes, rebuild and update the generated HTML. Data and program ch
 
 First check the publishing method under **Settings → Pages**. GitHub supports publishing from a branch's root or `docs/` directory, or through GitHub Actions. See the [official GitHub publishing guide](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-If Pages currently publishes from the root of the `main` branch, place the two main entry points as follows:
+The current [Pages workflow](.github/workflows/pages.yml) publishes the entire `dist/` directory from GitHub Actions. It rebuilds Learning to Learn but does not rebuild the Maths & English page. To keep the map current, run the map build and checks below, then update `dist/subject-maps.html` in the repository. Also keep a root-level `subject-maps.html` copy: it is used if Pages is configured to publish from the `main` branch root, and it is easy to open from the repository. **Do not upload the whole local `dist/` folder just to update the map.**
+
+The two public entry points should be:
 
 | Local file | Name at the repository root | Destination |
 | --- | --- | --- |
-| `dist/index.html` | `index.html` | [Learning to Learn](https://hedybi.github.io/second-path-for-kids/) |
-| `dist/subject-maps.html` | `subject-maps.html` | [Maths & English](https://hedybi.github.io/second-path-for-kids/subject-maps.html) |
+| `dist/index.html` | `dist/index.html` for the current Actions workflow; `index.html` if publishing from the branch root | [Learning to Learn](https://hedybi.github.io/second-path-for-kids/) |
+| `dist/subject-maps.html` | `dist/subject-maps.html` for the current Actions workflow, plus a root-level `subject-maps.html` copy | [Maths & English](https://hedybi.github.io/second-path-for-kids/subject-maps.html) |
 | This README | `README.md` | GitHub repository overview |
 
-**Do not rename `subject-maps.html` to `index.html` and overwrite the Learning to Learn entry point.** Both HTML files can coexist, with this README linking to each. You can use the upload copy at `deliverables/github-maths-english/subject-maps.html` if it matches the latest build.
+**Do not rename `subject-maps.html` to `index.html` and overwrite the Learning to Learn entry point.** Both pages can coexist at the URLs above. Use the latest generated `dist/subject-maps.html`; older copies under `deliverables/` may not include recent changes.
 
-The existing `.github/workflows/pages.yml` builds and checks only Learning to Learn, but publishes the entire `dist/` directory. Before using it for both main tools, add the Maths & English build steps and explicitly select the intended release files. Otherwise, the existing game prototype may also be published with `dist/`. This README update does not change the workflow.
+The workflow publishes every file already present in the repository's `dist/` directory. Updating only `subject-maps.html` will leave other pages untouched, but any other tracked HTML in `dist/` may also be publicly reachable. The separate maths-game prototype and child-friendly edition are not part of the Maths & English map page.
 
 Confirm the Pages deployment result and open both actual pages after updating. A green check beside a commit alone does not confirm that every entry point works correctly.
 
@@ -179,32 +197,3 @@ This project is based on [Marble Skill Taxonomy v1](https://github.com/withmarbl
 See [NOTICE.md](NOTICE.md). Generated HTML contains both code and separately licensed data and content; the MIT license does not apply to every included material. The Shanghai comparison provides brief summaries, editorial interpretations and source links, not entire textbooks.
 
 **Design and maintenance: Lianghuan Bi(Hedy Bi)**
-
-## Update — 5 October 2026
-
-- **What changed:** Added the Subject–Verb Agreement AI teaching skill and an English quick-start guide. Lessons cover present-simple third-person singular forms (**s / es / ies**), **do / does**, and **am / is / are**, with one question at a time, hints and retries. Optional animated browser games can be generated by a capable AI.
-- **Who it is for:** Designed for Grade 3 primary-school learners in Shanghai, using Chinese explanations and simple English examples. It supports supplementary practice; alignment with a specific Shanghai textbook or teaching sequence has not been verified.
-- **How to use:** Open the [quick-start guide](skills/subject-verb-agreement/README.md), copy the full contents of [SKILL.md](skills/subject-verb-agreement/SKILL.md) into your own AI chat, then paste the guide’s starter prompt. Chat practice uses your own AI account. Clickable games require an AI that can generate HTML; playing inside the chat also requires webpage preview support.
-- **Where to start:** Open the [Maths & English map](https://hedybi.github.io/second-path-for-kids/subject-maps.html), select **English**, and click **Subject–verb agreement · AI interactive learning** above the map. The same guide is linked from the **Subject-verb agreement** topic details, or you can visit the [resource page](https://github.com/hedybi/second-path-for-kids/tree/main/skills/subject-verb-agreement) directly. These entries open the teaching guide; a playable game is generated separately in your own AI.
-
-## Grammar Adventures · six playable modules
-
-Explore English grammar with Chinese explanations, simple English examples and sentence-change animations.
-
-**[Play the game](https://hedybi.github.io/second-path-for-kids/skills/grammar-adventures/game.html)** · [Quick-start guide](skills/grammar-adventures/README.md) · [Teaching skill](skills/grammar-adventures/SKILL.md)
-
-| Module | Reference ages |
-| --- | --- |
-| [Question Words & Questions](skills/grammar-adventures/question-words.md) | 5–6 |
-| [Agreement in Sentences](skills/grammar-adventures/sentence-agreement.md) | 8–10 |
-| [Plurals & Possessives](skills/grammar-adventures/plurals-and-possessives.md) | 8–9 |
-| [Simple Past, Present & Future](skills/grammar-adventures/simple-tenses.md) | 8–9 |
-| [Standard English Verb Forms](skills/grammar-adventures/standard-verb-forms.md) | 8–9 |
-| [Progressive Tenses](skills/grammar-adventures/progressive-tenses.md) | 9–10 |
-
-Choose a module, explore the lessons, try 12 questions, then practise new examples for topics that needed hints or retries. There are 30 short lessons and 121 practice questions across the six modules, with no timer or penalty for mistakes.
-
-The browser game needs no login or AI API key. Progress stays in the current browser or supported chat; it does not sync across devices. To use the teaching skill, follow the quick-start guide in your AI client. Inline play requires interactive preview support. Ages are references, not deadlines; completion is practice evidence, not a mastery assessment.
-
-The [original subject–verb agreement guide](skills/subject-verb-agreement/README.md) is also available. All six new modules are linked from the [English map](https://hedybi.github.io/second-path-for-kids/subject-maps.html).
-
